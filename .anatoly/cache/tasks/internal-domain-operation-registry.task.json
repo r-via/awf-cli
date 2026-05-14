@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "file": "internal/domain/operation/registry.go",
+  "hash": "614722c85efd481b2ce6484c40c444d9cbe22a1d0443092f226461fb9bdbfca0",
+  "symbols": [
+    {
+      "name": "OperationRegistry",
+      "kind": "class",
+      "exported": true,
+      "line_start": 17,
+      "line_end": 20
+    },
+    {
+      "name": "NewOperationRegistry",
+      "kind": "function",
+      "exported": true,
+      "line_start": 22,
+      "line_end": 26
+    },
+    {
+      "name": "Register",
+      "kind": "method",
+      "exported": true,
+      "line_start": 31,
+      "line_end": 45
+    },
+    {
+      "name": "Unregister",
+      "kind": "method",
+      "exported": true,
+      "line_start": 49,
+      "line_end": 59
+    },
+    {
+      "name": "Get",
+      "kind": "method",
+      "exported": true,
+      "line_start": 63,
+      "line_end": 69
+    },
+    {
+      "name": "List",
+      "kind": "method",
+      "exported": true,
+      "line_start": 71,
+      "line_end": 84
+    },
+    {
+      "name": "GetOperation",
+      "kind": "method",
+      "exported": true,
+      "line_start": 86,
+      "line_end": 92
+    },
+    {
+      "name": "ListOperations",
+      "kind": "method",
+      "exported": true,
+      "line_start": 94,
+      "line_end": 105
+    },
+    {
+      "name": "Execute",
+      "kind": "method",
+      "exported": true,
+      "line_start": 107,
+      "line_end": 125
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "sync",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/pluginmodel",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

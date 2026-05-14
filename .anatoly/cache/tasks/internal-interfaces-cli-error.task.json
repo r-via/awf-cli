@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/cli/error.go",
+  "hash": "17ba252185dae36f396a2671254b79aec411833ffd4e5a152caaae383ad64d10",
+  "symbols": [
+    {
+      "name": "newErrorCommand",
+      "kind": "function",
+      "exported": false,
+      "line_start": 16,
+      "line_end": 34
+    },
+    {
+      "name": "runError",
+      "kind": "function",
+      "exported": false,
+      "line_start": 37,
+      "line_end": 62
+    },
+    {
+      "name": "listAllErrorCodes",
+      "kind": "function",
+      "exported": false,
+      "line_start": 65,
+      "line_end": 81
+    },
+    {
+      "name": "findPrefixMatches",
+      "kind": "function",
+      "exported": false,
+      "line_start": 84,
+      "line_end": 99
+    },
+    {
+      "name": "displayErrorEntry",
+      "kind": "function",
+      "exported": false,
+      "line_start": 102,
+      "line_end": 134
+    },
+    {
+      "name": "displayMultipleEntries",
+      "kind": "function",
+      "exported": false,
+      "line_start": 137,
+      "line_end": 178
+    }
+  ],
+  "imports": [
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "sort",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/errors",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/interfaces/cli/ui",
+      "type": "import"
+    },
+    {
+      "source": "github.com/spf13/cobra",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

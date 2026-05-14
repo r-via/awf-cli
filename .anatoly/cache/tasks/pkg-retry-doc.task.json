@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "file": "pkg/retry/doc.go",
+  "hash": "e90b63c60de714277f426a8b6d926b7b68bb1ed6e3f4e73cd929c564bbcd4065",
+  "symbols": [],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

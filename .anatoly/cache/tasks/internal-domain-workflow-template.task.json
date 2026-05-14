@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "file": "internal/domain/workflow/template.go",
+  "hash": "3bed0251d8760357736f13935b8ead5bf02a7ba6706c474ee722233c2128a891",
+  "symbols": [
+    {
+      "name": "Template",
+      "kind": "class",
+      "exported": true,
+      "line_start": 9,
+      "line_end": 13
+    },
+    {
+      "name": "TemplateParam",
+      "kind": "class",
+      "exported": true,
+      "line_start": 16,
+      "line_end": 20
+    },
+    {
+      "name": "WorkflowTemplateRef",
+      "kind": "class",
+      "exported": true,
+      "line_start": 23,
+      "line_end": 26
+    },
+    {
+      "name": "Validate",
+      "kind": "method",
+      "exported": true,
+      "line_start": 29,
+      "line_end": 48
+    },
+    {
+      "name": "GetRequiredParams",
+      "kind": "method",
+      "exported": true,
+      "line_start": 51,
+      "line_end": 59
+    },
+    {
+      "name": "GetDefaultValues",
+      "kind": "method",
+      "exported": true,
+      "line_start": 62,
+      "line_end": 70
+    }
+  ],
+  "imports": [
+    {
+      "source": "errors",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

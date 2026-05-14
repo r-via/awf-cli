@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/tui/input_reader.go",
+  "hash": "c4aec6e286207fb449ac1b2c11399854cf2cbe85bce0993afa0c81f5bde41121",
+  "symbols": [
+    {
+      "name": "MsgSender",
+      "kind": "type",
+      "exported": true,
+      "line_start": 16,
+      "line_end": 16
+    },
+    {
+      "name": "TUIInputReader",
+      "kind": "class",
+      "exported": true,
+      "line_start": 21,
+      "line_end": 25
+    },
+    {
+      "name": "NewTUIInputReader",
+      "kind": "function",
+      "exported": true,
+      "line_start": 29,
+      "line_end": 35
+    },
+    {
+      "name": "SetSender",
+      "kind": "method",
+      "exported": true,
+      "line_start": 39,
+      "line_end": 41
+    },
+    {
+      "name": "ReadInput",
+      "kind": "method",
+      "exported": true,
+      "line_start": 46,
+      "line_end": 62
+    },
+    {
+      "name": "RequestCh",
+      "kind": "method",
+      "exported": true,
+      "line_start": 66,
+      "line_end": 68
+    },
+    {
+      "name": "Respond",
+      "kind": "method",
+      "exported": true,
+      "line_start": 71,
+      "line_end": 73
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "charm.land/bubbletea/v2",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

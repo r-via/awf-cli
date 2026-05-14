@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "file": "internal/domain/ports/pack.go",
+  "hash": "77c67ae043bffa44b59c7e6c8ed2fc0d4dec558cddc30b71e4be05f87ba8832f",
+  "symbols": [
+    {
+      "name": "PackDiscoverer",
+      "kind": "type",
+      "exported": true,
+      "line_start": 10,
+      "line_end": 13
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

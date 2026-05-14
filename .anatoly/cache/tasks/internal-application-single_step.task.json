@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "file": "internal/application/single_step.go",
+  "hash": "a792c89e206e715df540456bdae32af80468443020405839ae971b70668aa9fd",
+  "symbols": [
+    {
+      "name": "SingleStepResult",
+      "kind": "class",
+      "exported": true,
+      "line_start": 17,
+      "line_end": 26
+    },
+    {
+      "name": "ExecuteSingleStep",
+      "kind": "method",
+      "exported": true,
+      "line_start": 32,
+      "line_end": 168
+    },
+    {
+      "name": "buildSingleStepInterpolationContext",
+      "kind": "method",
+      "exported": false,
+      "line_start": 172,
+      "line_end": 243
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/pkg/interpolation",
+      "type": "import"
+    },
+    {
+      "source": "github.com/google/uuid",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

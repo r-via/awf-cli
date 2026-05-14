@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "files": {
+    "pkg/retry/doc.go": {
+      "hash": "e90b63c60de714277f426a8b6d926b7b68bb1ed6e3f4e73cd929c564bbcd4065",
+      "status": "DONE",
+      "axes": [
+        "correction",
+        "duplication",
+        "utility"
+      ],
+      "updated_at": "2026-05-14T11:28:29.629Z"
+    },
+    "pkg/retry/retryer.go": {
+      "hash": "f77446fdd02dc7d133fe5b0ef62353b9cdabdf37a613d3808c5e6b02e75886d2",
+      "status": "DONE",
+      "axes": [
+        "correction",
+        "duplication",
+        "utility"
+      ],
+      "updated_at": "2026-05-14T11:29:34.617Z"
+    },
+    "pkg/retry/backoff.go": {
+      "hash": "d4f9a788bdd13c195d339b6aa991cf1dd5c8c01ee6fc2de5fa6e2b6e7569647d",
+      "status": "DONE",
+      "axes": [
+        "correction",
+        "duplication",
+        "utility"
+      ],
+      "updated_at": "2026-05-14T11:29:40.241Z"
+    }
+  }
+}

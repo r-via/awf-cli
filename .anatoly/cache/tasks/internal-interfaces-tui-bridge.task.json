@@ -1,0 +1,152 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/tui/bridge.go",
+  "hash": "db3051a3413e13289011ad3589a4cc0da0ce88ef09426964989a1ad7d4a1ce1c",
+  "symbols": [
+    {
+      "name": "StreamBuffer",
+      "kind": "class",
+      "exported": true,
+      "line_start": 17,
+      "line_end": 20
+    },
+    {
+      "name": "Write",
+      "kind": "method",
+      "exported": true,
+      "line_start": 22,
+      "line_end": 30
+    },
+    {
+      "name": "String",
+      "kind": "method",
+      "exported": true,
+      "line_start": 33,
+      "line_end": 37
+    },
+    {
+      "name": "Len",
+      "kind": "method",
+      "exported": true,
+      "line_start": 40,
+      "line_end": 44
+    },
+    {
+      "name": "Reset",
+      "kind": "method",
+      "exported": true,
+      "line_start": 47,
+      "line_end": 51
+    },
+    {
+      "name": "WorkflowLister",
+      "kind": "type",
+      "exported": true,
+      "line_start": 55,
+      "line_end": 59
+    },
+    {
+      "name": "WorkflowRunner",
+      "kind": "type",
+      "exported": true,
+      "line_start": 63,
+      "line_end": 65
+    },
+    {
+      "name": "HistoryProvider",
+      "kind": "type",
+      "exported": true,
+      "line_start": 69,
+      "line_end": 72
+    },
+    {
+      "name": "Bridge",
+      "kind": "class",
+      "exported": true,
+      "line_start": 80,
+      "line_end": 85
+    },
+    {
+      "name": "NewBridge",
+      "kind": "function",
+      "exported": true,
+      "line_start": 90,
+      "line_end": 97
+    },
+    {
+      "name": "Stream",
+      "kind": "method",
+      "exported": true,
+      "line_start": 101,
+      "line_end": 103
+    },
+    {
+      "name": "LoadWorkflows",
+      "kind": "method",
+      "exported": true,
+      "line_start": 108,
+      "line_end": 134
+    },
+    {
+      "name": "LoadHistory",
+      "kind": "method",
+      "exported": true,
+      "line_start": 138,
+      "line_end": 156
+    },
+    {
+      "name": "RunWorkflow",
+      "kind": "method",
+      "exported": true,
+      "line_start": 160,
+      "line_end": 190
+    },
+    {
+      "name": "WaitForExecution",
+      "kind": "function",
+      "exported": true,
+      "line_start": 194,
+      "line_end": 199
+    },
+    {
+      "name": "ValidateWorkflow",
+      "kind": "method",
+      "exported": true,
+      "line_start": 203,
+      "line_end": 215
+    }
+  ],
+  "imports": [
+    {
+      "source": "bytes",
+      "type": "import"
+    },
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "errors",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "sync",
+      "type": "import"
+    },
+    {
+      "source": "charm.land/bubbletea/v2",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

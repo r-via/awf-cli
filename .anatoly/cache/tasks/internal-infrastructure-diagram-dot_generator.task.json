@@ -1,0 +1,140 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/diagram/dot_generator.go",
+  "hash": "f91ea81d3f67a3da75fdcf87abaff499f02b6370c608418da08084ae674f365f",
+  "symbols": [
+    {
+      "name": "Generator",
+      "kind": "class",
+      "exported": true,
+      "line_start": 12,
+      "line_end": 14
+    },
+    {
+      "name": "NewGenerator",
+      "kind": "function",
+      "exported": true,
+      "line_start": 17,
+      "line_end": 22
+    },
+    {
+      "name": "Generate",
+      "kind": "method",
+      "exported": true,
+      "line_start": 25,
+      "line_end": 35
+    },
+    {
+      "name": "generateStartNode",
+      "kind": "method",
+      "exported": false,
+      "line_start": 38,
+      "line_end": 43
+    },
+    {
+      "name": "generateHeader",
+      "kind": "method",
+      "exported": false,
+      "line_start": 58,
+      "line_end": 67
+    },
+    {
+      "name": "generateNodes",
+      "kind": "method",
+      "exported": false,
+      "line_start": 92,
+      "line_end": 151
+    },
+    {
+      "name": "formatNode",
+      "kind": "method",
+      "exported": false,
+      "line_start": 154,
+      "line_end": 175
+    },
+    {
+      "name": "generateParallelEdges",
+      "kind": "function",
+      "exported": false,
+      "line_start": 185,
+      "line_end": 189
+    },
+    {
+      "name": "generateLoopEdges",
+      "kind": "function",
+      "exported": false,
+      "line_start": 192,
+      "line_end": 199
+    },
+    {
+      "name": "generateTransitionEdge",
+      "kind": "function",
+      "exported": false,
+      "line_start": 202,
+      "line_end": 215
+    },
+    {
+      "name": "generateEdges",
+      "kind": "method",
+      "exported": false,
+      "line_start": 223,
+      "line_end": 272
+    },
+    {
+      "name": "generateParallelSubgraph",
+      "kind": "method",
+      "exported": false,
+      "line_start": 284,
+      "line_end": 333
+    },
+    {
+      "name": "isHighlighted",
+      "kind": "method",
+      "exported": false,
+      "line_start": 338,
+      "line_end": 340
+    },
+    {
+      "name": "getHighlightStyle",
+      "kind": "method",
+      "exported": false,
+      "line_start": 349,
+      "line_end": 355
+    },
+    {
+      "name": "applyHighlight",
+      "kind": "method",
+      "exported": false,
+      "line_start": 364,
+      "line_end": 375
+    },
+    {
+      "name": "escapeDOTID",
+      "kind": "function",
+      "exported": false,
+      "line_start": 379,
+      "line_end": 397
+    }
+  ],
+  "imports": [
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "sort",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

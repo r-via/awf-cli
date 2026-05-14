@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "file": "internal/domain/ports/tokenizer.go",
+  "hash": "a0bdd734a7381a15b70b87b274ad432c4dd26053eee315ac9b0056981f6293ff",
+  "symbols": [
+    {
+      "name": "Tokenizer",
+      "kind": "type",
+      "exported": true,
+      "line_start": 6,
+      "line_end": 23
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/repository/yaml_types.go",
+  "hash": "871bf07568089d65c47cf85a7423c507738e5ff7d6f9db975415da89f0fe76e1",
+  "symbols": [
+    {
+      "name": "yamlWorkflow",
+      "kind": "class",
+      "exported": false,
+      "line_start": 4,
+      "line_end": 15
+    },
+    {
+      "name": "yamlStates",
+      "kind": "class",
+      "exported": false,
+      "line_start": 18,
+      "line_end": 21
+    },
+    {
+      "name": "yamlStep",
+      "kind": "class",
+      "exported": false,
+      "line_start": 24,
+      "line_end": 83
+    },
+    {
+      "name": "yamlTransition",
+      "kind": "class",
+      "exported": false,
+      "line_start": 86,
+      "line_end": 89
+    },
+    {
+      "name": "yamlInput",
+      "kind": "class",
+      "exported": false,
+      "line_start": 92,
+      "line_end": 99
+    },
+    {
+      "name": "yamlInputValidation",
+      "kind": "class",
+      "exported": false,
+      "line_start": 102,
+      "line_end": 109
+    },
+    {
+      "name": "yamlRetry",
+      "kind": "class",
+      "exported": false,
+      "line_start": 112,
+      "line_end": 120
+    },
+    {
+      "name": "yamlCapture",
+      "kind": "class",
+      "exported": false,
+      "line_start": 123,
+      "line_end": 128
+    },
+    {
+      "name": "yamlWorkflowHooks",
+      "kind": "class",
+      "exported": false,
+      "line_start": 131,
+      "line_end": 136
+    },
+    {
+      "name": "yamlStepHooks",
+      "kind": "class",
+      "exported": false,
+      "line_start": 139,
+      "line_end": 142
+    },
+    {
+      "name": "yamlHookAction",
+      "kind": "class",
+      "exported": false,
+      "line_start": 145,
+      "line_end": 148
+    },
+    {
+      "name": "yamlTemplate",
+      "kind": "class",
+      "exported": false,
+      "line_start": 153,
+      "line_end": 157
+    },
+    {
+      "name": "yamlTemplateParam",
+      "kind": "class",
+      "exported": false,
+      "line_start": 162,
+      "line_end": 166
+    },
+    {
+      "name": "yamlConversationConfig",
+      "kind": "class",
+      "exported": false,
+      "line_start": 169,
+      "line_end": 171
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

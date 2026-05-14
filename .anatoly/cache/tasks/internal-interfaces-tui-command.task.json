@@ -1,0 +1,183 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/tui/command.go",
+  "hash": "9cd9a983aeec8f0300bea5551220776eb52116180ddf8ea7a65659392915b1b5",
+  "symbols": [
+    {
+      "name": "NewCommand",
+      "kind": "function",
+      "exported": true,
+      "line_start": 34,
+      "line_end": 53
+    },
+    {
+      "name": "runTUI",
+      "kind": "function",
+      "exported": false,
+      "line_start": 55,
+      "line_end": 80
+    },
+    {
+      "name": "validateTerminal",
+      "kind": "function",
+      "exported": false,
+      "line_start": 82,
+      "line_end": 91
+    },
+    {
+      "name": "buildBridge",
+      "kind": "function",
+      "exported": false,
+      "line_start": 95,
+      "line_end": 213
+    },
+    {
+      "name": "resolvePackWorkflow",
+      "kind": "function",
+      "exported": false,
+      "line_start": 218,
+      "line_end": 236
+    },
+    {
+      "name": "buildWorkflowPaths",
+      "kind": "function",
+      "exported": false,
+      "line_start": 238,
+      "line_end": 261
+    },
+    {
+      "name": "findAWFAuditLog",
+      "kind": "function",
+      "exported": false,
+      "line_start": 266,
+      "line_end": 283
+    },
+    {
+      "name": "nopLogger",
+      "kind": "class",
+      "exported": false,
+      "line_start": 286,
+      "line_end": 286
+    },
+    {
+      "name": "Debug",
+      "kind": "method",
+      "exported": true,
+      "line_start": 288,
+      "line_end": 288
+    },
+    {
+      "name": "Info",
+      "kind": "method",
+      "exported": true,
+      "line_start": 289,
+      "line_end": 289
+    },
+    {
+      "name": "Warn",
+      "kind": "method",
+      "exported": true,
+      "line_start": 290,
+      "line_end": 290
+    },
+    {
+      "name": "Error",
+      "kind": "method",
+      "exported": true,
+      "line_start": 291,
+      "line_end": 291
+    },
+    {
+      "name": "WithContext",
+      "kind": "method",
+      "exported": true,
+      "line_start": 292,
+      "line_end": 292
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "errors",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "io",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "path/filepath",
+      "type": "import"
+    },
+    {
+      "source": "charm.land/bubbletea/v2",
+      "type": "import"
+    },
+    {
+      "source": "github.com/spf13/cobra",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/application",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/audit",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/config",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/executor",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/otel",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/pluginmgr",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/repository",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/store",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/workflowpkg",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/xdg",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/agents/stream_filter.go",
+  "hash": "315a3131903eed9321bbe276d8fff0d12f20f33ec2f120aba64fe3ddb81dcb16",
+  "symbols": [
+    {
+      "name": "maxLineSize",
+      "kind": "constant",
+      "exported": false,
+      "line_start": 13,
+      "line_end": 13
+    },
+    {
+      "name": "DisplayEventRenderer",
+      "kind": "type",
+      "exported": true,
+      "line_start": 18,
+      "line_end": 18
+    },
+    {
+      "name": "StreamFilterWriter",
+      "kind": "class",
+      "exported": true,
+      "line_start": 22,
+      "line_end": 29
+    },
+    {
+      "name": "newStreamFilterBase",
+      "kind": "function",
+      "exported": false,
+      "line_start": 31,
+      "line_end": 40
+    },
+    {
+      "name": "NewStreamFilterWriterWithParser",
+      "kind": "function",
+      "exported": true,
+      "line_start": 44,
+      "line_end": 49
+    },
+    {
+      "name": "NewStreamFilterWriter",
+      "kind": "function",
+      "exported": true,
+      "line_start": 52,
+      "line_end": 56
+    },
+    {
+      "name": "Write",
+      "kind": "method",
+      "exported": true,
+      "line_start": 58,
+      "line_end": 91
+    },
+    {
+      "name": "processLine",
+      "kind": "method",
+      "exported": false,
+      "line_start": 93,
+      "line_end": 101
+    },
+    {
+      "name": "parseAndRenderLine",
+      "kind": "method",
+      "exported": false,
+      "line_start": 103,
+      "line_end": 122
+    },
+    {
+      "name": "writeTextEvents",
+      "kind": "method",
+      "exported": false,
+      "line_start": 124,
+      "line_end": 139
+    },
+    {
+      "name": "Flush",
+      "kind": "method",
+      "exported": true,
+      "line_start": 142,
+      "line_end": 174
+    },
+    {
+      "name": "writeExtracted",
+      "kind": "method",
+      "exported": false,
+      "line_start": 176,
+      "line_end": 184
+    },
+    {
+      "name": "extractDisplayTextFromEvents",
+      "kind": "function",
+      "exported": false,
+      "line_start": 186,
+      "line_end": 209
+    }
+  ],
+  "imports": [
+    {
+      "source": "bytes",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "io",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/logger",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

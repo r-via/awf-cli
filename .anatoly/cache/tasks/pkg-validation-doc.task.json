@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "file": "pkg/validation/doc.go",
+  "hash": "0643aebbf7c6edf562721823f9aeb99bf3f3b669e61438a54591adcf0b4da89a",
+  "symbols": [],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

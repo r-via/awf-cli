@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "file": "internal/domain/workflow/subworkflow.go",
+  "hash": "8f6d64158728298b03b4646a1bfbb3f5df0a75d6f9bd0ce74fed123447e95e9d",
+  "symbols": [
+    {
+      "name": "DefaultSubWorkflowTimeout",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 9,
+      "line_end": 9
+    },
+    {
+      "name": "MaxCallStackDepth",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 12,
+      "line_end": 12
+    },
+    {
+      "name": "CallWorkflowConfig",
+      "kind": "class",
+      "exported": true,
+      "line_start": 15,
+      "line_end": 20
+    },
+    {
+      "name": "Validate",
+      "kind": "method",
+      "exported": true,
+      "line_start": 23,
+      "line_end": 31
+    },
+    {
+      "name": "GetTimeout",
+      "kind": "method",
+      "exported": true,
+      "line_start": 35,
+      "line_end": 40
+    },
+    {
+      "name": "SubWorkflowResult",
+      "kind": "class",
+      "exported": true,
+      "line_start": 43,
+      "line_end": 49
+    },
+    {
+      "name": "NewSubWorkflowResult",
+      "kind": "function",
+      "exported": true,
+      "line_start": 52,
+      "line_end": 58
+    },
+    {
+      "name": "Duration",
+      "kind": "method",
+      "exported": true,
+      "line_start": 61,
+      "line_end": 63
+    },
+    {
+      "name": "Success",
+      "kind": "method",
+      "exported": true,
+      "line_start": 66,
+      "line_end": 68
+    }
+  ],
+  "imports": [
+    {
+      "source": "errors",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

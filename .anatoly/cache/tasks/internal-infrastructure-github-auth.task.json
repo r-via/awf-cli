@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/github/auth.go",
+  "hash": "6cf5c0aaca6e17246be385cfece9cf12bbe2db33f561b8b8566aca94203e3953",
+  "symbols": [
+    {
+      "name": "AuthMethod",
+      "kind": "class",
+      "exported": true,
+      "line_start": 13,
+      "line_end": 20
+    },
+    {
+      "name": "String",
+      "kind": "method",
+      "exported": true,
+      "line_start": 24,
+      "line_end": 35
+    },
+    {
+      "name": "IsAuthenticated",
+      "kind": "method",
+      "exported": true,
+      "line_start": 39,
+      "line_end": 41
+    },
+    {
+      "name": "DetectAuth",
+      "kind": "function",
+      "exported": true,
+      "line_start": 51,
+      "line_end": 80
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "os/exec",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

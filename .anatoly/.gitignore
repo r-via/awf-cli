@@ -1,0 +1,5 @@
+# These are user-wide symlinks (~/.anatoly/shared and ~/.anatoly/user) created
+# by bootstrapAnatoly. They are NOT part of this projects state and must not
+# be committed.
+shared
+user

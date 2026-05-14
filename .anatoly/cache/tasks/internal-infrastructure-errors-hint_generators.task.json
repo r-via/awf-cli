@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/errors/hint_generators.go",
+  "hash": "898891903bae61ec66131e9a03d197f85101cabd9cbf8d2edc4b235ff86348f9",
+  "symbols": [
+    {
+      "name": "FileNotFoundHintGenerator",
+      "kind": "function",
+      "exported": true,
+      "line_start": 32,
+      "line_end": 135
+    },
+    {
+      "name": "InvalidStateHintGenerator",
+      "kind": "function",
+      "exported": true,
+      "line_start": 154,
+      "line_end": 272
+    },
+    {
+      "name": "YAMLSyntaxHintGenerator",
+      "kind": "function",
+      "exported": true,
+      "line_start": 290,
+      "line_end": 369
+    },
+    {
+      "name": "MissingInputHintGenerator",
+      "kind": "function",
+      "exported": true,
+      "line_start": 388,
+      "line_end": 410
+    },
+    {
+      "name": "extractMissingInputs",
+      "kind": "function",
+      "exported": false,
+      "line_start": 413,
+      "line_end": 438
+    },
+    {
+      "name": "extractRequiredInputs",
+      "kind": "function",
+      "exported": false,
+      "line_start": 441,
+      "line_end": 458
+    },
+    {
+      "name": "buildMissingInputHints",
+      "kind": "function",
+      "exported": false,
+      "line_start": 461,
+      "line_end": 510
+    },
+    {
+      "name": "formatInt",
+      "kind": "function",
+      "exported": false,
+      "line_start": 513,
+      "line_end": 545
+    },
+    {
+      "name": "CommandFailureHintGenerator",
+      "kind": "function",
+      "exported": true,
+      "line_start": 564,
+      "line_end": 720
+    },
+    {
+      "name": "PluginDisabledHintGenerator",
+      "kind": "function",
+      "exported": true,
+      "line_start": 732,
+      "line_end": 759
+    },
+    {
+      "name": "extractCommandName",
+      "kind": "function",
+      "exported": false,
+      "line_start": 763,
+      "line_end": 777
+    }
+  ],
+  "imports": [
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "path/filepath",
+      "type": "import"
+    },
+    {
+      "source": "sort",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/errors",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/pkg/stringutil",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

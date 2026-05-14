@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "file": "internal/application/interpolation_helpers.go",
+  "hash": "20738a35fd9cad647ded7bfaa2a0a0851bbdd7fc0bdf8383a7f367ded4c76ea6",
+  "symbols": [
+    {
+      "name": "buildInterpolationContext",
+      "kind": "function",
+      "exported": false,
+      "line_start": 15,
+      "line_end": 84
+    },
+    {
+      "name": "interpolateTerminalMessage",
+      "kind": "function",
+      "exported": false,
+      "line_start": 89,
+      "line_end": 104
+    }
+  ],
+  "imports": [
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/pkg/interpolation",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

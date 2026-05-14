@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "file": "internal/application/parallel_executor.go",
+  "hash": "a783138e86f075bb60c534c12a02609d23bf704deb55e6e52bac906b3d4421f9",
+  "symbols": [
+    {
+      "name": "ParallelExecutor",
+      "kind": "class",
+      "exported": true,
+      "line_start": 17,
+      "line_end": 19
+    },
+    {
+      "name": "NewParallelExecutor",
+      "kind": "function",
+      "exported": true,
+      "line_start": 22,
+      "line_end": 26
+    },
+    {
+      "name": "Execute",
+      "kind": "method",
+      "exported": true,
+      "line_start": 29,
+      "line_end": 73
+    },
+    {
+      "name": "executeAllSucceed",
+      "kind": "method",
+      "exported": false,
+      "line_start": 76,
+      "line_end": 134
+    },
+    {
+      "name": "executeAnySucceed",
+      "kind": "method",
+      "exported": false,
+      "line_start": 137,
+      "line_end": 195
+    },
+    {
+      "name": "RunBranchWithSemaphore",
+      "kind": "method",
+      "exported": true,
+      "line_start": 202,
+      "line_end": 241
+    },
+    {
+      "name": "CheckBranchSuccess",
+      "kind": "method",
+      "exported": true,
+      "line_start": 247,
+      "line_end": 284
+    },
+    {
+      "name": "executeBestEffort",
+      "kind": "method",
+      "exported": false,
+      "line_start": 287,
+      "line_end": 346
+    },
+    {
+      "name": "makeSemaphore",
+      "kind": "method",
+      "exported": false,
+      "line_start": 350,
+      "line_end": 355
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "errors",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "sync",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    },
+    {
+      "source": "golang.org/x/sync/errgroup",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

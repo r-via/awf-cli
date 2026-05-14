@@ -1,0 +1,665 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/cli/ui/output.go",
+  "hash": "1f6105f824f4784ee32ddac127c682654fd7ab1d1085b3fe8883fcc7987e0f83",
+  "symbols": [
+    {
+      "name": "OutputFormat",
+      "kind": "type",
+      "exported": true,
+      "line_start": 29,
+      "line_end": 29
+    },
+    {
+      "name": "FormatText",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 32,
+      "line_end": 32
+    },
+    {
+      "name": "FormatJSON",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 33,
+      "line_end": 33
+    },
+    {
+      "name": "FormatTable",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 34,
+      "line_end": 34
+    },
+    {
+      "name": "FormatQuiet",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 35,
+      "line_end": 35
+    },
+    {
+      "name": "String",
+      "kind": "method",
+      "exported": true,
+      "line_start": 38,
+      "line_end": 51
+    },
+    {
+      "name": "ParseOutputFormat",
+      "kind": "function",
+      "exported": true,
+      "line_start": 54,
+      "line_end": 67
+    },
+    {
+      "name": "ErrorResponse",
+      "kind": "class",
+      "exported": true,
+      "line_start": 70,
+      "line_end": 74
+    },
+    {
+      "name": "WorkflowInfo",
+      "kind": "class",
+      "exported": true,
+      "line_start": 77,
+      "line_end": 82
+    },
+    {
+      "name": "WorkflowPackInfo",
+      "kind": "class",
+      "exported": true,
+      "line_start": 85,
+      "line_end": 91
+    },
+    {
+      "name": "StepInfo",
+      "kind": "class",
+      "exported": true,
+      "line_start": 94,
+      "line_end": 103
+    },
+    {
+      "name": "ExecutionInfo",
+      "kind": "class",
+      "exported": true,
+      "line_start": 106,
+      "line_end": 115
+    },
+    {
+      "name": "ResumableInfo",
+      "kind": "class",
+      "exported": true,
+      "line_start": 118,
+      "line_end": 125
+    },
+    {
+      "name": "RunResult",
+      "kind": "class",
+      "exported": true,
+      "line_start": 128,
+      "line_end": 134
+    },
+    {
+      "name": "ValidationResult",
+      "kind": "class",
+      "exported": true,
+      "line_start": 137,
+      "line_end": 142
+    },
+    {
+      "name": "InputInfo",
+      "kind": "class",
+      "exported": true,
+      "line_start": 145,
+      "line_end": 151
+    },
+    {
+      "name": "StepSummary",
+      "kind": "class",
+      "exported": true,
+      "line_start": 154,
+      "line_end": 158
+    },
+    {
+      "name": "ValidationResultTable",
+      "kind": "class",
+      "exported": true,
+      "line_start": 161,
+      "line_end": 168
+    },
+    {
+      "name": "PromptInfo",
+      "kind": "class",
+      "exported": true,
+      "line_start": 171,
+      "line_end": 177
+    },
+    {
+      "name": "PluginInfo",
+      "kind": "class",
+      "exported": true,
+      "line_start": 180,
+      "line_end": 191
+    },
+    {
+      "name": "OperationEntry",
+      "kind": "class",
+      "exported": true,
+      "line_start": 194,
+      "line_end": 197
+    },
+    {
+      "name": "CapabilityEntry",
+      "kind": "class",
+      "exported": true,
+      "line_start": 200,
+      "line_end": 204
+    },
+    {
+      "name": "ValidatorEntry",
+      "kind": "class",
+      "exported": true,
+      "line_start": 207,
+      "line_end": 210
+    },
+    {
+      "name": "tableWriter",
+      "kind": "class",
+      "exported": false,
+      "line_start": 213,
+      "line_end": 216
+    },
+    {
+      "name": "newTableWriter",
+      "kind": "function",
+      "exported": false,
+      "line_start": 218,
+      "line_end": 220
+    },
+    {
+      "name": "separator",
+      "kind": "method",
+      "exported": false,
+      "line_start": 222,
+      "line_end": 228
+    },
+    {
+      "name": "row",
+      "kind": "method",
+      "exported": false,
+      "line_start": 230,
+      "line_end": 243
+    },
+    {
+      "name": "fullWidthSeparator",
+      "kind": "method",
+      "exported": false,
+      "line_start": 245,
+      "line_end": 251
+    },
+    {
+      "name": "fullWidthRow",
+      "kind": "method",
+      "exported": false,
+      "line_start": 253,
+      "line_end": 263
+    },
+    {
+      "name": "OutputWriter",
+      "kind": "class",
+      "exported": true,
+      "line_start": 266,
+      "line_end": 273
+    },
+    {
+      "name": "NewOutputWriter",
+      "kind": "function",
+      "exported": true,
+      "line_start": 276,
+      "line_end": 285
+    },
+    {
+      "name": "IsJSONFormat",
+      "kind": "method",
+      "exported": true,
+      "line_start": 288,
+      "line_end": 290
+    },
+    {
+      "name": "Out",
+      "kind": "method",
+      "exported": true,
+      "line_start": 293,
+      "line_end": 295
+    },
+    {
+      "name": "WriteJSON",
+      "kind": "method",
+      "exported": true,
+      "line_start": 298,
+      "line_end": 300
+    },
+    {
+      "name": "WriteWorkflows",
+      "kind": "method",
+      "exported": true,
+      "line_start": 303,
+      "line_end": 317
+    },
+    {
+      "name": "WriteExecution",
+      "kind": "method",
+      "exported": true,
+      "line_start": 320,
+      "line_end": 332
+    },
+    {
+      "name": "WriteRunResult",
+      "kind": "method",
+      "exported": true,
+      "line_start": 335,
+      "line_end": 347
+    },
+    {
+      "name": "WriteValidation",
+      "kind": "method",
+      "exported": true,
+      "line_start": 350,
+      "line_end": 366
+    },
+    {
+      "name": "WriteValidationTable",
+      "kind": "method",
+      "exported": true,
+      "line_start": 369,
+      "line_end": 382
+    },
+    {
+      "name": "WriteError",
+      "kind": "method",
+      "exported": true,
+      "line_start": 386,
+      "line_end": 405
+    },
+    {
+      "name": "writeStructuredError",
+      "kind": "method",
+      "exported": false,
+      "line_start": 409,
+      "line_end": 423
+    },
+    {
+      "name": "newHumanErrorFormatter",
+      "kind": "method",
+      "exported": false,
+      "line_start": 435,
+      "line_end": 445
+    },
+    {
+      "name": "WritePrompts",
+      "kind": "method",
+      "exported": true,
+      "line_start": 448,
+      "line_end": 462
+    },
+    {
+      "name": "WriteWorkflowPacks",
+      "kind": "method",
+      "exported": true,
+      "line_start": 465,
+      "line_end": 479
+    },
+    {
+      "name": "WritePlugins",
+      "kind": "method",
+      "exported": true,
+      "line_start": 482,
+      "line_end": 496
+    },
+    {
+      "name": "WriteOperations",
+      "kind": "method",
+      "exported": true,
+      "line_start": 499,
+      "line_end": 513
+    },
+    {
+      "name": "WriteCapabilities",
+      "kind": "method",
+      "exported": true,
+      "line_start": 516,
+      "line_end": 530
+    },
+    {
+      "name": "WriteStepTypes",
+      "kind": "method",
+      "exported": true,
+      "line_start": 533,
+      "line_end": 547
+    },
+    {
+      "name": "WriteValidators",
+      "kind": "method",
+      "exported": true,
+      "line_start": 550,
+      "line_end": 564
+    },
+    {
+      "name": "WriteDryRun",
+      "kind": "method",
+      "exported": true,
+      "line_start": 567,
+      "line_end": 577
+    },
+    {
+      "name": "WriteResumableList",
+      "kind": "method",
+      "exported": true,
+      "line_start": 580,
+      "line_end": 594
+    },
+    {
+      "name": "writeResumableTable",
+      "kind": "method",
+      "exported": false,
+      "line_start": 596,
+      "line_end": 612
+    },
+    {
+      "name": "writeResumableBorderedTable",
+      "kind": "method",
+      "exported": false,
+      "line_start": 614,
+      "line_end": 629
+    },
+    {
+      "name": "writePromptsTable",
+      "kind": "method",
+      "exported": false,
+      "line_start": 631,
+      "line_end": 645
+    },
+    {
+      "name": "writePromptsBorderedTable",
+      "kind": "method",
+      "exported": false,
+      "line_start": 647,
+      "line_end": 660
+    },
+    {
+      "name": "writePluginsTable",
+      "kind": "method",
+      "exported": false,
+      "line_start": 662,
+      "line_end": 682
+    },
+    {
+      "name": "writePluginsBorderedTable",
+      "kind": "method",
+      "exported": false,
+      "line_start": 684,
+      "line_end": 703
+    },
+    {
+      "name": "workflowPackRow",
+      "kind": "function",
+      "exported": false,
+      "line_start": 705,
+      "line_end": 725
+    },
+    {
+      "name": "writeWorkflowPacksTable",
+      "kind": "method",
+      "exported": false,
+      "line_start": 727,
+      "line_end": 745
+    },
+    {
+      "name": "writeWorkflowPacksBorderedTable",
+      "kind": "method",
+      "exported": false,
+      "line_start": 747,
+      "line_end": 765
+    },
+    {
+      "name": "writeOperationsTable",
+      "kind": "method",
+      "exported": false,
+      "line_start": 767,
+      "line_end": 785
+    },
+    {
+      "name": "writeOperationsBorderedTable",
+      "kind": "method",
+      "exported": false,
+      "line_start": 787,
+      "line_end": 805
+    },
+    {
+      "name": "writeCapabilitiesTable",
+      "kind": "method",
+      "exported": false,
+      "line_start": 807,
+      "line_end": 818
+    },
+    {
+      "name": "writeCapabilitiesBorderedTable",
+      "kind": "method",
+      "exported": false,
+      "line_start": 820,
+      "line_end": 834
+    },
+    {
+      "name": "writeStepTypesTable",
+      "kind": "method",
+      "exported": false,
+      "line_start": 836,
+      "line_end": 847
+    },
+    {
+      "name": "writeStepTypesBorderedTable",
+      "kind": "method",
+      "exported": false,
+      "line_start": 849,
+      "line_end": 863
+    },
+    {
+      "name": "writeValidatorsTable",
+      "kind": "method",
+      "exported": false,
+      "line_start": 865,
+      "line_end": 876
+    },
+    {
+      "name": "writeValidatorsBorderedTable",
+      "kind": "method",
+      "exported": false,
+      "line_start": 878,
+      "line_end": 892
+    },
+    {
+      "name": "writeJSON",
+      "kind": "method",
+      "exported": false,
+      "line_start": 894,
+      "line_end": 896
+    },
+    {
+      "name": "writeJSONError",
+      "kind": "method",
+      "exported": false,
+      "line_start": 899,
+      "line_end": 901
+    },
+    {
+      "name": "encodeJSON",
+      "kind": "method",
+      "exported": false,
+      "line_start": 903,
+      "line_end": 910
+    },
+    {
+      "name": "writeWorkflowsTable",
+      "kind": "method",
+      "exported": false,
+      "line_start": 912,
+      "line_end": 930
+    },
+    {
+      "name": "writeWorkflowsBorderedTable",
+      "kind": "method",
+      "exported": false,
+      "line_start": 932,
+      "line_end": 949
+    },
+    {
+      "name": "writeExecutionText",
+      "kind": "method",
+      "exported": false,
+      "line_start": 951,
+      "line_end": 975
+    },
+    {
+      "name": "writeRunResultText",
+      "kind": "method",
+      "exported": false,
+      "line_start": 977,
+      "line_end": 987
+    },
+    {
+      "name": "writeValidationText",
+      "kind": "method",
+      "exported": false,
+      "line_start": 989,
+      "line_end": 999
+    },
+    {
+      "name": "writeExecutionTable",
+      "kind": "method",
+      "exported": false,
+      "line_start": 1001,
+      "line_end": 1029
+    },
+    {
+      "name": "writeRunResultTable",
+      "kind": "method",
+      "exported": false,
+      "line_start": 1031,
+      "line_end": 1071
+    },
+    {
+      "name": "writeValidationTable",
+      "kind": "method",
+      "exported": false,
+      "line_start": 1073,
+      "line_end": 1094
+    },
+    {
+      "name": "formatInputRow",
+      "kind": "function",
+      "exported": false,
+      "line_start": 1098,
+      "line_end": 1110
+    },
+    {
+      "name": "pluginRowData",
+      "kind": "class",
+      "exported": false,
+      "line_start": 1112,
+      "line_end": 1114
+    },
+    {
+      "name": "pluginRow",
+      "kind": "function",
+      "exported": false,
+      "line_start": 1116,
+      "line_end": 1130
+    },
+    {
+      "name": "formatStepRow",
+      "kind": "function",
+      "exported": false,
+      "line_start": 1134,
+      "line_end": 1142
+    },
+    {
+      "name": "renderStatusHeader",
+      "kind": "function",
+      "exported": false,
+      "line_start": 1145,
+      "line_end": 1180
+    },
+    {
+      "name": "writeValidationResultTable",
+      "kind": "method",
+      "exported": false,
+      "line_start": 1182,
+      "line_end": 1228
+    },
+    {
+      "name": "truncateID",
+      "kind": "function",
+      "exported": false,
+      "line_start": 1230,
+      "line_end": 1235
+    },
+    {
+      "name": "calculateDuration",
+      "kind": "function",
+      "exported": false,
+      "line_start": 1237,
+      "line_end": 1251
+    }
+  ],
+  "imports": [
+    {
+      "source": "encoding/json",
+      "type": "import"
+    },
+    {
+      "source": "errors",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "io",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "text/tabwriter",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/errors",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/errors",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

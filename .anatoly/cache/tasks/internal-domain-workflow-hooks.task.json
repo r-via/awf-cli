@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "file": "internal/domain/workflow/hooks.go",
+  "hash": "978d75e6d00fc97e2b61295ade5a9ef0e1d8bafe0fff29680cb03b130d1a5450",
+  "symbols": [
+    {
+      "name": "HookAction",
+      "kind": "class",
+      "exported": true,
+      "line_start": 4,
+      "line_end": 7
+    },
+    {
+      "name": "Hook",
+      "kind": "type",
+      "exported": true,
+      "line_start": 9,
+      "line_end": 9
+    },
+    {
+      "name": "WorkflowHooks",
+      "kind": "class",
+      "exported": true,
+      "line_start": 11,
+      "line_end": 16
+    },
+    {
+      "name": "StepHooks",
+      "kind": "class",
+      "exported": true,
+      "line_start": 18,
+      "line_end": 21
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

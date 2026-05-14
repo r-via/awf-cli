@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/repository/errors.go",
+  "hash": "4d5d4809e90357eb2f50ea8a0439780f707c1a085b6f35e04987c3202ae8c230",
+  "symbols": [
+    {
+      "name": "ParseError",
+      "kind": "class",
+      "exported": true,
+      "line_start": 13,
+      "line_end": 20
+    },
+    {
+      "name": "Error",
+      "kind": "method",
+      "exported": true,
+      "line_start": 23,
+      "line_end": 31
+    },
+    {
+      "name": "Unwrap",
+      "kind": "method",
+      "exported": true,
+      "line_start": 34,
+      "line_end": 36
+    },
+    {
+      "name": "NewParseError",
+      "kind": "function",
+      "exported": true,
+      "line_start": 39,
+      "line_end": 47
+    },
+    {
+      "name": "WrapParseError",
+      "kind": "function",
+      "exported": true,
+      "line_start": 56,
+      "line_end": 82
+    },
+    {
+      "name": "ParseErrorWithLine",
+      "kind": "function",
+      "exported": true,
+      "line_start": 85,
+      "line_end": 92
+    },
+    {
+      "name": "ToStructuredError",
+      "kind": "method",
+      "exported": true,
+      "line_start": 100,
+      "line_end": 124
+    }
+  ],
+  "imports": [
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "regexp",
+      "type": "import"
+    },
+    {
+      "source": "strconv",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/errors",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

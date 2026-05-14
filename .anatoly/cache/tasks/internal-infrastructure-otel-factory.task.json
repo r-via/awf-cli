@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/otel/factory.go",
+  "hash": "f96c05b352b4123fb5fc539bd43b9a426e52b7e869999526924fa85c200f7f74",
+  "symbols": [
+    {
+      "name": "TracerConfig",
+      "kind": "class",
+      "exported": true,
+      "line_start": 13,
+      "line_end": 16
+    },
+    {
+      "name": "NewTracerFromConfig",
+      "kind": "function",
+      "exported": true,
+      "line_start": 21,
+      "line_end": 61
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "sync",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

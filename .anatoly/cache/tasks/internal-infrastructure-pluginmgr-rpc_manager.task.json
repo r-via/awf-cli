@@ -1,0 +1,479 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/pluginmgr/rpc_manager.go",
+  "hash": "64b7949d9c14d5db685265098f38d9333e21eea7d38dc9dea86042591e76b05e",
+  "symbols": [
+    {
+      "name": "DefaultPluginsDir",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 36,
+      "line_end": 36
+    },
+    {
+      "name": "RPCManagerError",
+      "kind": "class",
+      "exported": true,
+      "line_start": 39,
+      "line_end": 44
+    },
+    {
+      "name": "Error",
+      "kind": "method",
+      "exported": true,
+      "line_start": 47,
+      "line_end": 52
+    },
+    {
+      "name": "Unwrap",
+      "kind": "method",
+      "exported": true,
+      "line_start": 55,
+      "line_end": 57
+    },
+    {
+      "name": "NewRPCManagerError",
+      "kind": "function",
+      "exported": true,
+      "line_start": 60,
+      "line_end": 66
+    },
+    {
+      "name": "WrapRPCManagerError",
+      "kind": "function",
+      "exported": true,
+      "line_start": 69,
+      "line_end": 76
+    },
+    {
+      "name": "pluginConnection",
+      "kind": "class",
+      "exported": false,
+      "line_start": 79,
+      "line_end": 88
+    },
+    {
+      "name": "clientPlugin",
+      "kind": "class",
+      "exported": false,
+      "line_start": 93,
+      "line_end": 95
+    },
+    {
+      "name": "grpcClientBundle",
+      "kind": "class",
+      "exported": false,
+      "line_start": 98,
+      "line_end": 105
+    },
+    {
+      "name": "GRPCClient",
+      "kind": "method",
+      "exported": true,
+      "line_start": 109,
+      "line_end": 118
+    },
+    {
+      "name": "GRPCServer",
+      "kind": "method",
+      "exported": true,
+      "line_start": 121,
+      "line_end": 123
+    },
+    {
+      "name": "RPCPluginManager",
+      "kind": "class",
+      "exported": true,
+      "line_start": 132,
+      "line_end": 143
+    },
+    {
+      "name": "NewRPCPluginManager",
+      "kind": "function",
+      "exported": true,
+      "line_start": 146,
+      "line_end": 153
+    },
+    {
+      "name": "connectWithTimeout",
+      "kind": "method",
+      "exported": false,
+      "line_start": 159,
+      "line_end": 210
+    },
+    {
+      "name": "SetPluginsDir",
+      "kind": "method",
+      "exported": true,
+      "line_start": 214,
+      "line_end": 218
+    },
+    {
+      "name": "SetPluginsDirs",
+      "kind": "method",
+      "exported": true,
+      "line_start": 222,
+      "line_end": 226
+    },
+    {
+      "name": "Discover",
+      "kind": "method",
+      "exported": true,
+      "line_start": 230,
+      "line_end": 277
+    },
+    {
+      "name": "Load",
+      "kind": "method",
+      "exported": true,
+      "line_start": 281,
+      "line_end": 348
+    },
+    {
+      "name": "Init",
+      "kind": "method",
+      "exported": true,
+      "line_start": 351,
+      "line_end": 401
+    },
+    {
+      "name": "resolvePluginBinary",
+      "kind": "method",
+      "exported": false,
+      "line_start": 404,
+      "line_end": 450
+    },
+    {
+      "name": "checkVersionCompatibility",
+      "kind": "method",
+      "exported": false,
+      "line_start": 453,
+      "line_end": 479
+    },
+    {
+      "name": "startPluginProcess",
+      "kind": "method",
+      "exported": false,
+      "line_start": 485,
+      "line_end": 544
+    },
+    {
+      "name": "sendInitRPC",
+      "kind": "method",
+      "exported": false,
+      "line_start": 547,
+      "line_end": 570
+    },
+    {
+      "name": "queryOperationNames",
+      "kind": "method",
+      "exported": false,
+      "line_start": 574,
+      "line_end": 595
+    },
+    {
+      "name": "queryStepTypeNames",
+      "kind": "method",
+      "exported": false,
+      "line_start": 599,
+      "line_end": 620
+    },
+    {
+      "name": "Shutdown",
+      "kind": "method",
+      "exported": true,
+      "line_start": 624,
+      "line_end": 669
+    },
+    {
+      "name": "ShutdownAll",
+      "kind": "method",
+      "exported": true,
+      "line_start": 673,
+      "line_end": 702
+    },
+    {
+      "name": "Get",
+      "kind": "method",
+      "exported": true,
+      "line_start": 706,
+      "line_end": 711
+    },
+    {
+      "name": "List",
+      "kind": "method",
+      "exported": true,
+      "line_start": 714,
+      "line_end": 722
+    },
+    {
+      "name": "connectionsSnapshot",
+      "kind": "method",
+      "exported": false,
+      "line_start": 726,
+      "line_end": 734
+    },
+    {
+      "name": "GetOperation",
+      "kind": "method",
+      "exported": true,
+      "line_start": 739,
+      "line_end": 771
+    },
+    {
+      "name": "ListOperations",
+      "kind": "method",
+      "exported": true,
+      "line_start": 776,
+      "line_end": 797
+    },
+    {
+      "name": "Execute",
+      "kind": "method",
+      "exported": true,
+      "line_start": 802,
+      "line_end": 857
+    },
+    {
+      "name": "validatorClients",
+      "kind": "method",
+      "exported": false,
+      "line_start": 861,
+      "line_end": 895
+    },
+    {
+      "name": "stepTypeClient",
+      "kind": "method",
+      "exported": false,
+      "line_start": 899,
+      "line_end": 933
+    },
+    {
+      "name": "ValidatorProvider",
+      "kind": "method",
+      "exported": true,
+      "line_start": 937,
+      "line_end": 943
+    },
+    {
+      "name": "StepTypeProvider",
+      "kind": "method",
+      "exported": true,
+      "line_start": 947,
+      "line_end": 953
+    },
+    {
+      "name": "SetHostVersion",
+      "kind": "method",
+      "exported": true,
+      "line_start": 956,
+      "line_end": 960
+    },
+    {
+      "name": "SetEventBus",
+      "kind": "method",
+      "exported": true,
+      "line_start": 964,
+      "line_end": 968
+    },
+    {
+      "name": "SetStreamManager",
+      "kind": "method",
+      "exported": true,
+      "line_start": 972,
+      "line_end": 976
+    },
+    {
+      "name": "manifestLookup",
+      "kind": "method",
+      "exported": false,
+      "line_start": 979,
+      "line_end": 986
+    },
+    {
+      "name": "startBrokerHostService",
+      "kind": "method",
+      "exported": false,
+      "line_start": 990,
+      "line_end": 1004
+    },
+    {
+      "name": "wireEventSubscriptions",
+      "kind": "method",
+      "exported": false,
+      "line_start": 1007,
+      "line_end": 1022
+    },
+    {
+      "name": "SetStateStore",
+      "kind": "method",
+      "exported": true,
+      "line_start": 1026,
+      "line_end": 1030
+    },
+    {
+      "name": "SetZapLogger",
+      "kind": "method",
+      "exported": true,
+      "line_start": 1034,
+      "line_end": 1038
+    },
+    {
+      "name": "verifyChecksum",
+      "kind": "method",
+      "exported": false,
+      "line_start": 1043,
+      "line_end": 1085
+    },
+    {
+      "name": "zapToPortsLogger",
+      "kind": "class",
+      "exported": false,
+      "line_start": 1088,
+      "line_end": 1090
+    },
+    {
+      "name": "Debug",
+      "kind": "method",
+      "exported": true,
+      "line_start": 1092,
+      "line_end": 1092
+    },
+    {
+      "name": "Info",
+      "kind": "method",
+      "exported": true,
+      "line_start": 1094,
+      "line_end": 1094
+    },
+    {
+      "name": "Warn",
+      "kind": "method",
+      "exported": true,
+      "line_start": 1096,
+      "line_end": 1096
+    },
+    {
+      "name": "Error",
+      "kind": "method",
+      "exported": true,
+      "line_start": 1098,
+      "line_end": 1098
+    },
+    {
+      "name": "WithContext",
+      "kind": "method",
+      "exported": true,
+      "line_start": 1100,
+      "line_end": 1106
+    },
+    {
+      "name": "splitOperationName",
+      "kind": "function",
+      "exported": false,
+      "line_start": 1112,
+      "line_end": 1118
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "crypto/sha256",
+      "type": "import"
+    },
+    {
+      "source": "encoding/hex",
+      "type": "import"
+    },
+    {
+      "source": "encoding/json",
+      "type": "import"
+    },
+    {
+      "source": "errors",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "os/exec",
+      "type": "import"
+    },
+    {
+      "source": "path/filepath",
+      "type": "import"
+    },
+    {
+      "source": "slices",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "sync",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    },
+    {
+      "source": "github.com/hashicorp/go-plugin",
+      "type": "import"
+    },
+    {
+      "source": "go.uber.org/zap",
+      "type": "import"
+    },
+    {
+      "source": "go.uber.org/zap/zapcore",
+      "type": "import"
+    },
+    {
+      "source": "google.golang.org/grpc",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/errors",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/pluginmodel",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/logger",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/pkg/plugin/sdk",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/pkg/registry",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/proto/plugin/v1",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

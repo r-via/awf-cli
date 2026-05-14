@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/tui/viewportscroll.go",
+  "hash": "61d8b383b22d692de2775fb5e847c85e95a6952f8ae9761f1dbc41761111e203",
+  "symbols": [
+    {
+      "name": "viewportAutoScroll",
+      "kind": "function",
+      "exported": false,
+      "line_start": 9,
+      "line_end": 16
+    }
+  ],
+  "imports": [
+    {
+      "source": "charm.land/bubbles/v2/viewport",
+      "type": "import"
+    },
+    {
+      "source": "charm.land/bubbletea/v2",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

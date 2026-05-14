@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "file": "internal/domain/ports/event.go",
+  "hash": "6b114c34eb34c71e9688dc23844d6bd37cfec019027fbc9e0b0f56e3fb3898d1",
+  "symbols": [
+    {
+      "name": "EventPublisher",
+      "kind": "type",
+      "exported": true,
+      "line_start": 9,
+      "line_end": 12
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/pluginmodel",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

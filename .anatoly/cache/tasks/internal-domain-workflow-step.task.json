@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "file": "internal/domain/workflow/step.go",
+  "hash": "ee3c8fea3168949ebe6bf21669dbf1691dd191184218b1584ad1f9f0072a66b4",
+  "symbols": [
+    {
+      "name": "StepType",
+      "kind": "type",
+      "exported": true,
+      "line_start": 11,
+      "line_end": 11
+    },
+    {
+      "name": "StepTypeCommand",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 14,
+      "line_end": 14
+    },
+    {
+      "name": "StepTypeParallel",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 15,
+      "line_end": 15
+    },
+    {
+      "name": "StepTypeTerminal",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 16,
+      "line_end": 16
+    },
+    {
+      "name": "StepTypeForEach",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 17,
+      "line_end": 17
+    },
+    {
+      "name": "StepTypeWhile",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 18,
+      "line_end": 18
+    },
+    {
+      "name": "StepTypeOperation",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 19,
+      "line_end": 19
+    },
+    {
+      "name": "StepTypeCallWorkflow",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 20,
+      "line_end": 20
+    },
+    {
+      "name": "StepTypeAgent",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 21,
+      "line_end": 21
+    },
+    {
+      "name": "TerminalStatus",
+      "kind": "type",
+      "exported": true,
+      "line_start": 25,
+      "line_end": 25
+    },
+    {
+      "name": "TerminalSuccess",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 28,
+      "line_end": 28
+    },
+    {
+      "name": "TerminalFailure",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 29,
+      "line_end": 29
+    },
+    {
+      "name": "String",
+      "kind": "method",
+      "exported": true,
+      "line_start": 46,
+      "line_end": 48
+    },
+    {
+      "name": "RetryConfig",
+      "kind": "class",
+      "exported": true,
+      "line_start": 51,
+      "line_end": 59
+    },
+    {
+      "name": "Validate",
+      "kind": "method",
+      "exported": true,
+      "line_start": 62,
+      "line_end": 80
+    },
+    {
+      "name": "CaptureConfig",
+      "kind": "class",
+      "exported": true,
+      "line_start": 83,
+      "line_end": 88
+    },
+    {
+      "name": "Step",
+      "kind": "class",
+      "exported": true,
+      "line_start": 91,
+      "line_end": 120
+    },
+    {
+      "name": "Validate",
+      "kind": "method",
+      "exported": true,
+      "line_start": 128,
+      "line_end": 222
+    }
+  ],
+  "imports": [
+    {
+      "source": "errors",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/pkg/retry",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

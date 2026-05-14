@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "file": "internal/domain/ports/plugin.go",
+  "hash": "2cde161489d771bf57430379ae883651bc8382c546655e734a7589b33c6aa4c6",
+  "symbols": [
+    {
+      "name": "Plugin",
+      "kind": "type",
+      "exported": true,
+      "line_start": 10,
+      "line_end": 19
+    },
+    {
+      "name": "PluginManager",
+      "kind": "type",
+      "exported": true,
+      "line_start": 22,
+      "line_end": 37
+    },
+    {
+      "name": "OperationProvider",
+      "kind": "type",
+      "exported": true,
+      "line_start": 40,
+      "line_end": 47
+    },
+    {
+      "name": "PluginRegistry",
+      "kind": "type",
+      "exported": true,
+      "line_start": 50,
+      "line_end": 57
+    },
+    {
+      "name": "PluginLoader",
+      "kind": "type",
+      "exported": true,
+      "line_start": 60,
+      "line_end": 68
+    },
+    {
+      "name": "PluginStore",
+      "kind": "type",
+      "exported": true,
+      "line_start": 71,
+      "line_end": 80
+    },
+    {
+      "name": "PluginConfig",
+      "kind": "type",
+      "exported": true,
+      "line_start": 83,
+      "line_end": 95
+    },
+    {
+      "name": "PluginStateStore",
+      "kind": "type",
+      "exported": true,
+      "line_start": 99,
+      "line_end": 102
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/pluginmodel",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

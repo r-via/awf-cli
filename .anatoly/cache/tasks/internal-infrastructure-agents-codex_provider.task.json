@@ -1,0 +1,175 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/agents/codex_provider.go",
+  "hash": "9a29ce95585cd449c945c2b177d78825cf4fe69f9de2defad6cbf92d1ff85b6b",
+  "symbols": [
+    {
+      "name": "CodexProvider",
+      "kind": "class",
+      "exported": true,
+      "line_start": 20,
+      "line_end": 25
+    },
+    {
+      "name": "NewCodexProvider",
+      "kind": "function",
+      "exported": true,
+      "line_start": 27,
+      "line_end": 34
+    },
+    {
+      "name": "NewCodexProviderWithOptions",
+      "kind": "function",
+      "exported": true,
+      "line_start": 36,
+      "line_end": 46
+    },
+    {
+      "name": "newBase",
+      "kind": "method",
+      "exported": false,
+      "line_start": 48,
+      "line_end": 61
+    },
+    {
+      "name": "Execute",
+      "kind": "method",
+      "exported": true,
+      "line_start": 63,
+      "line_end": 84
+    },
+    {
+      "name": "ExecuteConversation",
+      "kind": "method",
+      "exported": true,
+      "line_start": 86,
+      "line_end": 92
+    },
+    {
+      "name": "Name",
+      "kind": "method",
+      "exported": true,
+      "line_start": 94,
+      "line_end": 96
+    },
+    {
+      "name": "Validate",
+      "kind": "method",
+      "exported": true,
+      "line_start": 98,
+      "line_end": 104
+    },
+    {
+      "name": "buildExecuteArgs",
+      "kind": "method",
+      "exported": false,
+      "line_start": 106,
+      "line_end": 110
+    },
+    {
+      "name": "buildConversationArgs",
+      "kind": "method",
+      "exported": false,
+      "line_start": 112,
+      "line_end": 125
+    },
+    {
+      "name": "appendCodexOptions",
+      "kind": "function",
+      "exported": false,
+      "line_start": 128,
+      "line_end": 136
+    },
+    {
+      "name": "extractThreadStartedEvent",
+      "kind": "method",
+      "exported": false,
+      "line_start": 138,
+      "line_end": 140
+    },
+    {
+      "name": "extractSessionID",
+      "kind": "method",
+      "exported": false,
+      "line_start": 142,
+      "line_end": 158
+    },
+    {
+      "name": "extractCodexTokenUsage",
+      "kind": "method",
+      "exported": false,
+      "line_start": 160,
+      "line_end": 180
+    },
+    {
+      "name": "validateCodexOptions",
+      "kind": "function",
+      "exported": false,
+      "line_start": 182,
+      "line_end": 194
+    },
+    {
+      "name": "isValidCodexModel",
+      "kind": "function",
+      "exported": false,
+      "line_start": 196,
+      "line_end": 202
+    },
+    {
+      "name": "parseCodexDisplayEvents",
+      "kind": "method",
+      "exported": false,
+      "line_start": 207,
+      "line_end": 238
+    }
+  ],
+  "imports": [
+    {
+      "source": "bytes",
+      "type": "import"
+    },
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "encoding/json",
+      "type": "import"
+    },
+    {
+      "source": "errors",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "io",
+      "type": "import"
+    },
+    {
+      "source": "os/exec",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/logger",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

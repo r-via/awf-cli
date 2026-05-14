@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "file": "internal/domain/errors/structured_error.go",
+  "hash": "8794c62cacf98943c6eb72a93e3e13d7a69923e778ec3384086f4e47e9fe7538",
+  "symbols": [
+    {
+      "name": "StructuredError",
+      "kind": "class",
+      "exported": true,
+      "line_start": 32,
+      "line_end": 50
+    },
+    {
+      "name": "NewStructuredError",
+      "kind": "function",
+      "exported": true,
+      "line_start": 52,
+      "line_end": 60
+    },
+    {
+      "name": "Error",
+      "kind": "method",
+      "exported": true,
+      "line_start": 62,
+      "line_end": 64
+    },
+    {
+      "name": "Unwrap",
+      "kind": "method",
+      "exported": true,
+      "line_start": 68,
+      "line_end": 70
+    },
+    {
+      "name": "NewUserError",
+      "kind": "function",
+      "exported": true,
+      "line_start": 72,
+      "line_end": 74
+    },
+    {
+      "name": "NewWorkflowError",
+      "kind": "function",
+      "exported": true,
+      "line_start": 76,
+      "line_end": 78
+    },
+    {
+      "name": "NewExecutionError",
+      "kind": "function",
+      "exported": true,
+      "line_start": 80,
+      "line_end": 82
+    },
+    {
+      "name": "NewSystemError",
+      "kind": "function",
+      "exported": true,
+      "line_start": 84,
+      "line_end": 86
+    },
+    {
+      "name": "ExitCode",
+      "kind": "method",
+      "exported": true,
+      "line_start": 94,
+      "line_end": 96
+    },
+    {
+      "name": "WithDetails",
+      "kind": "method",
+      "exported": true,
+      "line_start": 104,
+      "line_end": 121
+    },
+    {
+      "name": "Is",
+      "kind": "method",
+      "exported": true,
+      "line_start": 125,
+      "line_end": 131
+    },
+    {
+      "name": "As",
+      "kind": "method",
+      "exported": true,
+      "line_start": 135,
+      "line_end": 141
+    },
+    {
+      "name": "Format",
+      "kind": "method",
+      "exported": true,
+      "line_start": 151,
+      "line_end": 180
+    }
+  ],
+  "imports": [
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/notify/operations.go",
+  "hash": "5d65ee3a4882adff478781b3406f43862ca102e35150650d07dfae67e0f29a6d",
+  "symbols": [
+    {
+      "name": "AllOperations",
+      "kind": "function",
+      "exported": true,
+      "line_start": 5,
+      "line_end": 40
+    }
+  ],
+  "imports": [
+    {
+      "source": "github.com/awf-project/cli/internal/domain/pluginmodel",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

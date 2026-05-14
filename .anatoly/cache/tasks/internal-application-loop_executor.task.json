@@ -1,0 +1,160 @@
+{
+  "version": 1,
+  "file": "internal/application/loop_executor.go",
+  "hash": "07670eac33e73060ad0508cda019e7cbf9d5b4c5a92cfe5ccadae486c37a0684",
+  "symbols": [
+    {
+      "name": "StepExecutorFunc",
+      "kind": "type",
+      "exported": true,
+      "line_start": 19,
+      "line_end": 19
+    },
+    {
+      "name": "ContextBuilderFunc",
+      "kind": "type",
+      "exported": true,
+      "line_start": 22,
+      "line_end": 22
+    },
+    {
+      "name": "loopExitState",
+      "kind": "class",
+      "exported": false,
+      "line_start": 26,
+      "line_end": 29
+    },
+    {
+      "name": "LoopExecutor",
+      "kind": "class",
+      "exported": true,
+      "line_start": 32,
+      "line_end": 36
+    },
+    {
+      "name": "NewLoopExecutor",
+      "kind": "function",
+      "exported": true,
+      "line_start": 39,
+      "line_end": 49
+    },
+    {
+      "name": "PushLoopContext",
+      "kind": "method",
+      "exported": true,
+      "line_start": 54,
+      "line_end": 70
+    },
+    {
+      "name": "PopLoopContext",
+      "kind": "method",
+      "exported": true,
+      "line_start": 75,
+      "line_end": 82
+    },
+    {
+      "name": "ExecuteForEach",
+      "kind": "method",
+      "exported": true,
+      "line_start": 87,
+      "line_end": 275
+    },
+    {
+      "name": "ExecuteWhile",
+      "kind": "method",
+      "exported": true,
+      "line_start": 280,
+      "line_end": 453
+    },
+    {
+      "name": "ResolveMaxIterations",
+      "kind": "method",
+      "exported": true,
+      "line_start": 461,
+      "line_end": 492
+    },
+    {
+      "name": "parseMaxIterationsValue",
+      "kind": "method",
+      "exported": false,
+      "line_start": 496,
+      "line_end": 509
+    },
+    {
+      "name": "evaluateArithmeticExpression",
+      "kind": "method",
+      "exported": false,
+      "line_start": 514,
+      "line_end": 525
+    },
+    {
+      "name": "ParseItems",
+      "kind": "method",
+      "exported": true,
+      "line_start": 530,
+      "line_end": 544
+    },
+    {
+      "name": "BuildBodyStepIndices",
+      "kind": "method",
+      "exported": true,
+      "line_start": 553,
+      "line_end": 564
+    },
+    {
+      "name": "evaluateBodyTransition",
+      "kind": "method",
+      "exported": false,
+      "line_start": 572,
+      "line_end": 615
+    },
+    {
+      "name": "handleIntraBodyJump",
+      "kind": "method",
+      "exported": false,
+      "line_start": 629,
+      "line_end": 641
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "encoding/json",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "strconv",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/pkg/interpolation",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

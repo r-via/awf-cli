@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "file": "internal/application/prompt_file.go",
+  "hash": "cb9f7489fbb72460a96d1f05f101a84af313f9760bd1662bd746439cadb83263",
+  "symbols": [
+    {
+      "name": "loadPromptFile",
+      "kind": "function",
+      "exported": false,
+      "line_start": 11,
+      "line_end": 18
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/pkg/interpolation",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

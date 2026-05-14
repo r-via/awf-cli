@@ -1,0 +1,211 @@
+{
+  "runId": "2026-05-14_131400",
+  "durationMs": 1014127,
+  "filesReviewed": 3,
+  "evaluated": 3,
+  "cached": 0,
+  "findings": 14,
+  "errors": 0,
+  "errorsByCode": {},
+  "degradedReviews": 0,
+  "costUsd": 5.935372249999999,
+  "providers": {
+    "anthropic": {
+      "calls": 11,
+      "costUsd": 5.94
+    },
+    "gemini": {
+      "calls": 0,
+      "costUsd": 0
+    }
+  },
+  "claude_quota_saved_pct": 0,
+  "phaseDurations": {
+    "scan": 2426,
+    "estimate": 140,
+    "triage": 4,
+    "rag-index": 852582,
+    "review": 81113,
+    "refinement": 74165
+  },
+  "axisStats": {
+    "utility": {
+      "calls": 3,
+      "totalDurationMs": 0,
+      "totalCostUsd": 0,
+      "totalInputTokens": 0,
+      "totalOutputTokens": 0,
+      "totalCacheReadTokens": 0,
+      "totalCacheCreationTokens": 0
+    },
+    "duplication": {
+      "calls": 3,
+      "totalDurationMs": 28225,
+      "totalCostUsd": 0.03077295,
+      "totalInputTokens": 10,
+      "totalOutputTokens": 4523,
+      "totalCacheReadTokens": 16042,
+      "totalCacheCreationTokens": 5235
+    },
+    "correction": {
+      "calls": 3,
+      "totalDurationMs": 151339,
+      "totalCostUsd": 0.5723715,
+      "totalInputTokens": 9,
+      "totalOutputTokens": 11493,
+      "totalCacheReadTokens": 19553,
+      "totalCacheCreationTokens": 44036
+    }
+  },
+  "phaseStats": {
+    "rag-index": {
+      "calls": 1,
+      "totalDurationMs": 852582,
+      "totalCostUsd": 4.739393299999998,
+      "totalInputTokens": 0,
+      "totalOutputTokens": 0,
+      "totalCacheReadTokens": 0,
+      "totalCacheCreationTokens": 0
+    },
+    "review": {
+      "calls": 9,
+      "totalDurationMs": 179564,
+      "totalCostUsd": 0.60314445,
+      "totalInputTokens": 19,
+      "totalOutputTokens": 16016,
+      "totalCacheReadTokens": 35595,
+      "totalCacheCreationTokens": 49271
+    },
+    "refinement": {
+      "calls": 1,
+      "totalDurationMs": 74165,
+      "totalCostUsd": 0.5928344999999999,
+      "totalInputTokens": 3109,
+      "totalOutputTokens": 3202,
+      "totalCacheReadTokens": 223048,
+      "totalCacheCreationTokens": 61630
+    }
+  },
+  "timeline": [
+    {
+      "event": "phase_start",
+      "phase": "scan",
+      "t": 2701
+    },
+    {
+      "event": "phase_end",
+      "phase": "scan",
+      "durationMs": 2426,
+      "t": 5127
+    },
+    {
+      "event": "phase_start",
+      "phase": "estimate",
+      "t": 5132
+    },
+    {
+      "event": "phase_end",
+      "phase": "estimate",
+      "durationMs": 140,
+      "t": 5272
+    },
+    {
+      "event": "phase_start",
+      "phase": "triage",
+      "t": 5272
+    },
+    {
+      "event": "phase_end",
+      "phase": "triage",
+      "durationMs": 4,
+      "t": 5276
+    },
+    {
+      "event": "phase_start",
+      "phase": "rag-index",
+      "t": 6234
+    },
+    {
+      "event": "phase_end",
+      "phase": "rag-index",
+      "durationMs": 852582,
+      "t": 858816
+    },
+    {
+      "event": "phase_start",
+      "phase": "review",
+      "t": 858817
+    },
+    {
+      "t": 858844,
+      "event": "file_review_start",
+      "file": "pkg/retry/backoff.go"
+    },
+    {
+      "t": 858846,
+      "event": "file_review_start",
+      "file": "pkg/retry/doc.go"
+    },
+    {
+      "t": 858846,
+      "event": "file_review_start",
+      "file": "pkg/retry/retryer.go"
+    },
+    {
+      "t": 869316,
+      "event": "file_review_end",
+      "file": "pkg/retry/doc.go",
+      "verdict": "CLEAN",
+      "durationMs": 4975
+    },
+    {
+      "t": 934303,
+      "event": "file_review_end",
+      "file": "pkg/retry/retryer.go",
+      "verdict": "NEEDS_REFACTOR",
+      "durationMs": 73567
+    },
+    {
+      "t": 939928,
+      "event": "file_review_end",
+      "file": "pkg/retry/backoff.go",
+      "verdict": "NEEDS_REFACTOR",
+      "durationMs": 79365
+    },
+    {
+      "event": "phase_end",
+      "phase": "review",
+      "durationMs": 81113,
+      "t": 939930
+    },
+    {
+      "event": "phase_start",
+      "phase": "refinement",
+      "t": 939930
+    },
+    {
+      "event": "phase_end",
+      "phase": "refinement",
+      "durationMs": 74165,
+      "t": 1014095
+    },
+    {
+      "event": "phase_start",
+      "phase": "report",
+      "t": 1014096
+    }
+  ],
+  "conversations": {
+    "total": 9,
+    "byPhase": {
+      "review": 9
+    },
+    "byModel": {
+      "anthropic/claude-haiku-4-5-20251001": 6,
+      "anthropic/claude-sonnet-4-6": 3
+    },
+    "totalInputTokens": 19,
+    "totalOutputTokens": 16016,
+    "totalCostUsd": 0.60314445
+  }
+}

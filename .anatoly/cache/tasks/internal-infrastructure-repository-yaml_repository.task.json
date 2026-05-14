@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/repository/yaml_repository.go",
+  "hash": "967fd56ee3449df1738d5b43e68b3fc849cdbb44ff942021e73c68740d58593c",
+  "symbols": [
+    {
+      "name": "YAMLRepository",
+      "kind": "class",
+      "exported": true,
+      "line_start": 19,
+      "line_end": 21
+    },
+    {
+      "name": "NewYAMLRepository",
+      "kind": "function",
+      "exported": true,
+      "line_start": 23,
+      "line_end": 25
+    },
+    {
+      "name": "Load",
+      "kind": "method",
+      "exported": true,
+      "line_start": 28,
+      "line_end": 106
+    },
+    {
+      "name": "List",
+      "kind": "method",
+      "exported": true,
+      "line_start": 109,
+      "line_end": 123
+    },
+    {
+      "name": "Exists",
+      "kind": "method",
+      "exported": true,
+      "line_start": 126,
+      "line_end": 136
+    },
+    {
+      "name": "resolvePath",
+      "kind": "method",
+      "exported": false,
+      "line_start": 139,
+      "line_end": 144
+    },
+    {
+      "name": "parseStates",
+      "kind": "method",
+      "exported": false,
+      "line_start": 154,
+      "line_end": 202
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "errors",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "path/filepath",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "gopkg.in/yaml.v3",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/errors",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/expression",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

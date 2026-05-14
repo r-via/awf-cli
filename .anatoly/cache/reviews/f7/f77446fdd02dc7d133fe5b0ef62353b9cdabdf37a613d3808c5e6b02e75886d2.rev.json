@@ -1,0 +1,218 @@
+{
+  "_meta": {
+    "schema": 1,
+    "prompt_hash": "sha256:3d1ccf9113d69463bda8b3e485dde993b0b6b05e9d9ca257a9d244fe6622311a",
+    "model_id": "anthropic/claude-haiku-4-5-20251001+anthropic/claude-haiku-4-5-20251001+anthropic/claude-sonnet-4-6",
+    "created_at": "2026-05-14T11:29:34.616Z",
+    "anatoly_version": "unknown"
+  },
+  "data": {
+    "version": 2,
+    "file": "pkg/retry/retryer.go",
+    "is_generated": false,
+    "language": "go",
+    "parse_method": "ast",
+    "verdict": "NEEDS_REFACTOR",
+    "symbols": [
+      {
+        "name": "Config",
+        "kind": "class",
+        "exported": true,
+        "line_start": 11,
+        "line_end": 19,
+        "correction": "OK",
+        "overengineering": "-",
+        "utility": "DEAD",
+        "duplication": "UNIQUE",
+        "tests": "NONE",
+        "documentation": "UNDOCUMENTED",
+        "confidence": 95,
+        "detail": "[DEAD] Exported but imported by 0 files | [UNIQUE] No similar types found in RAG search | [OK] Struct definition; no logic to evaluate.",
+        "findings": []
+      },
+      {
+        "name": "Logger",
+        "kind": "type",
+        "exported": true,
+        "line_start": 22,
+        "line_end": 25,
+        "correction": "OK",
+        "overengineering": "-",
+        "utility": "DEAD",
+        "duplication": "UNIQUE",
+        "tests": "NONE",
+        "documentation": "UNDOCUMENTED",
+        "confidence": 95,
+        "detail": "[DEAD] Exported but imported by 0 files | [UNIQUE] No similar interfaces in RAG search | [OK] Interface definition; no correctness issues.",
+        "findings": []
+      },
+      {
+        "name": "Retryer",
+        "kind": "class",
+        "exported": true,
+        "line_start": 28,
+        "line_end": 32,
+        "correction": "NEEDS_FIX",
+        "overengineering": "-",
+        "utility": "DEAD",
+        "duplication": "UNIQUE",
+        "tests": "NONE",
+        "documentation": "UNDOCUMENTED",
+        "confidence": 70,
+        "detail": "[DEAD] Exported but imported by 0 files | [UNIQUE] No similar struct types found | [NEEDS_FIX] rng *rand.Rand is not safe for concurrent use; no mutex protects it.",
+        "findings": [
+          {
+            "axis": "correction",
+            "line_start": 31,
+            "line_end": 31,
+            "detail": "math/rand.Rand is explicitly documented as not safe for concurrent use. If the same Retryer handles concurrent retry loops (a common pattern), simultaneous calls to NextDelay/Wait race on rng. Fix: add a sync.Mutex field to Retryer and lock around rng access, or replace rng with a sync-safe source."
+          }
+        ]
+      },
+      {
+        "name": "NewRetryer",
+        "kind": "function",
+        "exported": true,
+        "line_start": 35,
+        "line_end": 41,
+        "correction": "OK",
+        "overengineering": "-",
+        "utility": "DEAD",
+        "duplication": "UNIQUE",
+        "tests": "NONE",
+        "documentation": "UNDOCUMENTED",
+        "confidence": 90,
+        "detail": "[DEAD] Exported but imported by 0 files | [UNIQUE] No similar constructors in RAG search | [OK] Initialization is correct; race condition ownership belongs to the struct definition.",
+        "findings": []
+      },
+      {
+        "name": "ShouldRetry",
+        "kind": "method",
+        "exported": true,
+        "line_start": 44,
+        "line_end": 54,
+        "correction": "OK",
+        "overengineering": "-",
+        "utility": "DEAD",
+        "duplication": "UNIQUE",
+        "tests": "NONE",
+        "documentation": "UNDOCUMENTED",
+        "confidence": 85,
+        "detail": "[DEAD] Exported but imported by 0 files | [UNIQUE] Score 0.722 with IsRetryableExitCode. Different contract: ShouldRetry checks attempt limit and delegates; IsRetryableExitCode validates code membership. Non-interchangeable despite structural similarity. | [OK] Logic is correct assuming callers pass 1-indexed attempt counts consistent with MaxAttempts semantics (MaxAttempts=1 → no retry when attempt=1).",
+        "findings": []
+      },
+      {
+        "name": "NextDelay",
+        "kind": "method",
+        "exported": true,
+        "line_start": 57,
+        "line_end": 67,
+        "correction": "OK",
+        "overengineering": "-",
+        "utility": "DEAD",
+        "duplication": "UNIQUE",
+        "tests": "NONE",
+        "documentation": "UNDOCUMENTED",
+        "confidence": 85,
+        "detail": "[DEAD] Exported but imported by 0 files | [UNIQUE] No similar delay calculation functions | [OK] Correctly delegates to CalculateDelay and ApplyJitter; no visible logic errors in the delegation chain.",
+        "findings": []
+      },
+      {
+        "name": "Wait",
+        "kind": "method",
+        "exported": true,
+        "line_start": 70,
+        "line_end": 90,
+        "correction": "OK",
+        "overengineering": "-",
+        "utility": "DEAD",
+        "duplication": "UNIQUE",
+        "tests": "NONE",
+        "documentation": "UNDOCUMENTED",
+        "confidence": 95,
+        "detail": "[DEAD] Exported but imported by 0 files | [UNIQUE] No similar context-aware wait functions | [OK] Context cancellation and timer teardown via defer timer.Stop() are handled correctly.",
+        "findings": []
+      },
+      {
+        "name": "IsRetryableExitCode",
+        "kind": "method",
+        "exported": true,
+        "line_start": 93,
+        "line_end": 109,
+        "correction": "OK",
+        "overengineering": "-",
+        "utility": "DEAD",
+        "duplication": "UNIQUE",
+        "tests": "NONE",
+        "documentation": "UNDOCUMENTED",
+        "confidence": 82,
+        "detail": "[DEAD] Exported but imported by 0 files | [UNIQUE] Score 0.722 vs ShouldRetry, 0.721 vs isRetryableStatus. Semantically distinct: validates exit code membership in configured list; different contexts prevent interchangeability. | [OK] Correctly short-circuits on zero, allows any non-zero when allowlist is empty, and performs linear scan of explicit allowlist.",
+        "findings": []
+      }
+    ],
+    "actions": [
+      {
+        "id": 1,
+        "description": "Guard rng with a sync.Mutex in Retryer (or switch to a locked rand source) to prevent data races when Wait/NextDelay are called concurrently on the same instance.",
+        "severity": "medium",
+        "effort": "small",
+        "category": "quickwin",
+        "target_symbol": null,
+        "target_lines": "L31",
+        "source": "correction"
+      },
+      {
+        "id": 2,
+        "description": "Remove dead code: `Config` is exported but unused `Config`, `Logger`, `NewRetryer`, `ShouldRetry`, `NextDelay`, `Wait`, `IsRetryableExitCode`",
+        "severity": "high",
+        "effort": "trivial",
+        "category": "quickwin",
+        "source": "utility",
+        "target_symbol": "Config, Logger, NewRetryer, ShouldRetry, NextDelay, Wait, IsRetryableExitCode",
+        "target_lines": "L11-L19, L22-L25, L35-L41, L44-L54, L57-L67, L70-L90, L93-L109"
+      },
+      {
+        "id": 3,
+        "description": "Add Go doc comment documentation for exported symbol:  `Config`, `Logger`, `Retryer`, `NewRetryer`, `ShouldRetry`, `NextDelay`, `Wait`, `IsRetryableExitCode`",
+        "severity": "medium",
+        "effort": "trivial",
+        "category": "hygiene",
+        "source": "documentation",
+        "target_symbol": "Config, Logger, Retryer, NewRetryer, ShouldRetry, NextDelay, Wait, IsRetryableExitCode",
+        "target_lines": "L11-L19, L22-L25, L28-L32, L35-L41, L44-L54, L57-L67, L70-L90, L93-L109"
+      },
+      {
+        "id": 4,
+        "description": "Remove dead code: `Retryer` is exported but unused",
+        "severity": "medium",
+        "effort": "trivial",
+        "category": "refactor",
+        "source": "utility",
+        "target_symbol": "Retryer",
+        "target_lines": "L28-L32"
+      }
+    ],
+    "file_level": {
+      "unused_imports": [],
+      "circular_dependencies": [],
+      "general_notes": ""
+    },
+    "axis_meta": {
+      "utility": {
+        "model": "unknown",
+        "cost_usd": 0,
+        "duration_ms": 0
+      },
+      "duplication": {
+        "model": "claude-haiku-4-5-20251001",
+        "cost_usd": 0.03077295,
+        "duration_ms": 28225
+      },
+      "correction": {
+        "model": "claude-sonnet-4-6",
+        "cost_usd": 0.276915,
+        "duration_ms": 71387
+      }
+    }
+  }
+}

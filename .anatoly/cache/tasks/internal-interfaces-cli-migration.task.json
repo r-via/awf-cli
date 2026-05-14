@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/cli/migration.go",
+  "hash": "0a47325575cae518e8457e5767e508bf569cf5280ce33b5ab9efa9ab54320ef9",
+  "symbols": [
+    {
+      "name": "CheckMigration",
+      "kind": "function",
+      "exported": true,
+      "line_start": 17,
+      "line_end": 42
+    }
+  ],
+  "imports": [
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "io",
+      "type": "import"
+    },
+    {
+      "source": "sync",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/xdg",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

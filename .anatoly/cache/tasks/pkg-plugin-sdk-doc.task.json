@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "file": "pkg/plugin/sdk/doc.go",
+  "hash": "6d1ff4fbec46c1ac466559534b40cdb4201ac336d0f1fc87058e4b5d41129a70",
+  "symbols": [],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

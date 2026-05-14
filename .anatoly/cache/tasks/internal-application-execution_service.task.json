@@ -1,0 +1,640 @@
+{
+  "version": 1,
+  "file": "internal/application/execution_service.go",
+  "hash": "c42159c7c742c9388622cd8f4649784f454528d13214ac927b44d1fa8f4d0297",
+  "symbols": [
+    {
+      "name": "PackWorkflowLoader",
+      "kind": "type",
+      "exported": true,
+      "line_start": 28,
+      "line_end": 28
+    },
+    {
+      "name": "ConversationExecutor",
+      "kind": "type",
+      "exported": true,
+      "line_start": 32,
+      "line_end": 41
+    },
+    {
+      "name": "ExecutionService",
+      "kind": "class",
+      "exported": true,
+      "line_start": 44,
+      "line_end": 69
+    },
+    {
+      "name": "SetOutputWriters",
+      "kind": "method",
+      "exported": true,
+      "line_start": 72,
+      "line_end": 75
+    },
+    {
+      "name": "SetTemplateService",
+      "kind": "method",
+      "exported": true,
+      "line_start": 78,
+      "line_end": 80
+    },
+    {
+      "name": "SetOperationProvider",
+      "kind": "method",
+      "exported": true,
+      "line_start": 84,
+      "line_end": 86
+    },
+    {
+      "name": "SetAgentRegistry",
+      "kind": "method",
+      "exported": true,
+      "line_start": 90,
+      "line_end": 92
+    },
+    {
+      "name": "SetEventPublisher",
+      "kind": "method",
+      "exported": true,
+      "line_start": 95,
+      "line_end": 97
+    },
+    {
+      "name": "SetEvaluator",
+      "kind": "method",
+      "exported": true,
+      "line_start": 101,
+      "line_end": 103
+    },
+    {
+      "name": "SetConversationManager",
+      "kind": "method",
+      "exported": true,
+      "line_start": 108,
+      "line_end": 110
+    },
+    {
+      "name": "SetAWFPaths",
+      "kind": "method",
+      "exported": true,
+      "line_start": 114,
+      "line_end": 116
+    },
+    {
+      "name": "SetAuditTrailWriter",
+      "kind": "method",
+      "exported": true,
+      "line_start": 120,
+      "line_end": 122
+    },
+    {
+      "name": "SetPluginService",
+      "kind": "method",
+      "exported": true,
+      "line_start": 127,
+      "line_end": 129
+    },
+    {
+      "name": "SetStepTypeProvider",
+      "kind": "method",
+      "exported": true,
+      "line_start": 134,
+      "line_end": 136
+    },
+    {
+      "name": "SetPackWorkflowLoader",
+      "kind": "method",
+      "exported": true,
+      "line_start": 141,
+      "line_end": 143
+    },
+    {
+      "name": "SetTracer",
+      "kind": "method",
+      "exported": true,
+      "line_start": 145,
+      "line_end": 147
+    },
+    {
+      "name": "startSpan",
+      "kind": "method",
+      "exported": false,
+      "line_start": 149,
+      "line_end": 155
+    },
+    {
+      "name": "resolveAuditUser",
+      "kind": "method",
+      "exported": false,
+      "line_start": 157,
+      "line_end": 165
+    },
+    {
+      "name": "isSecretInputKey",
+      "kind": "function",
+      "exported": false,
+      "line_start": 172,
+      "line_end": 180
+    },
+    {
+      "name": "emitAuditStarted",
+      "kind": "method",
+      "exported": false,
+      "line_start": 182,
+      "line_end": 207
+    },
+    {
+      "name": "emitAuditCompleted",
+      "kind": "method",
+      "exported": false,
+      "line_start": 209,
+      "line_end": 231
+    },
+    {
+      "name": "emitEvent",
+      "kind": "method",
+      "exported": false,
+      "line_start": 233,
+      "line_end": 253
+    },
+    {
+      "name": "emitWorkflowTerminalEvent",
+      "kind": "method",
+      "exported": false,
+      "line_start": 255,
+      "line_end": 269
+    },
+    {
+      "name": "NewExecutionService",
+      "kind": "function",
+      "exported": true,
+      "line_start": 272,
+      "line_end": 293
+    },
+    {
+      "name": "NewExecutionServiceWithEvaluator",
+      "kind": "function",
+      "exported": true,
+      "line_start": 296,
+      "line_end": 319
+    },
+    {
+      "name": "Run",
+      "kind": "method",
+      "exported": true,
+      "line_start": 322,
+      "line_end": 328
+    },
+    {
+      "name": "RunWithWorkflow",
+      "kind": "method",
+      "exported": true,
+      "line_start": 332,
+      "line_end": 338
+    },
+    {
+      "name": "RunWorkflowAsync",
+      "kind": "method",
+      "exported": true,
+      "line_start": 343,
+      "line_end": 363
+    },
+    {
+      "name": "prepareExecution",
+      "kind": "method",
+      "exported": false,
+      "line_start": 368,
+      "line_end": 426
+    },
+    {
+      "name": "runExecutionLoop",
+      "kind": "method",
+      "exported": false,
+      "line_start": 431,
+      "line_end": 560
+    },
+    {
+      "name": "runWithCallStack",
+      "kind": "method",
+      "exported": false,
+      "line_start": 564,
+      "line_end": 571
+    },
+    {
+      "name": "runWithCallStackAndWorkflow",
+      "kind": "method",
+      "exported": false,
+      "line_start": 575,
+      "line_end": 597
+    },
+    {
+      "name": "executeStep",
+      "kind": "method",
+      "exported": false,
+      "line_start": 600,
+      "line_end": 644
+    },
+    {
+      "name": "resolveNextStep",
+      "kind": "method",
+      "exported": false,
+      "line_start": 649,
+      "line_end": 655
+    },
+    {
+      "name": "checkpoint",
+      "kind": "method",
+      "exported": false,
+      "line_start": 659,
+      "line_end": 663
+    },
+    {
+      "name": "recordHistory",
+      "kind": "method",
+      "exported": false,
+      "line_start": 667,
+      "line_end": 721
+    },
+    {
+      "name": "recordExecutionEnd",
+      "kind": "method",
+      "exported": false,
+      "line_start": 723,
+      "line_end": 726
+    },
+    {
+      "name": "buildLoopDataChain",
+      "kind": "function",
+      "exported": false,
+      "line_start": 731,
+      "line_end": 743
+    },
+    {
+      "name": "buildInterpolationContext",
+      "kind": "method",
+      "exported": false,
+      "line_start": 747,
+      "line_end": 751
+    },
+    {
+      "name": "executeWithRetry",
+      "kind": "method",
+      "exported": false,
+      "line_start": 755,
+      "line_end": 832
+    },
+    {
+      "name": "retryLoggerAdapter",
+      "kind": "class",
+      "exported": false,
+      "line_start": 835,
+      "line_end": 837
+    },
+    {
+      "name": "Debug",
+      "kind": "method",
+      "exported": true,
+      "line_start": 839,
+      "line_end": 841
+    },
+    {
+      "name": "Info",
+      "kind": "method",
+      "exported": true,
+      "line_start": 843,
+      "line_end": 845
+    },
+    {
+      "name": "executeParallelStep",
+      "kind": "method",
+      "exported": false,
+      "line_start": 848,
+      "line_end": 960
+    },
+    {
+      "name": "executeLoopStep",
+      "kind": "method",
+      "exported": false,
+      "line_start": 965,
+      "line_end": 1123
+    },
+    {
+      "name": "detectLoopPatterns",
+      "kind": "method",
+      "exported": false,
+      "line_start": 1128,
+      "line_end": 1165
+    },
+    {
+      "name": "isComplexStepType",
+      "kind": "function",
+      "exported": false,
+      "line_start": 1169,
+      "line_end": 1179
+    },
+    {
+      "name": "shouldCheckLoopProblems",
+      "kind": "method",
+      "exported": false,
+      "line_start": 1183,
+      "line_end": 1195
+    },
+    {
+      "name": "buildLoopFailureError",
+      "kind": "method",
+      "exported": false,
+      "line_start": 1199,
+      "line_end": 1207
+    },
+    {
+      "name": "executeLoopPostHooks",
+      "kind": "method",
+      "exported": false,
+      "line_start": 1211,
+      "line_end": 1220
+    },
+    {
+      "name": "prepareStepExecution",
+      "kind": "method",
+      "exported": false,
+      "line_start": 1226,
+      "line_end": 1246
+    },
+    {
+      "name": "resolveStepCommand",
+      "kind": "method",
+      "exported": false,
+      "line_start": 1251,
+      "line_end": 1302
+    },
+    {
+      "name": "executeStepCommand",
+      "kind": "method",
+      "exported": false,
+      "line_start": 1306,
+      "line_end": 1328
+    },
+    {
+      "name": "recordStepResult",
+      "kind": "method",
+      "exported": false,
+      "line_start": 1332,
+      "line_end": 1367
+    },
+    {
+      "name": "handleExecutionError",
+      "kind": "method",
+      "exported": false,
+      "line_start": 1372,
+      "line_end": 1415
+    },
+    {
+      "name": "handleNonZeroExit",
+      "kind": "method",
+      "exported": false,
+      "line_start": 1420,
+      "line_end": 1455
+    },
+    {
+      "name": "handleSuccess",
+      "kind": "method",
+      "exported": false,
+      "line_start": 1460,
+      "line_end": 1477
+    },
+    {
+      "name": "IsProblematicMaxIterationPattern",
+      "kind": "method",
+      "exported": true,
+      "line_start": 1481,
+      "line_end": 1495
+    },
+    {
+      "name": "HandleMaxIterationFailure",
+      "kind": "method",
+      "exported": true,
+      "line_start": 1500,
+      "line_end": 1541
+    },
+    {
+      "name": "stepExecutorAdapter",
+      "kind": "class",
+      "exported": false,
+      "line_start": 1544,
+      "line_end": 1546
+    },
+    {
+      "name": "ExecuteStep",
+      "kind": "method",
+      "exported": true,
+      "line_start": 1549,
+      "line_end": 1602
+    },
+    {
+      "name": "validateInputs",
+      "kind": "method",
+      "exported": false,
+      "line_start": 1605,
+      "line_end": 1625
+    },
+    {
+      "name": "Resume",
+      "kind": "method",
+      "exported": true,
+      "line_start": 1631,
+      "line_end": 1702
+    },
+    {
+      "name": "resolveFromStep",
+      "kind": "method",
+      "exported": false,
+      "line_start": 1706,
+      "line_end": 1747
+    },
+    {
+      "name": "cleanupStatesAfter",
+      "kind": "method",
+      "exported": false,
+      "line_start": 1751,
+      "line_end": 1766
+    },
+    {
+      "name": "ListResumable",
+      "kind": "method",
+      "exported": true,
+      "line_start": 1770,
+      "line_end": 1788
+    },
+    {
+      "name": "executeFromStep",
+      "kind": "method",
+      "exported": false,
+      "line_start": 1795,
+      "line_end": 1933
+    },
+    {
+      "name": "executeCustomStepType",
+      "kind": "method",
+      "exported": false,
+      "line_start": 1938,
+      "line_end": 2044
+    },
+    {
+      "name": "executePluginOperation",
+      "kind": "method",
+      "exported": false,
+      "line_start": 2054,
+      "line_end": 2206
+    },
+    {
+      "name": "executeAgentStep",
+      "kind": "method",
+      "exported": false,
+      "line_start": 2216,
+      "line_end": 2448
+    },
+    {
+      "name": "executeResumableAgentCall",
+      "kind": "method",
+      "exported": false,
+      "line_start": 2457,
+      "line_end": 2480
+    },
+    {
+      "name": "buildResumableState",
+      "kind": "method",
+      "exported": false,
+      "line_start": 2485,
+      "line_end": 2518
+    },
+    {
+      "name": "executeConversationStep",
+      "kind": "method",
+      "exported": false,
+      "line_start": 2535,
+      "line_end": 2610
+    },
+    {
+      "name": "cloneAndInjectOutputFormat",
+      "kind": "function",
+      "exported": false,
+      "line_start": 2617,
+      "line_end": 2630
+    },
+    {
+      "name": "resolveOperationInputs",
+      "kind": "method",
+      "exported": false,
+      "line_start": 2633,
+      "line_end": 2650
+    },
+    {
+      "name": "resolveOperationValue",
+      "kind": "method",
+      "exported": false,
+      "line_start": 2653,
+      "line_end": 2681
+    },
+    {
+      "name": "serializeOperationOutputs",
+      "kind": "method",
+      "exported": false,
+      "line_start": 2684,
+      "line_end": 2699
+    },
+    {
+      "name": "classifyErrorType",
+      "kind": "function",
+      "exported": false,
+      "line_start": 2703,
+      "line_end": 2733
+    },
+    {
+      "name": "applyOutputFormat",
+      "kind": "method",
+      "exported": false,
+      "line_start": 2737,
+      "line_end": 2753
+    },
+    {
+      "name": "interpolateTerminalMessage",
+      "kind": "method",
+      "exported": false,
+      "line_start": 2758,
+      "line_end": 2760
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "errors",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "io",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "os/user",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/errors",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/pluginmodel",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/pkg/interpolation",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/pkg/output",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/pkg/retry",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/pkg/validation",
+      "type": "import"
+    },
+    {
+      "source": "github.com/google/uuid",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

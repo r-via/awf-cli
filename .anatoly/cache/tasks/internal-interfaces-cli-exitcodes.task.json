@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/cli/exitcodes.go",
+  "hash": "4e4b6f7a3c177e0621a27ccac0a6e90f6fef9b285c4de4f034d19f24c08b323d",
+  "symbols": [
+    {
+      "name": "ExitSuccess",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 5,
+      "line_end": 5
+    },
+    {
+      "name": "ExitUser",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 6,
+      "line_end": 6
+    },
+    {
+      "name": "ExitWorkflow",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 7,
+      "line_end": 7
+    },
+    {
+      "name": "ExitExecution",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 8,
+      "line_end": 8
+    },
+    {
+      "name": "ExitSystem",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 9,
+      "line_end": 9
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

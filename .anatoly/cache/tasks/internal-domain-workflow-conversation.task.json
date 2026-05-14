@@ -1,0 +1,209 @@
+{
+  "version": 1,
+  "file": "internal/domain/workflow/conversation.go",
+  "hash": "803a27fdcd2e93ace93c8976196673ad83001201ade16765840a68de2a06f7ea",
+  "symbols": [
+    {
+      "name": "ExpressionCompiler",
+      "kind": "type",
+      "exported": true,
+      "line_start": 12,
+      "line_end": 12
+    },
+    {
+      "name": "StepTypeChecker",
+      "kind": "type",
+      "exported": true,
+      "line_start": 17,
+      "line_end": 17
+    },
+    {
+      "name": "TurnRole",
+      "kind": "type",
+      "exported": true,
+      "line_start": 25,
+      "line_end": 25
+    },
+    {
+      "name": "TurnRoleSystem",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 28,
+      "line_end": 28
+    },
+    {
+      "name": "TurnRoleUser",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 29,
+      "line_end": 29
+    },
+    {
+      "name": "TurnRoleAssistant",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 30,
+      "line_end": 30
+    },
+    {
+      "name": "Turn",
+      "kind": "class",
+      "exported": true,
+      "line_start": 34,
+      "line_end": 38
+    },
+    {
+      "name": "NewTurn",
+      "kind": "function",
+      "exported": true,
+      "line_start": 41,
+      "line_end": 46
+    },
+    {
+      "name": "Validate",
+      "kind": "method",
+      "exported": true,
+      "line_start": 49,
+      "line_end": 63
+    },
+    {
+      "name": "ConversationConfig",
+      "kind": "class",
+      "exported": true,
+      "line_start": 66,
+      "line_end": 68
+    },
+    {
+      "name": "Validate",
+      "kind": "method",
+      "exported": true,
+      "line_start": 71,
+      "line_end": 73
+    },
+    {
+      "name": "StopReason",
+      "kind": "type",
+      "exported": true,
+      "line_start": 76,
+      "line_end": 76
+    },
+    {
+      "name": "StopReasonUserExit",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 79,
+      "line_end": 79
+    },
+    {
+      "name": "StopReasonError",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 80,
+      "line_end": 80
+    },
+    {
+      "name": "ConversationState",
+      "kind": "class",
+      "exported": true,
+      "line_start": 84,
+      "line_end": 90
+    },
+    {
+      "name": "NewConversationState",
+      "kind": "function",
+      "exported": true,
+      "line_start": 93,
+      "line_end": 110
+    },
+    {
+      "name": "AddTurn",
+      "kind": "method",
+      "exported": true,
+      "line_start": 114,
+      "line_end": 122
+    },
+    {
+      "name": "GetTotalTokens",
+      "kind": "method",
+      "exported": true,
+      "line_start": 125,
+      "line_end": 127
+    },
+    {
+      "name": "GetLastTurn",
+      "kind": "method",
+      "exported": true,
+      "line_start": 130,
+      "line_end": 135
+    },
+    {
+      "name": "GetLastAssistantResponse",
+      "kind": "method",
+      "exported": true,
+      "line_start": 138,
+      "line_end": 146
+    },
+    {
+      "name": "IsStopped",
+      "kind": "method",
+      "exported": true,
+      "line_start": 149,
+      "line_end": 151
+    },
+    {
+      "name": "ConversationResult",
+      "kind": "class",
+      "exported": true,
+      "line_start": 154,
+      "line_end": 167
+    },
+    {
+      "name": "NewConversationResult",
+      "kind": "function",
+      "exported": true,
+      "line_start": 170,
+      "line_end": 184
+    },
+    {
+      "name": "Duration",
+      "kind": "method",
+      "exported": true,
+      "line_start": 187,
+      "line_end": 192
+    },
+    {
+      "name": "Success",
+      "kind": "method",
+      "exported": true,
+      "line_start": 195,
+      "line_end": 197
+    },
+    {
+      "name": "HasJSONResponse",
+      "kind": "method",
+      "exported": true,
+      "line_start": 200,
+      "line_end": 202
+    },
+    {
+      "name": "TurnCount",
+      "kind": "method",
+      "exported": true,
+      "line_start": 205,
+      "line_end": 210
+    }
+  ],
+  "imports": [
+    {
+      "source": "errors",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

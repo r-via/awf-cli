@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/cli/diagram.go",
+  "hash": "f23a6eb4fd783581613e69a3f072085ef0c64ad8f167062e75725aa747d94c23",
+  "symbols": [
+    {
+      "name": "diagramOptions",
+      "kind": "class",
+      "exported": false,
+      "line_start": 16,
+      "line_end": 20
+    },
+    {
+      "name": "newDiagramCommand",
+      "kind": "function",
+      "exported": false,
+      "line_start": 24,
+      "line_end": 63
+    },
+    {
+      "name": "runDiagram",
+      "kind": "function",
+      "exported": false,
+      "line_start": 67,
+      "line_end": 127
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "path/filepath",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/diagram",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/interfaces/cli/ui",
+      "type": "import"
+    },
+    {
+      "source": "github.com/spf13/cobra",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

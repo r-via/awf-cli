@@ -1,0 +1,1587 @@
+{
+  "version": 1,
+  "started_at": "2026-05-14T10:41:40.996Z",
+  "files": {
+    "cmd/awf/main.go": {
+      "file": "cmd/awf/main.go",
+      "hash": "fa9eeb561b25c95ec63d3185cfd6da0b25b5dd4ae86480ea756cb5efa11b0725",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/application/conversation_manager.go": {
+      "file": "internal/application/conversation_manager.go",
+      "hash": "72e5007e46f78ddb83f0f089ea47ac8ed618d358a9057109de8224604ca19858",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/application/doc.go": {
+      "file": "internal/application/doc.go",
+      "hash": "ce9d27cab7a1b21dddadfab55251856710b48c84e98862afdebb2f878d6fd7dc",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/application/dry_run_executor.go": {
+      "file": "internal/application/dry_run_executor.go",
+      "hash": "5d11253f3fb73b3ce5ad88bd850f9d9f90752530faa7a54fdf396e455c07ac4d",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/application/execution_service.go": {
+      "file": "internal/application/execution_service.go",
+      "hash": "c42159c7c742c9388622cd8f4649784f454528d13214ac927b44d1fa8f4d0297",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/application/execution_setup.go": {
+      "file": "internal/application/execution_setup.go",
+      "hash": "0358f9f8456389a5fe2d23784034ccb1f5e621d0061fc1c20045abe9c1a76077",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/application/external_file.go": {
+      "file": "internal/application/external_file.go",
+      "hash": "98b8b3de8cf226d8ab6bbf9415cf13e337362296a3b8c10e9f78a88ef9986db6",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/application/history_service.go": {
+      "file": "internal/application/history_service.go",
+      "hash": "5fea4382947441ebd4222834122c2bac76059e1f91869b97d0208926ba9c1bbb",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/application/hook_executor.go": {
+      "file": "internal/application/hook_executor.go",
+      "hash": "40eaf964209fabb7ddbe2b87c7b390c0d33ba918ef381831ca5735b651a61ae1",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/application/input_collection_service.go": {
+      "file": "internal/application/input_collection_service.go",
+      "hash": "77616de2a67d35abeac50d5d318e8df9114d15ad5c4577aa8a10bdb9df075c7d",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/application/interactive_executor.go": {
+      "file": "internal/application/interactive_executor.go",
+      "hash": "c6d35bc2fc797ca4cda4ce43dbdaf022dca1913bd91c4091ad0df150e63638ca",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/application/interpolation_helpers.go": {
+      "file": "internal/application/interpolation_helpers.go",
+      "hash": "20738a35fd9cad647ded7bfaa2a0a0851bbdd7fc0bdf8383a7f367ded4c76ea6",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/application/loop_executor.go": {
+      "file": "internal/application/loop_executor.go",
+      "hash": "07670eac33e73060ad0508cda019e7cbf9d5b4c5a92cfe5ccadae486c37a0684",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/application/output_limiter.go": {
+      "file": "internal/application/output_limiter.go",
+      "hash": "f4d65c51d7f1e7cf08c840f583959933c061ff2563097c9bb4d6e3b6894c0f96",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/application/output_streamer.go": {
+      "file": "internal/application/output_streamer.go",
+      "hash": "9c59a748b5235ed5caa857a7212d9a90600592b41f29197f94c1724c317d8aef",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/application/parallel_executor.go": {
+      "file": "internal/application/parallel_executor.go",
+      "hash": "a783138e86f075bb60c534c12a02609d23bf704deb55e6e52bac906b3d4421f9",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/application/plugin_service.go": {
+      "file": "internal/application/plugin_service.go",
+      "hash": "a6f48587b923db96a88affbd66196475bf84cd47bc7c5a47ed52fcfa7da74fa2",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/application/prompt_file.go": {
+      "file": "internal/application/prompt_file.go",
+      "hash": "cb9f7489fbb72460a96d1f05f101a84af313f9760bd1662bd746439cadb83263",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/application/script_file.go": {
+      "file": "internal/application/script_file.go",
+      "hash": "5a5a570ce98eacb878001e9327e5f90989b78378a6f2fa74386069db2d409d28",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/application/service.go": {
+      "file": "internal/application/service.go",
+      "hash": "7a72cb70fd5209d36e90fc4abaf68cc39f4774ae365267a2b7745b2502a5ec16",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/application/single_step.go": {
+      "file": "internal/application/single_step.go",
+      "hash": "a792c89e206e715df540456bdae32af80468443020405839ae971b70668aa9fd",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/application/subworkflow_executor.go": {
+      "file": "internal/application/subworkflow_executor.go",
+      "hash": "cee98d9b0806f0e5325aacb628e516955d42db38ecd89ad627e13e806349b3d0",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/application/template_service.go": {
+      "file": "internal/application/template_service.go",
+      "hash": "33196a840f823dc5f37516cddc859f190aeb5ef87b5c3db73fe4a1209399b2d5",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/application/transition_resolver.go": {
+      "file": "internal/application/transition_resolver.go",
+      "hash": "eb6faf555d12183c11ca40de9cb7ed0ab08ad967ddcacc2668c2c36d6fd0e710",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/errors/catalog.go": {
+      "file": "internal/domain/errors/catalog.go",
+      "hash": "62b4638da92873ba18d3e8290f9b0932dd2558a7210d9dcf6ff9f22cbd650017",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/errors/codes.go": {
+      "file": "internal/domain/errors/codes.go",
+      "hash": "e96132d73a237cfbe2cf633b098ec18f64f82a4eb00a3eea2396f95cf0fecf44",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/errors/doc.go": {
+      "file": "internal/domain/errors/doc.go",
+      "hash": "9a6284a09468a4f6448c1fd0dc5c77df32f1db310098e361d5413b268e3c264d",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/errors/hints.go": {
+      "file": "internal/domain/errors/hints.go",
+      "hash": "924071333e297a55b422e90e4fb01408ab259ccf354c97f29e40d6894cf43b9f",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/errors/structured_error.go": {
+      "file": "internal/domain/errors/structured_error.go",
+      "hash": "8794c62cacf98943c6eb72a93e3e13d7a69923e778ec3384086f4e47e9fe7538",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/operation/doc.go": {
+      "file": "internal/domain/operation/doc.go",
+      "hash": "4656d74c66091bf739ee8fb5f3b3a2f09861c3eec9c99a32aecb3f8911c4ca25",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/operation/operation.go": {
+      "file": "internal/domain/operation/operation.go",
+      "hash": "9f32d6ddddb6e472afac66ed7efcef2a81256d0d8ef464813881ac8bd3ace624",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/operation/registry.go": {
+      "file": "internal/domain/operation/registry.go",
+      "hash": "614722c85efd481b2ce6484c40c444d9cbe22a1d0443092f226461fb9bdbfca0",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/operation/validate.go": {
+      "file": "internal/domain/operation/validate.go",
+      "hash": "f64ee356db24c4733547e7e527abe5f40ca013c157fceb90d475b1ba7f768a94",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/pluginmodel/event.go": {
+      "file": "internal/domain/pluginmodel/event.go",
+      "hash": "b947c1915e3aa789e80b2a50d64aecc1be18cb187a27ef907c2997ff6b04d839",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/pluginmodel/info.go": {
+      "file": "internal/domain/pluginmodel/info.go",
+      "hash": "2694c2a03876eced4986a0403c93b8894e1f7384fcc9f3b2f406a785c6dee645",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/pluginmodel/manifest.go": {
+      "file": "internal/domain/pluginmodel/manifest.go",
+      "hash": "081dfa43c8799f504b36b8e479fca7fb02f3bf087ba480e0cab9b39c097b9e52",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/pluginmodel/operation.go": {
+      "file": "internal/domain/pluginmodel/operation.go",
+      "hash": "0df00b71ab6a4ae4c887757c48a4007b9c8140d0d68563a57efd6b881628476d",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/pluginmodel/state.go": {
+      "file": "internal/domain/pluginmodel/state.go",
+      "hash": "038749c194e4605204aedfacd4f9ed7dcb44b47342ad36aa4bdf0785fecd4df6",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/ports/agent_provider.go": {
+      "file": "internal/domain/ports/agent_provider.go",
+      "hash": "b4a991ff2015ddb2cb961560eccd069f67b69e12357968ed6caf1d79dc83644e",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/ports/audit_trail.go": {
+      "file": "internal/domain/ports/audit_trail.go",
+      "hash": "e2b19cdb6e8a1d97bf3b0293518085f1be0ce9f3a31e3e6139c336d48cfab359",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/ports/cli_executor.go": {
+      "file": "internal/domain/ports/cli_executor.go",
+      "hash": "e351b066dadb88164cbe15caecb01d482a88fb10673bb4091f55148569dc273e",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/ports/doc.go": {
+      "file": "internal/domain/ports/doc.go",
+      "hash": "afbcc4b54c7cd3b2189124c861d2c4c0757afe343c2506a28b3123835da166bd",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/ports/error_formatter.go": {
+      "file": "internal/domain/ports/error_formatter.go",
+      "hash": "c567d81bcc843c446c1d1076fffa1d139ea9733432298cf0004c03dbe8af279d",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/ports/event.go": {
+      "file": "internal/domain/ports/event.go",
+      "hash": "6b114c34eb34c71e9688dc23844d6bd37cfec019027fbc9e0b0f56e3fb3898d1",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/ports/executor.go": {
+      "file": "internal/domain/ports/executor.go",
+      "hash": "0b7c83aa4be6911b89a9e46a3abf7b7cab021520a83f3f866086793af7e2df2f",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/ports/expression_evaluator.go": {
+      "file": "internal/domain/ports/expression_evaluator.go",
+      "hash": "6f6feb28624e2d600285f9d119c8a7677731757b42961494e13377aee8321dea",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/ports/expression_validator.go": {
+      "file": "internal/domain/ports/expression_validator.go",
+      "hash": "e3469f05d2aceb1463833f79b1517a54c26beca633d514e28db104bf690e9007",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/ports/history.go": {
+      "file": "internal/domain/ports/history.go",
+      "hash": "62fa2180203ffe17f2885734d55b2d53a87377df22968a4b3ab00775a4fecabf",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/ports/input_collector.go": {
+      "file": "internal/domain/ports/input_collector.go",
+      "hash": "650ab32c48b48212a136304fe29acf836bf8741302f3ed254c267b446d6db5fd",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/ports/interactive.go": {
+      "file": "internal/domain/ports/interactive.go",
+      "hash": "0f0e88688400dcf2c15de57a816545cd812da57d7c99beddf83202d68f6ccd76",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/ports/logger.go": {
+      "file": "internal/domain/ports/logger.go",
+      "hash": "b6e0b81dac376447aa2a0897ca612a260d7bb79720d7c20a7dbdb77cbc6d2294",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/ports/pack.go": {
+      "file": "internal/domain/ports/pack.go",
+      "hash": "77c67ae043bffa44b59c7e6c8ed2fc0d4dec558cddc30b71e4be05f87ba8832f",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/ports/parallel_executor.go": {
+      "file": "internal/domain/ports/parallel_executor.go",
+      "hash": "fbdb2d5afa2f424cd2e822bc90fd43cc3c1cf008f8ad1e162f63bd135ff00cbe",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/ports/plugin.go": {
+      "file": "internal/domain/ports/plugin.go",
+      "hash": "2cde161489d771bf57430379ae883651bc8382c546655e734a7589b33c6aa4c6",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/ports/plugin_validator.go": {
+      "file": "internal/domain/ports/plugin_validator.go",
+      "hash": "89185d1fc042295e3accd781954610102b75910c4a357309bacd4aae8fb1fbf3",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/ports/repository.go": {
+      "file": "internal/domain/ports/repository.go",
+      "hash": "d89cddc10eb5b0b9507a841f36dea1d6367cf32c6eb2644dbeae6df9c0fa96d1",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/ports/step_executor.go": {
+      "file": "internal/domain/ports/step_executor.go",
+      "hash": "30ad5f47a075a9bfcb637ccab878309eabc1070717e984f837310df0731997a2",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/ports/store.go": {
+      "file": "internal/domain/ports/store.go",
+      "hash": "63d06d1104948e4d62205d87bd9ebbfeebbe4200ecd02321bfc331e628127c74",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/ports/tokenizer.go": {
+      "file": "internal/domain/ports/tokenizer.go",
+      "hash": "a0bdd734a7381a15b70b87b274ad432c4dd26053eee315ac9b0056981f6293ff",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/ports/tracer.go": {
+      "file": "internal/domain/ports/tracer.go",
+      "hash": "c37c749eca5bd3b5df25781e0f7dac49d6515a5c7f4719b1ded01ebc39c0717f",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/ports/user_input.go": {
+      "file": "internal/domain/ports/user_input.go",
+      "hash": "1a18ae23c7fc99b5bc2945a0f403cef047a624521df7b8bd03c3f772484655f6",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/workflow/agent_config.go": {
+      "file": "internal/domain/workflow/agent_config.go",
+      "hash": "bd35c7266f53435af582fa468ae31273e990eac14fe9c83cfbb063aac15a9b6f",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/workflow/audit_event.go": {
+      "file": "internal/domain/workflow/audit_event.go",
+      "hash": "c466b60c6a9dfc2b7b23e1523dc0247916b60ef28e178f822e43ec3f8075926c",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/workflow/condition.go": {
+      "file": "internal/domain/workflow/condition.go",
+      "hash": "51cde2dfff873d941d2d0f3c519b4e40764975c48b318e8683d54b4c950ce59d",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/workflow/config.go": {
+      "file": "internal/domain/workflow/config.go",
+      "hash": "360aa14b22718f9d1fa10a092bc633693104141d786185956238925eb54347da",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/workflow/context.go": {
+      "file": "internal/domain/workflow/context.go",
+      "hash": "76372457e240687b9c0f9714a9d7a6a0c238270c0fee32b766196f1ec7553620",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/workflow/conversation.go": {
+      "file": "internal/domain/workflow/conversation.go",
+      "hash": "803a27fdcd2e93ace93c8976196673ad83001201ade16765840a68de2a06f7ea",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/workflow/doc.go": {
+      "file": "internal/domain/workflow/doc.go",
+      "hash": "a419c9a26b6e1d0e40394d23e72deb6c8ac966307bed91c68ab4c4d8be1209fa",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/workflow/dry_run.go": {
+      "file": "internal/domain/workflow/dry_run.go",
+      "hash": "8bdd16282f708e2638e4ae4d087890cbddd2f74012c1befeac19122123f6e270",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/workflow/entry.go": {
+      "file": "internal/domain/workflow/entry.go",
+      "hash": "f4cea7a5abdb4a9423703592671268b6d2b28221e381354d945e6cc091695476",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/workflow/execution_record.go": {
+      "file": "internal/domain/workflow/execution_record.go",
+      "hash": "083817be27d0d339eb5b9b3fb1413c49112d797d47145c240189e48a6ac664e7",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/workflow/graph.go": {
+      "file": "internal/domain/workflow/graph.go",
+      "hash": "a7faf99df5b81910a4f0ad58f7d219b7a9ef93cab442efe5bf56b2dec876214b",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/workflow/hooks.go": {
+      "file": "internal/domain/workflow/hooks.go",
+      "hash": "978d75e6d00fc97e2b61295ade5a9ef0e1d8bafe0fff29680cb03b130d1a5450",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/workflow/interactive.go": {
+      "file": "internal/domain/workflow/interactive.go",
+      "hash": "a22dd8699fe10f86e19cef72df189550ef7b6b9ea63485a3e07353e1c5b0b793",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/workflow/loop.go": {
+      "file": "internal/domain/workflow/loop.go",
+      "hash": "fb50f45ee52cf9c70a260461b1e242eb784673569363c07467ae18294dfd63f8",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/workflow/parallel.go": {
+      "file": "internal/domain/workflow/parallel.go",
+      "hash": "4656e9c4187ffa20e1ad2cd2325551b94e1072f2e1ab3a0aa841d8094754c1db",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/workflow/reference.go": {
+      "file": "internal/domain/workflow/reference.go",
+      "hash": "7c2510badb37d30cc31ba0528e6b69308ab7467c94402d740ef770bece3d135a",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/workflow/runtime_context.go": {
+      "file": "internal/domain/workflow/runtime_context.go",
+      "hash": "c8e7b72469617a7165b56d9dc551965d2bbc5b9cb4ea6f9f473899b3e37163f7",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/workflow/step.go": {
+      "file": "internal/domain/workflow/step.go",
+      "hash": "ee3c8fea3168949ebe6bf21669dbf1691dd191184218b1584ad1f9f0072a66b4",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/workflow/subworkflow.go": {
+      "file": "internal/domain/workflow/subworkflow.go",
+      "hash": "8f6d64158728298b03b4646a1bfbb3f5df0a75d6f9bd0ce74fed123447e95e9d",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/workflow/template.go": {
+      "file": "internal/domain/workflow/template.go",
+      "hash": "3bed0251d8760357736f13935b8ead5bf02a7ba6706c474ee722233c2128a891",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/workflow/template_errors.go": {
+      "file": "internal/domain/workflow/template_errors.go",
+      "hash": "7ac452307a7f57f4ed9c8934329a23179d33b38cbc71db9b106c4c5f96a3cf23",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/workflow/template_validation.go": {
+      "file": "internal/domain/workflow/template_validation.go",
+      "hash": "c319917119798afacd1fb9628eded2a01ed9197372fe6ae2e2d9dfbc853659bc",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/workflow/validation.go": {
+      "file": "internal/domain/workflow/validation.go",
+      "hash": "609302e855f37f6c0d2a89ce264a991e86dccdac8aaf6641a5179754c1321db4",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/workflow/validation_errors.go": {
+      "file": "internal/domain/workflow/validation_errors.go",
+      "hash": "37522ee6a440a03c708bf4727d669709e75ac0b0aca064689c7d62da4bc40a1c",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/domain/workflow/workflow.go": {
+      "file": "internal/domain/workflow/workflow.go",
+      "hash": "f90c5cb10abb9d02833319092c8dc02e9589f27ba958cf5741ffe6041def034e",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/agents/base_cli_provider.go": {
+      "file": "internal/infrastructure/agents/base_cli_provider.go",
+      "hash": "0a434de8c04f3c18bb7e3f4d039cac963ded737a38e653f132e2ae6cf1b77aaa",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/agents/claude_provider.go": {
+      "file": "internal/infrastructure/agents/claude_provider.go",
+      "hash": "4c67f7b03802ed680c7df1129062f516605eb89c3c3065b598e6589a3ed5af27",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/agents/cli_executor.go": {
+      "file": "internal/infrastructure/agents/cli_executor.go",
+      "hash": "fa5a20c1fa6b9f1c864720f67b6de87360becfd0a2fcf57ea8971d3f42fd07bb",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/agents/codex_provider.go": {
+      "file": "internal/infrastructure/agents/codex_provider.go",
+      "hash": "9a29ce95585cd449c945c2b177d78825cf4fe69f9de2defad6cbf92d1ff85b6b",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/agents/copilot_provider.go": {
+      "file": "internal/infrastructure/agents/copilot_provider.go",
+      "hash": "49ed4364e0e6e4fcee2f0b4dabf90935425834f333418e8fffda3916b36ac5e3",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/agents/display_event.go": {
+      "file": "internal/infrastructure/agents/display_event.go",
+      "hash": "6daa5b098981575ae3736c2d88e1d7f07b5bebcd845ab992754a56eb5d2ec80d",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/agents/doc.go": {
+      "file": "internal/infrastructure/agents/doc.go",
+      "hash": "7e365fdba560efccfcc05bca08ba39e04723d9cd2ba2419ad6fe7de2cdc43d72",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/agents/gemini_provider.go": {
+      "file": "internal/infrastructure/agents/gemini_provider.go",
+      "hash": "17ff2d468174e7078a41c20c3814d3e4492e5cb752d4b90cb32da8c1b8c5c978",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/agents/helpers.go": {
+      "file": "internal/infrastructure/agents/helpers.go",
+      "hash": "d53019c7103801e40ab65ab643695ae40eba831977d7f2e9c54c79244e5b88f6",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/agents/openai_compatible_provider.go": {
+      "file": "internal/infrastructure/agents/openai_compatible_provider.go",
+      "hash": "5fdb18ad22d3ffab35e9de692a91605adc304a1eee71b3d9a7c6f4268f320fcd",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/agents/opencode_provider.go": {
+      "file": "internal/infrastructure/agents/opencode_provider.go",
+      "hash": "ae8780bcfd7a01bc5b82e6ede9c86da87be03188f048dc81a3ea96cdfa5f44f8",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/agents/options.go": {
+      "file": "internal/infrastructure/agents/options.go",
+      "hash": "5db183e2709458651af22f0e14fac17ac69781483ffcc9675405f40b6aa4520e",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/agents/registry.go": {
+      "file": "internal/infrastructure/agents/registry.go",
+      "hash": "e8a36fcb48287f67b0416c8a4c65e630ca7a7a29b7f60ded2b279cd8508753f6",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/agents/stream_filter.go": {
+      "file": "internal/infrastructure/agents/stream_filter.go",
+      "hash": "315a3131903eed9321bbe276d8fff0d12f20f33ec2f120aba64fe3ddb81dcb16",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/analyzer/template_analyzer.go": {
+      "file": "internal/infrastructure/analyzer/template_analyzer.go",
+      "hash": "34d1de203319c2ab9460f014136d2f1e7348096d053c00fae8172110b3e1d14e",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/audit/doc.go": {
+      "file": "internal/infrastructure/audit/doc.go",
+      "hash": "6c2b86142c731d0cb8ead7cb84a1540f3e938e68df08469d4f8a972f33160489",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/audit/factory.go": {
+      "file": "internal/infrastructure/audit/factory.go",
+      "hash": "5902abbbe6d77f65a8903d494233ea2db4a36cabf6b189be8c028bf5d89cb195",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/audit/file_writer.go": {
+      "file": "internal/infrastructure/audit/file_writer.go",
+      "hash": "b960d7506d4b5a384454d03039ddd42ba910f23e91fbd0a4c1f605670514572e",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/config/doc.go": {
+      "file": "internal/infrastructure/config/doc.go",
+      "hash": "484f850272eb4cfc1c43ea5d575208bb068413e03da1a3f32dbe33d75836436b",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/config/loader.go": {
+      "file": "internal/infrastructure/config/loader.go",
+      "hash": "ee521cb03fbd287282036797ed8260fa22c2564c5c336136d3ff84d5a2b5ee58",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/config/types.go": {
+      "file": "internal/infrastructure/config/types.go",
+      "hash": "ada2710729a725906752797870669aa93432a66b6003844ea95909713ee69b28",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/diagram/config.go": {
+      "file": "internal/infrastructure/diagram/config.go",
+      "hash": "42855ee734c915ab95ebc2ab2b6541373c18a6032aad5fccfd14681e4031d722",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/diagram/dot_generator.go": {
+      "file": "internal/infrastructure/diagram/dot_generator.go",
+      "hash": "f91ea81d3f67a3da75fdcf87abaff499f02b6370c608418da08084ae674f365f",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/diagram/graphviz.go": {
+      "file": "internal/infrastructure/diagram/graphviz.go",
+      "hash": "a02bec832a3353cad964b2c7bd9c9524237bc02f9388d137775b2f560ab35c07",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/errors/doc.go": {
+      "file": "internal/infrastructure/errors/doc.go",
+      "hash": "743954a99f477388df10847d1ae745306de39e1520143233a216654da9849e95",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/errors/hint_generators.go": {
+      "file": "internal/infrastructure/errors/hint_generators.go",
+      "hash": "898891903bae61ec66131e9a03d197f85101cabd9cbf8d2edc4b235ff86348f9",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/errors/human_formatter.go": {
+      "file": "internal/infrastructure/errors/human_formatter.go",
+      "hash": "e3af6446224b48ad82634bc3f7cd9d1396bc09af18c623716a6ec4ca840851fa",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/errors/json_formatter.go": {
+      "file": "internal/infrastructure/errors/json_formatter.go",
+      "hash": "8562a2c979b2fc566e3802eb98461256c6d100f44267b0c47395c479bc0cd75e",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/executor/doc.go": {
+      "file": "internal/infrastructure/executor/doc.go",
+      "hash": "329f087d5cd4406c5b00e50af2fbfa2e2eaa9534d7ef5970c6e32866e9cd9cbb",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/executor/shell_executor.go": {
+      "file": "internal/infrastructure/executor/shell_executor.go",
+      "hash": "9a406e058ad772d18bb1add0d09665f65a218d7f43497192421a1d423fc9a048",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/expression/doc.go": {
+      "file": "internal/infrastructure/expression/doc.go",
+      "hash": "af54908a4cd34d120fe9400fa392c48c65d921ce27b55c47ad287f01d8385095",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/expression/expr_evaluator.go": {
+      "file": "internal/infrastructure/expression/expr_evaluator.go",
+      "hash": "d13cb1815cd216b008d5fa74a47c0bd0fe092502fc1c7e5e0c6f5cb88e6179f6",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/expression/expr_validator.go": {
+      "file": "internal/infrastructure/expression/expr_validator.go",
+      "hash": "161ca7ff6f00cc64bb7563623dfcfd40ac0f6c1dcb23139bf0a3fe8105620271",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/github/auth.go": {
+      "file": "internal/infrastructure/github/auth.go",
+      "hash": "6cf5c0aaca6e17246be385cfece9cf12bbe2db33f561b8b8566aca94203e3953",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/github/batch.go": {
+      "file": "internal/infrastructure/github/batch.go",
+      "hash": "ab754611093be080029a14e16db62b4eb70d792aaf1433b3b9bf798e941fee04",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/github/client.go": {
+      "file": "internal/infrastructure/github/client.go",
+      "hash": "aa1297c5fe469256e83728a918635005fd0d4f04964cca1e2739eed073e952a7",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/github/doc.go": {
+      "file": "internal/infrastructure/github/doc.go",
+      "hash": "ea03f593720b32cdd8b52aea555fde3253f240b31610da6610ae0c18134ecb59",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/github/operations.go": {
+      "file": "internal/infrastructure/github/operations.go",
+      "hash": "32e44ac261b35944ae3ceed4c28417f61a07cde3b4839b7c43eef6b0023b7bb1",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/github/provider.go": {
+      "file": "internal/infrastructure/github/provider.go",
+      "hash": "947e27a034d6c174426ee308fef75d0133852f2b40db83dd929f1f433f44e57e",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/http/doc.go": {
+      "file": "internal/infrastructure/http/doc.go",
+      "hash": "c821c0ba37b2e7131ee121a7f6fd3d7f8ba28856bca1ccf0cbd0535a4c8ed61f",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/http/operations.go": {
+      "file": "internal/infrastructure/http/operations.go",
+      "hash": "44a94ddc28c24ecd22c3b7fa96ac2cd647806333acc696288ecf29af3d9775fd",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/http/provider.go": {
+      "file": "internal/infrastructure/http/provider.go",
+      "hash": "d99a397094f6cff45db750faf37319d667d87b955d1d6814ccb0fe48af630e2f",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/logger/console_logger.go": {
+      "file": "internal/infrastructure/logger/console_logger.go",
+      "hash": "d57c097ff0066f17b5e4c9e58fe1112e24c09b587e0a5e05bc8f27e694fc02bb",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/logger/doc.go": {
+      "file": "internal/infrastructure/logger/doc.go",
+      "hash": "b6c70839fdc777a2ed08db9562626a27a0ec86cf0875c5b8e78a53efc823ea8b",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/logger/hclog_adapter.go": {
+      "file": "internal/infrastructure/logger/hclog_adapter.go",
+      "hash": "6eb8fc29252f8c01b8d26210722d958bf4cdf6534e4dc8aac751ae93109514f8",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/logger/json_logger.go": {
+      "file": "internal/infrastructure/logger/json_logger.go",
+      "hash": "0f00e71117d17dbc1af1bf4439f43e189f0ac6520b13cdff2ea4524054aa015a",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/logger/masker.go": {
+      "file": "internal/infrastructure/logger/masker.go",
+      "hash": "74b6c8b61a14bc806e8bab8ccb3607bd13b057e50d34be6b8390f1b927c211d3",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/logger/multi_logger.go": {
+      "file": "internal/infrastructure/logger/multi_logger.go",
+      "hash": "e6f0ba59733ed73a248e08823e2ac453e64f5f62c36cf73f0a35eeec41382835",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/notify/desktop.go": {
+      "file": "internal/infrastructure/notify/desktop.go",
+      "hash": "a81229bbf08d13638b3ae9f3e107cf03a23d040e16c977747f8105fe2a4336e4",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/notify/doc.go": {
+      "file": "internal/infrastructure/notify/doc.go",
+      "hash": "5e24a0a7e6f61f2a37a7e4fa2f46f69733d80fa715b97c2fe2c7222b08b3e2f1",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/notify/operations.go": {
+      "file": "internal/infrastructure/notify/operations.go",
+      "hash": "5d65ee3a4882adff478781b3406f43862ca102e35150650d07dfae67e0f29a6d",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/notify/provider.go": {
+      "file": "internal/infrastructure/notify/provider.go",
+      "hash": "00e37e5f899f8ce7bfaa89c694a988b86286ce4ae7bd4a43efb44042dec40e96",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/notify/types.go": {
+      "file": "internal/infrastructure/notify/types.go",
+      "hash": "3f8489a474efee315b97aeffab971a12fe67f3daf8200d7d69e8fbce89c69fb1",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/notify/webhook.go": {
+      "file": "internal/infrastructure/notify/webhook.go",
+      "hash": "1c3c7c89307eb809e27a32b9b103a14e09791b87f89afc7015bf85e227267554",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/otel/factory.go": {
+      "file": "internal/infrastructure/otel/factory.go",
+      "hash": "f96c05b352b4123fb5fc539bd43b9a426e52b7e869999526924fa85c200f7f74",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/otel/provider.go": {
+      "file": "internal/infrastructure/otel/provider.go",
+      "hash": "124d2afc086eaad0e33b8972cbd5e8e6eedeed6718c240e34c5a7e7b298e105d",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/pluginmgr/composite.go": {
+      "file": "internal/infrastructure/pluginmgr/composite.go",
+      "hash": "7ed1dac6ed1a45ef5a65ab00d293edf2c7046fce5875f0cefd16d2478c23abe3",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/pluginmgr/doc.go": {
+      "file": "internal/infrastructure/pluginmgr/doc.go",
+      "hash": "5628ff687fcc94f3bce6db2eb70ce3bc4c39d150a5c5f60da61de324f7aea40d",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/pluginmgr/event_bus.go": {
+      "file": "internal/infrastructure/pluginmgr/event_bus.go",
+      "hash": "872f8d82232ee87b7fa8f525471d2eb4760398548e01c51d2679b6610197c761",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/pluginmgr/grpc_event.go": {
+      "file": "internal/infrastructure/pluginmgr/grpc_event.go",
+      "hash": "f186936636efc4ff8c9cd209a1bb13d7fc6043cd9f027e5fc08ed617d8c785d8",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/pluginmgr/grpc_host.go": {
+      "file": "internal/infrastructure/pluginmgr/grpc_host.go",
+      "hash": "88749753f45a4fda07fe3f691303d9010bd4808cc7e7f7393745610df6c650ef",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/pluginmgr/grpc_step_type.go": {
+      "file": "internal/infrastructure/pluginmgr/grpc_step_type.go",
+      "hash": "70e00f0d76adabe6dbf6b0148656191353e4a6ca3583827aee431c2a2c883c29",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/pluginmgr/grpc_validator.go": {
+      "file": "internal/infrastructure/pluginmgr/grpc_validator.go",
+      "hash": "8e5fb274d8e7ed327d4f2e441a4feee5dab8ac20f1a25ebe3b6dff2fa1a57b1d",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/pluginmgr/host_event_service.go": {
+      "file": "internal/infrastructure/pluginmgr/host_event_service.go",
+      "hash": "6489bd0414a762dd75ae9c04ffe907fda6b02e17b6dd68656a1572530a16b9fd",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/pluginmgr/installer.go": {
+      "file": "internal/infrastructure/pluginmgr/installer.go",
+      "hash": "39fc4c508cea3898779b8ddfc01246debd203a9f49f97d4cb7b5d248608aafbd",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/pluginmgr/loader.go": {
+      "file": "internal/infrastructure/pluginmgr/loader.go",
+      "hash": "841829f7bf646245c180cd38f4f5cb428bcf78b716ab589cabfedc130dd2d414",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/pluginmgr/manifest_parser.go": {
+      "file": "internal/infrastructure/pluginmgr/manifest_parser.go",
+      "hash": "de88c3dbdb51214a2d28e9aec5307651a67fe551b22e930c4a7e3e194b187bf2",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/pluginmgr/registry.go": {
+      "file": "internal/infrastructure/pluginmgr/registry.go",
+      "hash": "50a34b9fbc05b0d31cfdcc4720f25d8c61195832c35b3118e854521aa60e08eb",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/pluginmgr/rpc_manager.go": {
+      "file": "internal/infrastructure/pluginmgr/rpc_manager.go",
+      "hash": "64b7949d9c14d5db685265098f38d9333e21eea7d38dc9dea86042591e76b05e",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/pluginmgr/state_store.go": {
+      "file": "internal/infrastructure/pluginmgr/state_store.go",
+      "hash": "9333ce3b055742d0a421f74d832ecc6b65088db520fb9c3f6ef748c35314e46c",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/pluginmgr/stream_manager.go": {
+      "file": "internal/infrastructure/pluginmgr/stream_manager.go",
+      "hash": "d4b268cb75f6f8f5d265ed07c96d91fbb1d4fe397684b236f169f83888079ad4",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/pluginmgr/system.go": {
+      "file": "internal/infrastructure/pluginmgr/system.go",
+      "hash": "c704a22ca2d75c596bf833dc6fcb72f4fdbbebe0b6f98b6e044d211286bae5c0",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/repository/composite_repository.go": {
+      "file": "internal/infrastructure/repository/composite_repository.go",
+      "hash": "cde491777f3704fa738a7df5d9172a333c8830de4cdc8466581524df75b8edee",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/repository/doc.go": {
+      "file": "internal/infrastructure/repository/doc.go",
+      "hash": "daad41f9e0f344fd0af25aa6a1797a186595e6bf28d7ab30c1073c52b73608be",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/repository/errors.go": {
+      "file": "internal/infrastructure/repository/errors.go",
+      "hash": "4d5d4809e90357eb2f50ea8a0439780f707c1a085b6f35e04987c3202ae8c230",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/repository/source.go": {
+      "file": "internal/infrastructure/repository/source.go",
+      "hash": "668d74d3b709ff730015b897d4fe3d1f4523ee4e108b30ed04f10144e6065af8",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/repository/template_repository.go": {
+      "file": "internal/infrastructure/repository/template_repository.go",
+      "hash": "74b7d68da16d7357f1902c8b7fb666bc380c0bee31f0c83c763306d6fff78235",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/repository/yaml_mapper.go": {
+      "file": "internal/infrastructure/repository/yaml_mapper.go",
+      "hash": "3d404a603ea758995ed99d50e9684a497201ece0912c31992ca138e011b83c00",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/repository/yaml_repository.go": {
+      "file": "internal/infrastructure/repository/yaml_repository.go",
+      "hash": "967fd56ee3449df1738d5b43e68b3fc849cdbb44ff942021e73c68740d58593c",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/repository/yaml_types.go": {
+      "file": "internal/infrastructure/repository/yaml_types.go",
+      "hash": "871bf07568089d65c47cf85a7423c507738e5ff7d6f9db975415da89f0fe76e1",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/store/doc.go": {
+      "file": "internal/infrastructure/store/doc.go",
+      "hash": "6bfa5ee3d20fd7c8c92a9a49370d34c5f19bff7255bdff3e281bb5b047e678b2",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/store/json_store.go": {
+      "file": "internal/infrastructure/store/json_store.go",
+      "hash": "4e88a2c8d91a1378eb02e1ed1f0ea5858d63ea1ef1f99dc9c6528b6de77e8b10",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/store/sqlite_history_store.go": {
+      "file": "internal/infrastructure/store/sqlite_history_store.go",
+      "hash": "fe9933d5970d8b1985e8c209ff39537cb2e606eb39558b9fbc858e462306e2b4",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/tokenizer/approximation_tokenizer.go": {
+      "file": "internal/infrastructure/tokenizer/approximation_tokenizer.go",
+      "hash": "d897ae065977545767de4ef83d53b4ed42eaacd80151d69540ffeb736ef7992d",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/updater/replacer.go": {
+      "file": "internal/infrastructure/updater/replacer.go",
+      "hash": "c8a0370ba9e430e5dd86a49add7cfdea527e31108a8ffe2dc9734ee46bf308cf",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/workflowpkg/discoverer.go": {
+      "file": "internal/infrastructure/workflowpkg/discoverer.go",
+      "hash": "3d720b27979a9fbe107bee0a965ed823955924f36d7fdacc18b8ab530bde8389",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/workflowpkg/doc.go": {
+      "file": "internal/infrastructure/workflowpkg/doc.go",
+      "hash": "a34baad81375a4c5ff796ea6ca270c20a3aeafe07bcf9dbbc413dd20fc0643b1",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/workflowpkg/installer.go": {
+      "file": "internal/infrastructure/workflowpkg/installer.go",
+      "hash": "b1389831a05cf82958d1160c57f1c2e01506bd011f468ae18df939d6460f3a7c",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/workflowpkg/loader.go": {
+      "file": "internal/infrastructure/workflowpkg/loader.go",
+      "hash": "43c1991f6abbae37b91a54b0ecbb833f61d48ac68283f07fdd1d934cab7abb9d",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/workflowpkg/manifest.go": {
+      "file": "internal/infrastructure/workflowpkg/manifest.go",
+      "hash": "39954a03c3b95bdab07b349d9b73cea08f742f04828c198ddf1f6028247cf40d",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/workflowpkg/types.go": {
+      "file": "internal/infrastructure/workflowpkg/types.go",
+      "hash": "f1ced3514a89124ce759c7a606f50ca8013a2fda161730bb6b5f960fb0835b3b",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/infrastructure/xdg/xdg.go": {
+      "file": "internal/infrastructure/xdg/xdg.go",
+      "hash": "2353d2c6aa9ac81545b5759d02fc1e71284f8a0fded6516dacbdf01a267718b4",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/cli/config.go": {
+      "file": "internal/interfaces/cli/config.go",
+      "hash": "86361dba797830bbc2ac931125cc5ce282605701ee70de3b0af9ececb4423279",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/cli/config_cmd.go": {
+      "file": "internal/interfaces/cli/config_cmd.go",
+      "hash": "ef807b01b9e14311c340dc910292017dc9f6dbd9771b8bcd4323a58bc13a7825",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/cli/diagram.go": {
+      "file": "internal/interfaces/cli/diagram.go",
+      "hash": "f23a6eb4fd783581613e69a3f072085ef0c64ad8f167062e75725aa747d94c23",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/cli/doc.go": {
+      "file": "internal/interfaces/cli/doc.go",
+      "hash": "a1a618431316ad847c360a0f1cc199611bdbb9b5d65ed63b02af73075d8e3e01",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/cli/error.go": {
+      "file": "internal/interfaces/cli/error.go",
+      "hash": "17ba252185dae36f396a2671254b79aec411833ffd4e5a152caaae383ad64d10",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/cli/exitcodes.go": {
+      "file": "internal/interfaces/cli/exitcodes.go",
+      "hash": "4e4b6f7a3c177e0621a27ccac0a6e90f6fef9b285c4de4f034d19f24c08b323d",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/cli/history.go": {
+      "file": "internal/interfaces/cli/history.go",
+      "hash": "489ef7afb19fed2d13504642d4dc4195da33a8e078037092c1e999ac02e53eaa",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/cli/init.go": {
+      "file": "internal/interfaces/cli/init.go",
+      "hash": "3543e6f1957e0b21efc5ca47a39572dd4299d0dea63efb0cea5b9f6b531c28a2",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/cli/list.go": {
+      "file": "internal/interfaces/cli/list.go",
+      "hash": "30a9e0a0ad88bf96bf1f60a6a05031f3f9cd2d45e68a0a9a142a9824d1b08d6a",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/cli/migration.go": {
+      "file": "internal/interfaces/cli/migration.go",
+      "hash": "0a47325575cae518e8457e5767e508bf569cf5280ce33b5ab9efa9ab54320ef9",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/cli/pack_resolver.go": {
+      "file": "internal/interfaces/cli/pack_resolver.go",
+      "hash": "a41d6a0dea9bee3d14851ad32fc31def041cac8f980d26548aefa120119b2959",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/cli/plugin_cmd.go": {
+      "file": "internal/interfaces/cli/plugin_cmd.go",
+      "hash": "14c8818135a4054ff3e308666a0060002683a2c77a729e4d962344bf884b35d3",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/cli/plugins.go": {
+      "file": "internal/interfaces/cli/plugins.go",
+      "hash": "056ef61a5b39d88be4ab056614794d72c44bd030d68190a4a940620cb6861396",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/cli/resume.go": {
+      "file": "internal/interfaces/cli/resume.go",
+      "hash": "9c21f36ff0a7a642585ccc6bd0926da91242ec2751f043409af4bd95cd48cd76",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/cli/root.go": {
+      "file": "internal/interfaces/cli/root.go",
+      "hash": "607db48cabb68362345e59031c64021af18ef6e0e6644b8acbbf1be96577917f",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/cli/run.go": {
+      "file": "internal/interfaces/cli/run.go",
+      "hash": "2950e68471e864fb6a2e9d538f03d36a7fa4976a32bf66abe605eaee2e4f75a6",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/cli/run_help.go": {
+      "file": "internal/interfaces/cli/run_help.go",
+      "hash": "b16ee9bd29fb4fda9f4b00a8c9f7e996b8cedb861fcce9103474fc41356fcce8",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/cli/signal_handler.go": {
+      "file": "internal/interfaces/cli/signal_handler.go",
+      "hash": "017b23c6faf1c39c4cdf4d753710bb8c48afd56de8b2c0e5aad2aee6faf47b7a",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/cli/status.go": {
+      "file": "internal/interfaces/cli/status.go",
+      "hash": "bf16e3439c9cebe2c3643e6d68c62d3cddf04f7d23ec6e56f3dc79bad22b7d23",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/cli/ui/agent_renderer.go": {
+      "file": "internal/interfaces/cli/ui/agent_renderer.go",
+      "hash": "992cbe583f4f6eeae9947a96b68a548c03808c276522aaf1a96a9115f6325aeb",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/cli/ui/colors.go": {
+      "file": "internal/interfaces/cli/ui/colors.go",
+      "hash": "475d028872672260da4359c24d9227fe01c85190eca8a28f9de156652e86e1d4",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/cli/ui/doc.go": {
+      "file": "internal/interfaces/cli/ui/doc.go",
+      "hash": "af6516b2fb046abd891686bfc4398a8973483a06ed2474063c5ef68d38217e18",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/cli/ui/dry_run_formatter.go": {
+      "file": "internal/interfaces/cli/ui/dry_run_formatter.go",
+      "hash": "b0c6ab2c035ef01125193678b98c79f82142a960de2dec8ca7d639c14750654a",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/cli/ui/formatter.go": {
+      "file": "internal/interfaces/cli/ui/formatter.go",
+      "hash": "5b7fd9c03918d9329394ac2f9ebeaa462e78312c53070d3aac65167df77ef254",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/cli/ui/input_collector.go": {
+      "file": "internal/interfaces/cli/ui/input_collector.go",
+      "hash": "584011f90d2fe6a56d78961323a4f2084723fbd624378e2f0ce23a08baac9743",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/cli/ui/interactive_prompt.go": {
+      "file": "internal/interfaces/cli/ui/interactive_prompt.go",
+      "hash": "62f65efede35b86eab5e45f73cc804ec283b50080f169952810bb9bbb61c9f3c",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/cli/ui/output.go": {
+      "file": "internal/interfaces/cli/ui/output.go",
+      "hash": "1f6105f824f4784ee32ddac127c682654fd7ab1d1085b3fe8883fcc7987e0f83",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/cli/ui/output_writer.go": {
+      "file": "internal/interfaces/cli/ui/output_writer.go",
+      "hash": "0cfaab4ae1e463fe8384074362b276099ca0d382f15353360aaa3325ca4e3b48",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/cli/ui/readline.go": {
+      "file": "internal/interfaces/cli/ui/readline.go",
+      "hash": "3e01067d454a35b682f2f90b6431eee86f4361d820809b368f5413b25ca51c34",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/cli/ui/stdin_input_reader.go": {
+      "file": "internal/interfaces/cli/ui/stdin_input_reader.go",
+      "hash": "1d1721e6340bed441702acc60463fde3981d5cb601fb6f2d52c21876282d71d7",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/cli/upgrade.go": {
+      "file": "internal/interfaces/cli/upgrade.go",
+      "hash": "edf6ac008c98cffe10d570eb606dafdf3682c163fb94ca0a329cbb748a7dfd39",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/cli/validate.go": {
+      "file": "internal/interfaces/cli/validate.go",
+      "hash": "b320326372cdc7886d30bd294cf7b6e539ef9227abd6f7854f88593d01e38031",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/cli/workflow_cmd.go": {
+      "file": "internal/interfaces/cli/workflow_cmd.go",
+      "hash": "446019334ed64a22e73774ff711613b0784cdda87c8c1816fd509baacb7db1f8",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/tui/bridge.go": {
+      "file": "internal/interfaces/tui/bridge.go",
+      "hash": "db3051a3413e13289011ad3589a4cc0da0ce88ef09426964989a1ad7d4a1ce1c",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/tui/command.go": {
+      "file": "internal/interfaces/tui/command.go",
+      "hash": "9cd9a983aeec8f0300bea5551220776eb52116180ddf8ea7a65659392915b1b5",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/tui/components.go": {
+      "file": "internal/interfaces/tui/components.go",
+      "hash": "049eef42383f673e347c321d9271b7b7706e953bf5ff110b27d8993b6f3290b6",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/tui/doc.go": {
+      "file": "internal/interfaces/tui/doc.go",
+      "hash": "103585891924fdf82e7d01726390c1746a16aaaecf509181dd6962103b99481b",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/tui/input_reader.go": {
+      "file": "internal/interfaces/tui/input_reader.go",
+      "hash": "c4aec6e286207fb449ac1b2c11399854cf2cbe85bce0993afa0c81f5bde41121",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/tui/keys.go": {
+      "file": "internal/interfaces/tui/keys.go",
+      "hash": "b8904705da7697f80314e0a70d5be80a35782009f42c8ea254c8ac34149fb3c7",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/tui/messages.go": {
+      "file": "internal/interfaces/tui/messages.go",
+      "hash": "6660f8db50ea32f00a26973745dad5f48a16d13bd022b7c6c78ba3cc4a37b541",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/tui/model.go": {
+      "file": "internal/interfaces/tui/model.go",
+      "hash": "65d3091bc0f44ffc0014682b62bfbd1a099535c45a7c46b4a188bd97b3a7f3e9",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/tui/tab_history.go": {
+      "file": "internal/interfaces/tui/tab_history.go",
+      "hash": "0b97d900d65886dcd68624302d30dbb204c060b76fac585158316c848e86ea32",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/tui/tab_logs.go": {
+      "file": "internal/interfaces/tui/tab_logs.go",
+      "hash": "c74193a3e0a450d39cd3b52089e3a15ba7bd14da673c8e8b110236256377c6f5",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/tui/tab_monitoring.go": {
+      "file": "internal/interfaces/tui/tab_monitoring.go",
+      "hash": "80cf38b10bf787138718ed7fa4b1e974acb8db2fddfea68d6aa789abead48317",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/tui/tab_workflows.go": {
+      "file": "internal/interfaces/tui/tab_workflows.go",
+      "hash": "85d2692b81fc8cf806be720ee621fd5c47c7245bd0cd791249688464e620eb89",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/tui/tailer.go": {
+      "file": "internal/interfaces/tui/tailer.go",
+      "hash": "ca922077cbe6723a55de9fc3d1978dee23e5421f1c38233d0458237d04289fd8",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/tui/theme.go": {
+      "file": "internal/interfaces/tui/theme.go",
+      "hash": "f3851476d5faefdbc61d4b26bf2610bf2be7ac1cd9afa5dfce091e30f70ebca3",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/tui/tree.go": {
+      "file": "internal/interfaces/tui/tree.go",
+      "hash": "1afea3e2456e695cfe780caaf81aaeb99d9f573b7987d2d7369c28669859034e",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "internal/interfaces/tui/viewportscroll.go": {
+      "file": "internal/interfaces/tui/viewportscroll.go",
+      "hash": "61d8b383b22d692de2775fb5e847c85e95a6952f8ae9761f1dbc41761111e203",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "pkg/display/event.go": {
+      "file": "pkg/display/event.go",
+      "hash": "8f3e07f03226b1b7a9253d84bb78df875f1cc66a595105448fd45fbfef26e597",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "pkg/expression/doc.go": {
+      "file": "pkg/expression/doc.go",
+      "hash": "bde680504d3c01e831c24d3770c65d9cc4189edc415c6eee588dbd8067cebd3c",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "pkg/expression/evaluator.go": {
+      "file": "pkg/expression/evaluator.go",
+      "hash": "1c51e4504f619906236bf6c5cc3a4c82c883b20236e5e62f0053df9bbe9353f7",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "pkg/httpx/client.go": {
+      "file": "pkg/httpx/client.go",
+      "hash": "af40f71f7b0b19acd1ec50cf95c4012351af9e2f1e4229d1c6046860918de5ff",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "pkg/httpx/response.go": {
+      "file": "pkg/httpx/response.go",
+      "hash": "633a189d1b15403ce0e366b660c918646bfba085c299d8065cb723049618b03e",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "pkg/interpolation/doc.go": {
+      "file": "pkg/interpolation/doc.go",
+      "hash": "c19a10b8671f055bf759aceaef0d292a13a06c7249fa4e65d2f5ff2b35a57444",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "pkg/interpolation/errors.go": {
+      "file": "pkg/interpolation/errors.go",
+      "hash": "6d3b7216ab9e0d5cbb3598bdc3a380ac2a71fbb46ee345286e62836f9d8e755b",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "pkg/interpolation/escaping.go": {
+      "file": "pkg/interpolation/escaping.go",
+      "hash": "839b8e496dcb58fc00ca599c1d15c6a7e47a17824dcab70dc4a9e14ab36cb6b7",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "pkg/interpolation/reference.go": {
+      "file": "pkg/interpolation/reference.go",
+      "hash": "1e143cc0833e43d5ce960b46e190e6468f7f62fcb63b59acaa240224b53e4ccf",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "pkg/interpolation/resolver.go": {
+      "file": "pkg/interpolation/resolver.go",
+      "hash": "d54e5b0b9e55163962950c9ba886cabb64435802c147144c1bbfa89a0f082b06",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "pkg/interpolation/serializer.go": {
+      "file": "pkg/interpolation/serializer.go",
+      "hash": "3bd35c45e3b8d991ba665e4b44499c8050ed60dce9c66bedc850519fd77d173e",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "pkg/interpolation/template_helpers.go": {
+      "file": "pkg/interpolation/template_helpers.go",
+      "hash": "526a8f34da2bd2a888456552585533b6ddd5112105094c88cb31ecd3bf2af763",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "pkg/interpolation/template_resolver.go": {
+      "file": "pkg/interpolation/template_resolver.go",
+      "hash": "060533fee0e55675be63f14b4fd052374715fff634462234897f6fe7d4deed25",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "pkg/output/format.go": {
+      "file": "pkg/output/format.go",
+      "hash": "54fd9d511729c2869fcc3425fa3cc6cfba3f28266570dcb6a1d05739cfc3c97c",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "pkg/plugin/sdk/doc.go": {
+      "file": "pkg/plugin/sdk/doc.go",
+      "hash": "6d1ff4fbec46c1ac466559534b40cdb4201ac336d0f1fc87058e4b5d41129a70",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "pkg/plugin/sdk/event.go": {
+      "file": "pkg/plugin/sdk/event.go",
+      "hash": "be1946508fbec3a2dadf683135d1a305d7b85015c07f814aaa5cb376f6760f15",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "pkg/plugin/sdk/grpc_plugin.go": {
+      "file": "pkg/plugin/sdk/grpc_plugin.go",
+      "hash": "2e5d46ffbdb8355ab1848e1a34832a3acb51d36d1fe5ddd0cd76f1ca16e654cc",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "pkg/plugin/sdk/host_client.go": {
+      "file": "pkg/plugin/sdk/host_client.go",
+      "hash": "b7a51bd3941e3d8e33590bc76b54390e9b8b635880ba7722a4032cc8200accb2",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "pkg/plugin/sdk/sdk.go": {
+      "file": "pkg/plugin/sdk/sdk.go",
+      "hash": "34d2c13ffadb2c56905113d58e551bed38d127f9d5163dbbbad7a1fc31ca0929",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "pkg/plugin/sdk/serve.go": {
+      "file": "pkg/plugin/sdk/serve.go",
+      "hash": "34a79fa9fbe86574950af289b009a80328715d8de3ee689c4655851ea1351b0a",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "pkg/plugin/sdk/step_type.go": {
+      "file": "pkg/plugin/sdk/step_type.go",
+      "hash": "ce1ffce1989a3efd4e1fe6190000ac1426b3f9c09907dd995c877c42476f8f21",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "pkg/plugin/sdk/testing.go": {
+      "file": "pkg/plugin/sdk/testing.go",
+      "hash": "25a110f087038540b438d600c912331644c46282d59d18d3a336a845563996ce",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "pkg/plugin/sdk/validator.go": {
+      "file": "pkg/plugin/sdk/validator.go",
+      "hash": "bcf9212bf2e019d31ac898a40458ad9399993135571c5565522c2d976c84f3db",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "pkg/registry/doc.go": {
+      "file": "pkg/registry/doc.go",
+      "hash": "bf4d1295ff52f00c67faa80e82e3f4a868e9de59fab3ef588e4b8dfba6c22d08",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "pkg/registry/downloader.go": {
+      "file": "pkg/registry/downloader.go",
+      "hash": "3a4e09db5a5dffd9ae3b7edad048f495b03c6c814ad96bc2a7458a57ea880374",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "pkg/registry/github_client.go": {
+      "file": "pkg/registry/github_client.go",
+      "hash": "9ad13e9e2eb8ebc0307fe44f21a51bf1892c4274a834d172d2f0ffbf220865db",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "pkg/registry/version.go": {
+      "file": "pkg/registry/version.go",
+      "hash": "14ae585ec811ae5df515af73c06b982a9673a9cbe5dbe494dc7b87d50df8e0d9",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "pkg/retry/backoff.go": {
+      "file": "pkg/retry/backoff.go",
+      "hash": "d4f9a788bdd13c195d339b6aa991cf1dd5c8c01ee6fc2de5fa6e2b6e7569647d",
+      "status": "DONE",
+      "updated_at": "2026-05-14T11:29:40.242Z",
+      "axes": [
+        "utility",
+        "duplication",
+        "correction"
+      ]
+    },
+    "pkg/retry/doc.go": {
+      "file": "pkg/retry/doc.go",
+      "hash": "e90b63c60de714277f426a8b6d926b7b68bb1ed6e3f4e73cd929c564bbcd4065",
+      "status": "DONE",
+      "updated_at": "2026-05-14T11:28:29.630Z",
+      "axes": [
+        "utility",
+        "duplication",
+        "correction"
+      ]
+    },
+    "pkg/retry/retryer.go": {
+      "file": "pkg/retry/retryer.go",
+      "hash": "f77446fdd02dc7d133fe5b0ef62353b9cdabdf37a613d3808c5e6b02e75886d2",
+      "status": "DONE",
+      "updated_at": "2026-05-14T11:29:34.617Z",
+      "axes": [
+        "utility",
+        "duplication",
+        "correction"
+      ]
+    },
+    "pkg/stringutil/doc.go": {
+      "file": "pkg/stringutil/doc.go",
+      "hash": "7147075b33b757b12d51b346a4c733ce8aea981d92a065e8796346291c694a54",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "pkg/stringutil/levenshtein.go": {
+      "file": "pkg/stringutil/levenshtein.go",
+      "hash": "5a7791f8a4497b54be4aa8eb6b5b0c6b4f95fae63af73d5a461c554b58e8bebf",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "pkg/validation/doc.go": {
+      "file": "pkg/validation/doc.go",
+      "hash": "0643aebbf7c6edf562721823f9aeb99bf3f3b669e61438a54591adcf0b4da89a",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    },
+    "pkg/validation/validator.go": {
+      "file": "pkg/validation/validator.go",
+      "hash": "16b3781a17a87630eca0ef56e4d89a04f9d48eaa30745a25da98c19a17763695",
+      "status": "PENDING",
+      "updated_at": "2026-05-14T11:14:03.017Z"
+    }
+  }
+}

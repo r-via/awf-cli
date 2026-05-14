@@ -1,0 +1,183 @@
+{
+  "version": 1,
+  "file": "pkg/validation/validator.go",
+  "hash": "16b3781a17a87630eca0ef56e4d89a04f9d48eaa30745a25da98c19a17763695",
+  "symbols": [
+    {
+      "name": "Input",
+      "kind": "class",
+      "exported": true,
+      "line_start": 15,
+      "line_end": 20
+    },
+    {
+      "name": "Rules",
+      "kind": "class",
+      "exported": true,
+      "line_start": 23,
+      "line_end": 30
+    },
+    {
+      "name": "ValidationError",
+      "kind": "class",
+      "exported": true,
+      "line_start": 33,
+      "line_end": 35
+    },
+    {
+      "name": "Error",
+      "kind": "method",
+      "exported": true,
+      "line_start": 37,
+      "line_end": 45
+    },
+    {
+      "name": "ValidateInputs",
+      "kind": "function",
+      "exported": true,
+      "line_start": 49,
+      "line_end": 91
+    },
+    {
+      "name": "validateRules",
+      "kind": "function",
+      "exported": false,
+      "line_start": 93,
+      "line_end": 127
+    },
+    {
+      "name": "validatePatternWithType",
+      "kind": "function",
+      "exported": false,
+      "line_start": 129,
+      "line_end": 135
+    },
+    {
+      "name": "validateEnumWithType",
+      "kind": "function",
+      "exported": false,
+      "line_start": 137,
+      "line_end": 143
+    },
+    {
+      "name": "validateRangeWithType",
+      "kind": "function",
+      "exported": false,
+      "line_start": 145,
+      "line_end": 151
+    },
+    {
+      "name": "validateFileExistsWithType",
+      "kind": "function",
+      "exported": false,
+      "line_start": 153,
+      "line_end": 162
+    },
+    {
+      "name": "validateFileExtensionWithType",
+      "kind": "function",
+      "exported": false,
+      "line_start": 164,
+      "line_end": 186
+    },
+    {
+      "name": "validateRequired",
+      "kind": "function",
+      "exported": false,
+      "line_start": 188,
+      "line_end": 202
+    },
+    {
+      "name": "validateType",
+      "kind": "function",
+      "exported": false,
+      "line_start": 204,
+      "line_end": 221
+    },
+    {
+      "name": "coerceToString",
+      "kind": "function",
+      "exported": false,
+      "line_start": 223,
+      "line_end": 238
+    },
+    {
+      "name": "coerceToInt",
+      "kind": "function",
+      "exported": false,
+      "line_start": 240,
+      "line_end": 257
+    },
+    {
+      "name": "coerceToBool",
+      "kind": "function",
+      "exported": false,
+      "line_start": 259,
+      "line_end": 276
+    },
+    {
+      "name": "validatePattern",
+      "kind": "function",
+      "exported": false,
+      "line_start": 278,
+      "line_end": 293
+    },
+    {
+      "name": "validateEnum",
+      "kind": "function",
+      "exported": false,
+      "line_start": 295,
+      "line_end": 307
+    },
+    {
+      "name": "validateRange",
+      "kind": "function",
+      "exported": false,
+      "line_start": 309,
+      "line_end": 319
+    },
+    {
+      "name": "validateFileExists",
+      "kind": "function",
+      "exported": false,
+      "line_start": 321,
+      "line_end": 335
+    },
+    {
+      "name": "validateFileExtension",
+      "kind": "function",
+      "exported": false,
+      "line_start": 337,
+      "line_end": 355
+    }
+  ],
+  "imports": [
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "path/filepath",
+      "type": "import"
+    },
+    {
+      "source": "regexp",
+      "type": "import"
+    },
+    {
+      "source": "strconv",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

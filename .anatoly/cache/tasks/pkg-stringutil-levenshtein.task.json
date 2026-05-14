@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "file": "pkg/stringutil/levenshtein.go",
+  "hash": "5a7791f8a4497b54be4aa8eb6b5b0c6b4f95fae63af73d5a461c554b58e8bebf",
+  "symbols": [
+    {
+      "name": "LevenshteinDistance",
+      "kind": "function",
+      "exported": true,
+      "line_start": 7,
+      "line_end": 49
+    },
+    {
+      "name": "ClosestMatch",
+      "kind": "function",
+      "exported": true,
+      "line_start": 54,
+      "line_end": 81
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

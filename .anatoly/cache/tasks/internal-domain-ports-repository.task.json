@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "file": "internal/domain/ports/repository.go",
+  "hash": "d89cddc10eb5b0b9507a841f36dea1d6367cf32c6eb2644dbeae6df9c0fa96d1",
+  "symbols": [
+    {
+      "name": "WorkflowRepository",
+      "kind": "type",
+      "exported": true,
+      "line_start": 9,
+      "line_end": 13
+    },
+    {
+      "name": "TemplateRepository",
+      "kind": "type",
+      "exported": true,
+      "line_start": 15,
+      "line_end": 19
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

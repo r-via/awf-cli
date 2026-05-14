@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "file": "internal/domain/pluginmodel/state.go",
+  "hash": "038749c194e4605204aedfacd4f9ed7dcb44b47342ad36aa4bdf0785fecd4df6",
+  "symbols": [
+    {
+      "name": "PluginState",
+      "kind": "class",
+      "exported": true,
+      "line_start": 3,
+      "line_end": 10
+    },
+    {
+      "name": "NewPluginState",
+      "kind": "function",
+      "exported": true,
+      "line_start": 12,
+      "line_end": 17
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

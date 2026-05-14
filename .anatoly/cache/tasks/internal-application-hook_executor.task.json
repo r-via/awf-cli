@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "file": "internal/application/hook_executor.go",
+  "hash": "40eaf964209fabb7ddbe2b87c7b390c0d33ba918ef381831ca5735b651a61ae1",
+  "symbols": [
+    {
+      "name": "HookExecutor",
+      "kind": "class",
+      "exported": true,
+      "line_start": 13,
+      "line_end": 17
+    },
+    {
+      "name": "NewHookExecutor",
+      "kind": "function",
+      "exported": true,
+      "line_start": 19,
+      "line_end": 29
+    },
+    {
+      "name": "ExecuteHooks",
+      "kind": "method",
+      "exported": true,
+      "line_start": 34,
+      "line_end": 58
+    },
+    {
+      "name": "executeAction",
+      "kind": "method",
+      "exported": false,
+      "line_start": 60,
+      "line_end": 74
+    },
+    {
+      "name": "executeLogAction",
+      "kind": "method",
+      "exported": false,
+      "line_start": 76,
+      "line_end": 84
+    },
+    {
+      "name": "executeCommandAction",
+      "kind": "method",
+      "exported": false,
+      "line_start": 86,
+      "line_end": 112
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/pkg/interpolation",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

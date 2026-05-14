@@ -1,0 +1,68 @@
+[2026-05-14T10:41:02.688Z] [info ] ═══════════════════════════════════════════════
+[2026-05-14T10:41:02.691Z] [info ]   Anatoly — Embedding Setup
+[2026-05-14T10:41:02.693Z] [info ] ═══════════════════════════════════════════════
+[2026-05-14T10:41:02.696Z] [info ] Checking prerequisites...
+[2026-05-14T10:41:02.857Z] [ ok  ] GPU detected: cuda (23 GB VRAM)
+[2026-05-14T10:41:03.138Z] [ ok  ] Docker: available
+[2026-05-14T10:41:03.141Z] [ ok  ] NVIDIA Container Toolkit: available
+[2026-05-14T10:41:03.145Z] [info ] Selected tier: advanced-gguf
+[2026-05-14T10:41:03.148Z] [info ] Checking GGUF models (will verify checksums, download only if missing or corrupt)...
+[2026-05-14T10:41:03.151Z] [info ] Verifying integrity: nomic-embed-code.Q5_K_M.gguf...
+[2026-05-14T10:41:05.955Z] [ ok  ] GGUF model verified: nomic-embed-code.Q5_K_M.gguf (4836 MB)
+[2026-05-14T10:41:05.958Z] [info ] Verifying integrity: Qwen3-Embedding-8B-Q5_K_M.gguf...
+[2026-05-14T10:41:08.997Z] [ ok  ] GGUF model verified: Qwen3-Embedding-8B-Q5_K_M.gguf (5172 MB)
+[2026-05-14T10:41:08.999Z] [info ] Pulling Docker images...
+[2026-05-14T10:41:09.267Z] [ ok  ] GGUF Docker image already present — skipping pull
+[2026-05-14T10:41:09.269Z] [info ] Testing GGUF containers...
+[2026-05-14T10:41:15.185Z] [ ok  ] GGUF code embedding OK (3584d)
+[2026-05-14T10:41:18.171Z] [ ok  ] Config written to /home/rviau/project/awf-cli/.anatoly/setup/embeddings-ready.json
+[2026-05-14T10:41:18.174Z] [info ] ═══════════════════════════════════════════════
+[2026-05-14T10:41:18.177Z] [info ]   Setup complete!
+[2026-05-14T10:41:18.180Z] [info ] ═══════════════════════════════════════════════
+[2026-05-14T10:41:18.182Z] [info ] Backend:    advanced-gguf
+[2026-05-14T10:41:18.185Z] [info ] Device:     cuda (23 GB VRAM)
+[2026-05-14T10:41:18.187Z] [info ] Code model: nomic-ai/nomic-embed-code (3584d)
+[2026-05-14T10:41:18.190Z] [info ] NLP model:  Qwen/Qwen3-Embedding-8B (4096d)
+[2026-05-14T10:41:18.193Z] [info ] GGUF code:  nomic-embed-code.Q5_K_M.gguf
+[2026-05-14T10:41:18.195Z] [info ] GGUF NLP:   Qwen3-Embedding-8B-Q5_K_M.gguf
+[2026-05-14T10:41:18.198Z] [info ] Docker:     ghcr.io/ggml-org/llama.cpp:server-cuda
+[2026-05-14T10:41:18.201Z] [info ] Config:     .anatoly/embeddings-ready.json
+[2026-05-14T10:41:18.203Z] [info ] Both GGUF models load simultaneously (~10 GB VRAM). No swap needed.
+[2026-05-14T10:41:18.206Z] [info ] Containers start automatically with 'npx anatoly run'.
+[2026-05-14T10:41:18.209Z] [info ] To check status: npx anatoly setup-embeddings --check
+[2026-05-14T10:41:18.698Z] [info ] ═══════════════════════════════════════════════
+[2026-05-14T10:41:18.700Z] [info ]   Anatoly Embedding Status
+[2026-05-14T10:41:18.703Z] [info ] ═══════════════════════════════════════════════
+[2026-05-14T10:41:18.856Z] [ ok  ] GPU: cuda (23 GB VRAM)
+[2026-05-14T10:41:19.126Z] [ ok  ] Docker: available
+[2026-05-14T10:41:19.392Z] [ ok  ] NVIDIA Container Toolkit: available
+[2026-05-14T10:41:19.401Z] [info ] Backend: advanced-gguf (configured)
+[2026-05-14T10:41:19.653Z] [ ok  ] Docker image: ghcr.io/ggml-org/llama.cpp:server-cuda
+[2026-05-14T10:41:19.659Z] [ ok  ] Code GGUF: nomic-embed-code.Q5_K_M.gguf (4836 MB)
+[2026-05-14T10:41:19.664Z] [ ok  ] NLP GGUF: Qwen3-Embedding-8B-Q5_K_M.gguf (5172 MB)
+[2026-05-14T10:41:19.675Z] [info ] Live embedding test (10 code + 10 NLP samples)
+[2026-05-14T10:41:19.677Z] [info ] Starting GGUF containers (code: 11437, NLP: 11438)...
+[2026-05-14T10:41:22.625Z] [info ] Waiting for GGUF containers to load models...
+[2026-05-14T10:41:24.894Z] [ ok  ] GGUF code container ready
+[2026-05-14T10:41:26.927Z] [ ok  ] GGUF NLP container ready
+[2026-05-14T10:41:29.667Z] [ ok  ] Code: 10/10 passed
+[2026-05-14T10:41:31.013Z] [ ok  ] NLP: 10/10 passed
+[2026-05-14T10:41:33.363Z] [ ok  ] All 20 embeddings verified
+[2026-05-14T10:47:54.822Z] [info ] ═══════════════════════════════════════════════
+[2026-05-14T10:47:54.825Z] [info ]   Anatoly Embedding Status
+[2026-05-14T10:47:54.827Z] [info ] ═══════════════════════════════════════════════
+[2026-05-14T10:47:54.834Z] [warn ] GPU: not detected
+[2026-05-14T10:47:54.911Z] [ ok  ] Docker: available
+[2026-05-14T10:47:54.983Z] [ ok  ] NVIDIA Container Toolkit: available
+[2026-05-14T10:47:54.991Z] [info ] Backend: advanced-gguf (configured)
+[2026-05-14T10:47:55.051Z] [ ok  ] Docker image: ghcr.io/ggml-org/llama.cpp:server-cuda
+[2026-05-14T10:47:55.057Z] [ ok  ] Code GGUF: nomic-embed-code.Q5_K_M.gguf (4836 MB)
+[2026-05-14T10:47:55.062Z] [ ok  ] NLP GGUF: Qwen3-Embedding-8B-Q5_K_M.gguf (5172 MB)
+[2026-05-14T10:47:55.071Z] [info ] Live embedding test (10 code + 10 NLP samples)
+[2026-05-14T10:47:55.074Z] [info ] Starting GGUF containers (code: 11437, NLP: 11438)...
+[2026-05-14T10:47:57.458Z] [info ] Waiting for GGUF containers to load models...
+[2026-05-14T10:47:59.856Z] [ ok  ] GGUF code container ready
+[2026-05-14T10:48:01.887Z] [ ok  ] GGUF NLP container ready
+[2026-05-14T10:48:04.601Z] [ ok  ] Code: 10/10 passed
+[2026-05-14T10:48:05.935Z] [ ok  ] NLP: 10/10 passed
+[2026-05-14T10:48:07.710Z] [ ok  ] All 20 embeddings verified

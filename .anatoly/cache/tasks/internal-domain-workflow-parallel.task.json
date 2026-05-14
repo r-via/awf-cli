@@ -1,0 +1,142 @@
+{
+  "version": 1,
+  "file": "internal/domain/workflow/parallel.go",
+  "hash": "4656e9c4187ffa20e1ad2cd2325551b94e1072f2e1ab3a0aa841d8094754c1db",
+  "symbols": [
+    {
+      "name": "ParallelStrategy",
+      "kind": "type",
+      "exported": true,
+      "line_start": 6,
+      "line_end": 6
+    },
+    {
+      "name": "StrategyAllSucceed",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 10,
+      "line_end": 10
+    },
+    {
+      "name": "StrategyAnySucceed",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 12,
+      "line_end": 12
+    },
+    {
+      "name": "StrategyBestEffort",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 14,
+      "line_end": 14
+    },
+    {
+      "name": "DefaultParallelStrategy",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 18,
+      "line_end": 18
+    },
+    {
+      "name": "DefaultMaxConcurrent",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 21,
+      "line_end": 21
+    },
+    {
+      "name": "ParseParallelStrategy",
+      "kind": "function",
+      "exported": true,
+      "line_start": 25,
+      "line_end": 36
+    },
+    {
+      "name": "String",
+      "kind": "method",
+      "exported": true,
+      "line_start": 38,
+      "line_end": 40
+    },
+    {
+      "name": "ParallelConfig",
+      "kind": "class",
+      "exported": true,
+      "line_start": 43,
+      "line_end": 46
+    },
+    {
+      "name": "BranchResult",
+      "kind": "class",
+      "exported": true,
+      "line_start": 49,
+      "line_end": 57
+    },
+    {
+      "name": "Duration",
+      "kind": "method",
+      "exported": true,
+      "line_start": 60,
+      "line_end": 62
+    },
+    {
+      "name": "Success",
+      "kind": "method",
+      "exported": true,
+      "line_start": 65,
+      "line_end": 67
+    },
+    {
+      "name": "ParallelResult",
+      "kind": "class",
+      "exported": true,
+      "line_start": 70,
+      "line_end": 77
+    },
+    {
+      "name": "NewParallelResult",
+      "kind": "function",
+      "exported": true,
+      "line_start": 80,
+      "line_end": 85
+    },
+    {
+      "name": "AddResult",
+      "kind": "method",
+      "exported": true,
+      "line_start": 88,
+      "line_end": 98
+    },
+    {
+      "name": "Duration",
+      "kind": "method",
+      "exported": true,
+      "line_start": 101,
+      "line_end": 103
+    },
+    {
+      "name": "AllSucceeded",
+      "kind": "method",
+      "exported": true,
+      "line_start": 106,
+      "line_end": 108
+    },
+    {
+      "name": "AnySucceeded",
+      "kind": "method",
+      "exported": true,
+      "line_start": 111,
+      "line_end": 113
+    }
+  ],
+  "imports": [
+    {
+      "source": "time",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

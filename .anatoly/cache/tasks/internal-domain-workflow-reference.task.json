@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "file": "internal/domain/workflow/reference.go",
+  "hash": "7c2510badb37d30cc31ba0528e6b69308ab7467c94402d740ef770bece3d135a",
+  "symbols": [
+    {
+      "name": "ReferenceType",
+      "kind": "type",
+      "exported": true,
+      "line_start": 4,
+      "line_end": 4
+    },
+    {
+      "name": "TypeInputs",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 8,
+      "line_end": 8
+    },
+    {
+      "name": "TypeStates",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 10,
+      "line_end": 10
+    },
+    {
+      "name": "TypeWorkflow",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 12,
+      "line_end": 12
+    },
+    {
+      "name": "TypeEnv",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 14,
+      "line_end": 14
+    },
+    {
+      "name": "TypeError",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 16,
+      "line_end": 16
+    },
+    {
+      "name": "TypeContext",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 18,
+      "line_end": 18
+    },
+    {
+      "name": "TypeLoop",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 20,
+      "line_end": 20
+    },
+    {
+      "name": "TypeUnknown",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 22,
+      "line_end": 22
+    },
+    {
+      "name": "TemplateReference",
+      "kind": "class",
+      "exported": true,
+      "line_start": 26,
+      "line_end": 32
+    },
+    {
+      "name": "TemplateAnalyzer",
+      "kind": "type",
+      "exported": true,
+      "line_start": 128,
+      "line_end": 131
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

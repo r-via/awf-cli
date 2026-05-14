@@ -1,0 +1,174 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/pluginmgr/state_store.go",
+  "hash": "9333ce3b055742d0a421f74d832ecc6b65088db520fb9c3f6ef748c35314e46c",
+  "symbols": [
+    {
+      "name": "pluginsFileName",
+      "kind": "constant",
+      "exported": false,
+      "line_start": 16,
+      "line_end": 16
+    },
+    {
+      "name": "JSONPluginStateStore",
+      "kind": "class",
+      "exported": true,
+      "line_start": 20,
+      "line_end": 24
+    },
+    {
+      "name": "NewJSONPluginStateStore",
+      "kind": "function",
+      "exported": true,
+      "line_start": 27,
+      "line_end": 32
+    },
+    {
+      "name": "Save",
+      "kind": "method",
+      "exported": true,
+      "line_start": 35,
+      "line_end": 104
+    },
+    {
+      "name": "Load",
+      "kind": "method",
+      "exported": true,
+      "line_start": 107,
+      "line_end": 147
+    },
+    {
+      "name": "SetEnabled",
+      "kind": "method",
+      "exported": true,
+      "line_start": 150,
+      "line_end": 173
+    },
+    {
+      "name": "IsEnabled",
+      "kind": "method",
+      "exported": true,
+      "line_start": 177,
+      "line_end": 186
+    },
+    {
+      "name": "GetConfig",
+      "kind": "method",
+      "exported": true,
+      "line_start": 190,
+      "line_end": 199
+    },
+    {
+      "name": "SetConfig",
+      "kind": "method",
+      "exported": true,
+      "line_start": 202,
+      "line_end": 219
+    },
+    {
+      "name": "GetState",
+      "kind": "method",
+      "exported": true,
+      "line_start": 222,
+      "line_end": 226
+    },
+    {
+      "name": "ListDisabled",
+      "kind": "method",
+      "exported": true,
+      "line_start": 229,
+      "line_end": 240
+    },
+    {
+      "name": "BasePath",
+      "kind": "method",
+      "exported": true,
+      "line_start": 243,
+      "line_end": 245
+    },
+    {
+      "name": "filePath",
+      "kind": "method",
+      "exported": false,
+      "line_start": 248,
+      "line_end": 250
+    },
+    {
+      "name": "SetSourceData",
+      "kind": "method",
+      "exported": true,
+      "line_start": 253,
+      "line_end": 270
+    },
+    {
+      "name": "GetSourceData",
+      "kind": "method",
+      "exported": true,
+      "line_start": 274,
+      "line_end": 283
+    },
+    {
+      "name": "SetChecksum",
+      "kind": "method",
+      "exported": true,
+      "line_start": 287,
+      "line_end": 300
+    },
+    {
+      "name": "GetChecksum",
+      "kind": "method",
+      "exported": true,
+      "line_start": 304,
+      "line_end": 314
+    },
+    {
+      "name": "RemoveState",
+      "kind": "method",
+      "exported": true,
+      "line_start": 317,
+      "line_end": 328
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "encoding/json",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "path/filepath",
+      "type": "import"
+    },
+    {
+      "source": "sync",
+      "type": "import"
+    },
+    {
+      "source": "syscall",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/pluginmodel",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/pluginmgr/grpc_event.go",
+  "hash": "f186936636efc4ff8c9cd209a1bb13d7fc6043cd9f027e5fc08ed617d8c785d8",
+  "symbols": [
+    {
+      "name": "defaultEventHandlerTimeout",
+      "kind": "constant",
+      "exported": false,
+      "line_start": 12,
+      "line_end": 12
+    },
+    {
+      "name": "grpcEventAdapter",
+      "kind": "class",
+      "exported": false,
+      "line_start": 14,
+      "line_end": 17
+    },
+    {
+      "name": "newGRPCEventAdapter",
+      "kind": "function",
+      "exported": false,
+      "line_start": 21,
+      "line_end": 26
+    },
+    {
+      "name": "domainEventToProto",
+      "kind": "function",
+      "exported": false,
+      "line_start": 28,
+      "line_end": 38
+    },
+    {
+      "name": "protoToDomainEvent",
+      "kind": "function",
+      "exported": false,
+      "line_start": 40,
+      "line_end": 50
+    },
+    {
+      "name": "domainEventToStreamMessage",
+      "kind": "function",
+      "exported": false,
+      "line_start": 52,
+      "line_end": 63
+    },
+    {
+      "name": "DeliverEvent",
+      "kind": "method",
+      "exported": true,
+      "line_start": 65,
+      "line_end": 79
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/pluginmodel",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/proto/plugin/v1",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

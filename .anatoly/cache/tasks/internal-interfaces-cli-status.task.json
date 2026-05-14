@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/cli/status.go",
+  "hash": "bf16e3439c9cebe2c3643e6d68c62d3cddf04f7d23ec6e56f3dc79bad22b7d23",
+  "symbols": [
+    {
+      "name": "newStatusCommand",
+      "kind": "function",
+      "exported": false,
+      "line_start": 14,
+      "line_end": 31
+    },
+    {
+      "name": "runStatus",
+      "kind": "function",
+      "exported": false,
+      "line_start": 33,
+      "line_end": 70
+    },
+    {
+      "name": "toExecutionInfo",
+      "kind": "function",
+      "exported": false,
+      "line_start": 72,
+      "line_end": 114
+    },
+    {
+      "name": "displayStatus",
+      "kind": "function",
+      "exported": false,
+      "line_start": 116,
+      "line_end": 185
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/store",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/interfaces/cli/ui",
+      "type": "import"
+    },
+    {
+      "source": "github.com/spf13/cobra",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

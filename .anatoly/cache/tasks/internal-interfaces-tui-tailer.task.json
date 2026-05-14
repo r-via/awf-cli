@@ -1,0 +1,152 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/tui/tailer.go",
+  "hash": "ca922077cbe6723a55de9fc3d1978dee23e5421f1c38233d0458237d04289fd8",
+  "symbols": [
+    {
+      "name": "initialTailLines",
+      "kind": "constant",
+      "exported": false,
+      "line_start": 15,
+      "line_end": 15
+    },
+    {
+      "name": "LogEntry",
+      "kind": "class",
+      "exported": true,
+      "line_start": 18,
+      "line_end": 28
+    },
+    {
+      "name": "LogLineMsg",
+      "kind": "class",
+      "exported": true,
+      "line_start": 31,
+      "line_end": 33
+    },
+    {
+      "name": "LogBatchMsg",
+      "kind": "class",
+      "exported": true,
+      "line_start": 36,
+      "line_end": 38
+    },
+    {
+      "name": "logRotationMsg",
+      "kind": "class",
+      "exported": false,
+      "line_start": 42,
+      "line_end": 44
+    },
+    {
+      "name": "Tailer",
+      "kind": "class",
+      "exported": true,
+      "line_start": 49,
+      "line_end": 53
+    },
+    {
+      "name": "NewTailer",
+      "kind": "function",
+      "exported": true,
+      "line_start": 56,
+      "line_end": 58
+    },
+    {
+      "name": "parseLine",
+      "kind": "function",
+      "exported": false,
+      "line_start": 61,
+      "line_end": 95
+    },
+    {
+      "name": "Tail",
+      "kind": "method",
+      "exported": true,
+      "line_start": 99,
+      "line_end": 124
+    },
+    {
+      "name": "Follow",
+      "kind": "method",
+      "exported": true,
+      "line_start": 128,
+      "line_end": 166
+    },
+    {
+      "name": "Next",
+      "kind": "method",
+      "exported": true,
+      "line_start": 169,
+      "line_end": 174
+    },
+    {
+      "name": "tailLastLines",
+      "kind": "function",
+      "exported": false,
+      "line_start": 177,
+      "line_end": 225
+    },
+    {
+      "name": "splitLines",
+      "kind": "function",
+      "exported": false,
+      "line_start": 228,
+      "line_end": 241
+    },
+    {
+      "name": "bytesReader",
+      "kind": "function",
+      "exported": false,
+      "line_start": 244,
+      "line_end": 246
+    },
+    {
+      "name": "byteSliceReader",
+      "kind": "class",
+      "exported": false,
+      "line_start": 248,
+      "line_end": 251
+    },
+    {
+      "name": "Read",
+      "kind": "method",
+      "exported": true,
+      "line_start": 253,
+      "line_end": 260
+    }
+  ],
+  "imports": [
+    {
+      "source": "bufio",
+      "type": "import"
+    },
+    {
+      "source": "encoding/json",
+      "type": "import"
+    },
+    {
+      "source": "errors",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "io",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "charm.land/bubbletea/v2",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

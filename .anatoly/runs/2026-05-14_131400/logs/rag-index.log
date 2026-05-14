@@ -1,0 +1,1238 @@
+2026-05-14T11:14:11.864Z mode=advanced table=function_cards_advanced codeRuntime=sdk
+2026-05-14T11:14:11.864Z models — code=nomic-embed-code-gguf (sdk) + nlp=qwen3-embedding-8b-gguf (sdk)
+2026-05-14T11:14:11.865Z vector-store: connecting to /home/rviau/project/awf-cli/.anatoly/cache/rag/lancedb (table: function_cards_advanced)
+2026-05-14T11:14:11.867Z vector-store: existing tables: (none)
+2026-05-14T11:14:11.959Z [1/196] cmd/awf/main.go
+2026-05-14T11:14:11.960Z [2/196] internal/application/conversation_manager.go
+2026-05-14T11:14:11.961Z [3/196] internal/application/dry_run_executor.go
+2026-05-14T11:14:11.963Z [4/196] internal/application/execution_service.go
+2026-05-14T11:14:12.012Z [5/196] internal/application/execution_setup.go
+2026-05-14T11:14:12.015Z [6/196] internal/application/external_file.go
+2026-05-14T11:14:12.016Z [7/196] internal/application/history_service.go
+2026-05-14T11:14:12.016Z [8/196] internal/application/hook_executor.go
+2026-05-14T11:14:12.807Z [9/196] internal/application/input_collection_service.go
+2026-05-14T11:14:12.937Z [10/196] internal/application/interactive_executor.go
+2026-05-14T11:14:13.748Z [11/196] internal/application/interpolation_helpers.go
+2026-05-14T11:14:13.941Z [12/196] internal/application/loop_executor.go
+2026-05-14T11:14:14.827Z [13/196] internal/application/output_limiter.go
+2026-05-14T11:14:14.987Z [14/196] internal/application/output_streamer.go
+2026-05-14T11:14:15.608Z [15/196] internal/application/parallel_executor.go
+2026-05-14T11:14:19.295Z [16/196] internal/application/plugin_service.go
+2026-05-14T11:14:19.558Z [17/196] internal/application/prompt_file.go
+2026-05-14T11:14:20.532Z [18/196] internal/application/script_file.go
+2026-05-14T11:14:20.617Z [19/196] internal/application/service.go
+2026-05-14T11:14:21.428Z [20/196] internal/application/single_step.go
+2026-05-14T11:14:22.120Z [21/196] internal/application/subworkflow_executor.go
+2026-05-14T11:14:22.182Z [22/196] internal/application/template_service.go
+2026-05-14T11:14:22.237Z [23/196] internal/application/transition_resolver.go
+2026-05-14T11:14:22.965Z [24/196] internal/domain/errors/catalog.go
+2026-05-14T11:14:23.004Z [25/196] internal/domain/errors/codes.go
+2026-05-14T11:14:23.064Z [26/196] internal/domain/errors/structured_error.go
+2026-05-14T11:14:23.562Z [27/196] internal/domain/operation/registry.go
+2026-05-14T11:14:23.682Z [28/196] internal/domain/operation/validate.go
+2026-05-14T11:14:23.769Z [29/196] internal/domain/pluginmodel/event.go
+2026-05-14T11:14:24.279Z [30/196] internal/domain/pluginmodel/info.go
+2026-05-14T11:14:24.336Z [31/196] internal/domain/pluginmodel/manifest.go
+2026-05-14T11:14:24.399Z [32/196] internal/domain/pluginmodel/operation.go
+2026-05-14T11:14:24.482Z [33/196] internal/domain/pluginmodel/state.go
+2026-05-14T11:14:24.786Z [34/196] internal/domain/ports/tracer.go
+2026-05-14T11:14:25.319Z [35/196] internal/domain/workflow/agent_config.go
+2026-05-14T11:14:25.365Z [36/196] internal/domain/workflow/audit_event.go
+2026-05-14T11:14:25.408Z [37/196] internal/domain/workflow/condition.go
+2026-05-14T11:14:25.503Z [38/196] internal/domain/workflow/config.go
+2026-05-14T11:14:25.916Z [39/196] internal/domain/workflow/context.go
+2026-05-14T11:14:26.034Z [40/196] internal/domain/workflow/conversation.go
+2026-05-14T11:14:26.083Z [41/196] internal/domain/workflow/graph.go
+2026-05-14T11:14:26.181Z [42/196] internal/domain/workflow/loop.go
+2026-05-14T11:14:26.317Z [43/196] internal/domain/workflow/parallel.go
+2026-05-14T11:14:26.493Z [44/196] internal/domain/workflow/runtime_context.go
+2026-05-14T11:14:26.624Z [45/196] internal/domain/workflow/step.go
+2026-05-14T11:14:26.689Z [46/196] internal/domain/workflow/subworkflow.go
+2026-05-14T11:14:26.979Z [47/196] internal/domain/workflow/template.go
+2026-05-14T11:14:27.274Z [48/196] internal/domain/workflow/template_errors.go
+2026-05-14T11:14:27.802Z [49/196] internal/domain/workflow/template_validation.go
+2026-05-14T11:14:27.907Z [50/196] internal/domain/workflow/validation_errors.go
+2026-05-14T11:14:28.090Z [51/196] internal/domain/workflow/workflow.go
+2026-05-14T11:14:28.157Z [52/196] internal/infrastructure/agents/base_cli_provider.go
+2026-05-14T11:14:28.201Z [53/196] internal/infrastructure/agents/claude_provider.go
+2026-05-14T11:14:28.299Z [54/196] internal/infrastructure/agents/cli_executor.go
+2026-05-14T11:14:28.361Z [55/196] internal/infrastructure/agents/codex_provider.go
+2026-05-14T11:14:28.712Z [56/196] internal/infrastructure/agents/copilot_provider.go
+2026-05-14T11:14:29.688Z [57/196] internal/infrastructure/agents/gemini_provider.go
+2026-05-14T11:14:29.861Z [58/196] internal/infrastructure/agents/helpers.go
+2026-05-14T11:14:30.081Z [59/196] internal/infrastructure/agents/openai_compatible_provider.go
+2026-05-14T11:14:31.045Z [60/196] internal/infrastructure/agents/opencode_provider.go
+2026-05-14T11:14:31.498Z [61/196] internal/infrastructure/agents/options.go
+2026-05-14T11:14:31.660Z [62/196] internal/infrastructure/agents/registry.go
+2026-05-14T11:14:32.321Z [63/196] internal/infrastructure/agents/stream_filter.go
+2026-05-14T11:14:32.951Z [64/196] internal/infrastructure/analyzer/template_analyzer.go
+2026-05-14T11:14:33.577Z [65/196] internal/infrastructure/audit/factory.go
+2026-05-14T11:14:33.754Z [66/196] internal/infrastructure/audit/file_writer.go
+2026-05-14T11:14:34.726Z [67/196] internal/infrastructure/config/loader.go
+2026-05-14T11:14:35.247Z [68/196] internal/infrastructure/config/types.go
+2026-05-14T11:14:35.473Z [69/196] internal/infrastructure/diagram/config.go
+2026-05-14T11:14:35.553Z [70/196] internal/infrastructure/diagram/dot_generator.go
+2026-05-14T11:14:35.887Z [71/196] internal/infrastructure/diagram/graphviz.go
+2026-05-14T11:14:36.008Z [72/196] internal/infrastructure/errors/hint_generators.go
+2026-05-14T11:14:36.054Z [73/196] internal/infrastructure/errors/human_formatter.go
+2026-05-14T11:14:36.275Z [74/196] internal/infrastructure/errors/json_formatter.go
+2026-05-14T11:14:36.401Z [75/196] internal/infrastructure/executor/shell_executor.go
+2026-05-14T11:14:36.461Z [76/196] internal/infrastructure/expression/expr_evaluator.go
+2026-05-14T11:14:36.532Z [77/196] internal/infrastructure/expression/expr_validator.go
+2026-05-14T11:14:37.152Z [78/196] internal/infrastructure/github/auth.go
+2026-05-14T11:14:37.972Z [79/196] internal/infrastructure/github/batch.go
+2026-05-14T11:14:38.023Z [80/196] internal/infrastructure/github/client.go
+2026-05-14T11:14:38.401Z [81/196] internal/infrastructure/github/operations.go
+2026-05-14T11:14:38.669Z [82/196] internal/infrastructure/github/provider.go
+2026-05-14T11:14:38.722Z [83/196] internal/infrastructure/http/operations.go
+2026-05-14T11:14:38.941Z [84/196] internal/infrastructure/http/provider.go
+2026-05-14T11:14:38.987Z [85/196] internal/infrastructure/logger/console_logger.go
+2026-05-14T11:14:39.528Z [86/196] internal/infrastructure/logger/hclog_adapter.go
+2026-05-14T11:14:39.576Z [87/196] internal/infrastructure/logger/json_logger.go
+2026-05-14T11:14:39.691Z [88/196] internal/infrastructure/logger/masker.go
+2026-05-14T11:14:39.802Z [89/196] internal/infrastructure/logger/multi_logger.go
+2026-05-14T11:14:41.110Z [90/196] internal/infrastructure/notify/desktop.go
+2026-05-14T11:14:41.167Z [91/196] internal/infrastructure/notify/operations.go
+2026-05-14T11:14:41.576Z [92/196] internal/infrastructure/notify/provider.go
+2026-05-14T11:14:41.918Z [93/196] internal/infrastructure/notify/webhook.go
+2026-05-14T11:14:42.451Z [94/196] internal/infrastructure/otel/factory.go
+2026-05-14T11:14:42.780Z [95/196] internal/infrastructure/otel/provider.go
+2026-05-14T11:14:42.896Z [96/196] internal/infrastructure/pluginmgr/composite.go
+2026-05-14T11:14:43.075Z [97/196] internal/infrastructure/pluginmgr/event_bus.go
+2026-05-14T11:14:43.467Z [98/196] internal/infrastructure/pluginmgr/grpc_event.go
+2026-05-14T11:14:43.525Z [99/196] internal/infrastructure/pluginmgr/grpc_host.go
+2026-05-14T11:14:43.714Z [100/196] internal/infrastructure/pluginmgr/grpc_step_type.go
+2026-05-14T11:14:43.852Z [101/196] internal/infrastructure/pluginmgr/grpc_validator.go
+2026-05-14T11:14:44.112Z [102/196] internal/infrastructure/pluginmgr/host_event_service.go
+2026-05-14T11:14:44.253Z [103/196] internal/infrastructure/pluginmgr/installer.go
+2026-05-14T11:14:44.344Z [104/196] internal/infrastructure/pluginmgr/loader.go
+2026-05-14T11:14:44.592Z [105/196] internal/infrastructure/pluginmgr/manifest_parser.go
+2026-05-14T11:14:44.842Z [106/196] internal/infrastructure/pluginmgr/registry.go
+2026-05-14T11:14:44.950Z [107/196] internal/infrastructure/pluginmgr/rpc_manager.go
+2026-05-14T11:14:45.306Z [108/196] internal/infrastructure/pluginmgr/state_store.go
+2026-05-14T11:14:45.545Z [109/196] internal/infrastructure/pluginmgr/stream_manager.go
+2026-05-14T11:14:45.593Z [110/196] internal/infrastructure/pluginmgr/system.go
+2026-05-14T11:14:45.820Z [111/196] internal/infrastructure/repository/composite_repository.go
+2026-05-14T11:14:46.237Z [112/196] internal/infrastructure/repository/errors.go
+2026-05-14T11:14:46.544Z [113/196] internal/infrastructure/repository/source.go
+2026-05-14T11:14:46.755Z [114/196] internal/infrastructure/repository/template_repository.go
+2026-05-14T11:14:48.891Z [115/196] internal/infrastructure/repository/yaml_mapper.go
+2026-05-14T11:14:49.401Z [116/196] internal/infrastructure/repository/yaml_repository.go
+2026-05-14T11:14:49.573Z [117/196] internal/infrastructure/store/json_store.go
+2026-05-14T11:14:49.961Z [118/196] internal/infrastructure/store/sqlite_history_store.go
+2026-05-14T11:14:50.047Z [119/196] internal/infrastructure/tokenizer/approximation_tokenizer.go
+2026-05-14T11:14:50.198Z [120/196] internal/infrastructure/updater/replacer.go
+2026-05-14T11:14:50.329Z [121/196] internal/infrastructure/workflowpkg/discoverer.go
+2026-05-14T11:14:50.800Z [122/196] internal/infrastructure/workflowpkg/installer.go
+2026-05-14T11:14:51.729Z [123/196] internal/infrastructure/workflowpkg/loader.go
+2026-05-14T11:14:51.969Z [124/196] internal/infrastructure/workflowpkg/manifest.go
+2026-05-14T11:14:52.012Z [125/196] internal/infrastructure/workflowpkg/types.go
+2026-05-14T11:14:52.746Z [126/196] internal/infrastructure/xdg/xdg.go
+2026-05-14T11:14:53.032Z [127/196] internal/interfaces/cli/config.go
+2026-05-14T11:14:53.081Z [128/196] internal/interfaces/cli/config_cmd.go
+2026-05-14T11:14:53.141Z [129/196] internal/interfaces/cli/diagram.go
+2026-05-14T11:14:53.483Z [130/196] internal/interfaces/cli/error.go
+2026-05-14T11:14:53.537Z [131/196] internal/interfaces/cli/history.go
+2026-05-14T11:14:53.772Z [132/196] internal/interfaces/cli/init.go
+2026-05-14T11:14:53.826Z [133/196] internal/interfaces/cli/list.go
+2026-05-14T11:14:54.169Z [134/196] internal/interfaces/cli/migration.go
+2026-05-14T11:14:54.480Z [135/196] internal/interfaces/cli/pack_resolver.go
+2026-05-14T11:14:54.994Z [136/196] internal/interfaces/cli/plugin_cmd.go
+2026-05-14T11:14:55.508Z [137/196] internal/interfaces/cli/plugins.go
+2026-05-14T11:14:55.865Z [138/196] internal/interfaces/cli/resume.go
+2026-05-14T11:14:56.032Z [139/196] internal/interfaces/cli/root.go
+2026-05-14T11:14:56.651Z [140/196] internal/interfaces/cli/run.go
+2026-05-14T11:14:56.881Z [141/196] internal/interfaces/cli/run_help.go
+2026-05-14T11:14:56.930Z [142/196] internal/interfaces/cli/signal_handler.go
+2026-05-14T11:14:56.995Z [143/196] internal/interfaces/cli/status.go
+2026-05-14T11:14:58.790Z [144/196] internal/interfaces/cli/ui/agent_renderer.go
+2026-05-14T11:14:59.094Z [145/196] internal/interfaces/cli/ui/colors.go
+2026-05-14T11:14:59.337Z [146/196] internal/interfaces/cli/ui/dry_run_formatter.go
+2026-05-14T11:15:00.047Z [147/196] internal/interfaces/cli/ui/formatter.go
+2026-05-14T11:15:00.811Z [148/196] internal/interfaces/cli/ui/input_collector.go
+2026-05-14T11:15:01.005Z [149/196] internal/interfaces/cli/ui/interactive_prompt.go
+2026-05-14T11:15:01.051Z [150/196] internal/interfaces/cli/ui/output.go
+2026-05-14T11:15:01.237Z [151/196] internal/interfaces/cli/ui/output_writer.go
+2026-05-14T11:15:01.457Z [152/196] internal/interfaces/cli/ui/readline.go
+2026-05-14T11:15:01.576Z [153/196] internal/interfaces/cli/ui/stdin_input_reader.go
+2026-05-14T11:15:02.582Z [154/196] internal/interfaces/cli/upgrade.go
+2026-05-14T11:15:03.000Z [155/196] internal/interfaces/cli/validate.go
+2026-05-14T11:15:03.231Z [156/196] internal/interfaces/cli/workflow_cmd.go
+2026-05-14T11:15:03.933Z [157/196] internal/interfaces/tui/bridge.go
+2026-05-14T11:15:06.451Z [158/196] internal/interfaces/tui/command.go
+2026-05-14T11:15:06.676Z [159/196] internal/interfaces/tui/components.go
+2026-05-14T11:15:06.730Z [160/196] internal/interfaces/tui/input_reader.go
+2026-05-14T11:15:07.458Z [161/196] internal/interfaces/tui/keys.go
+2026-05-14T11:15:07.504Z [162/196] internal/interfaces/tui/messages.go
+2026-05-14T11:15:07.554Z [163/196] internal/interfaces/tui/model.go
+2026-05-14T11:15:09.021Z [164/196] internal/interfaces/tui/tab_history.go
+2026-05-14T11:15:09.559Z [165/196] internal/interfaces/tui/tab_logs.go
+2026-05-14T11:15:09.677Z [166/196] internal/interfaces/tui/tab_monitoring.go
+2026-05-14T11:15:09.842Z [167/196] internal/interfaces/tui/tab_workflows.go
+2026-05-14T11:15:09.921Z [168/196] internal/interfaces/tui/tailer.go
+2026-05-14T11:15:10.111Z [169/196] internal/interfaces/tui/tree.go
+2026-05-14T11:15:10.171Z [170/196] internal/interfaces/tui/viewportscroll.go
+2026-05-14T11:15:10.478Z [171/196] pkg/expression/evaluator.go
+2026-05-14T11:15:11.495Z [172/196] pkg/httpx/client.go
+2026-05-14T11:15:11.565Z [173/196] pkg/httpx/response.go
+2026-05-14T11:15:12.920Z [174/196] pkg/interpolation/errors.go
+2026-05-14T11:15:13.676Z [175/196] pkg/interpolation/escaping.go
+2026-05-14T11:15:14.011Z [176/196] pkg/interpolation/reference.go
+2026-05-14T11:15:14.299Z [177/196] pkg/interpolation/resolver.go
+2026-05-14T11:15:14.422Z [178/196] pkg/interpolation/serializer.go
+2026-05-14T11:15:14.775Z [179/196] pkg/interpolation/template_helpers.go
+2026-05-14T11:15:14.996Z [180/196] pkg/interpolation/template_resolver.go
+2026-05-14T11:15:15.050Z [181/196] pkg/output/format.go
+2026-05-14T11:15:15.109Z [182/196] pkg/plugin/sdk/event.go
+2026-05-14T11:15:15.206Z [183/196] pkg/plugin/sdk/grpc_plugin.go
+2026-05-14T11:15:15.446Z [184/196] pkg/plugin/sdk/host_client.go
+2026-05-14T11:15:15.564Z [185/196] pkg/plugin/sdk/sdk.go
+2026-05-14T11:15:15.609Z [186/196] pkg/plugin/sdk/serve.go
+2026-05-14T11:15:15.668Z [187/196] pkg/plugin/sdk/step_type.go
+2026-05-14T11:15:16.333Z [188/196] pkg/plugin/sdk/testing.go
+2026-05-14T11:15:16.530Z [189/196] pkg/plugin/sdk/validator.go
+2026-05-14T11:15:17.017Z [190/196] pkg/registry/downloader.go
+2026-05-14T11:15:17.070Z [191/196] pkg/registry/github_client.go
+2026-05-14T11:15:17.113Z [192/196] pkg/registry/version.go
+2026-05-14T11:15:17.546Z [193/196] pkg/retry/backoff.go
+2026-05-14T11:15:17.613Z [194/196] pkg/retry/retryer.go
+2026-05-14T11:15:17.788Z [195/196] pkg/stringutil/levenshtein.go
+2026-05-14T11:15:18.178Z [196/196] pkg/validation/validator.go
+2026-05-14T11:15:20.453Z code phase done — 196 files with cards (of 196 indexed)
+2026-05-14T11:15:20.454Z summarizing 196 files via LLM...
+2026-05-14T11:17:15.842Z ⚠ internal/domain/pluginmodel/operation.go: 1/8 functions failed NLP summarization (Validate) — will retry next run
+2026-05-14T11:17:35.518Z ⚠ internal/domain/workflow/condition.go: 1/7 functions failed NLP summarization (Validate) — will retry next run
+2026-05-14T11:17:42.101Z ⚠ internal/domain/workflow/conversation.go: 1/14 functions failed NLP summarization (Validate) — will retry next run
+2026-05-14T11:17:48.964Z ⚠ internal/domain/workflow/step.go: 1/3 functions failed NLP summarization (Validate) — will retry next run
+2026-05-14T11:17:52.203Z ⚠ internal/domain/workflow/loop.go: 1/9 functions failed NLP summarization (Duration) — will retry next run
+2026-05-14T11:18:04.972Z ⚠ internal/domain/workflow/template_errors.go: 2/3 functions failed NLP summarization (Error, Error) — will retry next run
+2026-05-14T11:18:08.980Z ⚠ internal/domain/workflow/parallel.go: 1/9 functions failed NLP summarization (Duration) — will retry next run
+2026-05-14T11:19:59.841Z ⚠ internal/infrastructure/logger/multi_logger.go: 5/11 functions failed NLP summarization (Debug, Info, Warn, Error, WithContext) — will retry next run
+2026-05-14T11:20:32.575Z ⚠ internal/infrastructure/pluginmgr/grpc_step_type.go: 2/8 functions failed NLP summarization (HasStepType, ExecuteStep) — will retry next run
+2026-05-14T11:20:37.132Z ⚠ internal/infrastructure/pluginmgr/grpc_validator.go: 2/8 functions failed NLP summarization (ValidateWorkflow, ValidateStep) — will retry next run
+2026-05-14T11:22:01.196Z ⚠ internal/infrastructure/pluginmgr/rpc_manager.go: 1/46 functions failed NLP summarization (Error) — will retry next run
+2026-05-14T11:22:59.758Z ⚠ internal/interfaces/cli/run.go: 1/31 functions failed NLP summarization (Error) — will retry next run
+2026-05-14T11:23:48.352Z ⚠ internal/interfaces/tui/keys.go: 8/10 functions failed NLP summarization (ShortHelp, FullHelp, ShortHelp, FullHelp, ShortHelp, FullHelp, ShortHelp, FullHelp) — will retry next run
+2026-05-14T11:24:40.778Z ⚠ pkg/interpolation/errors.go: 1/3 functions failed NLP summarization (Error) — will retry next run
+2026-05-14T11:25:20.359Z ⚠ pkg/registry/version.go: 2/11 functions failed NLP summarization (Check, String) — will retry next run
+2026-05-14T11:25:58.038Z ⚠ pkg/plugin/sdk/testing.go: 1/20 functions failed NLP summarization (Reset) — will retry next run
+2026-05-14T11:25:58.038Z embedding summaries for 196 files...
+2026-05-14T11:27:39.040Z NLP phase complete
+2026-05-14T11:27:39.041Z upserting 196 file results to function_cards_advanced
+2026-05-14T11:27:39.042Z vector-store: creating table function_cards_advanced (1 rows, vector dim=3584)
+2026-05-14T11:27:48.213Z processing 48 project doc files via smart-chunk (0 cached)
+2026-05-14T11:27:48.213Z [1/48] chunking docs/ADR/001-hexagonal-architecture.md
+2026-05-14T11:27:48.213Z docs/ADR/001-hexagonal-architecture.md → 4 sections (smart-chunked)
+2026-05-14T11:27:48.213Z [2/48] chunking docs/ADR/002-error-taxonomy-exit-codes.md
+2026-05-14T11:27:48.213Z docs/ADR/002-error-taxonomy-exit-codes.md → 4 sections (smart-chunked)
+2026-05-14T11:27:48.213Z [3/48] chunking docs/ADR/003-yaml-state-machine-workflows.md
+2026-05-14T11:27:48.213Z docs/ADR/003-yaml-state-machine-workflows.md → 4 sections (smart-chunked)
+2026-05-14T11:27:48.213Z [4/48] chunking docs/ADR/004-domain-operation-registry.md
+2026-05-14T11:27:48.213Z docs/ADR/004-domain-operation-registry.md → 4 sections (smart-chunked)
+2026-05-14T11:27:48.213Z [5/48] chunking docs/ADR/005-atomic-file-writes.md
+2026-05-14T11:27:48.213Z docs/ADR/005-atomic-file-writes.md → 4 sections (smart-chunked)
+2026-05-14T11:27:48.213Z [6/48] chunking docs/ADR/006-xdg-path-resolution.md
+2026-05-14T11:27:48.214Z docs/ADR/006-xdg-path-resolution.md → 4 sections (smart-chunked)
+2026-05-14T11:27:48.214Z [7/48] chunking docs/ADR/007-agent-prompt-xor-constraint.md
+2026-05-14T11:27:48.214Z docs/ADR/007-agent-prompt-xor-constraint.md → 4 sections (smart-chunked)
+2026-05-14T11:27:48.214Z [8/48] chunking docs/ADR/008-openai-compatible-provider-http-adapter.md
+2026-05-14T11:27:48.214Z docs/ADR/008-openai-compatible-provider-http-adapter.md → 5 sections (smart-chunked)
+2026-05-14T11:27:48.214Z [9/48] chunking docs/ADR/009-breaking-removal-custom-provider-v0.4.0.md
+2026-05-14T11:27:48.214Z docs/ADR/009-breaking-removal-custom-provider-v0.4.0.md → 5 sections (smart-chunked)
+2026-05-14T11:27:48.214Z [10/48] chunking docs/ADR/010-paired-jsonl-audit-trail-with-atomic-append.md
+2026-05-14T11:27:48.214Z docs/ADR/010-paired-jsonl-audit-trail-with-atomic-append.md → 6 sections (smart-chunked)
+2026-05-14T11:27:48.214Z [11/48] chunking docs/ADR/011-application-layer-secret-masking-for-audit-events.md
+2026-05-14T11:27:48.214Z docs/ADR/011-application-layer-secret-masking-for-audit-events.md → 6 sections (smart-chunked)
+2026-05-14T11:27:48.214Z [12/48] chunking docs/ADR/012-runtime-shell-detection.md
+2026-05-14T11:27:48.214Z docs/ADR/012-runtime-shell-detection.md → 5 sections (smart-chunked)
+2026-05-14T11:27:48.214Z [13/48] chunking docs/ADR/013-context-aware-input-ports.md
+2026-05-14T11:27:48.214Z docs/ADR/013-context-aware-input-ports.md → 6 sections (smart-chunked)
+2026-05-14T11:27:48.214Z [14/48] chunking docs/ADR/014-shebang-execution-for-script-files.md
+2026-05-14T11:27:48.214Z docs/ADR/014-shebang-execution-for-script-files.md → 13 sections (smart-chunked)
+2026-05-14T11:27:48.214Z [15/48] chunking docs/ADR/015-grpc-go-plugin-transport-for-external-plugins.md
+2026-05-14T11:27:48.214Z docs/ADR/015-grpc-go-plugin-transport-for-external-plugins.md → 8 sections (smart-chunked)
+2026-05-14T11:27:48.215Z [16/48] chunking docs/ADR/README.md
+2026-05-14T11:27:48.215Z docs/ADR/README.md → 4 sections (smart-chunked)
+2026-05-14T11:27:48.215Z [17/48] chunking docs/README.md
+2026-05-14T11:27:48.215Z docs/README.md → 7 sections (smart-chunked)
+2026-05-14T11:27:48.215Z [18/48] chunking docs/development/architecture.md
+2026-05-14T11:27:48.215Z docs/development/architecture.md → 36 sections (smart-chunked)
+2026-05-14T11:27:48.215Z [19/48] chunking docs/development/code-quality.md
+2026-05-14T11:27:48.215Z docs/development/code-quality.md → 37 sections (smart-chunked)
+2026-05-14T11:27:48.215Z [20/48] chunking docs/development/creating-agent-provider.md
+2026-05-14T11:27:48.216Z docs/development/creating-agent-provider.md → 44 sections (smart-chunked)
+2026-05-14T11:27:48.216Z [21/48] chunking docs/development/plugin-event-architecture.md
+2026-05-14T11:27:48.216Z docs/development/plugin-event-architecture.md → 34 sections (smart-chunked)
+2026-05-14T11:27:48.216Z [22/48] chunking docs/development/project-structure.md
+2026-05-14T11:27:48.216Z docs/development/project-structure.md → 8 sections (smart-chunked)
+2026-05-14T11:27:48.216Z [23/48] chunking docs/development/testing.md
+2026-05-14T11:27:48.216Z docs/development/testing.md → 20 sections (smart-chunked)
+2026-05-14T11:27:48.216Z [24/48] chunking docs/getting-started/installation.md
+2026-05-14T11:27:48.216Z docs/getting-started/installation.md → 5 sections (smart-chunked)
+2026-05-14T11:27:48.217Z [25/48] chunking docs/getting-started/quickstart.md
+2026-05-14T11:27:48.217Z docs/getting-started/quickstart.md → 8 sections (smart-chunked)
+2026-05-14T11:27:48.217Z [26/48] chunking docs/reference/audit-trail-schema.md
+2026-05-14T11:27:48.217Z docs/reference/audit-trail-schema.md → 15 sections (smart-chunked)
+2026-05-14T11:27:48.217Z [27/48] chunking docs/reference/error-codes.md
+2026-05-14T11:27:48.217Z docs/reference/error-codes.md → 30 sections (smart-chunked)
+2026-05-14T11:27:48.217Z [28/48] chunking docs/reference/exit-codes.md
+2026-05-14T11:27:48.217Z docs/reference/exit-codes.md → 8 sections (smart-chunked)
+2026-05-14T11:27:48.217Z [29/48] chunking docs/reference/interpolation.md
+2026-05-14T11:27:48.217Z docs/reference/interpolation.md → 35 sections (smart-chunked)
+2026-05-14T11:27:48.218Z [30/48] chunking docs/reference/loop.md
+2026-05-14T11:27:48.218Z docs/reference/loop.md → 28 sections (smart-chunked)
+2026-05-14T11:27:48.218Z [31/48] chunking docs/reference/package-documentation.md
+2026-05-14T11:27:48.218Z docs/reference/package-documentation.md → 14 sections (smart-chunked)
+2026-05-14T11:27:48.218Z [32/48] chunking docs/reference/validation.md
+2026-05-14T11:27:48.218Z docs/reference/validation.md → 6 sections (smart-chunked)
+2026-05-14T11:27:48.218Z [33/48] chunking docs/user-guide/agent-steps.md
+2026-05-14T11:27:48.219Z docs/user-guide/agent-steps.md → 53 sections (smart-chunked)
+2026-05-14T11:27:48.219Z [34/48] chunking docs/user-guide/audit-trail.md
+2026-05-14T11:27:48.219Z docs/user-guide/audit-trail.md → 8 sections (smart-chunked)
+2026-05-14T11:27:48.219Z [35/48] chunking docs/user-guide/commands.md
+2026-05-14T11:27:48.219Z docs/user-guide/commands.md → 65 sections (smart-chunked)
+2026-05-14T11:27:48.219Z [36/48] chunking docs/user-guide/configuration.md
+2026-05-14T11:27:48.220Z docs/user-guide/configuration.md → 30 sections (smart-chunked)
+2026-05-14T11:27:48.220Z [37/48] chunking docs/user-guide/conversation-steps.md
+2026-05-14T11:27:48.220Z docs/user-guide/conversation-steps.md → 20 sections (smart-chunked)
+2026-05-14T11:27:48.220Z [38/48] chunking docs/user-guide/examples.md
+2026-05-14T11:27:48.220Z docs/user-guide/examples.md → 7 sections (smart-chunked)
+2026-05-14T11:27:48.220Z [39/48] chunking docs/user-guide/interactive-inputs.md
+2026-05-14T11:27:48.220Z docs/user-guide/interactive-inputs.md → 25 sections (smart-chunked)
+2026-05-14T11:27:48.220Z [40/48] chunking docs/user-guide/plugin-events.md
+2026-05-14T11:27:48.220Z docs/user-guide/plugin-events.md → 23 sections (smart-chunked)
+2026-05-14T11:27:48.220Z [41/48] chunking docs/user-guide/plugins.md
+2026-05-14T11:27:48.221Z docs/user-guide/plugins.md → 45 sections (smart-chunked)
+2026-05-14T11:27:48.221Z [42/48] chunking docs/user-guide/retry.md
+2026-05-14T11:27:48.221Z docs/user-guide/retry.md → 20 sections (smart-chunked)
+2026-05-14T11:27:48.221Z [43/48] chunking docs/user-guide/templates.md
+2026-05-14T11:27:48.221Z docs/user-guide/templates.md → 8 sections (smart-chunked)
+2026-05-14T11:27:48.221Z [44/48] chunking docs/user-guide/tracing.md
+2026-05-14T11:27:48.221Z docs/user-guide/tracing.md → 25 sections (smart-chunked)
+2026-05-14T11:27:48.221Z [45/48] chunking docs/user-guide/tui.md
+2026-05-14T11:27:48.222Z docs/user-guide/tui.md → 40 sections (smart-chunked)
+2026-05-14T11:27:48.222Z [46/48] chunking docs/user-guide/upgrade.md
+2026-05-14T11:27:48.222Z docs/user-guide/upgrade.md → 10 sections (smart-chunked)
+2026-05-14T11:27:48.222Z [47/48] chunking docs/user-guide/workflow-packs.md
+2026-05-14T11:27:48.222Z docs/user-guide/workflow-packs.md → 18 sections (smart-chunked)
+2026-05-14T11:27:48.222Z [48/48] chunking docs/user-guide/workflow-syntax.md
+2026-05-14T11:27:48.226Z docs/user-guide/workflow-syntax.md → 50 sections (smart-chunked)
+2026-05-14T11:27:48.226Z   section "Introduction" (122 chars)
+2026-05-14T11:27:48.226Z   section "Context" (452 chars)
+2026-05-14T11:27:48.226Z   section "Decision" (322 chars)
+2026-05-14T11:27:48.226Z   section "Consequences" (437 chars)
+2026-05-14T11:27:48.226Z   section "Introduction" (130 chars)
+2026-05-14T11:27:48.226Z   section "Context" (277 chars)
+2026-05-14T11:27:48.226Z   section "Decision" (225 chars)
+2026-05-14T11:27:48.226Z   section "Consequences" (350 chars)
+2026-05-14T11:27:48.226Z   section "Introduction" (142 chars)
+2026-05-14T11:27:48.226Z   section "Context" (289 chars)
+2026-05-14T11:27:48.226Z   section "Decision" (570 chars)
+2026-05-14T11:27:48.227Z   section "Consequences" (405 chars)
+2026-05-14T11:27:48.227Z   section "Introduction" (157 chars)
+2026-05-14T11:27:48.227Z   section "Context" (385 chars)
+2026-05-14T11:27:48.227Z   section "Decision" (520 chars)
+2026-05-14T11:27:48.227Z   section "Consequences" (326 chars)
+2026-05-14T11:27:48.227Z   section "Introduction" (140 chars)
+2026-05-14T11:27:48.227Z   section "Context" (250 chars)
+2026-05-14T11:27:48.227Z   section "Decision" (478 chars)
+2026-05-14T11:27:48.227Z   section "Consequences" (276 chars)
+2026-05-14T11:27:48.227Z   section "Introduction" (129 chars)
+2026-05-14T11:27:48.227Z   section "Context" (469 chars)
+2026-05-14T11:27:48.227Z   section "Decision" (555 chars)
+2026-05-14T11:27:48.227Z   section "Consequences" (398 chars)
+2026-05-14T11:27:48.227Z   section "Introduction" (127 chars)
+2026-05-14T11:27:48.227Z   section "Context" (283 chars)
+2026-05-14T11:27:48.227Z   section "Decision" (599 chars)
+2026-05-14T11:27:48.227Z   section "Consequences" (293 chars)
+2026-05-14T11:27:48.227Z   section "Introduction" (118 chars)
+2026-05-14T11:27:48.227Z   section "Context" (368 chars)
+2026-05-14T11:27:48.227Z   section "Decision" (512 chars)
+2026-05-14T11:27:48.227Z   section "Consequences — Positive" (366 chars)
+2026-05-14T11:27:48.227Z   section "Consequences — Negative" (202 chars)
+2026-05-14T11:27:48.227Z   section "Introduction" (106 chars)
+2026-05-14T11:27:48.227Z   section "Context" (336 chars)
+2026-05-14T11:27:48.227Z   section "Decision" (533 chars)
+2026-05-14T11:27:48.227Z   section "Consequences — Positive" (227 chars)
+2026-05-14T11:27:48.227Z   section "Consequences — Negative" (162 chars)
+2026-05-14T11:27:48.227Z   section "Introduction" (104 chars)
+2026-05-14T11:27:48.227Z   section "Context" (382 chars)
+2026-05-14T11:27:48.227Z   section "Decision" (334 chars)
+2026-05-14T11:27:48.227Z   section "Decision (cont.)" (314 chars)
+2026-05-14T11:27:48.228Z   section "Consequences — Positive" (241 chars)
+2026-05-14T11:27:48.228Z   section "Consequences — Negative" (177 chars)
+2026-05-14T11:27:48.228Z   section "Introduction" (110 chars)
+2026-05-14T11:27:48.228Z   section "Context" (224 chars)
+2026-05-14T11:27:48.228Z   section "Decision" (267 chars)
+2026-05-14T11:27:48.228Z   section "Decision (cont.)" (352 chars)
+2026-05-14T11:27:48.228Z   section "Consequences — Positive" (278 chars)
+2026-05-14T11:27:48.228Z   section "Consequences — Negative" (200 chars)
+2026-05-14T11:27:48.228Z   section "Introduction" (172 chars)
+2026-05-14T11:27:48.228Z   section "Context" (262 chars)
+2026-05-14T11:27:48.228Z   section "Decision" (410 chars)
+2026-05-14T11:27:48.228Z   section "Decision (cont.)" (385 chars)
+2026-05-14T11:27:48.228Z   section "Consequences" (577 chars)
+2026-05-14T11:27:48.228Z   section "Introduction" (105 chars)
+2026-05-14T11:27:48.228Z   section "Context" (262 chars)
+2026-05-14T11:27:48.228Z   section "Decision" (501 chars)
+2026-05-14T11:27:48.228Z   section "Decision (cont.)" (348 chars)
+2026-05-14T11:27:48.228Z   section "Consequences — Positive" (322 chars)
+2026-05-14T11:27:48.228Z   section "Consequences — Negative" (232 chars)
+2026-05-14T11:27:48.228Z   section "Introduction" (189 chars)
+2026-05-14T11:27:48.228Z   section "Context" (503 chars)
+2026-05-14T11:27:48.228Z   section "Context (cont.)" (240 chars)
+2026-05-14T11:27:48.228Z   section "Candidates" (469 chars)
+2026-05-14T11:27:48.228Z   section "Decision" (192 chars)
+2026-05-14T11:27:48.228Z   section "Decision — Implementation Details" (436 chars)
+2026-05-14T11:27:48.228Z   section "Decision — Implementation Details (cont.)" (700 chars)
+2026-05-14T11:27:48.228Z   section "Decision — Testing Strategy" (636 chars)
+2026-05-14T11:27:48.228Z   section "Decision — Testing Strategy (cont.)" (514 chars)
+2026-05-14T11:27:48.229Z   section "Consequences — What Becomes Easier" (471 chars)
+2026-05-14T11:27:48.229Z   section "Consequences — What Becomes Harder" (218 chars)
+2026-05-14T11:27:48.229Z   section "Consequences — Backward Compatibility" (219 chars)
+2026-05-14T11:27:48.229Z   section "Implementation Status" (352 chars)
+2026-05-14T11:27:48.229Z   section "Introduction" (163 chars)
+2026-05-14T11:27:48.229Z   section "Context" (506 chars)
+2026-05-14T11:27:48.229Z   section "Context (cont.)" (331 chars)
+2026-05-14T11:27:48.229Z   section "Decision" (515 chars)
+2026-05-14T11:27:48.229Z   section "Decision (cont.)" (424 chars)
+2026-05-14T11:27:48.229Z   section "Decision (cont.)" (381 chars)
+2026-05-14T11:27:48.229Z   section "Consequences" (440 chars)
+2026-05-14T11:27:48.229Z   section "Consequences (cont.)" (527 chars)
+2026-05-14T11:27:48.229Z   section "Introduction" (82 chars)
+2026-05-14T11:27:48.229Z   section "Numbering Convention" (182 chars)
+2026-05-14T11:27:48.229Z   section "Creating a New ADR" (220 chars)
+2026-05-14T11:27:48.229Z   section "Pre-Merge Checklist" (371 chars)
+2026-05-14T11:27:48.229Z   section "Introduction" (61 chars)
+2026-05-14T11:27:48.229Z   section "Getting Started" (189 chars)
+2026-05-14T11:27:48.229Z   section "User Guide" (3439 chars)
+2026-05-14T11:27:48.229Z   section "Reference" (649 chars)
+2026-05-14T11:27:48.229Z   section "Development" (475 chars)
+2026-05-14T11:27:48.230Z   section "Building Documentation Locally" (428 chars)
+2026-05-14T11:27:48.230Z   section "Additional Resources" (148 chars)
+2026-05-14T11:27:48.230Z   section "Introduction" (120 chars)
+2026-05-14T11:27:48.230Z   section "Dependency Rule" (258 chars)
+2026-05-14T11:27:48.230Z   section "Layers — Domain Layer" (391 chars)
+2026-05-14T11:27:48.230Z   section "Layers — Domain Layer (cont.)" (428 chars)
+2026-05-14T11:27:48.230Z   section "Layers — Domain Layer (cont.)" (541 chars)
+2026-05-14T11:27:48.230Z   section "Layers — Domain Layer (cont.)" (495 chars)
+2026-05-14T11:27:48.230Z   section "Layers — Domain Layer (cont.)" (368 chars)
+2026-05-14T11:27:48.230Z   section "Layers — Domain Layer (cont.)" (691 chars)
+2026-05-14T11:27:48.230Z   section "Layers — Domain Layer (cont.)" (463 chars)
+2026-05-14T11:27:48.230Z   section "Layers — Domain Layer (cont.)" (559 chars)
+2026-05-14T11:27:48.230Z   section "Layers — Application Layer" (531 chars)
+2026-05-14T11:27:48.230Z   section "Layers — Infrastructure Layer" (90 chars)
+2026-05-14T11:27:48.230Z   section "Layers — Infrastructure Layer (cont.)" (1413 chars)
+2026-05-14T11:27:48.230Z   section "Layers — Infrastructure Layer (cont.)" (560 chars)
+2026-05-14T11:27:48.230Z   section "Layers — Infrastructure Layer (cont.)" (388 chars)
+2026-05-14T11:27:48.230Z   section "Layers — Infrastructure Layer (cont.)" (282 chars)
+2026-05-14T11:27:48.230Z   section "Layers — Infrastructure Layer (cont.)" (355 chars)
+2026-05-14T11:27:48.230Z   section "Layers — Infrastructure Layer (cont.)" (534 chars)
+2026-05-14T11:27:48.230Z   section "Layers — Infrastructure Layer (cont.)" (447 chars)
+2026-05-14T11:27:48.230Z   section "Layers — Infrastructure Layer (cont.)" (503 chars)
+2026-05-14T11:27:48.230Z   section "Layers — Infrastructure Layer (cont.)" (473 chars)
+2026-05-14T11:27:48.230Z   section "Layers — Infrastructure Layer (cont.)" (150 chars)
+2026-05-14T11:27:48.230Z   section "Layers — Infrastructure Layer (cont.)" (528 chars)
+2026-05-14T11:27:48.230Z   section "Layers — Infrastructure Layer (cont.)" (488 chars)
+2026-05-14T11:27:48.230Z   section "Layers — Infrastructure Layer (cont.)" (361 chars)
+2026-05-14T11:27:48.230Z   section "Layers — Infrastructure Layer (cont.)" (502 chars)
+2026-05-14T11:27:48.230Z   section "Layers — Infrastructure Layer (cont.)" (597 chars)
+2026-05-14T11:27:48.230Z   section "Layers — Infrastructure Layer (cont.)" (564 chars)
+2026-05-14T11:27:48.230Z   section "Layers — Infrastructure Layer (cont.)" (584 chars)
+2026-05-14T11:27:48.230Z   section "Layers — Infrastructure Layer (cont.)" (543 chars)
+2026-05-14T11:27:48.230Z   section "Layers — Infrastructure Layer (cont.)" (516 chars)
+2026-05-14T11:27:48.230Z   section "Layers — Infrastructure Layer (cont.)" (452 chars)
+2026-05-14T11:27:48.230Z   section "Layers — Infrastructure Layer (cont.)" (580 chars)
+2026-05-14T11:27:48.230Z   section "Layers — Infrastructure Layer (cont.)" (537 chars)
+2026-05-14T11:27:48.230Z   section "Layers — Infrastructure Layer (cont.)" (597 chars)
+2026-05-14T11:27:48.231Z   section "Layers — Infrastructure Layer (cont.)" (289 chars)
+2026-05-14T11:27:48.231Z   section "Introduction" (161 chars)
+2026-05-14T11:27:48.231Z   section "Overview" (541 chars)
+2026-05-14T11:27:48.231Z   section "Overview (cont.)" (354 chars)
+2026-05-14T11:27:48.231Z   section "How It Works — golangci-lint as Aggregator" (256 chars)
+2026-05-14T11:27:48.231Z   section "How It Works — CI Integration" (517 chars)
+2026-05-14T11:27:48.231Z   section "How It Works — CI Integration (cont.)" (303 chars)
+2026-05-14T11:27:48.231Z   section "Configuration Reference — Core Quality Linters" (517 chars)
+2026-05-14T11:27:48.231Z   section "Configuration Reference — Core Quality Linters (cont.)" (411 chars)
+2026-05-14T11:27:48.231Z   section "Configuration Reference — Readability Linters" (371 chars)
+2026-05-14T11:27:48.231Z   section "Configuration Reference — Error Handling Linters" (154 chars)
+2026-05-14T11:27:48.231Z   section "Configuration Reference — Security Linters" (333 chars)
+2026-05-14T11:27:48.231Z   section "Configuration Reference — Architecture Linters" (466 chars)
+2026-05-14T11:27:48.231Z   section "Configuration Reference — Architecture Linters (cont.)" (509 chars)
+2026-05-14T11:27:48.231Z   section "Configuration Reference — Architecture Linters (cont.)" (343 chars)
+2026-05-14T11:27:48.231Z   section "Configuration Reference — Architecture Linters (cont.)" (291 chars)
+2026-05-14T11:27:48.231Z   section "Configuration Reference — Modern Go Quality Linters (Late-2025)" (568 chars)
+2026-05-14T11:27:48.231Z   section "Configuration Reference — Modern Go Quality Linters (Late-2025) (cont.)" (578 chars)
+2026-05-14T11:27:48.231Z   section "Configuration Reference — Modern Go Quality Linters (Late-2025) (cont.)" (513 chars)
+2026-05-14T11:27:48.231Z   section "Configuration Reference — Modern Go Quality Linters (Late-2025) (cont.)" (567 chars)
+2026-05-14T11:27:48.231Z   section "Configuration Reference — Modern Go Quality Linters (Late-2025) (cont.)" (249 chars)
+2026-05-14T11:27:48.231Z   section "Common Issues — "Cognitive complexity 18 of func exceeds max of 15"" (229 chars)
+2026-05-14T11:27:48.231Z   section "Common Issues — "Missing cases in switch of type"" (173 chars)
+2026-05-14T11:27:48.231Z   section "Common Issues — "Error return value of fmt.Errorf should be wrapped with %w"" (97 chars)
+2026-05-14T11:27:48.231Z   section "Common Issues — "Subprocess launched with variable (G204)"" (211 chars)
+2026-05-14T11:27:48.231Z   section "Common Issues — "File inclusion via variable (G304)"" (224 chars)
+2026-05-14T11:27:48.231Z   section "Common Issues — "Append result not assigned to the same slice"" (69 chars)
+2026-05-14T11:27:48.231Z   section "Best Practices — When to Use //nolint" (599 chars)
+2026-05-14T11:27:48.231Z   section "Best Practices — Rejected Linters Rationale" (477 chars)
+2026-05-14T11:27:48.231Z   section "Best Practices — Rejected Linters Rationale (cont.)" (522 chars)
+2026-05-14T11:27:48.231Z   section "Best Practices — Cognitive Complexity Guidelines" (557 chars)
+2026-05-14T11:27:48.231Z   section "Best Practices — Error Wrapping Strategy" (106 chars)
+2026-05-14T11:27:48.231Z   section "Best Practices — Package Documentation (C056)" (271 chars)
+2026-05-14T11:27:48.231Z   section "Best Practices — Package Documentation (C056) (cont.)" (574 chars)
+2026-05-14T11:27:48.231Z   section "Best Practices — Pre-Commit Checklist" (384 chars)
+2026-05-14T11:27:48.231Z   section "Best Practices — CI Pipeline Integration" (117 chars)
+2026-05-14T11:27:48.231Z   section "Best Practices — Formatter Integration" (121 chars)
+2026-05-14T11:27:48.231Z   section "References" (419 chars)
+2026-05-14T11:27:48.232Z   section "Introduction" (213 chars)
+2026-05-14T11:27:48.232Z   section "Architecture" (312 chars)
+2026-05-14T11:27:48.232Z   section "Domain Contract — AgentResult" (50 chars)
+2026-05-14T11:27:48.232Z   section "Domain Contract — ConversationResult" (50 chars)
+2026-05-14T11:27:48.232Z   section "Base Layer: baseCLIProvider" (298 chars)
+2026-05-14T11:27:48.232Z   section "Base Layer: baseCLIProvider — Hooks" (60 chars)
+2026-05-14T11:27:48.232Z   section "Base Layer: baseCLIProvider — What baseCLIProvider Does For You" (334 chars)
+2026-05-14T11:27:48.232Z   section "Base Layer: baseCLIProvider — What baseCLIProvider Does For You (cont.)" (400 chars)
+2026-05-14T11:27:48.232Z   section "Step-by-Step Implementation — 1. Create the provider file" (63 chars)
+2026-05-14T11:27:48.232Z   section "Step-by-Step Implementation — 2. Add constructors" (86 chars)
+2026-05-14T11:27:48.232Z   section "Step-by-Step Implementation — 4. Implement the required hooks" (514 chars)
+2026-05-14T11:27:48.232Z   section "Step-by-Step Implementation — 4. Implement the required hooks (cont.)" (234 chars)
+2026-05-14T11:27:48.232Z   section "Step-by-Step Implementation — 4. Implement the required hooks (cont.)" (596 chars)
+2026-05-14T11:27:48.232Z   section "Step-by-Step Implementation — 4. Implement the required hooks (cont.)" (570 chars)
+2026-05-14T11:27:48.232Z   section "Step-by-Step Implementation — 5. Implement the optional hooks" (233 chars)
+2026-05-14T11:27:48.232Z   section "Step-by-Step Implementation — 6. Implement the AgentProvider interface methods" (393 chars)
+2026-05-14T11:27:48.232Z   section "Step-by-Step Implementation — 7. Add functional options" (51 chars)
+2026-05-14T11:27:48.232Z   section "Step-by-Step Implementation — 8. Register in the registry" (80 chars)
+2026-05-14T11:27:48.232Z   section "Testing — Option tests" (65 chars)
+2026-05-14T11:27:48.232Z   section "Testing — Argument construction tests" (111 chars)
+2026-05-14T11:27:48.232Z   section "Mandatory Cross-Provider Conventions" (148 chars)
+2026-05-14T11:27:48.232Z   section "Mandatory Cross-Provider Conventions — Force structured output format" (219 chars)
+2026-05-14T11:27:48.232Z   section "Mandatory Cross-Provider Conventions — Handle `dangerously_skip_permissions`" (197 chars)
+2026-05-14T11:27:48.232Z   section "Mandatory Cross-Provider Conventions — Handle `system_prompt`" (370 chars)
+2026-05-14T11:27:48.232Z   section "Mandatory Cross-Provider Conventions — Handle `model`" (133 chars)
+2026-05-14T11:27:48.232Z   section "Mandatory Cross-Provider Conventions — Handle `output_format` for response parsing" (149 chars)
+2026-05-14T11:27:48.232Z   section "Mandatory Cross-Provider Conventions — Ignore unknown options silently" (245 chars)
+2026-05-14T11:27:48.232Z   section "Mandatory Cross-Provider Conventions — Token counting pattern" (167 chars)
+2026-05-14T11:27:48.232Z   section "Mandatory Cross-Provider Conventions — NUL byte sanitization in display event parsers" (175 chars)
+2026-05-14T11:27:48.232Z   section "Mandatory Cross-Provider Conventions — Apply `dangerously_skip_permissions` in both arg builders" (255 chars)
+2026-05-14T11:27:48.232Z   section "Mandatory Cross-Provider Conventions — extractTextContent vs extractDisplayTextFromEvents" (272 chars)
+2026-05-14T11:27:48.232Z   section "Non-CLI Provider (HTTP API)" (199 chars)
+2026-05-14T11:27:48.232Z   section "Non-CLI Provider (HTTP API) — Token counting: the key difference" (193 chars)
+2026-05-14T11:27:48.232Z   section "Non-CLI Provider (HTTP API) — Conversation: messages array vs session resume" (167 chars)
+2026-05-14T11:27:48.232Z   section "Non-CLI Provider (HTTP API) — Option handling" (80 chars)
+2026-05-14T11:27:48.232Z   section "Non-CLI Provider (HTTP API) — When to use this pattern" (324 chars)
+2026-05-14T11:27:48.232Z   section "Checklist — Structure" (422 chars)
+2026-05-14T11:27:48.232Z   section "Checklist — Hooks (required)" (203 chars)
+2026-05-14T11:27:48.232Z   section "Checklist — Cross-provider options (mandatory)" (555 chars)
+2026-05-14T11:27:48.232Z   section "Checklist — Execute post-processing" (290 chars)
+2026-05-14T11:27:48.232Z   section "Checklist — Interface methods" (283 chars)
+2026-05-14T11:27:48.232Z   section "Checklist — Display events" (191 chars)
+2026-05-14T11:27:48.232Z   section "Checklist — Tests" (447 chars)
+2026-05-14T11:27:48.232Z   section "Checklist — Final verification" (180 chars)
+2026-05-14T11:27:48.232Z   section "Overview" (390 chars)
+2026-05-14T11:27:48.232Z   section "Design Decisions — 1. Unary RPCs vs Streaming" (525 chars)
+2026-05-14T11:27:48.232Z   section "Design Decisions — 2. Manifest-Based Subscriptions" (301 chars)
+2026-05-14T11:27:48.232Z   section "Design Decisions — 3. Custom Glob Matching" (342 chars)
+2026-05-14T11:27:48.233Z   section "Design Decisions — 4. Per-Plugin Buffered Channels" (360 chars)
+2026-05-14T11:27:48.233Z   section "Design Decisions — 5. Async Delivery Goroutines" (263 chars)
+2026-05-14T11:27:48.233Z   section "Design Decisions — 6. Propagation Depth Limiting" (293 chars)
+2026-05-14T11:27:48.233Z   section "Design Decisions — 7. DomainEvent in pluginmodel/ Package" (295 chars)
+2026-05-14T11:27:48.233Z   section "GRPCBroker and Reverse Channels (F092)" (268 chars)
+2026-05-14T11:27:48.233Z   section "GRPCBroker and Reverse Channels (F092) — HostEventService" (287 chars)
+2026-05-14T11:27:48.233Z   section "GRPCBroker and Reverse Channels (F092) — StreamManager and Streaming Delivery" (524 chars)
+2026-05-14T11:27:48.233Z   section "GRPCBroker and Reverse Channels (F092) — StreamManager and Streaming Delivery (cont.)" (551 chars)
+2026-05-14T11:27:48.233Z   section "GRPCBroker and Reverse Channels (F092) — StreamManager and Streaming Delivery (cont.)" (131 chars)
+2026-05-14T11:27:48.233Z   section "Key Components — DomainEvent (Domain)" (210 chars)
+2026-05-14T11:27:48.233Z   section "Key Components — EventPublisher Port (Domain)" (79 chars)
+2026-05-14T11:27:48.233Z   section "Key Components — EventBus (Infrastructure)" (165 chars)
+2026-05-14T11:27:48.233Z   section "Key Components — gRPC Event Adapter (Infrastructure)" (96 chars)
+2026-05-14T11:27:48.233Z   section "F092 Integration: StreamManager and EventDeliverer" (481 chars)
+2026-05-14T11:27:48.233Z   section "F092 Integration: StreamManager and EventDeliverer (cont.)" (431 chars)
+2026-05-14T11:27:48.233Z   section "Lifecycle & Cleanup" (72 chars)
+2026-05-14T11:27:48.233Z   section "Non-Functional Requirements — Latency (NFR-001)" (233 chars)
+2026-05-14T11:27:48.233Z   section "Non-Functional Requirements — Isolation (NFR-002)" (197 chars)
+2026-05-14T11:27:48.233Z   section "Non-Functional Requirements — Cleanup (NFR-003)" (196 chars)
+2026-05-14T11:27:48.233Z   section "Non-Functional Requirements — Back-Pressure (NFR-004)" (232 chars)
+2026-05-14T11:27:48.233Z   section "Non-Functional Requirements — Secret Masking (NFR-005)" (70 chars)
+2026-05-14T11:27:48.233Z   section "Non-Functional Requirements — Backward Compatibility (NFR-006)" (201 chars)
+2026-05-14T11:27:48.233Z   section "Testing Strategy — Unit Tests" (459 chars)
+2026-05-14T11:27:48.233Z   section "Testing Strategy — Integration Tests" (222 chars)
+2026-05-14T11:27:48.233Z   section "Recent Enhancements (F092)" (413 chars)
+2026-05-14T11:27:48.233Z   section "Future Extensions — Persistent Event Log" (144 chars)
+2026-05-14T11:27:48.233Z   section "Future Extensions — Fine-Grained Filters" (127 chars)
+2026-05-14T11:27:48.233Z   section "Future Extensions — OTel Correlation" (157 chars)
+2026-05-14T11:27:48.233Z   section "Future Extensions — Bidirectional Streaming" (276 chars)
+2026-05-14T11:27:48.233Z   section "See Also" (219 chars)
+2026-05-14T11:27:48.233Z   section "Introduction" (105 chars)
+2026-05-14T11:27:48.233Z   section "Key Files — Package Documentation" (555 chars)
+2026-05-14T11:27:48.233Z   section "Key Files — Domain Entities" (139 chars)
+2026-05-14T11:27:48.233Z   section "Key Files — Application Services" (69 chars)
+2026-05-14T11:27:48.233Z   section "Key Files — Infrastructure Adapters" (313 chars)
+2026-05-14T11:27:48.233Z   section "Key Files — Public Packages" (239 chars)
+2026-05-14T11:27:48.233Z   section "Build Artifacts" (109 chars)
+2026-05-14T11:27:48.233Z   section "See Also" (112 chars)
+2026-05-14T11:27:48.233Z   section "Introduction" (133 chars)
+2026-05-14T11:27:48.233Z   section "Build Tags" (157 chars)
+2026-05-14T11:27:48.233Z   section "Build Tags — Using Build Tags" (130 chars)
+2026-05-14T11:27:48.233Z   section "Table-Driven Tests" (55 chars)
+2026-05-14T11:27:48.233Z   section "Fixtures" (73 chars)
+2026-05-14T11:27:48.233Z   section "ServiceTestHarness (Application Layer)" (501 chars)
+2026-05-14T11:27:48.233Z   section "Race Detection" (70 chars)
+2026-05-14T11:27:48.233Z   section "Deterministic Assertions" (150 chars)
+2026-05-14T11:27:48.233Z   section "Deterministic Assertions — Avoid Testing OS Guarantees" (318 chars)
+2026-05-14T11:27:48.233Z   section "Deterministic Assertions — Guidelines" (382 chars)
+2026-05-14T11:27:48.233Z   section "Coverage" (221 chars)
+2026-05-14T11:27:48.234Z   section "Integration Tests" (93 chars)
+2026-05-14T11:27:48.234Z   section "Test Helpers" (64 chars)
+2026-05-14T11:27:48.234Z   section "Test Helpers — Skip Helper Functions" (92 chars)
+2026-05-14T11:27:48.234Z   section "Skip Policy" (349 chars)
+2026-05-14T11:27:48.234Z   section "Skip Policy — When NOT to Skip" (381 chars)
+2026-05-14T11:27:48.234Z   section "Skip Policy — When to Skip" (223 chars)
+2026-05-14T11:27:48.234Z   section "Skip Policy — Skip Documentation Format" (339 chars)
+2026-05-14T11:27:48.234Z   section "CI Integration" (141 chars)
+2026-05-14T11:27:48.234Z   section "See Also" (179 chars)
+2026-05-14T11:27:48.234Z   section "Prerequisites" (154 chars)
+2026-05-14T11:27:48.234Z   section "Quick Install" (208 chars)
+2026-05-14T11:27:48.234Z   section "Via Go" (86 chars)
+2026-05-14T11:27:48.234Z   section "From Source" (111 chars)
+2026-05-14T11:27:48.234Z   section "Next Steps" (124 chars)
+2026-05-14T11:27:48.234Z   section "Introduction" (51 chars)
+2026-05-14T11:27:48.234Z   section "3. Create Your First Workflow" (76 chars)
+2026-05-14T11:27:48.234Z   section "4. Interactive Input Collection" (349 chars)
+2026-05-14T11:27:48.234Z   section "Workflow Discovery" (289 chars)
+2026-05-14T11:27:48.234Z   section "Prompt Discovery" (236 chars)
+2026-05-14T11:27:48.234Z   section "Prompt Discovery — Using Prompts" (143 chars)
+2026-05-14T11:27:48.234Z   section "Storage Locations" (193 chars)
+2026-05-14T11:27:48.234Z   section "Next Steps" (206 chars)
+2026-05-14T11:27:48.234Z   section "Introduction" (139 chars)
+2026-05-14T11:27:48.234Z   section "Entry Structure" (70 chars)
+2026-05-14T11:27:48.234Z   section "Field Specifications — `workflow.started` Event" (153 chars)
+2026-05-14T11:27:48.234Z   section "Field Specifications — `workflow.completed` Event" (151 chars)
+2026-05-14T11:27:48.234Z   section "Field Constraints — execution_id" (323 chars)
+2026-05-14T11:27:48.234Z   section "Field Constraints — timestamp" (284 chars)
+2026-05-14T11:27:48.234Z   section "Field Constraints — user" (341 chars)
+2026-05-14T11:27:48.234Z   section "Field Constraints — inputs (masking rules)" (192 chars)
+2026-05-14T11:27:48.234Z   section "Field Constraints — Entry Size (4KB Limit)" (433 chars)
+2026-05-14T11:27:48.234Z   section "Format Guarantees — JSONL (JSON Lines)" (206 chars)
+2026-05-14T11:27:48.234Z   section "Format Guarantees — Encoding" (182 chars)
+2026-05-14T11:27:48.234Z   section "Format Guarantees — Atomicity & Concurrency" (252 chars)
+2026-05-14T11:27:48.234Z   section "Backward Compatibility — Schema Versioning" (346 chars)
+2026-05-14T11:27:48.234Z   section "Backward Compatibility — Field Evolution" (264 chars)
+2026-05-14T11:27:48.234Z   section "See Also" (327 chars)
+2026-05-14T11:27:48.234Z   section "Introduction" (249 chars)
+2026-05-14T11:27:48.234Z   section "Error Code Format" (432 chars)
+2026-05-14T11:27:48.234Z   section "USER Category (Exit Code 1) — USER.INPUT.MISSING_FILE" (262 chars)
+2026-05-14T11:27:48.234Z   section "USER Category (Exit Code 1) — USER.INPUT.INVALID_FORMAT" (294 chars)
+2026-05-14T11:27:48.234Z   section "USER Category (Exit Code 1) — USER.INPUT.VALIDATION_FAILED" (274 chars)
+2026-05-14T11:27:48.234Z   section "WORKFLOW Category (Exit Code 2)" (50 chars)
+2026-05-14T11:27:48.234Z   section "WORKFLOW Category (Exit Code 2) — WORKFLOW.PARSE.YAML_SYNTAX" (301 chars)
+2026-05-14T11:27:48.234Z   section "WORKFLOW Category (Exit Code 2) — WORKFLOW.PARSE.UNKNOWN_FIELD" (237 chars)
+2026-05-14T11:27:48.234Z   section "WORKFLOW Category (Exit Code 2) — WORKFLOW.VALIDATION.CYCLE_DETECTED" (306 chars)
+2026-05-14T11:27:48.234Z   section "WORKFLOW Category (Exit Code 2) — WORKFLOW.VALIDATION.MISSING_STATE" (310 chars)
+2026-05-14T11:27:48.235Z   section "WORKFLOW Category (Exit Code 2) — WORKFLOW.VALIDATION.INVALID_TRANSITION" (312 chars)
+2026-05-14T11:27:48.235Z   section "EXECUTION Category (Exit Code 3)" (53 chars)
+2026-05-14T11:27:48.235Z   section "EXECUTION Category (Exit Code 3) — EXECUTION.COMMAND.FAILED" (316 chars)
+2026-05-14T11:27:48.235Z   section "EXECUTION Category (Exit Code 3) — EXECUTION.COMMAND.TIMEOUT" (272 chars)
+2026-05-14T11:27:48.235Z   section "EXECUTION Category (Exit Code 3) — EXECUTION.PARALLEL.PARTIAL_FAILURE" (294 chars)
+2026-05-14T11:27:48.235Z   section "EXECUTION Category (Exit Code 3) — EXECUTION.EVENT.DELIVERY_FAILED" (402 chars)
+2026-05-14T11:27:48.235Z   section "EXECUTION Category (Exit Code 3) — EXECUTION.EVENT.CYCLE_DETECTED" (428 chars)
+2026-05-14T11:27:48.235Z   section "EXECUTION Category (Exit Code 3) — EXECUTION.EVENT.BUFFER_FULL" (392 chars)
+2026-05-14T11:27:48.235Z   section "EXECUTION Category (Exit Code 3) — EXECUTION.PLUGIN.CHECKSUM_MISMATCH" (580 chars)
+2026-05-14T11:27:48.235Z   section "SYSTEM Category (Exit Code 4) — SYSTEM.IO.READ_FAILED" (300 chars)
+2026-05-14T11:27:48.235Z   section "SYSTEM Category (Exit Code 4) — SYSTEM.IO.WRITE_FAILED" (266 chars)
+2026-05-14T11:27:48.235Z   section "SYSTEM Category (Exit Code 4) — SYSTEM.IO.PERMISSION_DENIED" (298 chars)
+2026-05-14T11:27:48.235Z   section "Error Output Formats — Human-Readable Format" (162 chars)
+2026-05-14T11:27:48.235Z   section "Error Code Lookup Command" (94 chars)
+2026-05-14T11:27:48.235Z   section "Migration from Legacy Exit Codes" (221 chars)
+2026-05-14T11:27:48.235Z   section "Actionable Error Hints" (212 chars)
+2026-05-14T11:27:48.235Z   section "Actionable Error Hints — Hint Display Format" (52 chars)
+2026-05-14T11:27:48.235Z   section "Actionable Error Hints — Suppressing Hints" (70 chars)
+2026-05-14T11:27:48.235Z   section "Actionable Error Hints — Hint Types" (366 chars)
+2026-05-14T11:27:48.235Z   section "See Also" (197 chars)
+2026-05-14T11:27:48.235Z   section "Introduction" (98 chars)
+2026-05-14T11:27:48.235Z   section "Error Categories — Exit Code 0: Success" (72 chars)
+2026-05-14T11:27:48.235Z   section "Error Categories — Exit Code 1: User Error" (238 chars)
+2026-05-14T11:27:48.235Z   section "Error Categories — Exit Code 2: Workflow Error" (337 chars)
+2026-05-14T11:27:48.235Z   section "Error Categories — Exit Code 3: Execution Error" (217 chars)
+2026-05-14T11:27:48.235Z   section "Error Categories — Exit Code 4: System Error" (209 chars)
+2026-05-14T11:27:48.235Z   section "JSON Error Output" (244 chars)
+2026-05-14T11:27:48.235Z   section "See Also" (224 chars)
+2026-05-14T11:27:48.235Z   section "Introduction" (123 chars)
+2026-05-14T11:27:48.235Z   section "Syntax" (64 chars)
+2026-05-14T11:27:48.235Z   section "Variable Categories — State Variables" (423 chars)
+2026-05-14T11:27:48.235Z   section "Variable Categories — State Variables (cont.)" (585 chars)
+2026-05-14T11:27:48.235Z   section "Variable Categories — State Variables (cont.)" (466 chars)
+2026-05-14T11:27:48.235Z   section "Variable Categories — State Variables (cont.)" (444 chars)
+2026-05-14T11:27:48.235Z   section "Variable Categories — State Variables (cont.)" (584 chars)
+2026-05-14T11:27:48.235Z   section "Variable Categories — State Variables (cont.)" (500 chars)
+2026-05-14T11:27:48.235Z   section "Variable Categories — State Variables (cont.)" (555 chars)
+2026-05-14T11:27:48.235Z   section "Variable Categories — State Variables (cont.)" (127 chars)
+2026-05-14T11:27:48.235Z   section "Variable Categories — AWF Directory Context" (537 chars)
+2026-05-14T11:27:48.235Z   section "Variable Categories — AWF Directory Context (cont.)" (505 chars)
+2026-05-14T11:27:48.235Z   section "Variable Categories — AWF Directory Context (cont.)" (599 chars)
+2026-05-14T11:27:48.235Z   section "Variable Categories — AWF Directory Context (cont.)" (223 chars)
+2026-05-14T11:27:48.236Z   section "Variable Categories — AWF Directory Context (cont.)" (587 chars)
+2026-05-14T11:27:48.236Z   section "Variable Categories — AWF Directory Context (cont.)" (329 chars)
+2026-05-14T11:27:48.236Z   section "Template Helper Functions" (86 chars)
+2026-05-14T11:27:48.236Z   section "Template Helper Functions — `split`" (121 chars)
+2026-05-14T11:27:48.236Z   section "Template Helper Functions — `join`" (77 chars)
+2026-05-14T11:27:48.236Z   section "Template Helper Functions — `readFile`" (220 chars)
+2026-05-14T11:27:48.236Z   section "Template Helper Functions — `trimSpace`" (123 chars)
+2026-05-14T11:27:48.236Z   section "Template Helper Functions — Loop Context Variables" (490 chars)
+2026-05-14T11:27:48.236Z   section "Template Helper Functions — Loop Context Variables (cont.)" (424 chars)
+2026-05-14T11:27:48.236Z   section "Template Helper Functions — Loop Context Variables (cont.)" (589 chars)
+2026-05-14T11:27:48.236Z   section "Template Helper Functions — Loop Context Variables (cont.)" (135 chars)
+2026-05-14T11:27:48.236Z   section "Template Helper Functions — Nested Loop Parent Access" (92 chars)
+2026-05-14T11:27:48.236Z   section "Security Considerations — Shell Injection" (112 chars)
+2026-05-14T11:27:48.236Z   section "Security Considerations — Secret Masking" (98 chars)
+2026-05-14T11:27:48.236Z   section "Interpolation in Different Contexts — Agent Provider" (120 chars)
+2026-05-14T11:27:48.236Z   section "Interpolation in Different Contexts — Conditional Expressions" (86 chars)
+2026-05-14T11:27:48.236Z   section "Interpolation in Different Contexts — Loop Bounds (max_iterations)" (234 chars)
+2026-05-14T11:27:48.236Z   section "Interpolation in Different Contexts — Loop Conditions" (53 chars)
+2026-05-14T11:27:48.236Z   section "Template Parameters" (121 chars)
+2026-05-14T11:27:48.236Z   section "Debugging" (97 chars)
+2026-05-14T11:27:48.236Z   section "See Also" (197 chars)
+2026-05-14T11:27:48.236Z   section "Introduction" (167 chars)
+2026-05-14T11:27:48.236Z   section "Overview" (492 chars)
+2026-05-14T11:27:48.236Z   section "Overview (cont.)" (185 chars)
+2026-05-14T11:27:48.236Z   section "While Loops" (105 chars)
+2026-05-14T11:27:48.236Z   section "While Loops — Execution Flow" (373 chars)
+2026-05-14T11:27:48.236Z   section "For-Each Loops" (78 chars)
+2026-05-14T11:27:48.236Z   section "For-Each Loops — Item Access" (69 chars)
+2026-05-14T11:27:48.236Z   section "Transitions Within Loop Bodies" (515 chars)
+2026-05-14T11:27:48.236Z   section "Transitions Within Loop Bodies — Target Resolution" (339 chars)
+2026-05-14T11:27:48.236Z   section "Transitions Within Loop Bodies — Intra-Body Transitions (Skip Steps)" (215 chars)
+2026-05-14T11:27:48.236Z   section "Transitions Within Loop Bodies — Early Exit from Loops" (243 chars)
+2026-05-14T11:27:48.236Z   section "Transitions Within Loop Bodies — Sequential Execution Fallback" (356 chars)
+2026-05-14T11:27:48.236Z   section "Loop Context Variables" (57 chars)
+2026-05-14T11:27:48.236Z   section "Nested Loops" (125 chars)
+2026-05-14T11:27:48.236Z   section "Nested Loops — Nested Loop Context Isolation" (385 chars)
+2026-05-14T11:27:48.236Z   section "Nested Loops — Parent Context Access" (65 chars)
+2026-05-14T11:27:48.236Z   section "Error Handling in Loops — On-Failure Transitions" (63 chars)
+2026-05-14T11:27:48.236Z   section "Error Handling in Loops — Retry Pattern Preservation" (189 chars)
+2026-05-14T11:27:48.236Z   section "Error Handling in Loops — Empty Body Edge Case" (250 chars)
+2026-05-14T11:27:48.236Z   section "Backward Compatibility" (284 chars)
+2026-05-14T11:27:48.236Z   section "Examples — Example 1: TDD Loop with Skip Steps" (271 chars)
+2026-05-14T11:27:48.236Z   section "Examples — Example 2: Early Exit on Critical Error" (247 chars)
+2026-05-14T11:27:48.236Z   section "Examples — Example 3: Nested Loops with Parent Context" (258 chars)
+2026-05-14T11:27:48.236Z   section "Known Limitations — Nested Loop Max Iteration Handling" (424 chars)
+2026-05-14T11:27:48.237Z   section "Known Limitations — Nested Loop Max Iteration Handling (cont.)" (516 chars)
+2026-05-14T11:27:48.237Z   section "Known Limitations — Nested Loop Max Iteration Handling (cont.)" (544 chars)
+2026-05-14T11:27:48.237Z   section "Known Limitations — Nested Loop Max Iteration Handling (cont.)" (125 chars)
+2026-05-14T11:27:48.237Z   section "See Also" (260 chars)
+2026-05-14T11:27:48.237Z   section "Introduction" (227 chars)
+2026-05-14T11:27:48.237Z   section "Documentation Structure — Documentation Tiers" (465 chars)
+2026-05-14T11:27:48.237Z   section "Content Guidelines — What to Include" (368 chars)
+2026-05-14T11:27:48.237Z   section "Content Guidelines — What to Avoid" (260 chars)
+2026-05-14T11:27:48.237Z   section "Content Guidelines — Formatting Rules" (253 chars)
+2026-05-14T11:27:48.237Z   section "Integration with Development Workflow — When Writing New Code" (240 chars)
+2026-05-14T11:27:48.237Z   section "Integration with Development Workflow — Maintaining Existing Documentation" (195 chars)
+2026-05-14T11:27:48.237Z   section "Integration with Development Workflow — Code Review Checklist" (230 chars)
+2026-05-14T11:27:48.237Z   section "Architecture Coverage — Domain Layer (4 packages)" (240 chars)
+2026-05-14T11:27:48.237Z   section "Architecture Coverage — Application Layer (1 package)" (54 chars)
+2026-05-14T11:27:48.237Z   section "Architecture Coverage — Infrastructure Layer (11 packages)" (572 chars)
+2026-05-14T11:27:48.237Z   section "Architecture Coverage — Interface Layer (2 packages)" (115 chars)
+2026-05-14T11:27:48.237Z   section "Architecture Coverage — Public Packages (9 packages)" (575 chars)
+2026-05-14T11:27:48.237Z   section "See Also" (293 chars)
+2026-05-14T11:27:48.237Z   section "Introduction" (90 chars)
+2026-05-14T11:27:48.237Z   section "Error Handling — Non-Fail-Fast" (54 chars)
+2026-05-14T11:27:48.237Z   section "Error Handling — Exit Code" (52 chars)
+2026-05-14T11:27:48.237Z   section "Validation at Different Stages — Workflow Structure Rules" (165 chars)
+2026-05-14T11:27:48.237Z   section "Best Practices" (343 chars)
+2026-05-14T11:27:48.237Z   section "See Also" (329 chars)
+2026-05-14T11:27:48.237Z   section "Introduction" (177 chars)
+2026-05-14T11:27:48.237Z   section "Overview" (473 chars)
+2026-05-14T11:27:48.237Z   section "Basic Usage — Dynamic Provider Selection" (216 chars)
+2026-05-14T11:27:48.237Z   section "Supported Providers — Claude (Anthropic)" (502 chars)
+2026-05-14T11:27:48.237Z   section "Supported Providers — Codex (OpenAI)" (450 chars)
+2026-05-14T11:27:48.237Z   section "Supported Providers — Gemini (Google)" (389 chars)
+2026-05-14T11:27:48.237Z   section "Supported Providers — GitHub Copilot" (102 chars)
+2026-05-14T11:27:48.237Z   section "Supported Providers — GitHub Copilot (cont.)" (583 chars)
+2026-05-14T11:27:48.237Z   section "Supported Providers — GitHub Copilot (cont.)" (253 chars)
+2026-05-14T11:27:48.237Z   section "Supported Providers — OpenAI-Compatible Provider" (494 chars)
+2026-05-14T11:27:48.237Z   section "Supported Providers — OpenAI-Compatible Provider (cont.)" (487 chars)
+2026-05-14T11:27:48.237Z   section "Supported Providers — OpenAI-Compatible Provider (cont.)" (167 chars)
+2026-05-14T11:27:48.237Z   section "Supported Providers — OpenAI-Compatible Provider (cont.)" (435 chars)
+2026-05-14T11:27:48.237Z   section "Supported Providers — OpenAI-Compatible Provider (cont.)" (297 chars)
+2026-05-14T11:27:48.237Z   section "Model Validation" (114 chars)
+2026-05-14T11:27:48.237Z   section "Model Validation — Claude" (206 chars)
+2026-05-14T11:27:48.237Z   section "Model Validation — Gemini" (279 chars)
+2026-05-14T11:27:48.237Z   section "Model Validation — Codex" (320 chars)
+2026-05-14T11:27:48.237Z   section "Model Validation — GitHub Copilot, OpenCode & OpenAI-Compatible" (122 chars)
+2026-05-14T11:27:48.237Z   section "Model Validation — When Validation Occurs" (416 chars)
+2026-05-14T11:27:48.237Z   section "Prompt Templates" (569 chars)
+2026-05-14T11:27:48.238Z   section "External Prompt Files" (149 chars)
+2026-05-14T11:27:48.238Z   section "External Prompt Files — Features" (281 chars)
+2026-05-14T11:27:48.238Z   section "External Prompt Files — Mutual Exclusivity" (70 chars)
+2026-05-14T11:27:48.238Z   section "External Prompt Files — Path Resolution" (567 chars)
+2026-05-14T11:27:48.238Z   section "External Prompt Files — Path Resolution (cont.)" (155 chars)
+2026-05-14T11:27:48.238Z   section "External Prompt Files — Template Helper Functions" (270 chars)
+2026-05-14T11:27:48.238Z   section "External Prompt Files — Example: Multi-File Workflow" (74 chars)
+2026-05-14T11:27:48.238Z   section "Capturing Responses" (66 chars)
+2026-05-14T11:27:48.238Z   section "Capturing Responses — Parsing JSON Responses" (58 chars)
+2026-05-14T11:27:48.238Z   section "Output Formatting" (471 chars)
+2026-05-14T11:27:48.238Z   section "Output Formatting — Available Formats" (471 chars)
+2026-05-14T11:27:48.238Z   section "Output Formatting — Available Formats (cont.)" (589 chars)
+2026-05-14T11:27:48.238Z   section "Output Formatting — Available Formats (cont.)" (516 chars)
+2026-05-14T11:27:48.238Z   section "Output Formatting — Available Formats (cont.)" (390 chars)
+2026-05-14T11:27:48.238Z   section "Output Formatting — Streaming Output Display & Tool Markers" (427 chars)
+2026-05-14T11:27:48.238Z   section "Output Formatting — Streaming Output Display & Tool Markers (cont.)" (549 chars)
+2026-05-14T11:27:48.238Z   section "Output Formatting — Streaming Output Display & Tool Markers (cont.)" (429 chars)
+2026-05-14T11:27:48.238Z   section "Output Formatting — Streaming Output Display & Tool Markers (cont.)" (586 chars)
+2026-05-14T11:27:48.238Z   section "Output Formatting — Streaming Output Display & Tool Markers (cont.)" (575 chars)
+2026-05-14T11:27:48.238Z   section "Output Formatting — Streaming Output Display & Tool Markers (cont.)" (413 chars)
+2026-05-14T11:27:48.238Z   section "Output Formatting — Streaming Output Display & Tool Markers (cont.)" (585 chars)
+2026-05-14T11:27:48.238Z   section "Output Formatting — Error Handling" (245 chars)
+2026-05-14T11:27:48.238Z   section "Multi-Turn Conversations" (97 chars)
+2026-05-14T11:27:48.238Z   section "Multi-Turn Conversations — 1. State Passing (Chained Steps, Stateless)" (317 chars)
+2026-05-14T11:27:48.238Z   section "Multi-Turn Conversations — 2. Cross-Step Session Tracking" (570 chars)
+2026-05-14T11:27:48.238Z   section "Multi-Turn Conversations — 2. Cross-Step Session Tracking (cont.)" (520 chars)
+2026-05-14T11:27:48.238Z   section "Multi-Turn Conversations — 3. Interactive Conversation Mode" (481 chars)
+2026-05-14T11:27:48.238Z   section "Error Handling" (241 chars)
+2026-05-14T11:27:48.238Z   section "Error Handling — Debugging" (60 chars)
+2026-05-14T11:27:48.238Z   section "Token Tracking" (560 chars)
+2026-05-14T11:27:48.238Z   section "Best Practices — 1. Keep Prompts Focused" (81 chars)
+2026-05-14T11:27:48.238Z   section "See Also" (232 chars)
+2026-05-14T11:27:48.238Z   section "Introduction" (232 chars)
+2026-05-14T11:27:48.238Z   section "How It Works" (342 chars)
+2026-05-14T11:27:48.238Z   section "Default Location" (96 chars)
+2026-05-14T11:27:48.238Z   section "Configure the Path" (130 chars)
+2026-05-14T11:27:48.238Z   section "Disable the Audit Trail" (94 chars)
+2026-05-14T11:27:48.238Z   section "Secret Masking" (111 chars)
+2026-05-14T11:27:48.238Z   section "Resilience" (221 chars)
+2026-05-14T11:27:48.238Z   section "See Also" (350 chars)
+2026-05-14T11:27:48.238Z   section "awf init" (82 chars)
+2026-05-14T11:27:48.239Z   section "awf init — Created Structure (Local)" (78 chars)
+2026-05-14T11:27:48.239Z   section "awf run — Output Modes" (234 chars)
+2026-05-14T11:27:48.239Z   section "awf run — Execution Summary" (535 chars)
+2026-05-14T11:27:48.239Z   section "awf run — Running Pack Workflows" (300 chars)
+2026-05-14T11:27:48.239Z   section "awf run — Interactive Input Collection" (382 chars)
+2026-05-14T11:27:48.239Z   section "awf run — Interactive Input Collection (cont.)" (543 chars)
+2026-05-14T11:27:48.239Z   section "awf run — Workflow-Specific Help" (353 chars)
+2026-05-14T11:27:48.239Z   section "awf run — Interactive Input Collection" (574 chars)
+2026-05-14T11:27:48.239Z   section "awf run — Interactive Input Collection (cont.)" (562 chars)
+2026-05-14T11:27:48.239Z   section "awf run — Interactive Input Collection (cont.)" (585 chars)
+2026-05-14T11:27:48.239Z   section "awf run — Interactive Input Collection (cont.)" (274 chars)
+2026-05-14T11:27:48.239Z   section "awf run — Interactive Mode Actions" (61 chars)
+2026-05-14T11:27:48.239Z   section "awf resume — State Cleanup Behavior" (308 chars)
+2026-05-14T11:27:48.239Z   section "awf list" (51 chars)
+2026-05-14T11:27:48.239Z   section "awf list — Description" (200 chars)
+2026-05-14T11:27:48.239Z   section "awf list prompts" (62 chars)
+2026-05-14T11:27:48.239Z   section "awf list prompts — Description" (269 chars)
+2026-05-14T11:27:48.239Z   section "awf list prompts — Using Prompts" (131 chars)
+2026-05-14T11:27:48.239Z   section "awf tui" (94 chars)
+2026-05-14T11:27:48.239Z   section "awf tui — Description" (82 chars)
+2026-05-14T11:27:48.239Z   section "awf tui — Description (cont.)" (520 chars)
+2026-05-14T11:27:48.239Z   section "awf tui — Description (cont.)" (170 chars)
+2026-05-14T11:27:48.239Z   section "awf tui — Features" (590 chars)
+2026-05-14T11:27:48.239Z   section "awf tui — Features (cont.)" (560 chars)
+2026-05-14T11:27:48.239Z   section "awf tui — Features (cont.)" (208 chars)
+2026-05-14T11:27:48.239Z   section "awf tui — Notes" (593 chars)
+2026-05-14T11:27:48.239Z   section "awf tui — See Also" (208 chars)
+2026-05-14T11:27:48.239Z   section "awf validate — Validates" (305 chars)
+2026-05-14T11:27:48.239Z   section "awf diagram" (65 chars)
+2026-05-14T11:27:48.239Z   section "awf diagram — Output Formats" (50 chars)
+2026-05-14T11:27:48.239Z   section "awf diagram — Graphviz Installation" (94 chars)
+2026-05-14T11:27:48.239Z   section "awf error" (66 chars)
+2026-05-14T11:27:48.239Z   section "awf error — Description" (300 chars)
+2026-05-14T11:27:48.239Z   section "awf error — See Also" (151 chars)
+2026-05-14T11:27:48.239Z   section "awf history" (156 chars)
+2026-05-14T11:27:48.239Z   section "awf plugin install — Description" (353 chars)
+2026-05-14T11:27:48.239Z   section "awf plugin update" (60 chars)
+2026-05-14T11:27:48.239Z   section "awf plugin update — Description" (183 chars)
+2026-05-14T11:27:48.239Z   section "awf plugin verify" (64 chars)
+2026-05-14T11:27:48.239Z   section "awf plugin verify — Description" (481 chars)
+2026-05-14T11:27:48.239Z   section "awf plugin verify — Description (cont.)" (148 chars)
+2026-05-14T11:27:48.239Z   section "awf plugin verify — Output" (122 chars)
+2026-05-14T11:27:48.239Z   section "awf plugin remove — Description" (197 chars)
+2026-05-14T11:27:48.239Z   section "awf plugin search — Description" (177 chars)
+2026-05-14T11:27:48.239Z   section "awf plugin enable" (72 chars)
+2026-05-14T11:27:48.239Z   section "awf plugin disable" (73 chars)
+2026-05-14T11:27:48.239Z   section "awf workflow" (53 chars)
+2026-05-14T11:27:48.239Z   section "awf workflow list" (86 chars)
+2026-05-14T11:27:48.239Z   section "awf workflow list — Description" (242 chars)
+2026-05-14T11:27:48.240Z   section "awf workflow list — Output" (273 chars)
+2026-05-14T11:27:48.240Z   section "awf workflow info" (62 chars)
+2026-05-14T11:27:48.240Z   section "awf workflow info — Description" (314 chars)
+2026-05-14T11:27:48.240Z   section "awf workflow update" (77 chars)
+2026-05-14T11:27:48.240Z   section "awf workflow update — Description" (394 chars)
+2026-05-14T11:27:48.240Z   section "awf workflow install — Description" (481 chars)
+2026-05-14T11:27:48.240Z   section "awf workflow install — Description (cont.)" (453 chars)
+2026-05-14T11:27:48.240Z   section "awf workflow install — Description (cont.)" (207 chars)
+2026-05-14T11:27:48.240Z   section "awf workflow remove — Description" (159 chars)
+2026-05-14T11:27:48.240Z   section "awf workflow remove — Examples" (129 chars)
+2026-05-14T11:27:48.240Z   section "awf workflow search" (50 chars)
+2026-05-14T11:27:48.240Z   section "awf workflow search — Description" (220 chars)
+2026-05-14T11:27:48.240Z   section "awf config show" (59 chars)
+2026-05-14T11:27:48.240Z   section "awf config show — Description" (150 chars)
+2026-05-14T11:27:48.240Z   section "awf config show — See Also" (74 chars)
+2026-05-14T11:27:48.240Z   section "Introduction" (172 chars)
+2026-05-14T11:27:48.240Z   section "Overview" (347 chars)
+2026-05-14T11:27:48.240Z   section "Configuration File Location" (173 chars)
+2026-05-14T11:27:48.240Z   section "Configuration File Location — Environment Variable Override" (267 chars)
+2026-05-14T11:27:48.240Z   section "Configuration Format" (69 chars)
+2026-05-14T11:27:48.240Z   section "Input Pre-population" (192 chars)
+2026-05-14T11:27:48.240Z   section "Input Pre-population — Priority Order" (186 chars)
+2026-05-14T11:27:48.240Z   section "Input Pre-population — Standard Execution" (140 chars)
+2026-05-14T11:27:48.240Z   section "Input Pre-population — Interactive Mode" (142 chars)
+2026-05-14T11:27:48.240Z   section "Input Pre-population — Dry-Run Mode" (195 chars)
+2026-05-14T11:27:48.240Z   section "Initialization" (201 chars)
+2026-05-14T11:27:48.240Z   section "Viewing Configuration" (126 chars)
+2026-05-14T11:27:48.240Z   section "Validation and Errors" (53 chars)
+2026-05-14T11:27:48.240Z   section "Validation and Errors — Invalid YAML" (160 chars)
+2026-05-14T11:27:48.240Z   section "Validation and Errors — Unknown Keys" (244 chars)
+2026-05-14T11:27:48.240Z   section "Best Practices — Do Not Store Secrets" (195 chars)
+2026-05-14T11:27:48.240Z   section "Best Practices — Version Control" (143 chars)
+2026-05-14T11:27:48.240Z   section "Workflow-Level Configuration" (130 chars)
+2026-05-14T11:27:48.240Z   section "Workflow-Level Configuration — Output Configuration" (492 chars)
+2026-05-14T11:27:48.240Z   section "Workflow-Level Configuration — Loop Configuration" (451 chars)
+2026-05-14T11:27:48.240Z   section "Workflow-Level Configuration — Memory Monitoring" (327 chars)
+2026-05-14T11:27:48.240Z   section "Plugin Configuration" (130 chars)
+2026-05-14T11:27:48.240Z   section "Plugin Configuration — Notification Plugin" (120 chars)
+2026-05-14T11:27:48.240Z   section "Plugin Configuration — External Plugins" (121 chars)
+2026-05-14T11:27:48.240Z   section "Telemetry Configuration" (172 chars)
+2026-05-14T11:27:48.240Z   section "Telemetry Configuration — Examples" (93 chars)
+2026-05-14T11:27:48.240Z   section "Environment Variables" (91 chars)
+2026-05-14T11:27:48.240Z   section "Environment Variables — Audit Trail" (89 chars)
+2026-05-14T11:27:48.240Z   section "Environment Variables — XDG Directories" (189 chars)
+2026-05-14T11:27:48.240Z   section "See Also" (461 chars)
+2026-05-14T11:27:48.240Z   section "Introduction" (580 chars)
+2026-05-14T11:27:48.240Z   section "Interactive Conversation Mode" (188 chars)
+2026-05-14T11:27:48.240Z   section "Interactive Conversation Mode — Example" (142 chars)
+2026-05-14T11:27:48.241Z   section "Interactive Conversation Mode — Terminal Requirement" (260 chars)
+2026-05-14T11:27:48.241Z   section "Interactive Conversation Mode — Exit Signals" (250 chars)
+2026-05-14T11:27:48.241Z   section "Cross-Step Session Tracking" (323 chars)
+2026-05-14T11:27:48.241Z   section "Cross-Step Session Tracking — Example: Seed and Recall" (405 chars)
+2026-05-14T11:27:48.241Z   section "Cross-Step Session Tracking — Example: Seed and Recall (cont.)" (396 chars)
+2026-05-14T11:27:48.241Z   section "Cross-Step Session Tracking — Example: Seed and Recall (cont.)" (532 chars)
+2026-05-14T11:27:48.241Z   section "Cross-Step Session Tracking — Why the Empty `conversation: {}`?" (420 chars)
+2026-05-14T11:27:48.241Z   section "Cross-Step Session Tracking — ContinueFrom Rules" (548 chars)
+2026-05-14T11:27:48.241Z   section "Cross-Step Session Tracking — ContinueFrom Rules (cont.)" (123 chars)
+2026-05-14T11:27:48.241Z   section "Cross-Step Session Tracking — Cross-Provider Session Chains" (338 chars)
+2026-05-14T11:27:48.241Z   section "Cross-Step Session Tracking — Session Tracking vs. State Passing" (410 chars)
+2026-05-14T11:27:48.241Z   section "Cross-Step Session Tracking — Session Tracking vs. State Passing (cont.)" (525 chars)
+2026-05-14T11:27:48.241Z   section "Common Configuration — Fields Removed in F083" (229 chars)
+2026-05-14T11:27:48.241Z   section "Observability" (178 chars)
+2026-05-14T11:27:48.241Z   section "Complete Examples — Interactive Clarification Loop" (124 chars)
+2026-05-14T11:27:48.241Z   section "Complete Examples — Cross-Step Session Resume Across Providers" (419 chars)
+2026-05-14T11:27:48.241Z   section "See Also" (197 chars)
+2026-05-14T11:27:48.241Z   section "Introduction" (88 chars)
+2026-05-14T11:27:48.241Z   section "HTTP API Integration" (52 chars)
+2026-05-14T11:27:48.241Z   section "AI Agent Integration" (63 chars)
+2026-05-14T11:27:48.241Z   section "Multi-Turn Agent Conversation" (56 chars)
+2026-05-14T11:27:48.241Z   section "Parallel AI Analysis" (60 chars)
+2026-05-14T11:27:48.241Z   section "Built-in Workflows" (126 chars)
+2026-05-14T11:27:48.241Z   section "See Also" (202 chars)
+2026-05-14T11:27:48.241Z   section "Introduction" (198 chars)
+2026-05-14T11:27:48.241Z   section "How It Works — Automatic Detection" (353 chars)
+2026-05-14T11:27:48.241Z   section "How It Works — Terminal Detection" (55 chars)
+2026-05-14T11:27:48.241Z   section "Required Inputs — Basic Required Input" (127 chars)
+2026-05-14T11:27:48.241Z   section "Required Inputs — Type Validation" (98 chars)
+2026-05-14T11:27:48.241Z   section "Enum Inputs — Numbered Selection" (118 chars)
+2026-05-14T11:27:48.241Z   section "Enum Inputs — Invalid Selection Retry" (56 chars)
+2026-05-14T11:27:48.241Z   section "Enum Inputs — Large Enum Lists" (70 chars)
+2026-05-14T11:27:48.241Z   section "Optional Inputs — Skipping Optional Inputs" (104 chars)
+2026-05-14T11:27:48.241Z   section "Optional Inputs — Default Values" (141 chars)
+2026-05-14T11:27:48.241Z   section "Pattern Validation — Regex Patterns" (103 chars)
+2026-05-14T11:27:48.241Z   section "Cancellation — Ctrl+C" (294 chars)
+2026-05-14T11:27:48.241Z   section "Cancellation — Ctrl+D (EOF)" (62 chars)
+2026-05-14T11:27:48.241Z   section "Non-Interactive Execution — Providing All Inputs Upfront" (67 chars)
+2026-05-14T11:27:48.241Z   section "Non-Interactive Execution — Scripts and Automation" (106 chars)
+2026-05-14T11:27:48.241Z   section "Configuration File Integration" (128 chars)
+2026-05-14T11:27:48.241Z   section "Configuration File Integration — How Config Values are Used" (380 chars)
+2026-05-14T11:27:48.241Z   section "Configuration File Integration — Example with Config" (108 chars)
+2026-05-14T11:27:48.241Z   section "Mixed Inputs — Combining Flags and Prompts" (109 chars)
+2026-05-14T11:27:48.241Z   section "Best Practices — 5. Document Non-Interactive Usage" (54 chars)
+2026-05-14T11:27:48.241Z   section "Troubleshooting — "stdin is not a terminal" Error" (250 chars)
+2026-05-14T11:27:48.241Z   section "Troubleshooting — Validation Keeps Failing" (247 chars)
+2026-05-14T11:27:48.241Z   section "Troubleshooting — Can't Skip Optional Input" (243 chars)
+2026-05-14T11:27:48.241Z   section "Troubleshooting — Prompt Not Appearing" (244 chars)
+2026-05-14T11:27:48.241Z   section "See Also" (310 chars)
+2026-05-14T11:27:48.241Z   section "Introduction" (249 chars)
+2026-05-14T11:27:48.242Z   section "Overview" (63 chars)
+2026-05-14T11:27:48.242Z   section "Overview (cont.)" (584 chars)
+2026-05-14T11:27:48.242Z   section "Overview (cont.)" (205 chars)
+2026-05-14T11:27:48.242Z   section "Subscribing to Events — 2. Declare Events in Manifest" (52 chars)
+2026-05-14T11:27:48.242Z   section "Subscribing to Events — 3. Test with `awf run`" (118 chars)
+2026-05-14T11:27:48.242Z   section "Core Events Reference — Workflow Events" (169 chars)
+2026-05-14T11:27:48.242Z   section "Core Events Reference — Step Events" (195 chars)
+2026-05-14T11:27:48.242Z   section "Emitting Custom Events" (197 chars)
+2026-05-14T11:27:48.242Z   section "Emitting Custom Events — Method 1: Return Events from HandleEvent" (79 chars)
+2026-05-14T11:27:48.242Z   section "Emitting Custom Events — Example: Deploy Plugin → Notification Plugin" (95 chars)
+2026-05-14T11:27:48.242Z   section "Pattern Matching Rules" (107 chars)
+2026-05-14T11:27:48.242Z   section "Real-World Examples — Method 2: Emit Directly via HostClient" (468 chars)
+2026-05-14T11:27:48.242Z   section "Real-World Examples — Method 2: Emit Directly via HostClient (cont.)" (671 chars)
+2026-05-14T11:27:48.242Z   section "Real-World Examples — Method 2: Emit Directly via HostClient (cont.)" (455 chars)
+2026-05-14T11:27:48.242Z   section "Real-World Examples — Method 2: Emit Directly via HostClient (cont.)" (406 chars)
+2026-05-14T11:27:48.242Z   section "Real-World Examples — Method 2: Emit Directly via HostClient (cont.)" (287 chars)
+2026-05-14T11:27:48.242Z   section "Handling Errors" (164 chars)
+2026-05-14T11:27:48.242Z   section "Streaming Event Delivery" (504 chars)
+2026-05-14T11:27:48.242Z   section "Streaming Event Delivery — Automatic Fallback" (393 chars)
+2026-05-14T11:27:48.242Z   section "Streaming Event Delivery — When to Use Streaming" (315 chars)
+2026-05-14T11:27:48.242Z   section "Performance Considerations" (443 chars)
+2026-05-14T11:27:48.242Z   section "See Also" (263 chars)
+2026-05-14T11:27:48.242Z   section "Introduction" (246 chars)
+2026-05-14T11:27:48.242Z   section "Built-in GitHub Plugin" (560 chars)
+2026-05-14T11:27:48.242Z   section "Built-in GitHub Plugin (cont.)" (112 chars)
+2026-05-14T11:27:48.242Z   section "Built-in HTTP Operation" (555 chars)
+2026-05-14T11:27:48.242Z   section "Built-in HTTP Operation — Examples" (208 chars)
+2026-05-14T11:27:48.242Z   section "Built-in Notification Plugin" (566 chars)
+2026-05-14T11:27:48.242Z   section "Built-in Notification Plugin — Configuration" (164 chars)
+2026-05-14T11:27:48.242Z   section "Built-in Notification Plugin — Backend Details" (482 chars)
+2026-05-14T11:27:48.242Z   section "External RPC Plugins — Overview" (381 chars)
+2026-05-14T11:27:48.242Z   section "External RPC Plugins — Plugin Directory" (124 chars)
+2026-05-14T11:27:48.242Z   section "External RPC Plugins — Plugin Manifest" (93 chars)
+2026-05-14T11:27:48.242Z   section "External RPC Plugins — Managing Plugins" (514 chars)
+2026-05-14T11:27:48.242Z   section "External RPC Plugins — Managing Plugins (cont.)" (566 chars)
+2026-05-14T11:27:48.242Z   section "External RPC Plugins — Managing Plugins (cont.)" (596 chars)
+2026-05-14T11:27:48.242Z   section "External RPC Plugins — Managing Plugins (cont.)" (566 chars)
+2026-05-14T11:27:48.242Z   section "External RPC Plugins — Managing Plugins (cont.)" (423 chars)
+2026-05-14T11:27:48.242Z   section "External RPC Plugins — Managing Plugins (cont.)" (558 chars)
+2026-05-14T11:27:48.242Z   section "External RPC Plugins — Plugin Security" (481 chars)
+2026-05-14T11:27:48.242Z   section "External RPC Plugins — Plugin Security (cont.)" (390 chars)
+2026-05-14T11:27:48.242Z   section "External RPC Plugins — Plugin Security (cont.)" (512 chars)
+2026-05-14T11:27:48.242Z   section "External RPC Plugins — Plugin Security (cont.)" (552 chars)
+2026-05-14T11:27:48.242Z   section "External RPC Plugins — Plugin Security (cont.)" (508 chars)
+2026-05-14T11:27:48.242Z   section "External RPC Plugins — Using Plugin Operations" (237 chars)
+2026-05-14T11:27:48.242Z   section "External RPC Plugins — Plugin Configuration" (124 chars)
+2026-05-14T11:27:48.242Z   section "External RPC Plugins — Built-in Plugin Visibility" (199 chars)
+2026-05-14T11:27:48.243Z   section "Writing External Plugins" (171 chars)
+2026-05-14T11:27:48.243Z   section "Writing External Plugins — Validator Plugin" (445 chars)
+2026-05-14T11:27:48.243Z   section "Writing External Plugins — Step Type Plugin" (580 chars)
+2026-05-14T11:27:48.243Z   section "Writing External Plugins — Step Type Plugin (cont.)" (407 chars)
+2026-05-14T11:27:48.243Z   section "Writing External Plugins — Step Type Plugin (cont.)" (613 chars)
+2026-05-14T11:27:48.243Z   section "Writing External Plugins — Step Type Plugin (cont.)" (520 chars)
+2026-05-14T11:27:48.243Z   section "Writing External Plugins — Plugin Events" (578 chars)
+2026-05-14T11:27:48.243Z   section "Writing External Plugins — Plugin Events (cont.)" (298 chars)
+2026-05-14T11:27:48.243Z   section "Writing External Plugins — Plugin Events (cont.)" (671 chars)
+2026-05-14T11:27:48.243Z   section "Writing External Plugins — Plugin Events (cont.)" (430 chars)
+2026-05-14T11:27:48.243Z   section "Writing External Plugins — Plugin Events (cont.)" (566 chars)
+2026-05-14T11:27:48.243Z   section "Writing External Plugins — Plugin Events (cont.)" (214 chars)
+2026-05-14T11:27:48.243Z   section "Writing External Plugins — Echo Plugin Example" (161 chars)
+2026-05-14T11:27:48.243Z   section "Distributing Plugins via GitHub Releases" (177 chars)
+2026-05-14T11:27:48.243Z   section "Distributing Plugins via GitHub Releases — Release Asset Naming" (273 chars)
+2026-05-14T11:27:48.243Z   section "Distributing Plugins via GitHub Releases — GoReleaser Configuration" (220 chars)
+2026-05-14T11:27:48.243Z   section "Distributing Plugins via GitHub Releases — Authentication" (469 chars)
+2026-05-14T11:27:48.243Z   section "Troubleshooting — Plugin Not Found" (147 chars)
+2026-05-14T11:27:48.243Z   section "Troubleshooting — Plugin Load Failed" (80 chars)
+2026-05-14T11:27:48.243Z   section "See Also" (303 chars)
+2026-05-14T11:27:48.243Z   section "Introduction" (130 chars)
+2026-05-14T11:27:48.243Z   section "Overview" (342 chars)
+2026-05-14T11:27:48.243Z   section "Basic Retry" (294 chars)
+2026-05-14T11:27:48.243Z   section "Adding Delays" (186 chars)
+2026-05-14T11:27:48.243Z   section "Backoff Strategies — Constant Backoff" (67 chars)
+2026-05-14T11:27:48.243Z   section "Backoff Strategies — Linear Backoff" (98 chars)
+2026-05-14T11:27:48.243Z   section "Backoff Strategies — Exponential Backoff" (188 chars)
+2026-05-14T11:27:48.243Z   section "Capping Maximum Delay" (286 chars)
+2026-05-14T11:27:48.243Z   section "Filtering Retryable Exit Codes" (338 chars)
+2026-05-14T11:27:48.243Z   section "Agent Step Retry" (55 chars)
+2026-05-14T11:27:48.243Z   section "HTTP Operation Retry" (72 chars)
+2026-05-14T11:27:48.243Z   section "Complete Example: Reliable API Integration" (84 chars)
+2026-05-14T11:27:48.243Z   section "Validation Rules" (75 chars)
+2026-05-14T11:27:48.243Z   section "Common Patterns — Circuit Breaker (Give Up After Repeated Failures)" (55 chars)
+2026-05-14T11:27:48.243Z   section "Common Patterns — Jitter (Randomize Delays to Avoid Thundering Herd)" (188 chars)
+2026-05-14T11:27:48.243Z   section "Common Patterns — Escalating Delays" (162 chars)
+2026-05-14T11:27:48.243Z   section "Troubleshooting — Retries Not Happening" (189 chars)
+2026-05-14T11:27:48.243Z   section "Troubleshooting — Delays Too Long" (141 chars)
+2026-05-14T11:27:48.243Z   section "Troubleshooting — Some Failures Not Retrying" (174 chars)
+2026-05-14T11:27:48.243Z   section "See Also" (209 chars)
+2026-05-14T11:27:48.243Z   section "Introduction" (133 chars)
+2026-05-14T11:27:48.243Z   section "Template Definition" (51 chars)
+2026-05-14T11:27:48.243Z   section "Template Usage" (56 chars)
+2026-05-14T11:27:48.243Z   section "Parameter Interpolation" (112 chars)
+2026-05-14T11:27:48.243Z   section "Template Discovery" (167 chars)
+2026-05-14T11:27:48.243Z   section "Validation" (211 chars)
+2026-05-14T11:27:48.243Z   section "Best Practices" (331 chars)
+2026-05-14T11:27:48.243Z   section "See Also" (198 chars)
+2026-05-14T11:27:48.243Z   section "Introduction" (348 chars)
+2026-05-14T11:27:48.243Z   section "How It Works" (473 chars)
+2026-05-14T11:27:48.243Z   section "How It Works (cont.)" (131 chars)
+2026-05-14T11:27:48.244Z   section "Quick Start — 1. Start Jaeger" (200 chars)
+2026-05-14T11:27:48.244Z   section "Quick Start — 2. Enable Tracing" (153 chars)
+2026-05-14T11:27:48.244Z   section "Quick Start — 3. View Traces" (91 chars)
+2026-05-14T11:27:48.244Z   section "Configuration — Project Configuration (recommended)" (250 chars)
+2026-05-14T11:27:48.244Z   section "Configuration — CLI Flags" (574 chars)
+2026-05-14T11:27:48.244Z   section "Configuration — Priority Order" (184 chars)
+2026-05-14T11:27:48.244Z   section "Configuration — Environment Variables" (162 chars)
+2026-05-14T11:27:48.244Z   section "Span Structure — Root Span: `workflow.run`" (255 chars)
+2026-05-14T11:27:48.244Z   section "Span Structure — Step Spans: `step.<name>`" (177 chars)
+2026-05-14T11:27:48.244Z   section "Span Structure — Agent Call Spans: `agent.call`" (239 chars)
+2026-05-14T11:27:48.244Z   section "Span Structure — Parallel Block Spans: `parallel`" (232 chars)
+2026-05-14T11:27:48.244Z   section "Span Structure — Loop Spans: `loop.for_each` / `loop.while`" (206 chars)
+2026-05-14T11:27:48.244Z   section "Span Structure — Shell Command Spans: `shell.execute`" (342 chars)
+2026-05-14T11:27:48.244Z   section "Span Structure — Plugin RPC Spans: `plugin.rpc`" (148 chars)
+2026-05-14T11:27:48.244Z   section "Backends — Jaeger (Local Development)" (154 chars)
+2026-05-14T11:27:48.244Z   section "Backends — Grafana Tempo" (70 chars)
+2026-05-14T11:27:48.244Z   section "Real-World Example" (110 chars)
+2026-05-14T11:27:48.244Z   section "Troubleshooting — Traces not appearing" (295 chars)
+2026-05-14T11:27:48.244Z   section "Troubleshooting — Network issues" (275 chars)
+2026-05-14T11:27:48.244Z   section "Troubleshooting — Too many spans" (334 chars)
+2026-05-14T11:27:48.244Z   section "Performance" (242 chars)
+2026-05-14T11:27:48.244Z   section "See Also" (274 chars)
+2026-05-14T11:27:48.244Z   section "Introduction" (138 chars)
+2026-05-14T11:27:48.244Z   section "Overview" (427 chars)
+2026-05-14T11:27:48.244Z   section "Getting Started with the TUI — Tab Navigation" (82 chars)
+2026-05-14T11:27:48.244Z   section "The Workflows Tab" (82 chars)
+2026-05-14T11:27:48.244Z   section "The Workflows Tab — Finding Workflows" (316 chars)
+2026-05-14T11:27:48.244Z   section "The Workflows Tab — Launching a Workflow" (357 chars)
+2026-05-14T11:27:48.244Z   section "The Workflows Tab — Validating Workflows" (180 chars)
+2026-05-14T11:27:48.244Z   section "The Monitoring Tab" (143 chars)
+2026-05-14T11:27:48.244Z   section "The Monitoring Tab — Understanding the Execution Tree" (51 chars)
+2026-05-14T11:27:48.244Z   section "The Monitoring Tab — Viewing Step Logs" (255 chars)
+2026-05-14T11:27:48.244Z   section "The Monitoring Tab — Parallel Execution Tracking" (141 chars)
+2026-05-14T11:27:48.244Z   section "The Monitoring Tab — Stopping a Running Workflow" (140 chars)
+2026-05-14T11:27:48.244Z   section "The History Tab" (86 chars)
+2026-05-14T11:27:48.244Z   section "The History Tab — Browsing Execution History" (72 chars)
+2026-05-14T11:27:48.244Z   section "The History Tab — Inspecting Execution Details" (239 chars)
+2026-05-14T11:27:48.244Z   section "The Agent Conversations Tab" (102 chars)
+2026-05-14T11:27:48.244Z   section "The Agent Conversations Tab — Viewing Agent Messages" (73 chars)
+2026-05-14T11:27:48.244Z   section "The Agent Conversations Tab — Message Types" (283 chars)
+2026-05-14T11:27:48.244Z   section "The Agent Conversations Tab — Scrolling Through Conversations" (145 chars)
+2026-05-14T11:27:48.244Z   section "The External Logs Tab" (134 chars)
+2026-05-14T11:27:48.244Z   section "The External Logs Tab — Automatic Session Detection" (243 chars)
+2026-05-14T11:27:48.244Z   section "The External Logs Tab — Pausing and Resuming" (115 chars)
+2026-05-14T11:27:48.244Z   section "Common Workflows — Workflow: Launch and Monitor" (369 chars)
+2026-05-14T11:27:48.244Z   section "Common Workflows — Workflow: Investigate a Failed Execution" (375 chars)
+2026-05-14T11:27:48.244Z   section "Common Workflows — Workflow: Compare Recent Runs" (272 chars)
+2026-05-14T11:27:48.244Z   section "Common Workflows — Workflow: Monitor Agent Development" (404 chars)
+2026-05-14T11:27:48.244Z   section "Tips & Tricks — Keyboard Efficiency" (264 chars)
+2026-05-14T11:27:48.244Z   section "Tips & Tricks — Terminal Optimization" (247 chars)
+2026-05-14T11:27:48.244Z   section "Tips & Tricks — Performance Tips" (234 chars)
+2026-05-14T11:27:48.244Z   section "Tips & Tricks — Secret Handling" (296 chars)
+2026-05-14T11:27:48.244Z   section "Troubleshooting — TUI won't start" (53 chars)
+2026-05-14T11:27:48.245Z   section "Troubleshooting — Execution tree is empty" (277 chars)
+2026-05-14T11:27:48.245Z   section "Troubleshooting — Logs not updating" (238 chars)
+2026-05-14T11:27:48.245Z   section "Troubleshooting — History tab shows no entries" (289 chars)
+2026-05-14T11:27:48.245Z   section "Troubleshooting — Claude Code logs not appearing" (309 chars)
+2026-05-14T11:27:48.245Z   section "Troubleshooting — Colors look wrong" (307 chars)
+2026-05-14T11:27:48.245Z   section "Best Practices — For Daily Operations" (239 chars)
+2026-05-14T11:27:48.245Z   section "Best Practices — For Troubleshooting" (234 chars)
+2026-05-14T11:27:48.245Z   section "Best Practices — For Performance Monitoring" (214 chars)
+2026-05-14T11:27:48.245Z   section "See Also" (300 chars)
+2026-05-14T11:27:48.245Z   section "Introduction" (112 chars)
+2026-05-14T11:27:48.245Z   section "Check for Updates" (77 chars)
+2026-05-14T11:27:48.245Z   section "Upgrade to Latest" (110 chars)
+2026-05-14T11:27:48.245Z   section "Install a Specific Version" (70 chars)
+2026-05-14T11:27:48.245Z   section "Force Upgrade" (233 chars)
+2026-05-14T11:27:48.245Z   section "Authentication" (169 chars)
+2026-05-14T11:27:48.245Z   section "Troubleshooting — Permission Denied" (68 chars)
+2026-05-14T11:27:48.245Z   section "Troubleshooting — Package Manager Warning" (138 chars)
+2026-05-14T11:27:48.245Z   section "Troubleshooting — Dev Build" (86 chars)
+2026-05-14T11:27:48.245Z   section "See Also" (189 chars)
+2026-05-14T11:27:48.245Z   section "Introduction" (231 chars)
+2026-05-14T11:27:48.245Z   section "Overview" (365 chars)
+2026-05-14T11:27:48.245Z   section "Searching for Packs" (153 chars)
+2026-05-14T11:27:48.245Z   section "Installing Packs" (189 chars)
+2026-05-14T11:27:48.245Z   section "Installing Packs — Installation Locations" (77 chars)
+2026-05-14T11:27:48.245Z   section "Installing Packs — Plugin Dependencies" (221 chars)
+2026-05-14T11:27:48.245Z   section "Listing Packs" (225 chars)
+2026-05-14T11:27:48.245Z   section "Viewing Pack Details" (208 chars)
+2026-05-14T11:27:48.245Z   section "Updating Packs" (267 chars)
+2026-05-14T11:27:48.245Z   section "Removing Packs" (132 chars)
+2026-05-14T11:27:48.245Z   section "Running Pack Workflows" (107 chars)
+2026-05-14T11:27:48.245Z   section "Running Pack Workflows — Resource Resolution Order" (315 chars)
+2026-05-14T11:27:48.245Z   section "Pack Workflows in `awf list`" (242 chars)
+2026-05-14T11:27:48.245Z   section "Manifest Format" (53 chars)
+2026-05-14T11:27:48.245Z   section "Distributing Packs via GitHub Releases" (133 chars)
+2026-05-14T11:27:48.245Z   section "Distributing Packs via GitHub Releases — Release Assets" (131 chars)
+2026-05-14T11:27:48.245Z   section "Distributing Packs via GitHub Releases — Authentication" (172 chars)
+2026-05-14T11:27:48.245Z   section "See Also" (209 chars)
+2026-05-14T11:27:48.245Z   section "Introduction" (84 chars)
+2026-05-14T11:27:48.245Z   section "Step State — Shell Execution" (449 chars)
+2026-05-14T11:27:48.245Z   section "Step State — Shell Execution (cont.)" (324 chars)
+2026-05-14T11:27:48.245Z   section "Step State — Shell Execution (cont.)" (349 chars)
+2026-05-14T11:27:48.245Z   section "Step State — External Script Files" (562 chars)
+2026-05-14T11:27:48.245Z   section "Step State — External Script Files (cont.)" (523 chars)
+2026-05-14T11:27:48.245Z   section "Step State — External Script Files (cont.)" (399 chars)
+2026-05-14T11:27:48.245Z   section "Step State — External Script Files (cont.)" (520 chars)
+2026-05-14T11:27:48.245Z   section "Step State — External Script Files (cont.)" (485 chars)
+2026-05-14T11:27:48.246Z   section "Step State — External Script Files (cont.)" (587 chars)
+2026-05-14T11:27:48.246Z   section "Step State — External Script Files (cont.)" (547 chars)
+2026-05-14T11:27:48.246Z   section "Step State — External Script Files (cont.)" (65 chars)
+2026-05-14T11:27:48.246Z   section "Agent State" (76 chars)
+2026-05-14T11:27:48.246Z   section "Agent State — Conversation Mode" (401 chars)
+2026-05-14T11:27:48.246Z   section "Agent State — Agent Options" (100 chars)
+2026-05-14T11:27:48.246Z   section "Agent State — Session Tracking" (443 chars)
+2026-05-14T11:27:48.246Z   section "Agent State — Multi-Turn Conversations" (531 chars)
+2026-05-14T11:27:48.246Z   section "Agent State — Multi-Turn Conversations (cont.)" (515 chars)
+2026-05-14T11:27:48.246Z   section "Agent State — Multi-Turn Conversations (cont.)" (307 chars)
+2026-05-14T11:27:48.246Z   section "Agent State — OpenAI-Compatible Provider" (544 chars)
+2026-05-14T11:27:48.246Z   section "Agent State — OpenAI-Compatible Provider (cont.)" (126 chars)
+2026-05-14T11:27:48.246Z   section "Operation State" (256 chars)
+2026-05-14T11:27:48.246Z   section "Operation State — Operation Output" (50 chars)
+2026-05-14T11:27:48.246Z   section "Operation State — Output Interpolation" (54 chars)
+2026-05-14T11:27:48.246Z   section "Operation State — GitHub Operations" (443 chars)
+2026-05-14T11:27:48.246Z   section "Operation State — Batch Operations" (203 chars)
+2026-05-14T11:27:48.246Z   section "Operation State — Notification Operations" (410 chars)
+2026-05-14T11:27:48.246Z   section "Operation State — HTTP Operations" (525 chars)
+2026-05-14T11:27:48.246Z   section "Custom Step Type State" (306 chars)
+2026-05-14T11:27:48.246Z   section "Custom Step Type State — Custom Step Output" (72 chars)
+2026-05-14T11:27:48.246Z   section "Custom Step Type State — Limitations" (426 chars)
+2026-05-14T11:27:48.246Z   section "Terminal State — Inline Error Shorthand" (560 chars)
+2026-05-14T11:27:48.246Z   section "Terminal State — Inline Error Shorthand (cont.)" (478 chars)
+2026-05-14T11:27:48.246Z   section "Terminal State — Inline Error Shorthand (cont.)" (507 chars)
+2026-05-14T11:27:48.246Z   section "Parallel State" (350 chars)
+2026-05-14T11:27:48.246Z   section "For-Each Loop — Dynamic Max Iterations" (340 chars)
+2026-05-14T11:27:48.246Z   section "Nested Loops" (182 chars)
+2026-05-14T11:27:48.246Z   section "Call Workflow (Sub-Workflow)" (80 chars)
+2026-05-14T11:27:48.246Z   section "Call Workflow (Sub-Workflow) — Child Workflow Definition" (54 chars)
+2026-05-14T11:27:48.246Z   section "Call Workflow (Sub-Workflow) — Accessing Sub-Workflow Results" (83 chars)
+2026-05-14T11:27:48.246Z   section "Call Workflow (Sub-Workflow) — Pack Workflow Resolution" (183 chars)
+2026-05-14T11:27:48.246Z   section "Call Workflow (Sub-Workflow) — Nested Sub-Workflows" (226 chars)
+2026-05-14T11:27:48.246Z   section "Call Workflow (Sub-Workflow) — Error Handling" (310 chars)
+2026-05-14T11:27:48.246Z   section "Call Workflow (Sub-Workflow) — Using Call Workflow in Loops" (222 chars)
+2026-05-14T11:27:48.246Z   section "Retry Configuration — Retry Options" (164 chars)
+2026-05-14T11:27:48.246Z   section "Conditional Transitions — Transition Evaluation" (438 chars)
+2026-05-14T11:27:48.246Z   section "Input Definitions — Interactive Input Collection" (574 chars)
+2026-05-14T11:27:48.246Z   section "Variable Interpolation" (154 chars)
+2026-05-14T11:27:48.246Z   section "Working Directory" (86 chars)
+2026-05-14T11:27:48.246Z   section "See Also" (300 chars)
+2026-05-14T11:27:48.246Z embedding 868 sections across 48 files in one batch...
+2026-05-14T11:28:12.924Z docs/ADR/001-hexagonal-architecture.md → 4 sections
+2026-05-14T11:28:12.963Z docs/ADR/002-error-taxonomy-exit-codes.md → 4 sections
+2026-05-14T11:28:13.003Z docs/ADR/003-yaml-state-machine-workflows.md → 4 sections
+2026-05-14T11:28:13.043Z docs/ADR/004-domain-operation-registry.md → 4 sections
+2026-05-14T11:28:13.084Z docs/ADR/005-atomic-file-writes.md → 4 sections
+2026-05-14T11:28:13.122Z docs/ADR/006-xdg-path-resolution.md → 4 sections
+2026-05-14T11:28:13.285Z docs/ADR/007-agent-prompt-xor-constraint.md → 4 sections
+2026-05-14T11:28:13.327Z docs/ADR/008-openai-compatible-provider-http-adapter.md → 5 sections
+2026-05-14T11:28:13.370Z docs/ADR/009-breaking-removal-custom-provider-v0.4.0.md → 5 sections
+2026-05-14T11:28:13.412Z docs/ADR/010-paired-jsonl-audit-trail-with-atomic-append.md → 6 sections
+2026-05-14T11:28:13.453Z docs/ADR/011-application-layer-secret-masking-for-audit-events.md → 6 sections
+2026-05-14T11:28:13.494Z docs/ADR/012-runtime-shell-detection.md → 5 sections
+2026-05-14T11:28:13.534Z docs/ADR/013-context-aware-input-ports.md → 6 sections
+2026-05-14T11:28:13.578Z docs/ADR/014-shebang-execution-for-script-files.md → 13 sections
+2026-05-14T11:28:13.621Z docs/ADR/015-grpc-go-plugin-transport-for-external-plugins.md → 8 sections
+2026-05-14T11:28:13.662Z docs/ADR/README.md → 4 sections
+2026-05-14T11:28:13.837Z docs/README.md → 7 sections
+2026-05-14T11:28:13.893Z docs/development/architecture.md → 36 sections
+2026-05-14T11:28:13.951Z docs/development/code-quality.md → 37 sections
+2026-05-14T11:28:14.012Z docs/development/creating-agent-provider.md → 44 sections
+2026-05-14T11:28:14.066Z docs/development/plugin-event-architecture.md → 34 sections
+2026-05-14T11:28:14.111Z docs/development/project-structure.md → 8 sections
+2026-05-14T11:28:14.161Z docs/development/testing.md → 20 sections
+2026-05-14T11:28:14.202Z docs/getting-started/installation.md → 5 sections
+2026-05-14T11:28:14.244Z docs/getting-started/quickstart.md → 8 sections
+2026-05-14T11:28:14.291Z docs/reference/audit-trail-schema.md → 15 sections
+2026-05-14T11:28:14.479Z docs/reference/error-codes.md → 30 sections
+2026-05-14T11:28:14.523Z docs/reference/exit-codes.md → 8 sections
+2026-05-14T11:28:14.583Z docs/reference/interpolation.md → 35 sections
+2026-05-14T11:28:14.636Z docs/reference/loop.md → 28 sections
+2026-05-14T11:28:14.684Z docs/reference/package-documentation.md → 14 sections
+2026-05-14T11:28:14.727Z docs/reference/validation.md → 6 sections
+2026-05-14T11:28:14.805Z docs/user-guide/agent-steps.md → 53 sections
+2026-05-14T11:28:14.850Z docs/user-guide/audit-trail.md → 8 sections
+2026-05-14T11:28:14.938Z docs/user-guide/commands.md → 65 sections
+2026-05-14T11:28:14.996Z docs/user-guide/configuration.md → 30 sections
+2026-05-14T11:28:15.185Z docs/user-guide/conversation-steps.md → 20 sections
+2026-05-14T11:28:15.229Z docs/user-guide/examples.md → 7 sections
+2026-05-14T11:28:15.283Z docs/user-guide/interactive-inputs.md → 25 sections
+2026-05-14T11:28:15.336Z docs/user-guide/plugin-events.md → 23 sections
+2026-05-14T11:28:15.396Z docs/user-guide/plugins.md → 45 sections
+2026-05-14T11:28:15.446Z docs/user-guide/retry.md → 20 sections
+2026-05-14T11:28:15.489Z docs/user-guide/templates.md → 8 sections
+2026-05-14T11:28:15.544Z docs/user-guide/tracing.md → 25 sections
+2026-05-14T11:28:15.609Z docs/user-guide/tui.md → 40 sections
+2026-05-14T11:28:15.655Z docs/user-guide/upgrade.md → 10 sections
+2026-05-14T11:28:15.844Z docs/user-guide/workflow-packs.md → 18 sections
+2026-05-14T11:28:15.913Z docs/user-guide/workflow-syntax.md → 50 sections
+2026-05-14T11:28:15.924Z indexed 868 project doc sections from 48 files
+2026-05-14T11:28:15.924Z no internal docs/ directory found

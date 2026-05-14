@@ -1,0 +1,214 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/agents/openai_compatible_provider.go",
+  "hash": "5fdb18ad22d3ffab35e9de692a91605adc304a1eee71b3d9a7c6f4268f320fcd",
+  "symbols": [
+    {
+      "name": "OpenAICompatibleProvider",
+      "kind": "class",
+      "exported": true,
+      "line_start": 23,
+      "line_end": 25
+    },
+    {
+      "name": "maxResponseBodyBytes",
+      "kind": "constant",
+      "exported": false,
+      "line_start": 28,
+      "line_end": 28
+    },
+    {
+      "name": "chatMessage",
+      "kind": "class",
+      "exported": false,
+      "line_start": 30,
+      "line_end": 33
+    },
+    {
+      "name": "chatCompletionsRequest",
+      "kind": "class",
+      "exported": false,
+      "line_start": 35,
+      "line_end": 41
+    },
+    {
+      "name": "chatChoice",
+      "kind": "class",
+      "exported": false,
+      "line_start": 43,
+      "line_end": 46
+    },
+    {
+      "name": "chatUsage",
+      "kind": "class",
+      "exported": false,
+      "line_start": 48,
+      "line_end": 52
+    },
+    {
+      "name": "chatCompletionsResponse",
+      "kind": "class",
+      "exported": false,
+      "line_start": 54,
+      "line_end": 57
+    },
+    {
+      "name": "parsedOptions",
+      "kind": "class",
+      "exported": false,
+      "line_start": 59,
+      "line_end": 67
+    },
+    {
+      "name": "NewOpenAICompatibleProvider",
+      "kind": "function",
+      "exported": true,
+      "line_start": 69,
+      "line_end": 77
+    },
+    {
+      "name": "Name",
+      "kind": "method",
+      "exported": true,
+      "line_start": 79,
+      "line_end": 81
+    },
+    {
+      "name": "Validate",
+      "kind": "method",
+      "exported": true,
+      "line_start": 83,
+      "line_end": 85
+    },
+    {
+      "name": "Execute",
+      "kind": "method",
+      "exported": true,
+      "line_start": 87,
+      "line_end": 124
+    },
+    {
+      "name": "parseJSONResponse",
+      "kind": "method",
+      "exported": false,
+      "line_start": 126,
+      "line_end": 137
+    },
+    {
+      "name": "ExecuteConversation",
+      "kind": "method",
+      "exported": true,
+      "line_start": 139,
+      "line_end": 204
+    },
+    {
+      "name": "writeDisplayOutput",
+      "kind": "method",
+      "exported": false,
+      "line_start": 206,
+      "line_end": 213
+    },
+    {
+      "name": "parseAndValidateOptions",
+      "kind": "method",
+      "exported": false,
+      "line_start": 215,
+      "line_end": 265
+    },
+    {
+      "name": "parseTemperatureOption",
+      "kind": "function",
+      "exported": false,
+      "line_start": 267,
+      "line_end": 285
+    },
+    {
+      "name": "parseMaxCompletionTokensOption",
+      "kind": "function",
+      "exported": false,
+      "line_start": 287,
+      "line_end": 311
+    },
+    {
+      "name": "parseTopPOption",
+      "kind": "function",
+      "exported": false,
+      "line_start": 313,
+      "line_end": 331
+    },
+    {
+      "name": "callChatCompletions",
+      "kind": "method",
+      "exported": false,
+      "line_start": 333,
+      "line_end": 380
+    },
+    {
+      "name": "mapHTTPError",
+      "kind": "function",
+      "exported": false,
+      "line_start": 382,
+      "line_end": 401
+    },
+    {
+      "name": "translateOpenAICompatibleDisplayEvents",
+      "kind": "method",
+      "exported": false,
+      "line_start": 403,
+      "line_end": 458
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "encoding/json",
+      "type": "import"
+    },
+    {
+      "source": "errors",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "io",
+      "type": "import"
+    },
+    {
+      "source": "net/http",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/pkg/httpx",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

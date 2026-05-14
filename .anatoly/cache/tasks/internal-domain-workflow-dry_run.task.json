@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "file": "internal/domain/workflow/dry_run.go",
+  "hash": "8bdd16282f708e2638e4ae4d087890cbddd2f74012c1befeac19122123f6e270",
+  "symbols": [
+    {
+      "name": "DryRunPlan",
+      "kind": "class",
+      "exported": true,
+      "line_start": 3,
+      "line_end": 8
+    },
+    {
+      "name": "DryRunInput",
+      "kind": "class",
+      "exported": true,
+      "line_start": 10,
+      "line_end": 15
+    },
+    {
+      "name": "DryRunStep",
+      "kind": "class",
+      "exported": true,
+      "line_start": 17,
+      "line_end": 36
+    },
+    {
+      "name": "DryRunHooks",
+      "kind": "class",
+      "exported": true,
+      "line_start": 38,
+      "line_end": 41
+    },
+    {
+      "name": "DryRunHook",
+      "kind": "class",
+      "exported": true,
+      "line_start": 43,
+      "line_end": 46
+    },
+    {
+      "name": "DryRunTransition",
+      "kind": "class",
+      "exported": true,
+      "line_start": 48,
+      "line_end": 52
+    },
+    {
+      "name": "DryRunRetry",
+      "kind": "class",
+      "exported": true,
+      "line_start": 54,
+      "line_end": 62
+    },
+    {
+      "name": "DryRunCapture",
+      "kind": "class",
+      "exported": true,
+      "line_start": 64,
+      "line_end": 68
+    },
+    {
+      "name": "DryRunLoop",
+      "kind": "class",
+      "exported": true,
+      "line_start": 70,
+      "line_end": 78
+    },
+    {
+      "name": "DryRunAgent",
+      "kind": "class",
+      "exported": true,
+      "line_start": 80,
+      "line_end": 87
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

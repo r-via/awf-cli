@@ -1,0 +1,121 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/tui/keys.go",
+  "hash": "b8904705da7697f80314e0a70d5be80a35782009f42c8ea254c8ac34149fb3c7",
+  "symbols": [
+    {
+      "name": "globalHelpKeys",
+      "kind": "class",
+      "exported": false,
+      "line_start": 31,
+      "line_end": 31
+    },
+    {
+      "name": "ShortHelp",
+      "kind": "method",
+      "exported": true,
+      "line_start": 33,
+      "line_end": 35
+    },
+    {
+      "name": "FullHelp",
+      "kind": "method",
+      "exported": true,
+      "line_start": 37,
+      "line_end": 42
+    },
+    {
+      "name": "workflowsHelpKeys",
+      "kind": "class",
+      "exported": false,
+      "line_start": 45,
+      "line_end": 45
+    },
+    {
+      "name": "ShortHelp",
+      "kind": "method",
+      "exported": true,
+      "line_start": 47,
+      "line_end": 49
+    },
+    {
+      "name": "FullHelp",
+      "kind": "method",
+      "exported": true,
+      "line_start": 51,
+      "line_end": 57
+    },
+    {
+      "name": "monitoringHelpKeys",
+      "kind": "class",
+      "exported": false,
+      "line_start": 60,
+      "line_end": 60
+    },
+    {
+      "name": "ShortHelp",
+      "kind": "method",
+      "exported": true,
+      "line_start": 62,
+      "line_end": 64
+    },
+    {
+      "name": "FullHelp",
+      "kind": "method",
+      "exported": true,
+      "line_start": 66,
+      "line_end": 72
+    },
+    {
+      "name": "historyHelpKeys",
+      "kind": "class",
+      "exported": false,
+      "line_start": 75,
+      "line_end": 75
+    },
+    {
+      "name": "ShortHelp",
+      "kind": "method",
+      "exported": true,
+      "line_start": 77,
+      "line_end": 79
+    },
+    {
+      "name": "FullHelp",
+      "kind": "method",
+      "exported": true,
+      "line_start": 81,
+      "line_end": 87
+    },
+    {
+      "name": "logsHelpKeys",
+      "kind": "class",
+      "exported": false,
+      "line_start": 90,
+      "line_end": 90
+    },
+    {
+      "name": "ShortHelp",
+      "kind": "method",
+      "exported": true,
+      "line_start": 92,
+      "line_end": 94
+    },
+    {
+      "name": "FullHelp",
+      "kind": "method",
+      "exported": true,
+      "line_start": 96,
+      "line_end": 102
+    }
+  ],
+  "imports": [
+    {
+      "source": "charm.land/bubbles/v2/key",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

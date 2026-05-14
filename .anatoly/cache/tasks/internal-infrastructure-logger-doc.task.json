@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/logger/doc.go",
+  "hash": "b6c70839fdc777a2ed08db9562626a27a0ec86cf0875c5b8e78a53efc823ea8b",
+  "symbols": [],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

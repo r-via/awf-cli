@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "file": "internal/domain/operation/operation.go",
+  "hash": "9f32d6ddddb6e472afac66ed7efcef2a81256d0d8ef464813881ac8bd3ace624",
+  "symbols": [
+    {
+      "name": "Operation",
+      "kind": "type",
+      "exported": true,
+      "line_start": 13,
+      "line_end": 24
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "errors",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/pluginmodel",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

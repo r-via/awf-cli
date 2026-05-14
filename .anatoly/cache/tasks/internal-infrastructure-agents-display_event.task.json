@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/agents/display_event.go",
+  "hash": "6daa5b098981575ae3736c2d88e1d7f07b5bebcd845ab992754a56eb5d2ec80d",
+  "symbols": [
+    {
+      "name": "EventText",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 15,
+      "line_end": 15
+    },
+    {
+      "name": "EventToolUse",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 16,
+      "line_end": 16
+    },
+    {
+      "name": "DisplayModeDefault",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 20,
+      "line_end": 20
+    },
+    {
+      "name": "DisplayModeVerbose",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 21,
+      "line_end": 21
+    }
+  ],
+  "imports": [
+    {
+      "source": "github.com/awf-project/cli/pkg/display",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

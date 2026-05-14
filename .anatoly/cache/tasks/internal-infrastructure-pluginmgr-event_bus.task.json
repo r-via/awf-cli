@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/pluginmgr/event_bus.go",
+  "hash": "872f8d82232ee87b7fa8f525471d2eb4760398548e01c51d2679b6610197c761",
+  "symbols": [
+    {
+      "name": "defaultEventBufferSize",
+      "kind": "constant",
+      "exported": false,
+      "line_start": 13,
+      "line_end": 13
+    },
+    {
+      "name": "maxPropagationDepth",
+      "kind": "constant",
+      "exported": false,
+      "line_start": 14,
+      "line_end": 14
+    },
+    {
+      "name": "EventDeliverer",
+      "kind": "type",
+      "exported": true,
+      "line_start": 18,
+      "line_end": 20
+    },
+    {
+      "name": "eventEnvelope",
+      "kind": "class",
+      "exported": false,
+      "line_start": 22,
+      "line_end": 25
+    },
+    {
+      "name": "eventSubscription",
+      "kind": "class",
+      "exported": false,
+      "line_start": 27,
+      "line_end": 34
+    },
+    {
+      "name": "EventBus",
+      "kind": "class",
+      "exported": true,
+      "line_start": 36,
+      "line_end": 41
+    },
+    {
+      "name": "NewEventBus",
+      "kind": "function",
+      "exported": true,
+      "line_start": 46,
+      "line_end": 48
+    },
+    {
+      "name": "NewEventBusWithBufferSize",
+      "kind": "function",
+      "exported": true,
+      "line_start": 51,
+      "line_end": 57
+    },
+    {
+      "name": "matchEventPattern",
+      "kind": "function",
+      "exported": false,
+      "line_start": 61,
+      "line_end": 76
+    },
+    {
+      "name": "matchesAnyPattern",
+      "kind": "method",
+      "exported": false,
+      "line_start": 80,
+      "line_end": 90
+    },
+    {
+      "name": "Subscribe",
+      "kind": "method",
+      "exported": true,
+      "line_start": 92,
+      "line_end": 107
+    },
+    {
+      "name": "runDelivery",
+      "kind": "method",
+      "exported": false,
+      "line_start": 109,
+      "line_end": 139
+    },
+    {
+      "name": "Unsubscribe",
+      "kind": "method",
+      "exported": true,
+      "line_start": 141,
+      "line_end": 153
+    },
+    {
+      "name": "Publish",
+      "kind": "method",
+      "exported": true,
+      "line_start": 155,
+      "line_end": 175
+    },
+    {
+      "name": "Close",
+      "kind": "method",
+      "exported": true,
+      "line_start": 177,
+      "line_end": 189
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "sync",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/pluginmodel",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

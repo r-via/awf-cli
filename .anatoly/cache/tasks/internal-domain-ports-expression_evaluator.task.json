@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "file": "internal/domain/ports/expression_evaluator.go",
+  "hash": "6f6feb28624e2d600285f9d119c8a7677731757b42961494e13377aee8321dea",
+  "symbols": [
+    {
+      "name": "ExpressionEvaluator",
+      "kind": "type",
+      "exported": true,
+      "line_start": 11,
+      "line_end": 22
+    }
+  ],
+  "imports": [
+    {
+      "source": "github.com/awf-project/cli/pkg/interpolation",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

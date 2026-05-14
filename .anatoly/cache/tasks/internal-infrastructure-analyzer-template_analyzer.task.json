@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/analyzer/template_analyzer.go",
+  "hash": "34d1de203319c2ab9460f014136d2f1e7348096d053c00fae8172110b3e1d14e",
+  "symbols": [
+    {
+      "name": "InterpolationAnalyzer",
+      "kind": "class",
+      "exported": true,
+      "line_start": 11,
+      "line_end": 11
+    },
+    {
+      "name": "NewInterpolationAnalyzer",
+      "kind": "function",
+      "exported": true,
+      "line_start": 14,
+      "line_end": 16
+    },
+    {
+      "name": "ExtractReferences",
+      "kind": "method",
+      "exported": true,
+      "line_start": 19,
+      "line_end": 37
+    },
+    {
+      "name": "convertReferenceType",
+      "kind": "function",
+      "exported": false,
+      "line_start": 40,
+      "line_end": 59
+    }
+  ],
+  "imports": [
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/pkg/interpolation",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

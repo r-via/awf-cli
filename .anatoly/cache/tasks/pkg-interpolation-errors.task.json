@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "file": "pkg/interpolation/errors.go",
+  "hash": "6d3b7216ab9e0d5cbb3598bdc3a380ac2a71fbb46ee345286e62836f9d8e755b",
+  "symbols": [
+    {
+      "name": "UndefinedVariableError",
+      "kind": "class",
+      "exported": true,
+      "line_start": 6,
+      "line_end": 8
+    },
+    {
+      "name": "Error",
+      "kind": "method",
+      "exported": true,
+      "line_start": 10,
+      "line_end": 12
+    },
+    {
+      "name": "ParseError",
+      "kind": "class",
+      "exported": true,
+      "line_start": 15,
+      "line_end": 18
+    },
+    {
+      "name": "Error",
+      "kind": "method",
+      "exported": true,
+      "line_start": 20,
+      "line_end": 22
+    },
+    {
+      "name": "Unwrap",
+      "kind": "method",
+      "exported": true,
+      "line_start": 24,
+      "line_end": 26
+    }
+  ],
+  "imports": [
+    {
+      "source": "fmt",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

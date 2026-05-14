@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/cli/resume.go",
+  "hash": "9c21f36ff0a7a642585ccc6bd0926da91242ec2751f043409af4bd95cd48cd76",
+  "symbols": [
+    {
+      "name": "newResumeCommand",
+      "kind": "function",
+      "exported": false,
+      "line_start": 22,
+      "line_end": 68
+    },
+    {
+      "name": "runResumeList",
+      "kind": "function",
+      "exported": false,
+      "line_start": 70,
+      "line_end": 139
+    },
+    {
+      "name": "runResume",
+      "kind": "function",
+      "exported": false,
+      "line_start": 141,
+      "line_end": 345
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "path/filepath",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/application",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/agents",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/audit",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/executor",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/expression",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/store",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/xdg",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/interfaces/cli/ui",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/pkg/interpolation",
+      "type": "import"
+    },
+    {
+      "source": "github.com/spf13/cobra",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

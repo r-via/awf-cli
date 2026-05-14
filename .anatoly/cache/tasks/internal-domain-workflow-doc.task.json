@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "file": "internal/domain/workflow/doc.go",
+  "hash": "a419c9a26b6e1d0e40394d23e72deb6c8ac966307bed91c68ab4c4d8be1209fa",
+  "symbols": [],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

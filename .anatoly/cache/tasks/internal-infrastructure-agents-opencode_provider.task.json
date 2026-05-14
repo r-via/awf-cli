@@ -1,0 +1,164 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/agents/opencode_provider.go",
+  "hash": "ae8780bcfd7a01bc5b82e6ede9c86da87be03188f048dc81a3ea96cdfa5f44f8",
+  "symbols": [
+    {
+      "name": "OpenCodeProvider",
+      "kind": "class",
+      "exported": true,
+      "line_start": 19,
+      "line_end": 24
+    },
+    {
+      "name": "NewOpenCodeProvider",
+      "kind": "function",
+      "exported": true,
+      "line_start": 26,
+      "line_end": 33
+    },
+    {
+      "name": "NewOpenCodeProviderWithOptions",
+      "kind": "function",
+      "exported": true,
+      "line_start": 35,
+      "line_end": 45
+    },
+    {
+      "name": "newBase",
+      "kind": "method",
+      "exported": false,
+      "line_start": 47,
+      "line_end": 60
+    },
+    {
+      "name": "Execute",
+      "kind": "method",
+      "exported": true,
+      "line_start": 63,
+      "line_end": 88
+    },
+    {
+      "name": "ExecuteConversation",
+      "kind": "method",
+      "exported": true,
+      "line_start": 91,
+      "line_end": 97
+    },
+    {
+      "name": "buildExecuteArgs",
+      "kind": "method",
+      "exported": false,
+      "line_start": 101,
+      "line_end": 120
+    },
+    {
+      "name": "buildConversationArgs",
+      "kind": "method",
+      "exported": false,
+      "line_start": 125,
+      "line_end": 156
+    },
+    {
+      "name": "applyOpenCodeCLIOptions",
+      "kind": "function",
+      "exported": false,
+      "line_start": 160,
+      "line_end": 174
+    },
+    {
+      "name": "Name",
+      "kind": "method",
+      "exported": true,
+      "line_start": 177,
+      "line_end": 179
+    },
+    {
+      "name": "Validate",
+      "kind": "method",
+      "exported": true,
+      "line_start": 182,
+      "line_end": 188
+    },
+    {
+      "name": "validateOpenCodeOptions",
+      "kind": "function",
+      "exported": false,
+      "line_start": 191,
+      "line_end": 209
+    },
+    {
+      "name": "extractStepStartEvent",
+      "kind": "method",
+      "exported": false,
+      "line_start": 211,
+      "line_end": 217
+    },
+    {
+      "name": "extractSessionID",
+      "kind": "method",
+      "exported": false,
+      "line_start": 219,
+      "line_end": 231
+    },
+    {
+      "name": "extractOpenCodeTokenUsage",
+      "kind": "method",
+      "exported": false,
+      "line_start": 233,
+      "line_end": 253
+    },
+    {
+      "name": "parseOpencodeDisplayEvents",
+      "kind": "method",
+      "exported": false,
+      "line_start": 255,
+      "line_end": 291
+    }
+  ],
+  "imports": [
+    {
+      "source": "bytes",
+      "type": "import"
+    },
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "encoding/json",
+      "type": "import"
+    },
+    {
+      "source": "errors",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "io",
+      "type": "import"
+    },
+    {
+      "source": "os/exec",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/logger",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

@@ -1,0 +1,247 @@
+{
+  "version": 1,
+  "file": "internal/domain/workflow/validation_errors.go",
+  "hash": "37522ee6a440a03c708bf4727d669709e75ac0b0aca064689c7d62da4bc40a1c",
+  "symbols": [
+    {
+      "name": "ValidationLevel",
+      "kind": "type",
+      "exported": true,
+      "line_start": 6,
+      "line_end": 6
+    },
+    {
+      "name": "ValidationLevelError",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 9,
+      "line_end": 9
+    },
+    {
+      "name": "ValidationLevelWarning",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 10,
+      "line_end": 10
+    },
+    {
+      "name": "ValidationCode",
+      "kind": "type",
+      "exported": true,
+      "line_start": 14,
+      "line_end": 14
+    },
+    {
+      "name": "ErrCycleDetected",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 17,
+      "line_end": 17
+    },
+    {
+      "name": "ErrUnreachableState",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 18,
+      "line_end": 18
+    },
+    {
+      "name": "ErrInvalidTransition",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 19,
+      "line_end": 19
+    },
+    {
+      "name": "ErrNoTerminalState",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 20,
+      "line_end": 20
+    },
+    {
+      "name": "ErrMissingInitialState",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 21,
+      "line_end": 21
+    },
+    {
+      "name": "ErrUndefinedInput",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 24,
+      "line_end": 24
+    },
+    {
+      "name": "ErrUndefinedStep",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 25,
+      "line_end": 25
+    },
+    {
+      "name": "ErrForwardReference",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 26,
+      "line_end": 26
+    },
+    {
+      "name": "ErrInvalidWorkflowProperty",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 27,
+      "line_end": 27
+    },
+    {
+      "name": "ErrInvalidStateProperty",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 28,
+      "line_end": 28
+    },
+    {
+      "name": "ErrInvalidErrorProperty",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 29,
+      "line_end": 29
+    },
+    {
+      "name": "ErrInvalidContextProperty",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 30,
+      "line_end": 30
+    },
+    {
+      "name": "ErrInvalidLoopProperty",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 31,
+      "line_end": 31
+    },
+    {
+      "name": "ErrUnknownReferenceType",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 32,
+      "line_end": 32
+    },
+    {
+      "name": "ErrErrorRefOutsideErrorHook",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 33,
+      "line_end": 33
+    },
+    {
+      "name": "ErrUndefinedLoopVariable",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 36,
+      "line_end": 36
+    },
+    {
+      "name": "ErrCircularWorkflowCall",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 39,
+      "line_end": 39
+    },
+    {
+      "name": "ErrUndefinedSubworkflow",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 40,
+      "line_end": 40
+    },
+    {
+      "name": "ErrMaxNestingExceeded",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 41,
+      "line_end": 41
+    },
+    {
+      "name": "ValidationError",
+      "kind": "class",
+      "exported": true,
+      "line_start": 45,
+      "line_end": 50
+    },
+    {
+      "name": "Error",
+      "kind": "method",
+      "exported": true,
+      "line_start": 53,
+      "line_end": 58
+    },
+    {
+      "name": "IsError",
+      "kind": "method",
+      "exported": true,
+      "line_start": 61,
+      "line_end": 63
+    },
+    {
+      "name": "ValidationResult",
+      "kind": "class",
+      "exported": true,
+      "line_start": 66,
+      "line_end": 69
+    },
+    {
+      "name": "HasErrors",
+      "kind": "method",
+      "exported": true,
+      "line_start": 72,
+      "line_end": 74
+    },
+    {
+      "name": "HasWarnings",
+      "kind": "method",
+      "exported": true,
+      "line_start": 77,
+      "line_end": 79
+    },
+    {
+      "name": "AllIssues",
+      "kind": "method",
+      "exported": true,
+      "line_start": 82,
+      "line_end": 87
+    },
+    {
+      "name": "AddError",
+      "kind": "method",
+      "exported": true,
+      "line_start": 90,
+      "line_end": 97
+    },
+    {
+      "name": "AddWarning",
+      "kind": "method",
+      "exported": true,
+      "line_start": 100,
+      "line_end": 107
+    },
+    {
+      "name": "ToError",
+      "kind": "method",
+      "exported": true,
+      "line_start": 111,
+      "line_end": 124
+    }
+  ],
+  "imports": [
+    {
+      "source": "fmt",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

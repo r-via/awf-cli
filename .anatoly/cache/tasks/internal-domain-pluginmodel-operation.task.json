@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "file": "internal/domain/pluginmodel/operation.go",
+  "hash": "0df00b71ab6a4ae4c887757c48a4007b9c8140d0d68563a57efd6b881628476d",
+  "symbols": [
+    {
+      "name": "InputTypeString",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 10,
+      "line_end": 10
+    },
+    {
+      "name": "InputTypeInteger",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 11,
+      "line_end": 11
+    },
+    {
+      "name": "InputTypeBoolean",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 12,
+      "line_end": 12
+    },
+    {
+      "name": "InputTypeArray",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 13,
+      "line_end": 13
+    },
+    {
+      "name": "InputTypeObject",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 14,
+      "line_end": 14
+    },
+    {
+      "name": "OperationSchema",
+      "kind": "class",
+      "exported": true,
+      "line_start": 30,
+      "line_end": 36
+    },
+    {
+      "name": "Validate",
+      "kind": "method",
+      "exported": true,
+      "line_start": 38,
+      "line_end": 89
+    },
+    {
+      "name": "GetRequiredInputs",
+      "kind": "method",
+      "exported": true,
+      "line_start": 91,
+      "line_end": 101
+    },
+    {
+      "name": "InputSchema",
+      "kind": "class",
+      "exported": true,
+      "line_start": 103,
+      "line_end": 109
+    },
+    {
+      "name": "Validate",
+      "kind": "method",
+      "exported": true,
+      "line_start": 111,
+      "line_end": 131
+    },
+    {
+      "name": "validateDefaultType",
+      "kind": "method",
+      "exported": false,
+      "line_start": 133,
+      "line_end": 163
+    },
+    {
+      "name": "IsValidType",
+      "kind": "method",
+      "exported": true,
+      "line_start": 165,
+      "line_end": 167
+    },
+    {
+      "name": "OperationResult",
+      "kind": "class",
+      "exported": true,
+      "line_start": 169,
+      "line_end": 173
+    },
+    {
+      "name": "IsSuccess",
+      "kind": "method",
+      "exported": true,
+      "line_start": 175,
+      "line_end": 177
+    },
+    {
+      "name": "HasError",
+      "kind": "method",
+      "exported": true,
+      "line_start": 179,
+      "line_end": 181
+    },
+    {
+      "name": "GetOutput",
+      "kind": "method",
+      "exported": true,
+      "line_start": 183,
+      "line_end": 189
+    }
+  ],
+  "imports": [
+    {
+      "source": "errors",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "slices",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

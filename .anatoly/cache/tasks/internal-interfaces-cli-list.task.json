@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/cli/list.go",
+  "hash": "30a9e0a0ad88bf96bf1f60a6a05031f3f9cd2d45e68a0a9a142a9824d1b08d6a",
+  "symbols": [
+    {
+      "name": "newListCommand",
+      "kind": "function",
+      "exported": false,
+      "line_start": 18,
+      "line_end": 33
+    },
+    {
+      "name": "runList",
+      "kind": "function",
+      "exported": false,
+      "line_start": 35,
+      "line_end": 93
+    },
+    {
+      "name": "newListPromptsCommand",
+      "kind": "function",
+      "exported": false,
+      "line_start": 95,
+      "line_end": 111
+    },
+    {
+      "name": "runListPrompts",
+      "kind": "function",
+      "exported": false,
+      "line_start": 113,
+      "line_end": 152
+    },
+    {
+      "name": "buildPromptInfo",
+      "kind": "function",
+      "exported": false,
+      "line_start": 156,
+      "line_end": 189
+    },
+    {
+      "name": "collectPackWorkflows",
+      "kind": "function",
+      "exported": false,
+      "line_start": 193,
+      "line_end": 227
+    },
+    {
+      "name": "collectPromptsFromPaths",
+      "kind": "function",
+      "exported": false,
+      "line_start": 229,
+      "line_end": 270
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "io/fs",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "path/filepath",
+      "type": "import"
+    },
+    {
+      "source": "sort",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/application",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/repository",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/workflowpkg",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/interfaces/cli/ui",
+      "type": "import"
+    },
+    {
+      "source": "github.com/spf13/cobra",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

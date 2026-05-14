@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "file": "pkg/registry/downloader.go",
+  "hash": "3a4e09db5a5dffd9ae3b7edad048f495b03c6c814ad96bc2a7458a57ea880374",
+  "symbols": [
+    {
+      "name": "maxDownloadBytes",
+      "kind": "constant",
+      "exported": false,
+      "line_start": 21,
+      "line_end": 21
+    },
+    {
+      "name": "Download",
+      "kind": "function",
+      "exported": true,
+      "line_start": 26,
+      "line_end": 56
+    },
+    {
+      "name": "VerifyChecksum",
+      "kind": "function",
+      "exported": true,
+      "line_start": 59,
+      "line_end": 70
+    },
+    {
+      "name": "ExtractTarGz",
+      "kind": "function",
+      "exported": true,
+      "line_start": 73,
+      "line_end": 102
+    },
+    {
+      "name": "safeTarPath",
+      "kind": "function",
+      "exported": false,
+      "line_start": 104,
+      "line_end": 116
+    },
+    {
+      "name": "extractTarEntry",
+      "kind": "function",
+      "exported": false,
+      "line_start": 118,
+      "line_end": 129
+    },
+    {
+      "name": "ExtractChecksumForAsset",
+      "kind": "function",
+      "exported": true,
+      "line_start": 138,
+      "line_end": 146
+    },
+    {
+      "name": "extractTarFile",
+      "kind": "function",
+      "exported": false,
+      "line_start": 148,
+      "line_end": 173
+    }
+  ],
+  "imports": [
+    {
+      "source": "archive/tar",
+      "type": "import"
+    },
+    {
+      "source": "bytes",
+      "type": "import"
+    },
+    {
+      "source": "compress/gzip",
+      "type": "import"
+    },
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "crypto/sha256",
+      "type": "import"
+    },
+    {
+      "source": "encoding/hex",
+      "type": "import"
+    },
+    {
+      "source": "errors",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "io",
+      "type": "import"
+    },
+    {
+      "source": "net/http",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "path/filepath",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/pkg/httpx",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

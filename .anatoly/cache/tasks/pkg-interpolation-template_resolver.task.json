@@ -1,0 +1,172 @@
+{
+  "version": 1,
+  "file": "pkg/interpolation/template_resolver.go",
+  "hash": "060533fee0e55675be63f14b4fd052374715fff634462234897f6fe7d4deed25",
+  "symbols": [
+    {
+      "name": "TemplateResolver",
+      "kind": "class",
+      "exported": true,
+      "line_start": 12,
+      "line_end": 12
+    },
+    {
+      "name": "NewTemplateResolver",
+      "kind": "function",
+      "exported": true,
+      "line_start": 15,
+      "line_end": 17
+    },
+    {
+      "name": "Resolve",
+      "kind": "method",
+      "exported": true,
+      "line_start": 20,
+      "line_end": 58
+    },
+    {
+      "name": "buildTemplateData",
+      "kind": "method",
+      "exported": false,
+      "line_start": 60,
+      "line_end": 78
+    },
+    {
+      "name": "wrapExecutionError",
+      "kind": "method",
+      "exported": false,
+      "line_start": 80,
+      "line_end": 105
+    },
+    {
+      "name": "escapeTemplateFunc",
+      "kind": "function",
+      "exported": false,
+      "line_start": 108,
+      "line_end": 116
+    },
+    {
+      "name": "jsonTemplateFunc",
+      "kind": "function",
+      "exported": false,
+      "line_start": 119,
+      "line_end": 125
+    },
+    {
+      "name": "serializableItem",
+      "kind": "class",
+      "exported": false,
+      "line_start": 129,
+      "line_end": 132
+    },
+    {
+      "name": "String",
+      "kind": "method",
+      "exported": true,
+      "line_start": 136,
+      "line_end": 138
+    },
+    {
+      "name": "MarshalJSON",
+      "kind": "method",
+      "exported": true,
+      "line_start": 142,
+      "line_end": 148
+    },
+    {
+      "name": "serializeLoopData",
+      "kind": "method",
+      "exported": false,
+      "line_start": 152,
+      "line_end": 168
+    },
+    {
+      "name": "makeLoopAccessor",
+      "kind": "method",
+      "exported": false,
+      "line_start": 172,
+      "line_end": 179
+    },
+    {
+      "name": "loopToMap",
+      "kind": "method",
+      "exported": false,
+      "line_start": 184,
+      "line_end": 199
+    },
+    {
+      "name": "makeContextAccessor",
+      "kind": "method",
+      "exported": false,
+      "line_start": 203,
+      "line_end": 211
+    },
+    {
+      "name": "makeErrorAccessor",
+      "kind": "method",
+      "exported": false,
+      "line_start": 215,
+      "line_end": 228
+    },
+    {
+      "name": "makeInputsAccessor",
+      "kind": "method",
+      "exported": false,
+      "line_start": 231,
+      "line_end": 235
+    },
+    {
+      "name": "makeStatesAccessor",
+      "kind": "method",
+      "exported": false,
+      "line_start": 238,
+      "line_end": 242
+    },
+    {
+      "name": "makeWorkflowAccessor",
+      "kind": "method",
+      "exported": false,
+      "line_start": 245,
+      "line_end": 249
+    },
+    {
+      "name": "makeEnvAccessor",
+      "kind": "method",
+      "exported": false,
+      "line_start": 252,
+      "line_end": 256
+    },
+    {
+      "name": "makeAWFAccessor",
+      "kind": "method",
+      "exported": false,
+      "line_start": 259,
+      "line_end": 263
+    }
+  ],
+  "imports": [
+    {
+      "source": "bytes",
+      "type": "import"
+    },
+    {
+      "source": "encoding/json",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "text/template",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

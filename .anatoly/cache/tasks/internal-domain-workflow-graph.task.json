@@ -1,0 +1,118 @@
+{
+  "version": 1,
+  "file": "internal/domain/workflow/graph.go",
+  "hash": "a7faf99df5b81910a4f0ad58f7d219b7a9ef93cab442efe5bf56b2dec876214b",
+  "symbols": [
+    {
+      "name": "VisitState",
+      "kind": "type",
+      "exported": true,
+      "line_start": 13,
+      "line_end": 13
+    },
+    {
+      "name": "VisitStateUnvisited",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 17,
+      "line_end": 17
+    },
+    {
+      "name": "VisitStateVisiting",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 19,
+      "line_end": 19
+    },
+    {
+      "name": "VisitStateVisited",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 21,
+      "line_end": 21
+    },
+    {
+      "name": "String",
+      "kind": "method",
+      "exported": true,
+      "line_start": 25,
+      "line_end": 27
+    },
+    {
+      "name": "FindCycleStart",
+      "kind": "function",
+      "exported": true,
+      "line_start": 31,
+      "line_end": 38
+    },
+    {
+      "name": "BuildCyclePath",
+      "kind": "function",
+      "exported": true,
+      "line_start": 42,
+      "line_end": 59
+    },
+    {
+      "name": "ValidateGraph",
+      "kind": "function",
+      "exported": true,
+      "line_start": 71,
+      "line_end": 143
+    },
+    {
+      "name": "FindReachableStates",
+      "kind": "function",
+      "exported": true,
+      "line_start": 146,
+      "line_end": 177
+    },
+    {
+      "name": "DetectCycles",
+      "kind": "function",
+      "exported": true,
+      "line_start": 181,
+      "line_end": 234
+    },
+    {
+      "name": "formatCyclePath",
+      "kind": "function",
+      "exported": false,
+      "line_start": 237,
+      "line_end": 239
+    },
+    {
+      "name": "NextDefaultStep",
+      "kind": "function",
+      "exported": true,
+      "line_start": 243,
+      "line_end": 253
+    },
+    {
+      "name": "ExecutionOrder",
+      "kind": "function",
+      "exported": true,
+      "line_start": 258,
+      "line_end": 282
+    },
+    {
+      "name": "GetTransitions",
+      "kind": "function",
+      "exported": true,
+      "line_start": 288,
+      "line_end": 316
+    }
+  ],
+  "imports": [
+    {
+      "source": "strconv",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

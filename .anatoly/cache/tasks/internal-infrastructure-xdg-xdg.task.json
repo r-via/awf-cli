@@ -1,0 +1,153 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/xdg/xdg.go",
+  "hash": "2353d2c6aa9ac81545b5759d02fc1e71284f8a0fded6516dacbdf01a267718b4",
+  "symbols": [
+    {
+      "name": "ConfigHome",
+      "kind": "function",
+      "exported": true,
+      "line_start": 9,
+      "line_end": 15
+    },
+    {
+      "name": "DataHome",
+      "kind": "function",
+      "exported": true,
+      "line_start": 18,
+      "line_end": 24
+    },
+    {
+      "name": "AWFConfigDir",
+      "kind": "function",
+      "exported": true,
+      "line_start": 27,
+      "line_end": 29
+    },
+    {
+      "name": "AWFDataDir",
+      "kind": "function",
+      "exported": true,
+      "line_start": 32,
+      "line_end": 34
+    },
+    {
+      "name": "AWFWorkflowsDir",
+      "kind": "function",
+      "exported": true,
+      "line_start": 37,
+      "line_end": 39
+    },
+    {
+      "name": "AWFPromptsDir",
+      "kind": "function",
+      "exported": true,
+      "line_start": 42,
+      "line_end": 44
+    },
+    {
+      "name": "AWFScriptsDir",
+      "kind": "function",
+      "exported": true,
+      "line_start": 47,
+      "line_end": 49
+    },
+    {
+      "name": "AWFStatesDir",
+      "kind": "function",
+      "exported": true,
+      "line_start": 52,
+      "line_end": 54
+    },
+    {
+      "name": "AWFLogsDir",
+      "kind": "function",
+      "exported": true,
+      "line_start": 57,
+      "line_end": 59
+    },
+    {
+      "name": "LegacyDirExists",
+      "kind": "function",
+      "exported": true,
+      "line_start": 62,
+      "line_end": 70
+    },
+    {
+      "name": "LocalWorkflowsDir",
+      "kind": "function",
+      "exported": true,
+      "line_start": 73,
+      "line_end": 75
+    },
+    {
+      "name": "LocalPromptsDir",
+      "kind": "function",
+      "exported": true,
+      "line_start": 78,
+      "line_end": 80
+    },
+    {
+      "name": "AWFPluginsDir",
+      "kind": "function",
+      "exported": true,
+      "line_start": 83,
+      "line_end": 85
+    },
+    {
+      "name": "LocalPluginsDir",
+      "kind": "function",
+      "exported": true,
+      "line_start": 88,
+      "line_end": 90
+    },
+    {
+      "name": "AWFWorkflowPacksDir",
+      "kind": "function",
+      "exported": true,
+      "line_start": 93,
+      "line_end": 95
+    },
+    {
+      "name": "LocalWorkflowPacksDir",
+      "kind": "function",
+      "exported": true,
+      "line_start": 98,
+      "line_end": 100
+    },
+    {
+      "name": "AWFPaths",
+      "kind": "function",
+      "exported": true,
+      "line_start": 104,
+      "line_end": 113
+    },
+    {
+      "name": "PackAWFPaths",
+      "kind": "function",
+      "exported": true,
+      "line_start": 116,
+      "line_end": 120
+    },
+    {
+      "name": "LocalConfigPath",
+      "kind": "function",
+      "exported": true,
+      "line_start": 124,
+      "line_end": 129
+    }
+  ],
+  "imports": [
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "path/filepath",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

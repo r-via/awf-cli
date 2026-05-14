@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/repository/composite_repository.go",
+  "hash": "cde491777f3704fa738a7df5d9172a333c8830de4cdc8466581524df75b8edee",
+  "symbols": [
+    {
+      "name": "SourcedPath",
+      "kind": "class",
+      "exported": true,
+      "line_start": 15,
+      "line_end": 18
+    },
+    {
+      "name": "CompositeRepository",
+      "kind": "class",
+      "exported": true,
+      "line_start": 22,
+      "line_end": 27
+    },
+    {
+      "name": "NewCompositeRepository",
+      "kind": "function",
+      "exported": true,
+      "line_start": 29,
+      "line_end": 38
+    },
+    {
+      "name": "Load",
+      "kind": "method",
+      "exported": true,
+      "line_start": 41,
+      "line_end": 65
+    },
+    {
+      "name": "List",
+      "kind": "method",
+      "exported": true,
+      "line_start": 68,
+      "line_end": 90
+    },
+    {
+      "name": "ListWithSource",
+      "kind": "method",
+      "exported": true,
+      "line_start": 93,
+      "line_end": 119
+    },
+    {
+      "name": "Exists",
+      "kind": "method",
+      "exported": true,
+      "line_start": 122,
+      "line_end": 137
+    },
+    {
+      "name": "pathExists",
+      "kind": "method",
+      "exported": false,
+      "line_start": 140,
+      "line_end": 143
+    },
+    {
+      "name": "SetPackPaths",
+      "kind": "method",
+      "exported": true,
+      "line_start": 147,
+      "line_end": 150
+    },
+    {
+      "name": "LoadPack",
+      "kind": "method",
+      "exported": true,
+      "line_start": 154,
+      "line_end": 183
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "errors",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "path/filepath",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/errors",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

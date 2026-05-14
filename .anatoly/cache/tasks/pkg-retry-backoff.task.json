@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "file": "pkg/retry/backoff.go",
+  "hash": "d4f9a788bdd13c195d339b6aa991cf1dd5c8c01ee6fc2de5fa6e2b6e7569647d",
+  "symbols": [
+    {
+      "name": "Strategy",
+      "kind": "type",
+      "exported": true,
+      "line_start": 10,
+      "line_end": 10
+    },
+    {
+      "name": "StrategyConstant",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 14,
+      "line_end": 14
+    },
+    {
+      "name": "StrategyLinear",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 16,
+      "line_end": 16
+    },
+    {
+      "name": "StrategyExponential",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 18,
+      "line_end": 18
+    },
+    {
+      "name": "Valid",
+      "kind": "method",
+      "exported": true,
+      "line_start": 22,
+      "line_end": 29
+    },
+    {
+      "name": "CalculateDelay",
+      "kind": "function",
+      "exported": true,
+      "line_start": 33,
+      "line_end": 56
+    },
+    {
+      "name": "ApplyJitter",
+      "kind": "function",
+      "exported": true,
+      "line_start": 60,
+      "line_end": 74
+    }
+  ],
+  "imports": [
+    {
+      "source": "math/rand",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

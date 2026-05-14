@@ -1,0 +1,160 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/agents/options.go",
+  "hash": "5db183e2709458651af22f0e14fac17ac69781483ffcc9675405f40b6aa4520e",
+  "symbols": [
+    {
+      "name": "ClaudeProviderOption",
+      "kind": "type",
+      "exported": true,
+      "line_start": 8,
+      "line_end": 8
+    },
+    {
+      "name": "WithClaudeExecutor",
+      "kind": "function",
+      "exported": true,
+      "line_start": 10,
+      "line_end": 14
+    },
+    {
+      "name": "WithClaudeTokenizer",
+      "kind": "function",
+      "exported": true,
+      "line_start": 16,
+      "line_end": 20
+    },
+    {
+      "name": "GeminiProviderOption",
+      "kind": "type",
+      "exported": true,
+      "line_start": 22,
+      "line_end": 22
+    },
+    {
+      "name": "WithGeminiExecutor",
+      "kind": "function",
+      "exported": true,
+      "line_start": 24,
+      "line_end": 28
+    },
+    {
+      "name": "WithGeminiTokenizer",
+      "kind": "function",
+      "exported": true,
+      "line_start": 30,
+      "line_end": 34
+    },
+    {
+      "name": "CodexProviderOption",
+      "kind": "type",
+      "exported": true,
+      "line_start": 36,
+      "line_end": 36
+    },
+    {
+      "name": "WithCodexExecutor",
+      "kind": "function",
+      "exported": true,
+      "line_start": 38,
+      "line_end": 42
+    },
+    {
+      "name": "WithCodexLogger",
+      "kind": "function",
+      "exported": true,
+      "line_start": 44,
+      "line_end": 48
+    },
+    {
+      "name": "WithCodexTokenizer",
+      "kind": "function",
+      "exported": true,
+      "line_start": 50,
+      "line_end": 54
+    },
+    {
+      "name": "OpenCodeProviderOption",
+      "kind": "type",
+      "exported": true,
+      "line_start": 56,
+      "line_end": 56
+    },
+    {
+      "name": "WithOpenCodeExecutor",
+      "kind": "function",
+      "exported": true,
+      "line_start": 58,
+      "line_end": 62
+    },
+    {
+      "name": "WithOpenCodeLogger",
+      "kind": "function",
+      "exported": true,
+      "line_start": 64,
+      "line_end": 68
+    },
+    {
+      "name": "WithOpenCodeTokenizer",
+      "kind": "function",
+      "exported": true,
+      "line_start": 70,
+      "line_end": 74
+    },
+    {
+      "name": "CopilotProviderOption",
+      "kind": "type",
+      "exported": true,
+      "line_start": 76,
+      "line_end": 76
+    },
+    {
+      "name": "WithCopilotExecutor",
+      "kind": "function",
+      "exported": true,
+      "line_start": 78,
+      "line_end": 82
+    },
+    {
+      "name": "WithCopilotLogger",
+      "kind": "function",
+      "exported": true,
+      "line_start": 84,
+      "line_end": 88
+    },
+    {
+      "name": "WithCopilotTokenizer",
+      "kind": "function",
+      "exported": true,
+      "line_start": 90,
+      "line_end": 94
+    },
+    {
+      "name": "OpenAICompatibleProviderOption",
+      "kind": "type",
+      "exported": true,
+      "line_start": 96,
+      "line_end": 96
+    },
+    {
+      "name": "WithHTTPClient",
+      "kind": "function",
+      "exported": true,
+      "line_start": 98,
+      "line_end": 102
+    }
+  ],
+  "imports": [
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/pkg/httpx",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

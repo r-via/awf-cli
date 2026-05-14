@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/executor/shell_executor.go",
+  "hash": "9a406e058ad772d18bb1add0d09665f65a218d7f43497192421a1d423fc9a048",
+  "symbols": [
+    {
+      "name": "ShellExecutorOption",
+      "kind": "type",
+      "exported": true,
+      "line_start": 21,
+      "line_end": 21
+    },
+    {
+      "name": "WithShell",
+      "kind": "function",
+      "exported": true,
+      "line_start": 24,
+      "line_end": 28
+    },
+    {
+      "name": "ShellExecutor",
+      "kind": "class",
+      "exported": true,
+      "line_start": 30,
+      "line_end": 33
+    },
+    {
+      "name": "NewShellExecutor",
+      "kind": "function",
+      "exported": true,
+      "line_start": 36,
+      "line_end": 45
+    },
+    {
+      "name": "detectShell",
+      "kind": "function",
+      "exported": false,
+      "line_start": 49,
+      "line_end": 58
+    },
+    {
+      "name": "Execute",
+      "kind": "method",
+      "exported": true,
+      "line_start": 61,
+      "line_end": 144
+    },
+    {
+      "name": "hasShebang",
+      "kind": "function",
+      "exported": false,
+      "line_start": 146,
+      "line_end": 148
+    },
+    {
+      "name": "executeScriptFile",
+      "kind": "method",
+      "exported": false,
+      "line_start": 150,
+      "line_end": 174
+    }
+  ],
+  "imports": [
+    {
+      "source": "bytes",
+      "type": "import"
+    },
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "errors",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "io",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "os/exec",
+      "type": "import"
+    },
+    {
+      "source": "path/filepath",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "syscall",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/logger",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

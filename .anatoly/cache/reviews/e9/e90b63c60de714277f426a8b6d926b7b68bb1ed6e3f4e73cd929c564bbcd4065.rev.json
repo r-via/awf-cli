@@ -1,0 +1,41 @@
+{
+  "_meta": {
+    "schema": 1,
+    "prompt_hash": "sha256:3d1ccf9113d69463bda8b3e485dde993b0b6b05e9d9ca257a9d244fe6622311a",
+    "model_id": "anthropic/claude-haiku-4-5-20251001+anthropic/claude-haiku-4-5-20251001+anthropic/claude-sonnet-4-6",
+    "created_at": "2026-05-14T11:28:29.628Z",
+    "anatoly_version": "unknown"
+  },
+  "data": {
+    "version": 2,
+    "file": "pkg/retry/doc.go",
+    "is_generated": false,
+    "language": "go",
+    "parse_method": "ast",
+    "verdict": "CLEAN",
+    "symbols": [],
+    "actions": [],
+    "file_level": {
+      "unused_imports": [],
+      "circular_dependencies": [],
+      "general_notes": ""
+    },
+    "axis_meta": {
+      "utility": {
+        "model": "unknown",
+        "cost_usd": 0,
+        "duration_ms": 0
+      },
+      "duplication": {
+        "model": "unknown",
+        "cost_usd": 0,
+        "duration_ms": 0
+      },
+      "correction": {
+        "model": "claude-sonnet-4-6",
+        "cost_usd": 0.017785250000000002,
+        "duration_ms": 2862
+      }
+    }
+  }
+}

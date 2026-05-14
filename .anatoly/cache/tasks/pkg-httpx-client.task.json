@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "file": "pkg/httpx/client.go",
+  "hash": "af40f71f7b0b19acd1ec50cf95c4012351af9e2f1e4229d1c6046860918de5ff",
+  "symbols": [
+    {
+      "name": "HTTPDoer",
+      "kind": "type",
+      "exported": true,
+      "line_start": 14,
+      "line_end": 16
+    },
+    {
+      "name": "Client",
+      "kind": "class",
+      "exported": true,
+      "line_start": 19,
+      "line_end": 22
+    },
+    {
+      "name": "Option",
+      "kind": "type",
+      "exported": true,
+      "line_start": 25,
+      "line_end": 25
+    },
+    {
+      "name": "WithDoer",
+      "kind": "function",
+      "exported": true,
+      "line_start": 28,
+      "line_end": 32
+    },
+    {
+      "name": "WithTimeout",
+      "kind": "function",
+      "exported": true,
+      "line_start": 35,
+      "line_end": 39
+    },
+    {
+      "name": "NewClient",
+      "kind": "function",
+      "exported": true,
+      "line_start": 43,
+      "line_end": 54
+    },
+    {
+      "name": "Do",
+      "kind": "method",
+      "exported": true,
+      "line_start": 60,
+      "line_end": 105
+    },
+    {
+      "name": "Get",
+      "kind": "method",
+      "exported": true,
+      "line_start": 108,
+      "line_end": 110
+    },
+    {
+      "name": "Post",
+      "kind": "method",
+      "exported": true,
+      "line_start": 113,
+      "line_end": 115
+    },
+    {
+      "name": "Put",
+      "kind": "method",
+      "exported": true,
+      "line_start": 118,
+      "line_end": 120
+    },
+    {
+      "name": "Delete",
+      "kind": "method",
+      "exported": true,
+      "line_start": 123,
+      "line_end": 125
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "io",
+      "type": "import"
+    },
+    {
+      "source": "net/http",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

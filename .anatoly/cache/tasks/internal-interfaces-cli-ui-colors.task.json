@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/cli/ui/colors.go",
+  "hash": "475d028872672260da4359c24d9227fe01c85190eca8a28f9de156652e86e1d4",
+  "symbols": [
+    {
+      "name": "Colorizer",
+      "kind": "class",
+      "exported": true,
+      "line_start": 6,
+      "line_end": 14
+    },
+    {
+      "name": "NewColorizer",
+      "kind": "function",
+      "exported": true,
+      "line_start": 17,
+      "line_end": 31
+    },
+    {
+      "name": "Success",
+      "kind": "method",
+      "exported": true,
+      "line_start": 34,
+      "line_end": 36
+    },
+    {
+      "name": "Error",
+      "kind": "method",
+      "exported": true,
+      "line_start": 39,
+      "line_end": 41
+    },
+    {
+      "name": "Warning",
+      "kind": "method",
+      "exported": true,
+      "line_start": 44,
+      "line_end": 46
+    },
+    {
+      "name": "Info",
+      "kind": "method",
+      "exported": true,
+      "line_start": 49,
+      "line_end": 51
+    },
+    {
+      "name": "Bold",
+      "kind": "method",
+      "exported": true,
+      "line_start": 54,
+      "line_end": 56
+    },
+    {
+      "name": "Dim",
+      "kind": "method",
+      "exported": true,
+      "line_start": 59,
+      "line_end": 61
+    },
+    {
+      "name": "Status",
+      "kind": "method",
+      "exported": true,
+      "line_start": 64,
+      "line_end": 79
+    }
+  ],
+  "imports": [
+    {
+      "source": "github.com/fatih/color",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

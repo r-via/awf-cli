@@ -1,0 +1,230 @@
+{
+  "version": 1,
+  "file": "internal/domain/workflow/template_validation.go",
+  "hash": "c319917119798afacd1fb9628eded2a01ed9197372fe6ae2e2d9dfbc853659bc",
+  "symbols": [
+    {
+      "name": "TemplateValidator",
+      "kind": "class",
+      "exported": true,
+      "line_start": 9,
+      "line_end": 18
+    },
+    {
+      "name": "NewTemplateValidator",
+      "kind": "function",
+      "exported": true,
+      "line_start": 22,
+      "line_end": 52
+    },
+    {
+      "name": "buildParallelBranches",
+      "kind": "function",
+      "exported": false,
+      "line_start": 55,
+      "line_end": 65
+    },
+    {
+      "name": "Validate",
+      "kind": "method",
+      "exported": true,
+      "line_start": 70,
+      "line_end": 95
+    },
+    {
+      "name": "validateWorkflowHooks",
+      "kind": "method",
+      "exported": false,
+      "line_start": 98,
+      "line_end": 120
+    },
+    {
+      "name": "validateHookAction",
+      "kind": "method",
+      "exported": false,
+      "line_start": 123,
+      "line_end": 131
+    },
+    {
+      "name": "ValidateStep",
+      "kind": "method",
+      "exported": true,
+      "line_start": 136,
+      "line_end": 168
+    },
+    {
+      "name": "validateLoopExpressions",
+      "kind": "method",
+      "exported": false,
+      "line_start": 176,
+      "line_end": 199
+    },
+    {
+      "name": "ValidateTemplate",
+      "kind": "method",
+      "exported": true,
+      "line_start": 204,
+      "line_end": 214
+    },
+    {
+      "name": "ValidateReference",
+      "kind": "method",
+      "exported": true,
+      "line_start": 217,
+      "line_end": 238
+    },
+    {
+      "name": "validateInputRef",
+      "kind": "method",
+      "exported": false,
+      "line_start": 240,
+      "line_end": 254
+    },
+    {
+      "name": "extractExpressionContent",
+      "kind": "function",
+      "exported": false,
+      "line_start": 257,
+      "line_end": 262
+    },
+    {
+      "name": "containsArithmeticOperator",
+      "kind": "function",
+      "exported": false,
+      "line_start": 265,
+      "line_end": 273
+    },
+    {
+      "name": "validateArithmeticExpressionInputs",
+      "kind": "method",
+      "exported": false,
+      "line_start": 279,
+      "line_end": 291
+    },
+    {
+      "name": "extractInputNamesFromExpr",
+      "kind": "function",
+      "exported": false,
+      "line_start": 298,
+      "line_end": 324
+    },
+    {
+      "name": "isReservedNamespace",
+      "kind": "function",
+      "exported": false,
+      "line_start": 328,
+      "line_end": 334
+    },
+    {
+      "name": "splitOnOperators",
+      "kind": "function",
+      "exported": false,
+      "line_start": 337,
+      "line_end": 358
+    },
+    {
+      "name": "isValidIdentifier",
+      "kind": "function",
+      "exported": false,
+      "line_start": 361,
+      "line_end": 377
+    },
+    {
+      "name": "isLetter",
+      "kind": "function",
+      "exported": false,
+      "line_start": 379,
+      "line_end": 381
+    },
+    {
+      "name": "isDigit",
+      "kind": "function",
+      "exported": false,
+      "line_start": 383,
+      "line_end": 385
+    },
+    {
+      "name": "validateStateRef",
+      "kind": "method",
+      "exported": false,
+      "line_start": 387,
+      "line_end": 446
+    },
+    {
+      "name": "getStepNameFromPath",
+      "kind": "method",
+      "exported": false,
+      "line_start": 449,
+      "line_end": 462
+    },
+    {
+      "name": "validateWorkflowRef",
+      "kind": "method",
+      "exported": false,
+      "line_start": 464,
+      "line_end": 476
+    },
+    {
+      "name": "validateErrorRef",
+      "kind": "method",
+      "exported": false,
+      "line_start": 478,
+      "line_end": 498
+    },
+    {
+      "name": "validateContextRef",
+      "kind": "method",
+      "exported": false,
+      "line_start": 500,
+      "line_end": 512
+    },
+    {
+      "name": "validateLoopRef",
+      "kind": "method",
+      "exported": false,
+      "line_start": 514,
+      "line_end": 521
+    },
+    {
+      "name": "ComputeExecutionOrder",
+      "kind": "function",
+      "exported": true,
+      "line_start": 527,
+      "line_end": 576
+    },
+    {
+      "name": "EnqueueIfNotVisited",
+      "kind": "function",
+      "exported": true,
+      "line_start": 589,
+      "line_end": 594
+    },
+    {
+      "name": "buildInputNames",
+      "kind": "function",
+      "exported": false,
+      "line_start": 596,
+      "line_end": 602
+    },
+    {
+      "name": "buildStepNames",
+      "kind": "function",
+      "exported": false,
+      "line_start": 604,
+      "line_end": 610
+    }
+  ],
+  "imports": [
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

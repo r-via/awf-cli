@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "file": "internal/domain/ports/input_collector.go",
+  "hash": "650ab32c48b48212a136304fe29acf836bf8741302f3ed254c267b446d6db5fd",
+  "symbols": [
+    {
+      "name": "InputCollector",
+      "kind": "type",
+      "exported": true,
+      "line_start": 39,
+      "line_end": 62
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

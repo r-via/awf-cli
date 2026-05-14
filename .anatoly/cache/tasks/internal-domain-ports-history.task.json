@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "file": "internal/domain/ports/history.go",
+  "hash": "62fa2180203ffe17f2885734d55b2d53a87377df22968a4b3ab00775a4fecabf",
+  "symbols": [
+    {
+      "name": "HistoryStore",
+      "kind": "type",
+      "exported": true,
+      "line_start": 11,
+      "line_end": 17
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

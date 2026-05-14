@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "file": "pkg/plugin/sdk/validator.go",
+  "hash": "bcf9212bf2e019d31ac898a40458ad9399993135571c5565522c2d976c84f3db",
+  "symbols": [
+    {
+      "name": "Severity",
+      "kind": "type",
+      "exported": true,
+      "line_start": 13,
+      "line_end": 13
+    },
+    {
+      "name": "SeverityError",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 16,
+      "line_end": 16
+    },
+    {
+      "name": "SeverityWarning",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 17,
+      "line_end": 17
+    },
+    {
+      "name": "SeverityInfo",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 18,
+      "line_end": 18
+    },
+    {
+      "name": "ValidationIssue",
+      "kind": "class",
+      "exported": true,
+      "line_start": 22,
+      "line_end": 27
+    },
+    {
+      "name": "WorkflowDefinition",
+      "kind": "class",
+      "exported": true,
+      "line_start": 31,
+      "line_end": 39
+    },
+    {
+      "name": "StepDefinition",
+      "kind": "class",
+      "exported": true,
+      "line_start": 42,
+      "line_end": 51
+    },
+    {
+      "name": "Validator",
+      "kind": "type",
+      "exported": true,
+      "line_start": 58,
+      "line_end": 61
+    },
+    {
+      "name": "validatorServiceServer",
+      "kind": "class",
+      "exported": false,
+      "line_start": 65,
+      "line_end": 68
+    },
+    {
+      "name": "ValidateWorkflow",
+      "kind": "method",
+      "exported": true,
+      "line_start": 70,
+      "line_end": 89
+    },
+    {
+      "name": "ValidateStep",
+      "kind": "method",
+      "exported": true,
+      "line_start": 91,
+      "line_end": 110
+    },
+    {
+      "name": "toProtoIssues",
+      "kind": "function",
+      "exported": false,
+      "line_start": 112,
+      "line_end": 123
+    },
+    {
+      "name": "severityToProto",
+      "kind": "function",
+      "exported": false,
+      "line_start": 125,
+      "line_end": 134
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "encoding/json",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/proto/plugin/v1",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

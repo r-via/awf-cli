@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/cli/ui/doc.go",
+  "hash": "af6516b2fb046abd891686bfc4398a8973483a06ed2474063c5ef68d38217e18",
+  "symbols": [],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

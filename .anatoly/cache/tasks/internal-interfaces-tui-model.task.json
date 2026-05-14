@@ -1,0 +1,152 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/tui/model.go",
+  "hash": "65d3091bc0f44ffc0014682b62bfbd1a099535c45a7c46b4a188bd97b3a7f3e9",
+  "symbols": [
+    {
+      "name": "Tab",
+      "kind": "type",
+      "exported": true,
+      "line_start": 16,
+      "line_end": 16
+    },
+    {
+      "name": "TabWorkflows",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 20,
+      "line_end": 20
+    },
+    {
+      "name": "TabMonitoring",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 22,
+      "line_end": 22
+    },
+    {
+      "name": "TabHistory",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 24,
+      "line_end": 24
+    },
+    {
+      "name": "TabExternalLogs",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 26,
+      "line_end": 26
+    },
+    {
+      "name": "executionState",
+      "kind": "class",
+      "exported": false,
+      "line_start": 37,
+      "line_end": 41
+    },
+    {
+      "name": "Model",
+      "kind": "class",
+      "exported": true,
+      "line_start": 45,
+      "line_end": 60
+    },
+    {
+      "name": "New",
+      "kind": "function",
+      "exported": true,
+      "line_start": 64,
+      "line_end": 75
+    },
+    {
+      "name": "NewWithBridge",
+      "kind": "function",
+      "exported": true,
+      "line_start": 79,
+      "line_end": 89
+    },
+    {
+      "name": "Init",
+      "kind": "method",
+      "exported": true,
+      "line_start": 95,
+      "line_end": 106
+    },
+    {
+      "name": "Update",
+      "kind": "method",
+      "exported": true,
+      "line_start": 111,
+      "line_end": 242
+    },
+    {
+      "name": "updateActiveTab",
+      "kind": "method",
+      "exported": false,
+      "line_start": 247,
+      "line_end": 260
+    },
+    {
+      "name": "View",
+      "kind": "method",
+      "exported": true,
+      "line_start": 265,
+      "line_end": 313
+    },
+    {
+      "name": "renderStatusBar",
+      "kind": "method",
+      "exported": false,
+      "line_start": 318,
+      "line_end": 343
+    },
+    {
+      "name": "activeHelpKeys",
+      "kind": "method",
+      "exported": false,
+      "line_start": 348,
+      "line_end": 361
+    },
+    {
+      "name": "isInputActive",
+      "kind": "method",
+      "exported": false,
+      "line_start": 368,
+      "line_end": 380
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "charm.land/bubbles/v2/help",
+      "type": "import"
+    },
+    {
+      "source": "charm.land/bubbles/v2/key",
+      "type": "import"
+    },
+    {
+      "source": "charm.land/bubbletea/v2",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

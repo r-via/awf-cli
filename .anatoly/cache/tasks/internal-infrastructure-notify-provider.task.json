@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/notify/provider.go",
+  "hash": "00e37e5f899f8ce7bfaa89c694a988b86286ce4ae7bd4a43efb44042dec40e96",
+  "symbols": [
+    {
+      "name": "NotifyOperationProvider",
+      "kind": "class",
+      "exported": true,
+      "line_start": 20,
+      "line_end": 27
+    },
+    {
+      "name": "NewNotifyOperationProvider",
+      "kind": "function",
+      "exported": true,
+      "line_start": 40,
+      "line_end": 53
+    },
+    {
+      "name": "RegisterBackend",
+      "kind": "method",
+      "exported": true,
+      "line_start": 67,
+      "line_end": 86
+    },
+    {
+      "name": "SetDefaultBackend",
+      "kind": "method",
+      "exported": true,
+      "line_start": 96,
+      "line_end": 98
+    },
+    {
+      "name": "GetOperation",
+      "kind": "method",
+      "exported": true,
+      "line_start": 102,
+      "line_end": 105
+    },
+    {
+      "name": "ListOperations",
+      "kind": "method",
+      "exported": true,
+      "line_start": 109,
+      "line_end": 115
+    },
+    {
+      "name": "Execute",
+      "kind": "method",
+      "exported": true,
+      "line_start": 121,
+      "line_end": 251
+    },
+    {
+      "name": "extractStringInput",
+      "kind": "function",
+      "exported": false,
+      "line_start": 253,
+      "line_end": 268
+    },
+    {
+      "name": "validateBackendInputs",
+      "kind": "function",
+      "exported": false,
+      "line_start": 270,
+      "line_end": 281
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/pluginmodel",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

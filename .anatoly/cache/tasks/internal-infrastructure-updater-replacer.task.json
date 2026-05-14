@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/updater/replacer.go",
+  "hash": "c8a0370ba9e430e5dd86a49add7cfdea527e31108a8ffe2dc9734ee46bf308cf",
+  "symbols": [
+    {
+      "name": "binaryFileMode",
+      "kind": "constant",
+      "exported": false,
+      "line_start": 11,
+      "line_end": 11
+    },
+    {
+      "name": "ReplaceBinary",
+      "kind": "function",
+      "exported": true,
+      "line_start": 16,
+      "line_end": 60
+    },
+    {
+      "name": "crossFSReplace",
+      "kind": "function",
+      "exported": false,
+      "line_start": 65,
+      "line_end": 103
+    },
+    {
+      "name": "IsPackageManagerPath",
+      "kind": "function",
+      "exported": true,
+      "line_start": 107,
+      "line_end": 128
+    }
+  ],
+  "imports": [
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "io",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "path/filepath",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

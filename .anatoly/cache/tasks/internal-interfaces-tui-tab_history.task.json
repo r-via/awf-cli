@@ -1,0 +1,224 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/tui/tab_history.go",
+  "hash": "0b97d900d65886dcd68624302d30dbb204c060b76fac585158316c848e86ea32",
+  "symbols": [
+    {
+      "name": "historyView",
+      "kind": "type",
+      "exported": false,
+      "line_start": 20,
+      "line_end": 20
+    },
+    {
+      "name": "historyListView",
+      "kind": "constant",
+      "exported": false,
+      "line_start": 23,
+      "line_end": 23
+    },
+    {
+      "name": "historyDetailView",
+      "kind": "constant",
+      "exported": false,
+      "line_start": 24,
+      "line_end": 24
+    },
+    {
+      "name": "statusFilter",
+      "kind": "type",
+      "exported": false,
+      "line_start": 28,
+      "line_end": 28
+    },
+    {
+      "name": "statusFilterAll",
+      "kind": "constant",
+      "exported": false,
+      "line_start": 31,
+      "line_end": 31
+    },
+    {
+      "name": "statusFilterSuccess",
+      "kind": "constant",
+      "exported": false,
+      "line_start": 32,
+      "line_end": 32
+    },
+    {
+      "name": "statusFilterFailed",
+      "kind": "constant",
+      "exported": false,
+      "line_start": 33,
+      "line_end": 33
+    },
+    {
+      "name": "label",
+      "kind": "method",
+      "exported": false,
+      "line_start": 37,
+      "line_end": 46
+    },
+    {
+      "name": "HistoryTab",
+      "kind": "class",
+      "exported": true,
+      "line_start": 50,
+      "line_end": 70
+    },
+    {
+      "name": "newHistoryTab",
+      "kind": "function",
+      "exported": false,
+      "line_start": 72,
+      "line_end": 114
+    },
+    {
+      "name": "setRecords",
+      "kind": "method",
+      "exported": false,
+      "line_start": 118,
+      "line_end": 131
+    },
+    {
+      "name": "applyFilters",
+      "kind": "method",
+      "exported": false,
+      "line_start": 135,
+      "line_end": 163
+    },
+    {
+      "name": "rebuildTableRows",
+      "kind": "method",
+      "exported": false,
+      "line_start": 166,
+      "line_end": 181
+    },
+    {
+      "name": "cycleStatusFilter",
+      "kind": "method",
+      "exported": false,
+      "line_start": 184,
+      "line_end": 194
+    },
+    {
+      "name": "openDetail",
+      "kind": "method",
+      "exported": false,
+      "line_start": 197,
+      "line_end": 206
+    },
+    {
+      "name": "closeDetail",
+      "kind": "method",
+      "exported": false,
+      "line_start": 209,
+      "line_end": 212
+    },
+    {
+      "name": "Init",
+      "kind": "method",
+      "exported": true,
+      "line_start": 217,
+      "line_end": 219
+    },
+    {
+      "name": "Update",
+      "kind": "method",
+      "exported": true,
+      "line_start": 224,
+      "line_end": 286
+    },
+    {
+      "name": "InputActive",
+      "kind": "method",
+      "exported": true,
+      "line_start": 289,
+      "line_end": 291
+    },
+    {
+      "name": "View",
+      "kind": "method",
+      "exported": true,
+      "line_start": 296,
+      "line_end": 301
+    },
+    {
+      "name": "renderListView",
+      "kind": "method",
+      "exported": false,
+      "line_start": 304,
+      "line_end": 350
+    },
+    {
+      "name": "renderDetailView",
+      "kind": "method",
+      "exported": false,
+      "line_start": 353,
+      "line_end": 362
+    },
+    {
+      "name": "renderDetailContent",
+      "kind": "method",
+      "exported": false,
+      "line_start": 365,
+      "line_end": 392
+    },
+    {
+      "name": "availableListHeight",
+      "kind": "method",
+      "exported": false,
+      "line_start": 398,
+      "line_end": 404
+    }
+  ],
+  "imports": [
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "sort",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    },
+    {
+      "source": "charm.land/bubbles/v2/key",
+      "type": "import"
+    },
+    {
+      "source": "charm.land/bubbles/v2/table",
+      "type": "import"
+    },
+    {
+      "source": "charm.land/bubbles/v2/textinput",
+      "type": "import"
+    },
+    {
+      "source": "charm.land/bubbles/v2/viewport",
+      "type": "import"
+    },
+    {
+      "source": "charm.land/bubbletea/v2",
+      "type": "import"
+    },
+    {
+      "source": "charm.land/lipgloss/v2",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

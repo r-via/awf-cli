@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/pluginmgr/registry.go",
+  "hash": "50a34b9fbc05b0d31cfdcc4720f25d8c61195832c35b3118e854521aa60e08eb",
+  "symbols": [
+    {
+      "name": "OperationRegistry",
+      "kind": "class",
+      "exported": true,
+      "line_start": 20,
+      "line_end": 24
+    },
+    {
+      "name": "NewOperationRegistry",
+      "kind": "function",
+      "exported": true,
+      "line_start": 30,
+      "line_end": 35
+    },
+    {
+      "name": "RegisterOperation",
+      "kind": "method",
+      "exported": true,
+      "line_start": 40,
+      "line_end": 56
+    },
+    {
+      "name": "UnregisterOperation",
+      "kind": "method",
+      "exported": true,
+      "line_start": 60,
+      "line_end": 72
+    },
+    {
+      "name": "Operations",
+      "kind": "method",
+      "exported": true,
+      "line_start": 76,
+      "line_end": 86
+    },
+    {
+      "name": "GetOperation",
+      "kind": "method",
+      "exported": true,
+      "line_start": 90,
+      "line_end": 96
+    },
+    {
+      "name": "UnregisterPluginOperations",
+      "kind": "method",
+      "exported": true,
+      "line_start": 100,
+      "line_end": 119
+    },
+    {
+      "name": "GetPluginOperations",
+      "kind": "method",
+      "exported": true,
+      "line_start": 122,
+      "line_end": 136
+    },
+    {
+      "name": "Count",
+      "kind": "method",
+      "exported": true,
+      "line_start": 139,
+      "line_end": 144
+    },
+    {
+      "name": "GetOperationSource",
+      "kind": "method",
+      "exported": true,
+      "line_start": 148,
+      "line_end": 154
+    },
+    {
+      "name": "Clear",
+      "kind": "method",
+      "exported": true,
+      "line_start": 157,
+      "line_end": 163
+    }
+  ],
+  "imports": [
+    {
+      "source": "errors",
+      "type": "import"
+    },
+    {
+      "source": "sync",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/pluginmodel",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

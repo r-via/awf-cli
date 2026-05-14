@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/repository/doc.go",
+  "hash": "daad41f9e0f344fd0af25aa6a1797a186595e6bf28d7ab30c1073c52b73608be",
+  "symbols": [],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

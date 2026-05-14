@@ -1,0 +1,103 @@
+{
+  "byPhase": {
+    "rag-index": {
+      "totalUsd": 0,
+      "totalInputTokens": 1960,
+      "totalOutputTokens": 715617,
+      "totalCacheReadTokens": 3250708,
+      "callCount": 196
+    },
+    "review": {
+      "totalUsd": 0,
+      "totalInputTokens": 19,
+      "totalOutputTokens": 16016,
+      "totalCacheReadTokens": 35595,
+      "callCount": 4
+    },
+    "refinement": {
+      "totalUsd": 0,
+      "totalInputTokens": 3109,
+      "totalOutputTokens": 3202,
+      "totalCacheReadTokens": 223048,
+      "callCount": 2
+    }
+  },
+  "byComposer": {
+    "unknown": {
+      "totalUsd": 0,
+      "totalInputTokens": 5069,
+      "totalOutputTokens": 718819,
+      "totalCacheReadTokens": 3473756,
+      "callCount": 198
+    },
+    "axes.correction": {
+      "totalUsd": 0,
+      "totalInputTokens": 9,
+      "totalOutputTokens": 11493,
+      "totalCacheReadTokens": 19553,
+      "callCount": 3
+    },
+    "axes.duplication": {
+      "totalUsd": 0,
+      "totalInputTokens": 10,
+      "totalOutputTokens": 4523,
+      "totalCacheReadTokens": 16042,
+      "callCount": 1
+    }
+  },
+  "byPrimitive": {
+    "unknown": {
+      "totalUsd": 0,
+      "totalInputTokens": 5069,
+      "totalOutputTokens": 718819,
+      "totalCacheReadTokens": 3473756,
+      "callCount": 198
+    },
+    "axes.correction-pass1": {
+      "totalUsd": 0,
+      "totalInputTokens": 9,
+      "totalOutputTokens": 11493,
+      "totalCacheReadTokens": 19553,
+      "callCount": 3
+    },
+    "axes.duplication": {
+      "totalUsd": 0,
+      "totalInputTokens": 10,
+      "totalOutputTokens": 4523,
+      "totalCacheReadTokens": 16042,
+      "callCount": 1
+    }
+  },
+  "byProvider": {
+    "anthropic": {
+      "totalUsd": 0,
+      "totalInputTokens": 5088,
+      "totalOutputTokens": 734835,
+      "totalCacheReadTokens": 3509351,
+      "callCount": 202
+    }
+  },
+  "byModel": {
+    "claude-haiku-4-5-20251001": {
+      "totalUsd": 0,
+      "totalInputTokens": 1970,
+      "totalOutputTokens": 720140,
+      "totalCacheReadTokens": 3266750,
+      "callCount": 197
+    },
+    "claude-sonnet-4-6": {
+      "totalUsd": 0,
+      "totalInputTokens": 9,
+      "totalOutputTokens": 11493,
+      "totalCacheReadTokens": 19553,
+      "callCount": 3
+    },
+    "claude-opus-4-6": {
+      "totalUsd": 0,
+      "totalInputTokens": 3109,
+      "totalOutputTokens": 3202,
+      "totalCacheReadTokens": 223048,
+      "callCount": 2
+    }
+  }
+}

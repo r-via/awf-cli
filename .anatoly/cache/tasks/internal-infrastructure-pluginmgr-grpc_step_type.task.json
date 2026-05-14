@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/pluginmgr/grpc_step_type.go",
+  "hash": "70e00f0d76adabe6dbf6b0148656191353e4a6ca3583827aee431c2a2c883c29",
+  "symbols": [
+    {
+      "name": "defaultStepTypeTimeout",
+      "kind": "constant",
+      "exported": false,
+      "line_start": 14,
+      "line_end": 14
+    },
+    {
+      "name": "grpcStepTypeAdapter",
+      "kind": "class",
+      "exported": false,
+      "line_start": 19,
+      "line_end": 25
+    },
+    {
+      "name": "newGRPCStepTypeAdapter",
+      "kind": "function",
+      "exported": false,
+      "line_start": 29,
+      "line_end": 40
+    },
+    {
+      "name": "qualifiedName",
+      "kind": "method",
+      "exported": false,
+      "line_start": 45,
+      "line_end": 47
+    },
+    {
+      "name": "rawName",
+      "kind": "method",
+      "exported": false,
+      "line_start": 51,
+      "line_end": 54
+    },
+    {
+      "name": "listAndCache",
+      "kind": "method",
+      "exported": false,
+      "line_start": 60,
+      "line_end": 81
+    },
+    {
+      "name": "HasStepType",
+      "kind": "method",
+      "exported": true,
+      "line_start": 83,
+      "line_end": 85
+    },
+    {
+      "name": "compositeStepTypeProvider",
+      "kind": "class",
+      "exported": false,
+      "line_start": 89,
+      "line_end": 91
+    },
+    {
+      "name": "HasStepType",
+      "kind": "method",
+      "exported": true,
+      "line_start": 95,
+      "line_end": 102
+    },
+    {
+      "name": "ExecuteStep",
+      "kind": "method",
+      "exported": true,
+      "line_start": 104,
+      "line_end": 111
+    },
+    {
+      "name": "ExecuteStep",
+      "kind": "method",
+      "exported": true,
+      "line_start": 113,
+      "line_end": 150
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "encoding/json",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/proto/plugin/v1",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

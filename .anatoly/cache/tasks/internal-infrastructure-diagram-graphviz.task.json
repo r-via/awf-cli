@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/diagram/graphviz.go",
+  "hash": "a02bec832a3353cad964b2c7bd9c9524237bc02f9388d137775b2f560ab35c07",
+  "symbols": [
+    {
+      "name": "CheckGraphviz",
+      "kind": "function",
+      "exported": true,
+      "line_start": 14,
+      "line_end": 17
+    },
+    {
+      "name": "Export",
+      "kind": "function",
+      "exported": true,
+      "line_start": 27,
+      "line_end": 62
+    }
+  ],
+  "imports": [
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "os/exec",
+      "type": "import"
+    },
+    {
+      "source": "path/filepath",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

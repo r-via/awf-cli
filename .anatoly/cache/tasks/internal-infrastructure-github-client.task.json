@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/github/client.go",
+  "hash": "aa1297c5fe469256e83728a918635005fd0d4f04964cca1e2739eed073e952a7",
+  "symbols": [
+    {
+      "name": "Client",
+      "kind": "class",
+      "exported": true,
+      "line_start": 16,
+      "line_end": 31
+    },
+    {
+      "name": "NewClient",
+      "kind": "function",
+      "exported": true,
+      "line_start": 40,
+      "line_end": 44
+    },
+    {
+      "name": "RunGH",
+      "kind": "method",
+      "exported": true,
+      "line_start": 55,
+      "line_end": 71
+    },
+    {
+      "name": "DetectRepo",
+      "kind": "method",
+      "exported": true,
+      "line_start": 82,
+      "line_end": 99
+    },
+    {
+      "name": "parseRepoFromRemote",
+      "kind": "function",
+      "exported": false,
+      "line_start": 103,
+      "line_end": 120
+    }
+  ],
+  "imports": [
+    {
+      "source": "bytes",
+      "type": "import"
+    },
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "os/exec",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "sync",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

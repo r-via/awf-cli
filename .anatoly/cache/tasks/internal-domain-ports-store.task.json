@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "file": "internal/domain/ports/store.go",
+  "hash": "63d06d1104948e4d62205d87bd9ebbfeebbe4200ecd02321bfc331e628127c74",
+  "symbols": [
+    {
+      "name": "StateStore",
+      "kind": "type",
+      "exported": true,
+      "line_start": 10,
+      "line_end": 15
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

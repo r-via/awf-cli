@@ -1,0 +1,220 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/tui/tab_workflows.go",
+  "hash": "85d2692b81fc8cf806be720ee621fd5c47c7245bd0cd791249688464e620eb89",
+  "symbols": [
+    {
+      "name": "workflowsView",
+      "kind": "type",
+      "exported": false,
+      "line_start": 19,
+      "line_end": 19
+    },
+    {
+      "name": "workflowsListView",
+      "kind": "constant",
+      "exported": false,
+      "line_start": 22,
+      "line_end": 22
+    },
+    {
+      "name": "workflowsInputView",
+      "kind": "constant",
+      "exported": false,
+      "line_start": 23,
+      "line_end": 23
+    },
+    {
+      "name": "workflowItem",
+      "kind": "class",
+      "exported": false,
+      "line_start": 27,
+      "line_end": 30
+    },
+    {
+      "name": "Title",
+      "kind": "method",
+      "exported": true,
+      "line_start": 32,
+      "line_end": 34
+    },
+    {
+      "name": "Description",
+      "kind": "method",
+      "exported": true,
+      "line_start": 36,
+      "line_end": 54
+    },
+    {
+      "name": "FilterValue",
+      "kind": "method",
+      "exported": true,
+      "line_start": 56,
+      "line_end": 58
+    },
+    {
+      "name": "WorkflowsTab",
+      "kind": "class",
+      "exported": true,
+      "line_start": 61,
+      "line_end": 83
+    },
+    {
+      "name": "newWorkflowsTab",
+      "kind": "function",
+      "exported": false,
+      "line_start": 85,
+      "line_end": 102
+    },
+    {
+      "name": "setWorkflows",
+      "kind": "method",
+      "exported": false,
+      "line_start": 104,
+      "line_end": 116
+    },
+    {
+      "name": "Init",
+      "kind": "method",
+      "exported": true,
+      "line_start": 119,
+      "line_end": 121
+    },
+    {
+      "name": "Update",
+      "kind": "method",
+      "exported": true,
+      "line_start": 124,
+      "line_end": 151
+    },
+    {
+      "name": "updateListView",
+      "kind": "method",
+      "exported": false,
+      "line_start": 154,
+      "line_end": 163
+    },
+    {
+      "name": "handleListKey",
+      "kind": "method",
+      "exported": false,
+      "line_start": 166,
+      "line_end": 181
+    },
+    {
+      "name": "handleLaunch",
+      "kind": "method",
+      "exported": false,
+      "line_start": 184,
+      "line_end": 203
+    },
+    {
+      "name": "openInputForm",
+      "kind": "method",
+      "exported": false,
+      "line_start": 205,
+      "line_end": 231
+    },
+    {
+      "name": "updateInputForm",
+      "kind": "method",
+      "exported": false,
+      "line_start": 234,
+      "line_end": 278
+    },
+    {
+      "name": "submitInputForm",
+      "kind": "method",
+      "exported": false,
+      "line_start": 281,
+      "line_end": 303
+    },
+    {
+      "name": "handleValidate",
+      "kind": "method",
+      "exported": false,
+      "line_start": 306,
+      "line_end": 317
+    },
+    {
+      "name": "selectedWorkflowItem",
+      "kind": "method",
+      "exported": false,
+      "line_start": 319,
+      "line_end": 326
+    },
+    {
+      "name": "validationOverlayText",
+      "kind": "function",
+      "exported": false,
+      "line_start": 328,
+      "line_end": 336
+    },
+    {
+      "name": "View",
+      "kind": "method",
+      "exported": true,
+      "line_start": 339,
+      "line_end": 358
+    },
+    {
+      "name": "renderInputForm",
+      "kind": "method",
+      "exported": false,
+      "line_start": 360,
+      "line_end": 383
+    },
+    {
+      "name": "InputActive",
+      "kind": "method",
+      "exported": true,
+      "line_start": 386,
+      "line_end": 388
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "charm.land/bubbles/v2/key",
+      "type": "import"
+    },
+    {
+      "source": "charm.land/bubbles/v2/list",
+      "type": "import"
+    },
+    {
+      "source": "charm.land/bubbles/v2/spinner",
+      "type": "import"
+    },
+    {
+      "source": "charm.land/bubbles/v2/textinput",
+      "type": "import"
+    },
+    {
+      "source": "charm.land/bubbletea/v2",
+      "type": "import"
+    },
+    {
+      "source": "charm.land/lipgloss/v2",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

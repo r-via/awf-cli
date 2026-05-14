@@ -1,0 +1,122 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/otel/provider.go",
+  "hash": "124d2afc086eaad0e33b8972cbd5e8e6eedeed6718c240e34c5a7e7b298e105d",
+  "symbols": [
+    {
+      "name": "Config",
+      "kind": "class",
+      "exported": true,
+      "line_start": 20,
+      "line_end": 24
+    },
+    {
+      "name": "TracerProvider",
+      "kind": "class",
+      "exported": true,
+      "line_start": 28,
+      "line_end": 32
+    },
+    {
+      "name": "spanAdapter",
+      "kind": "class",
+      "exported": false,
+      "line_start": 34,
+      "line_end": 36
+    },
+    {
+      "name": "End",
+      "kind": "method",
+      "exported": true,
+      "line_start": 38,
+      "line_end": 38
+    },
+    {
+      "name": "SetAttribute",
+      "kind": "method",
+      "exported": true,
+      "line_start": 39,
+      "line_end": 54
+    },
+    {
+      "name": "RecordError",
+      "kind": "method",
+      "exported": true,
+      "line_start": 55,
+      "line_end": 55
+    },
+    {
+      "name": "AddEvent",
+      "kind": "method",
+      "exported": true,
+      "line_start": 56,
+      "line_end": 56
+    },
+    {
+      "name": "NewTracerProvider",
+      "kind": "function",
+      "exported": true,
+      "line_start": 58,
+      "line_end": 92
+    },
+    {
+      "name": "Start",
+      "kind": "method",
+      "exported": true,
+      "line_start": 94,
+      "line_end": 97
+    },
+    {
+      "name": "Shutdown",
+      "kind": "method",
+      "exported": true,
+      "line_start": 99,
+      "line_end": 104
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "errors",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    },
+    {
+      "source": "go.opentelemetry.io/otel/attribute",
+      "type": "import"
+    },
+    {
+      "source": "go.opentelemetry.io/otel/exporters/otlp/otlptrace",
+      "type": "import"
+    },
+    {
+      "source": "go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc",
+      "type": "import"
+    },
+    {
+      "source": "go.opentelemetry.io/otel/sdk/resource",
+      "type": "import"
+    },
+    {
+      "source": "go.opentelemetry.io/otel/sdk/trace",
+      "type": "import"
+    },
+    {
+      "source": "go.opentelemetry.io/otel/trace",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

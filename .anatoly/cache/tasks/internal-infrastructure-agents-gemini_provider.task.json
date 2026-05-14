@@ -1,0 +1,167 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/agents/gemini_provider.go",
+  "hash": "17ff2d468174e7078a41c20c3814d3e4492e5cb752d4b90cb32da8c1b8c5c978",
+  "symbols": [
+    {
+      "name": "GeminiProvider",
+      "kind": "class",
+      "exported": true,
+      "line_start": 18,
+      "line_end": 22
+    },
+    {
+      "name": "NewGeminiProvider",
+      "kind": "function",
+      "exported": true,
+      "line_start": 24,
+      "line_end": 30
+    },
+    {
+      "name": "NewGeminiProviderWithOptions",
+      "kind": "function",
+      "exported": true,
+      "line_start": 32,
+      "line_end": 41
+    },
+    {
+      "name": "newBase",
+      "kind": "method",
+      "exported": false,
+      "line_start": 43,
+      "line_end": 56
+    },
+    {
+      "name": "validateGeminiOptions",
+      "kind": "function",
+      "exported": false,
+      "line_start": 58,
+      "line_end": 70
+    },
+    {
+      "name": "isValidGeminiModel",
+      "kind": "function",
+      "exported": false,
+      "line_start": 72,
+      "line_end": 74
+    },
+    {
+      "name": "Execute",
+      "kind": "method",
+      "exported": true,
+      "line_start": 76,
+      "line_end": 101
+    },
+    {
+      "name": "ExecuteConversation",
+      "kind": "method",
+      "exported": true,
+      "line_start": 103,
+      "line_end": 109
+    },
+    {
+      "name": "Name",
+      "kind": "method",
+      "exported": true,
+      "line_start": 111,
+      "line_end": 113
+    },
+    {
+      "name": "Validate",
+      "kind": "method",
+      "exported": true,
+      "line_start": 115,
+      "line_end": 121
+    },
+    {
+      "name": "prependGeminiGlobalFlags",
+      "kind": "function",
+      "exported": false,
+      "line_start": 123,
+      "line_end": 132
+    },
+    {
+      "name": "buildExecuteArgs",
+      "kind": "method",
+      "exported": false,
+      "line_start": 134,
+      "line_end": 142
+    },
+    {
+      "name": "buildConversationArgs",
+      "kind": "method",
+      "exported": false,
+      "line_start": 144,
+      "line_end": 158
+    },
+    {
+      "name": "extractInitEvent",
+      "kind": "method",
+      "exported": false,
+      "line_start": 160,
+      "line_end": 162
+    },
+    {
+      "name": "extractSessionID",
+      "kind": "method",
+      "exported": false,
+      "line_start": 164,
+      "line_end": 184
+    },
+    {
+      "name": "extractGeminiTokenUsage",
+      "kind": "method",
+      "exported": false,
+      "line_start": 186,
+      "line_end": 200
+    },
+    {
+      "name": "parseGeminiDisplayEvents",
+      "kind": "method",
+      "exported": false,
+      "line_start": 202,
+      "line_end": 235
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "encoding/json",
+      "type": "import"
+    },
+    {
+      "source": "errors",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "io",
+      "type": "import"
+    },
+    {
+      "source": "os/exec",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

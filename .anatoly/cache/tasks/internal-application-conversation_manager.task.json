@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "file": "internal/application/conversation_manager.go",
+  "hash": "72e5007e46f78ddb83f0f089ea47ac8ed618d358a9057109de8224604ca19858",
+  "symbols": [
+    {
+      "name": "cloneConversationState",
+      "kind": "function",
+      "exported": false,
+      "line_start": 15,
+      "line_end": 28
+    },
+    {
+      "name": "ConversationManager",
+      "kind": "class",
+      "exported": true,
+      "line_start": 34,
+      "line_end": 39
+    },
+    {
+      "name": "NewConversationManager",
+      "kind": "function",
+      "exported": true,
+      "line_start": 41,
+      "line_end": 51
+    },
+    {
+      "name": "SetUserInputReader",
+      "kind": "method",
+      "exported": true,
+      "line_start": 55,
+      "line_end": 57
+    },
+    {
+      "name": "validateConversationInputs",
+      "kind": "method",
+      "exported": false,
+      "line_start": 62,
+      "line_end": 70
+    },
+    {
+      "name": "initializeConversationState",
+      "kind": "method",
+      "exported": false,
+      "line_start": 75,
+      "line_end": 119
+    },
+    {
+      "name": "executeTurn",
+      "kind": "method",
+      "exported": false,
+      "line_start": 122,
+      "line_end": 142
+    },
+    {
+      "name": "ExecuteConversation",
+      "kind": "method",
+      "exported": true,
+      "line_start": 162,
+      "line_end": 260
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "errors",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "io",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/pkg/interpolation",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "file": "pkg/output/format.go",
+  "hash": "54fd9d511729c2869fcc3425fa3cc6cfba3f28266570dcb6a1d05739cfc3c97c",
+  "symbols": [
+    {
+      "name": "StripCodeFences",
+      "kind": "function",
+      "exported": true,
+      "line_start": 20,
+      "line_end": 35
+    },
+    {
+      "name": "ValidateAndParseJSON",
+      "kind": "function",
+      "exported": true,
+      "line_start": 39,
+      "line_end": 49
+    },
+    {
+      "name": "extractEmbeddedJSONFence",
+      "kind": "function",
+      "exported": false,
+      "line_start": 52,
+      "line_end": 58
+    },
+    {
+      "name": "ProcessOutputFormat",
+      "kind": "function",
+      "exported": true,
+      "line_start": 64,
+      "line_end": 84
+    }
+  ],
+  "imports": [
+    {
+      "source": "encoding/json",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "regexp",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

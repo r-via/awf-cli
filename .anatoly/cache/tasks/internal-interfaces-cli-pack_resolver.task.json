@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/cli/pack_resolver.go",
+  "hash": "a41d6a0dea9bee3d14851ad32fc31def041cac8f980d26548aefa120119b2959",
+  "symbols": [
+    {
+      "name": "parseWorkflowNamespace",
+      "kind": "function",
+      "exported": false,
+      "line_start": 22,
+      "line_end": 28
+    },
+    {
+      "name": "validatePackWorkflow",
+      "kind": "function",
+      "exported": false,
+      "line_start": 34,
+      "line_end": 72
+    },
+    {
+      "name": "resolvePackDir",
+      "kind": "function",
+      "exported": false,
+      "line_start": 77,
+      "line_end": 115
+    },
+    {
+      "name": "resolvePackWorkflow",
+      "kind": "function",
+      "exported": false,
+      "line_start": 119,
+      "line_end": 141
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "path/filepath",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/errors",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/repository",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/workflowpkg",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

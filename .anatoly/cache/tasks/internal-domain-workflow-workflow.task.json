@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "file": "internal/domain/workflow/workflow.go",
+  "hash": "f90c5cb10abb9d02833319092c8dc02e9589f27ba958cf5741ffe6041def034e",
+  "symbols": [
+    {
+      "name": "Input",
+      "kind": "class",
+      "exported": true,
+      "line_start": 10,
+      "line_end": 17
+    },
+    {
+      "name": "Workflow",
+      "kind": "class",
+      "exported": true,
+      "line_start": 20,
+      "line_end": 33
+    },
+    {
+      "name": "ResolveStepType",
+      "kind": "method",
+      "exported": true,
+      "line_start": 38,
+      "line_end": 47
+    },
+    {
+      "name": "GetStep",
+      "kind": "method",
+      "exported": true,
+      "line_start": 50,
+      "line_end": 53
+    },
+    {
+      "name": "StateReferenceError",
+      "kind": "class",
+      "exported": true,
+      "line_start": 58,
+      "line_end": 63
+    },
+    {
+      "name": "Error",
+      "kind": "method",
+      "exported": true,
+      "line_start": 65,
+      "line_end": 82
+    },
+    {
+      "name": "Validate",
+      "kind": "method",
+      "exported": true,
+      "line_start": 89,
+      "line_end": 269
+    }
+  ],
+  "imports": [
+    {
+      "source": "errors",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

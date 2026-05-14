@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/pluginmgr/doc.go",
+  "hash": "5628ff687fcc94f3bce6db2eb70ce3bc4c39d150a5c5f60da61de324f7aea40d",
+  "symbols": [],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

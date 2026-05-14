@@ -1,0 +1,116 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/pluginmgr/grpc_validator.go",
+  "hash": "8e5fb274d8e7ed327d4f2e441a4feee5dab8ac20f1a25ebe3b6dff2fa1a57b1d",
+  "symbols": [
+    {
+      "name": "defaultValidatorTimeout",
+      "kind": "constant",
+      "exported": false,
+      "line_start": 12,
+      "line_end": 12
+    },
+    {
+      "name": "grpcValidatorAdapter",
+      "kind": "class",
+      "exported": false,
+      "line_start": 16,
+      "line_end": 20
+    },
+    {
+      "name": "newGRPCValidatorAdapter",
+      "kind": "function",
+      "exported": false,
+      "line_start": 24,
+      "line_end": 33
+    },
+    {
+      "name": "ValidateWorkflow",
+      "kind": "method",
+      "exported": true,
+      "line_start": 35,
+      "line_end": 47
+    },
+    {
+      "name": "ValidateStep",
+      "kind": "method",
+      "exported": true,
+      "line_start": 49,
+      "line_end": 62
+    },
+    {
+      "name": "mapProtoSeverity",
+      "kind": "function",
+      "exported": false,
+      "line_start": 67,
+      "line_end": 77
+    },
+    {
+      "name": "deduplicationKey",
+      "kind": "class",
+      "exported": false,
+      "line_start": 80,
+      "line_end": 84
+    },
+    {
+      "name": "convertValidationIssues",
+      "kind": "function",
+      "exported": false,
+      "line_start": 87,
+      "line_end": 98
+    },
+    {
+      "name": "compositeValidatorProvider",
+      "kind": "class",
+      "exported": false,
+      "line_start": 103,
+      "line_end": 105
+    },
+    {
+      "name": "ValidateWorkflow",
+      "kind": "method",
+      "exported": true,
+      "line_start": 109,
+      "line_end": 120
+    },
+    {
+      "name": "ValidateStep",
+      "kind": "method",
+      "exported": true,
+      "line_start": 122,
+      "line_end": 132
+    },
+    {
+      "name": "deduplicateResults",
+      "kind": "function",
+      "exported": false,
+      "line_start": 136,
+      "line_end": 153
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/proto/plugin/v1",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

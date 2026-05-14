@@ -1,0 +1,350 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/cli/run.go",
+  "hash": "2950e68471e864fb6a2e9d538f03d36a7fa4976a32bf66abe605eaee2e4f75a6",
+  "symbols": [
+    {
+      "name": "newRunCommand",
+      "kind": "function",
+      "exported": false,
+      "line_start": 32,
+      "line_end": 111
+    },
+    {
+      "name": "workflowHelpFunc",
+      "kind": "function",
+      "exported": false,
+      "line_start": 116,
+      "line_end": 175
+    },
+    {
+      "name": "runWorkflow",
+      "kind": "function",
+      "exported": false,
+      "line_start": 177,
+      "line_end": 462
+    },
+    {
+      "name": "runDryRun",
+      "kind": "function",
+      "exported": false,
+      "line_start": 465,
+      "line_end": 527
+    },
+    {
+      "name": "runInteractive",
+      "kind": "function",
+      "exported": false,
+      "line_start": 530,
+      "line_end": 627
+    },
+    {
+      "name": "parseInputFlags",
+      "kind": "function",
+      "exported": false,
+      "line_start": 629,
+      "line_end": 652
+    },
+    {
+      "name": "promptPrefix",
+      "kind": "constant",
+      "exported": false,
+      "line_start": 655,
+      "line_end": 655
+    },
+    {
+      "name": "resolvePromptInput",
+      "kind": "function",
+      "exported": false,
+      "line_start": 661,
+      "line_end": 676
+    },
+    {
+      "name": "resolvePromptFromPaths",
+      "kind": "function",
+      "exported": false,
+      "line_start": 680,
+      "line_end": 714
+    },
+    {
+      "name": "showExecutionDetails",
+      "kind": "function",
+      "exported": false,
+      "line_start": 716,
+      "line_end": 729
+    },
+    {
+      "name": "displayValueOf",
+      "kind": "function",
+      "exported": false,
+      "line_start": 731,
+      "line_end": 736
+    },
+    {
+      "name": "showStepOutputs",
+      "kind": "function",
+      "exported": false,
+      "line_start": 738,
+      "line_end": 758
+    },
+    {
+      "name": "showEmptyStepFeedback",
+      "kind": "function",
+      "exported": false,
+      "line_start": 762,
+      "line_end": 773
+    },
+    {
+      "name": "buildStepInfos",
+      "kind": "function",
+      "exported": false,
+      "line_start": 775,
+      "line_end": 795
+    },
+    {
+      "name": "categorizeError",
+      "kind": "function",
+      "exported": false,
+      "line_start": 809,
+      "line_end": 837
+    },
+    {
+      "name": "exitError",
+      "kind": "class",
+      "exported": false,
+      "line_start": 840,
+      "line_end": 844
+    },
+    {
+      "name": "Error",
+      "kind": "method",
+      "exported": true,
+      "line_start": 846,
+      "line_end": 848
+    },
+    {
+      "name": "ExitCode",
+      "kind": "method",
+      "exported": true,
+      "line_start": 850,
+      "line_end": 852
+    },
+    {
+      "name": "Handled",
+      "kind": "method",
+      "exported": true,
+      "line_start": 854,
+      "line_end": 856
+    },
+    {
+      "name": "writeErrorAndExit",
+      "kind": "function",
+      "exported": false,
+      "line_start": 860,
+      "line_end": 865
+    },
+    {
+      "name": "cliLogger",
+      "kind": "class",
+      "exported": false,
+      "line_start": 868,
+      "line_end": 873
+    },
+    {
+      "name": "Debug",
+      "kind": "method",
+      "exported": true,
+      "line_start": 875,
+      "line_end": 882
+    },
+    {
+      "name": "Info",
+      "kind": "method",
+      "exported": true,
+      "line_start": 884,
+      "line_end": 889
+    },
+    {
+      "name": "Warn",
+      "kind": "method",
+      "exported": true,
+      "line_start": 891,
+      "line_end": 896
+    },
+    {
+      "name": "Error",
+      "kind": "method",
+      "exported": true,
+      "line_start": 898,
+      "line_end": 903
+    },
+    {
+      "name": "WithContext",
+      "kind": "method",
+      "exported": true,
+      "line_start": 905,
+      "line_end": 915
+    },
+    {
+      "name": "mergeContext",
+      "kind": "method",
+      "exported": false,
+      "line_start": 917,
+      "line_end": 927
+    },
+    {
+      "name": "formatLog",
+      "kind": "function",
+      "exported": false,
+      "line_start": 929,
+      "line_end": 941
+    },
+    {
+      "name": "runSingleStep",
+      "kind": "function",
+      "exported": false,
+      "line_start": 944,
+      "line_end": 1097
+    },
+    {
+      "name": "ParseMockFlags",
+      "kind": "function",
+      "exported": true,
+      "line_start": 1101,
+      "line_end": 1118
+    },
+    {
+      "name": "loadProjectConfig",
+      "kind": "function",
+      "exported": false,
+      "line_start": 1122,
+      "line_end": 1125
+    },
+    {
+      "name": "hasMissingRequiredInputs",
+      "kind": "function",
+      "exported": false,
+      "line_start": 1128,
+      "line_end": 1140
+    },
+    {
+      "name": "collectMissingInputsIfNeeded",
+      "kind": "function",
+      "exported": false,
+      "line_start": 1148,
+      "line_end": 1191
+    },
+    {
+      "name": "isTerminal",
+      "kind": "function",
+      "exported": false,
+      "line_start": 1194,
+      "line_end": 1199
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "errors",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "io",
+      "type": "import"
+    },
+    {
+      "source": "maps",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "path/filepath",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/application",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/errors",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/audit",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/config",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/executor",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/expression",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/otel",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/repository",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/store",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/xdg",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/interfaces/cli/ui",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/pkg/interpolation",
+      "type": "import"
+    },
+    {
+      "source": "github.com/spf13/cobra",
+      "type": "import"
+    },
+    {
+      "source": "golang.org/x/term",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

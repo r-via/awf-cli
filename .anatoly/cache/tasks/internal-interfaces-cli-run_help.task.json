@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/cli/run_help.go",
+  "hash": "b16ee9bd29fb4fda9f4b00a8c9f7e996b8cedb861fcce9103474fc41356fcce8",
+  "symbols": [
+    {
+      "name": "RenderWorkflowHelp",
+      "kind": "function",
+      "exported": true,
+      "line_start": 21,
+      "line_end": 36
+    },
+    {
+      "name": "workflowToInputInfos",
+      "kind": "function",
+      "exported": false,
+      "line_start": 40,
+      "line_end": 56
+    },
+    {
+      "name": "formatAnyToString",
+      "kind": "function",
+      "exported": false,
+      "line_start": 59,
+      "line_end": 64
+    },
+    {
+      "name": "formatInputsTable",
+      "kind": "function",
+      "exported": false,
+      "line_start": 68,
+      "line_end": 97
+    },
+    {
+      "name": "formatDefaultValue",
+      "kind": "function",
+      "exported": false,
+      "line_start": 101,
+      "line_end": 106
+    },
+    {
+      "name": "formatRequired",
+      "kind": "function",
+      "exported": false,
+      "line_start": 110,
+      "line_end": 115
+    },
+    {
+      "name": "formatDescription",
+      "kind": "function",
+      "exported": false,
+      "line_start": 119,
+      "line_end": 125
+    }
+  ],
+  "imports": [
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "io",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "text/tabwriter",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/interfaces/cli/ui",
+      "type": "import"
+    },
+    {
+      "source": "github.com/spf13/cobra",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

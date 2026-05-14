@@ -1,0 +1,153 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/cli/ui/interactive_prompt.go",
+  "hash": "62f65efede35b86eab5e45f73cc804ec283b50080f169952810bb9bbb61c9f3c",
+  "symbols": [
+    {
+      "name": "CLIPrompt",
+      "kind": "class",
+      "exported": true,
+      "line_start": 25,
+      "line_end": 29
+    },
+    {
+      "name": "NewCLIPrompt",
+      "kind": "function",
+      "exported": true,
+      "line_start": 32,
+      "line_end": 38
+    },
+    {
+      "name": "ShowHeader",
+      "kind": "method",
+      "exported": true,
+      "line_start": 41,
+      "line_end": 45
+    },
+    {
+      "name": "ShowStepDetails",
+      "kind": "method",
+      "exported": true,
+      "line_start": 48,
+      "line_end": 74
+    },
+    {
+      "name": "PromptAction",
+      "kind": "method",
+      "exported": true,
+      "line_start": 77,
+      "line_end": 102
+    },
+    {
+      "name": "ShowExecuting",
+      "kind": "method",
+      "exported": true,
+      "line_start": 105,
+      "line_end": 108
+    },
+    {
+      "name": "ShowStepResult",
+      "kind": "method",
+      "exported": true,
+      "line_start": 111,
+      "line_end": 137
+    },
+    {
+      "name": "ShowContext",
+      "kind": "method",
+      "exported": true,
+      "line_start": 140,
+      "line_end": 174
+    },
+    {
+      "name": "EditInput",
+      "kind": "method",
+      "exported": true,
+      "line_start": 177,
+      "line_end": 195
+    },
+    {
+      "name": "ShowAborted",
+      "kind": "method",
+      "exported": true,
+      "line_start": 198,
+      "line_end": 200
+    },
+    {
+      "name": "ShowSkipped",
+      "kind": "method",
+      "exported": true,
+      "line_start": 203,
+      "line_end": 208
+    },
+    {
+      "name": "ShowCompleted",
+      "kind": "method",
+      "exported": true,
+      "line_start": 211,
+      "line_end": 217
+    },
+    {
+      "name": "ShowError",
+      "kind": "method",
+      "exported": true,
+      "line_start": 220,
+      "line_end": 222
+    },
+    {
+      "name": "parseAction",
+      "kind": "function",
+      "exported": false,
+      "line_start": 225,
+      "line_end": 246
+    },
+    {
+      "name": "truncateString",
+      "kind": "function",
+      "exported": false,
+      "line_start": 249,
+      "line_end": 257
+    }
+  ],
+  "imports": [
+    {
+      "source": "bufio",
+      "type": "import"
+    },
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "io",
+      "type": "import"
+    },
+    {
+      "source": "sort",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

@@ -1,0 +1,129 @@
+{
+  "version": 1,
+  "file": "internal/domain/workflow/agent_config.go",
+  "hash": "bd35c7266f53435af582fa468ae31273e990eac14fe9c83cfbb063aac15a9b6f",
+  "symbols": [
+    {
+      "name": "DefaultAgentTimeout",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 10,
+      "line_end": 10
+    },
+    {
+      "name": "OutputFormat",
+      "kind": "type",
+      "exported": true,
+      "line_start": 13,
+      "line_end": 13
+    },
+    {
+      "name": "OutputFormatNone",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 16,
+      "line_end": 16
+    },
+    {
+      "name": "OutputFormatJSON",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 17,
+      "line_end": 17
+    },
+    {
+      "name": "OutputFormatText",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 18,
+      "line_end": 18
+    },
+    {
+      "name": "AgentConfig",
+      "kind": "class",
+      "exported": true,
+      "line_start": 28,
+      "line_end": 38
+    },
+    {
+      "name": "Validate",
+      "kind": "method",
+      "exported": true,
+      "line_start": 42,
+      "line_end": 102
+    },
+    {
+      "name": "GetTimeout",
+      "kind": "method",
+      "exported": true,
+      "line_start": 106,
+      "line_end": 111
+    },
+    {
+      "name": "IsConversationMode",
+      "kind": "method",
+      "exported": true,
+      "line_start": 114,
+      "line_end": 116
+    },
+    {
+      "name": "GetEffectivePrompt",
+      "kind": "method",
+      "exported": true,
+      "line_start": 119,
+      "line_end": 121
+    },
+    {
+      "name": "AgentResult",
+      "kind": "class",
+      "exported": true,
+      "line_start": 124,
+      "line_end": 135
+    },
+    {
+      "name": "NewAgentResult",
+      "kind": "function",
+      "exported": true,
+      "line_start": 138,
+      "line_end": 144
+    },
+    {
+      "name": "Duration",
+      "kind": "method",
+      "exported": true,
+      "line_start": 147,
+      "line_end": 149
+    },
+    {
+      "name": "Success",
+      "kind": "method",
+      "exported": true,
+      "line_start": 152,
+      "line_end": 154
+    },
+    {
+      "name": "HasJSONResponse",
+      "kind": "method",
+      "exported": true,
+      "line_start": 157,
+      "line_end": 159
+    }
+  ],
+  "imports": [
+    {
+      "source": "errors",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

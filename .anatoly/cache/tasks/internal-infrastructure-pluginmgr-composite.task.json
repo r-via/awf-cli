@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/pluginmgr/composite.go",
+  "hash": "7ed1dac6ed1a45ef5a65ab00d293edf2c7046fce5875f0cefd16d2478c23abe3",
+  "symbols": [
+    {
+      "name": "CompositeOperationProvider",
+      "kind": "class",
+      "exported": true,
+      "line_start": 14,
+      "line_end": 16
+    },
+    {
+      "name": "NewCompositeOperationProvider",
+      "kind": "function",
+      "exported": true,
+      "line_start": 20,
+      "line_end": 24
+    },
+    {
+      "name": "GetOperation",
+      "kind": "method",
+      "exported": true,
+      "line_start": 27,
+      "line_end": 37
+    },
+    {
+      "name": "ListOperations",
+      "kind": "method",
+      "exported": true,
+      "line_start": 40,
+      "line_end": 50
+    },
+    {
+      "name": "Execute",
+      "kind": "method",
+      "exported": true,
+      "line_start": 53,
+      "line_end": 64
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/pluginmodel",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

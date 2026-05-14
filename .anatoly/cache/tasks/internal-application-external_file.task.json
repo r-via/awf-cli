@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "file": "internal/application/external_file.go",
+  "hash": "98b8b3de8cf226d8ab6bbf9415cf13e337362296a3b8c10e9f78a88ef9986db6",
+  "symbols": [
+    {
+      "name": "maxExternalFileSize",
+      "kind": "constant",
+      "exported": false,
+      "line_start": 16,
+      "line_end": 16
+    },
+    {
+      "name": "AWFPackNameKey",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 19,
+      "line_end": 19
+    },
+    {
+      "name": "resolveLocalOverGlobal",
+      "kind": "function",
+      "exported": false,
+      "line_start": 30,
+      "line_end": 66
+    },
+    {
+      "name": "resolvePackPathTiers",
+      "kind": "function",
+      "exported": false,
+      "line_start": 73,
+      "line_end": 105
+    },
+    {
+      "name": "findPackLocalDir",
+      "kind": "function",
+      "exported": false,
+      "line_start": 109,
+      "line_end": 137
+    },
+    {
+      "name": "extractFilePathSuffix",
+      "kind": "function",
+      "exported": false,
+      "line_start": 141,
+      "line_end": 150
+    },
+    {
+      "name": "resolveCommandAWFPaths",
+      "kind": "function",
+      "exported": false,
+      "line_start": 155,
+      "line_end": 193
+    },
+    {
+      "name": "replaceAWFPathsInString",
+      "kind": "function",
+      "exported": false,
+      "line_start": 198,
+      "line_end": 240
+    },
+    {
+      "name": "loadExternalFile",
+      "kind": "function",
+      "exported": false,
+      "line_start": 244,
+      "line_end": 310
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "io",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "path/filepath",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/pkg/interpolation",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

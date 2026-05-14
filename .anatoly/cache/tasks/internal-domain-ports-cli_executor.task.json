@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "file": "internal/domain/ports/cli_executor.go",
+  "hash": "e351b066dadb88164cbe15caecb01d482a88fb10673bb4091f55148569dc273e",
+  "symbols": [
+    {
+      "name": "CLIExecutor",
+      "kind": "type",
+      "exported": true,
+      "line_start": 15,
+      "line_end": 31
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "io",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

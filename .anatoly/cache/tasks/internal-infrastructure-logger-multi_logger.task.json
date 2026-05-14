@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/logger/multi_logger.go",
+  "hash": "e6f0ba59733ed73a248e08823e2ac453e64f5f62c36cf73f0a35eeec41382835",
+  "symbols": [
+    {
+      "name": "MultiLogger",
+      "kind": "class",
+      "exported": true,
+      "line_start": 6,
+      "line_end": 8
+    },
+    {
+      "name": "NewMultiLogger",
+      "kind": "function",
+      "exported": true,
+      "line_start": 11,
+      "line_end": 13
+    },
+    {
+      "name": "Debug",
+      "kind": "method",
+      "exported": true,
+      "line_start": 15,
+      "line_end": 19
+    },
+    {
+      "name": "Info",
+      "kind": "method",
+      "exported": true,
+      "line_start": 21,
+      "line_end": 25
+    },
+    {
+      "name": "Warn",
+      "kind": "method",
+      "exported": true,
+      "line_start": 27,
+      "line_end": 31
+    },
+    {
+      "name": "Error",
+      "kind": "method",
+      "exported": true,
+      "line_start": 33,
+      "line_end": 37
+    },
+    {
+      "name": "WithContext",
+      "kind": "method",
+      "exported": true,
+      "line_start": 39,
+      "line_end": 45
+    },
+    {
+      "name": "NopLogger",
+      "kind": "class",
+      "exported": true,
+      "line_start": 48,
+      "line_end": 48
+    },
+    {
+      "name": "Debug",
+      "kind": "method",
+      "exported": true,
+      "line_start": 50,
+      "line_end": 50
+    },
+    {
+      "name": "Info",
+      "kind": "method",
+      "exported": true,
+      "line_start": 51,
+      "line_end": 51
+    },
+    {
+      "name": "Warn",
+      "kind": "method",
+      "exported": true,
+      "line_start": 52,
+      "line_end": 52
+    },
+    {
+      "name": "Error",
+      "kind": "method",
+      "exported": true,
+      "line_start": 53,
+      "line_end": 53
+    },
+    {
+      "name": "WithContext",
+      "kind": "method",
+      "exported": true,
+      "line_start": 54,
+      "line_end": 56
+    }
+  ],
+  "imports": [
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

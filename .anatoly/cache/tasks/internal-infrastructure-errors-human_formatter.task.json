@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/errors/human_formatter.go",
+  "hash": "e3af6446224b48ad82634bc3f7cd9d1396bc09af18c623716a6ec4ca840851fa",
+  "symbols": [
+    {
+      "name": "HumanErrorFormatter",
+      "kind": "class",
+      "exported": true,
+      "line_start": 31,
+      "line_end": 35
+    },
+    {
+      "name": "NewHumanErrorFormatter",
+      "kind": "function",
+      "exported": true,
+      "line_start": 54,
+      "line_end": 60
+    },
+    {
+      "name": "FormatError",
+      "kind": "method",
+      "exported": true,
+      "line_start": 89,
+      "line_end": 142
+    },
+    {
+      "name": "formatValue",
+      "kind": "function",
+      "exported": false,
+      "line_start": 145,
+      "line_end": 190
+    },
+    {
+      "name": "generateHints",
+      "kind": "method",
+      "exported": false,
+      "line_start": 196,
+      "line_end": 212
+    },
+    {
+      "name": "renderHints",
+      "kind": "method",
+      "exported": false,
+      "line_start": 218,
+      "line_end": 239
+    }
+  ],
+  "imports": [
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "sort",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/errors",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    },
+    {
+      "source": "github.com/fatih/color",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

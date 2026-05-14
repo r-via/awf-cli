@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/repository/source.go",
+  "hash": "668d74d3b709ff730015b897d4fe3d1f4523ee4e108b30ed04f10144e6065af8",
+  "symbols": [
+    {
+      "name": "Source",
+      "kind": "type",
+      "exported": true,
+      "line_start": 4,
+      "line_end": 4
+    },
+    {
+      "name": "SourceEnv",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 7,
+      "line_end": 7
+    },
+    {
+      "name": "SourceLocal",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 8,
+      "line_end": 8
+    },
+    {
+      "name": "SourceGlobal",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 9,
+      "line_end": 9
+    },
+    {
+      "name": "String",
+      "kind": "method",
+      "exported": true,
+      "line_start": 12,
+      "line_end": 23
+    },
+    {
+      "name": "WorkflowInfo",
+      "kind": "class",
+      "exported": true,
+      "line_start": 26,
+      "line_end": 30
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

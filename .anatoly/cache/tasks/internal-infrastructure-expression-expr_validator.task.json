@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/expression/expr_validator.go",
+  "hash": "161ca7ff6f00cc64bb7563623dfcfd40ac0f6c1dcb23139bf0a3fe8105620271",
+  "symbols": [
+    {
+      "name": "ExprValidator",
+      "kind": "class",
+      "exported": true,
+      "line_start": 13,
+      "line_end": 13
+    },
+    {
+      "name": "NewExprValidator",
+      "kind": "function",
+      "exported": true,
+      "line_start": 16,
+      "line_end": 18
+    },
+    {
+      "name": "Compile",
+      "kind": "method",
+      "exported": true,
+      "line_start": 23,
+      "line_end": 34
+    }
+  ],
+  "imports": [
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    },
+    {
+      "source": "github.com/expr-lang/expr",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

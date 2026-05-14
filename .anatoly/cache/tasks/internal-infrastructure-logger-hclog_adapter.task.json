@@ -1,0 +1,232 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/logger/hclog_adapter.go",
+  "hash": "6eb8fc29252f8c01b8d26210722d958bf4cdf6534e4dc8aac751ae93109514f8",
+  "symbols": [
+    {
+      "name": "HCLogAdapter",
+      "kind": "class",
+      "exported": true,
+      "line_start": 16,
+      "line_end": 21
+    },
+    {
+      "name": "NewHCLogAdapter",
+      "kind": "function",
+      "exported": true,
+      "line_start": 24,
+      "line_end": 30
+    },
+    {
+      "name": "log",
+      "kind": "method",
+      "exported": false,
+      "line_start": 32,
+      "line_end": 41
+    },
+    {
+      "name": "hcArgsToZapFields",
+      "kind": "function",
+      "exported": false,
+      "line_start": 43,
+      "line_end": 53
+    },
+    {
+      "name": "hcLevelToZap",
+      "kind": "function",
+      "exported": false,
+      "line_start": 55,
+      "line_end": 68
+    },
+    {
+      "name": "Log",
+      "kind": "method",
+      "exported": true,
+      "line_start": 70,
+      "line_end": 72
+    },
+    {
+      "name": "Trace",
+      "kind": "method",
+      "exported": true,
+      "line_start": 74,
+      "line_end": 76
+    },
+    {
+      "name": "Debug",
+      "kind": "method",
+      "exported": true,
+      "line_start": 78,
+      "line_end": 80
+    },
+    {
+      "name": "Info",
+      "kind": "method",
+      "exported": true,
+      "line_start": 82,
+      "line_end": 84
+    },
+    {
+      "name": "Warn",
+      "kind": "method",
+      "exported": true,
+      "line_start": 86,
+      "line_end": 88
+    },
+    {
+      "name": "Error",
+      "kind": "method",
+      "exported": true,
+      "line_start": 90,
+      "line_end": 92
+    },
+    {
+      "name": "IsTrace",
+      "kind": "method",
+      "exported": true,
+      "line_start": 94,
+      "line_end": 96
+    },
+    {
+      "name": "IsDebug",
+      "kind": "method",
+      "exported": true,
+      "line_start": 98,
+      "line_end": 100
+    },
+    {
+      "name": "IsInfo",
+      "kind": "method",
+      "exported": true,
+      "line_start": 102,
+      "line_end": 104
+    },
+    {
+      "name": "IsWarn",
+      "kind": "method",
+      "exported": true,
+      "line_start": 106,
+      "line_end": 108
+    },
+    {
+      "name": "IsError",
+      "kind": "method",
+      "exported": true,
+      "line_start": 110,
+      "line_end": 112
+    },
+    {
+      "name": "ImpliedArgs",
+      "kind": "method",
+      "exported": true,
+      "line_start": 114,
+      "line_end": 114
+    },
+    {
+      "name": "With",
+      "kind": "method",
+      "exported": true,
+      "line_start": 116,
+      "line_end": 126
+    },
+    {
+      "name": "Name",
+      "kind": "method",
+      "exported": true,
+      "line_start": 128,
+      "line_end": 128
+    },
+    {
+      "name": "Named",
+      "kind": "method",
+      "exported": true,
+      "line_start": 130,
+      "line_end": 141
+    },
+    {
+      "name": "ResetNamed",
+      "kind": "method",
+      "exported": true,
+      "line_start": 143,
+      "line_end": 150
+    },
+    {
+      "name": "SetLevel",
+      "kind": "method",
+      "exported": true,
+      "line_start": 152,
+      "line_end": 152
+    },
+    {
+      "name": "GetLevel",
+      "kind": "method",
+      "exported": true,
+      "line_start": 154,
+      "line_end": 168
+    },
+    {
+      "name": "StandardLogger",
+      "kind": "method",
+      "exported": true,
+      "line_start": 170,
+      "line_end": 172
+    },
+    {
+      "name": "StandardWriter",
+      "kind": "method",
+      "exported": true,
+      "line_start": 174,
+      "line_end": 176
+    },
+    {
+      "name": "logWriter",
+      "kind": "class",
+      "exported": false,
+      "line_start": 180,
+      "line_end": 183
+    },
+    {
+      "name": "NewLogWriter",
+      "kind": "function",
+      "exported": true,
+      "line_start": 186,
+      "line_end": 188
+    },
+    {
+      "name": "Write",
+      "kind": "method",
+      "exported": true,
+      "line_start": 190,
+      "line_end": 208
+    }
+  ],
+  "imports": [
+    {
+      "source": "io",
+      "type": "import"
+    },
+    {
+      "source": "log",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "github.com/hashicorp/go-hclog",
+      "type": "import"
+    },
+    {
+      "source": "go.uber.org/zap",
+      "type": "import"
+    },
+    {
+      "source": "go.uber.org/zap/zapcore",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

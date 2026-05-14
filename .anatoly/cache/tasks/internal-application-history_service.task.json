@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "file": "internal/application/history_service.go",
+  "hash": "5fea4382947441ebd4222834122c2bac76059e1f91869b97d0208926ba9c1bbb",
+  "symbols": [
+    {
+      "name": "defaultHistoryLimit",
+      "kind": "constant",
+      "exported": false,
+      "line_start": 13,
+      "line_end": 13
+    },
+    {
+      "name": "retentionPeriod",
+      "kind": "constant",
+      "exported": false,
+      "line_start": 14,
+      "line_end": 14
+    },
+    {
+      "name": "HistoryService",
+      "kind": "class",
+      "exported": true,
+      "line_start": 18,
+      "line_end": 21
+    },
+    {
+      "name": "NewHistoryService",
+      "kind": "function",
+      "exported": true,
+      "line_start": 23,
+      "line_end": 28
+    },
+    {
+      "name": "Record",
+      "kind": "method",
+      "exported": true,
+      "line_start": 30,
+      "line_end": 32
+    },
+    {
+      "name": "List",
+      "kind": "method",
+      "exported": true,
+      "line_start": 34,
+      "line_end": 47
+    },
+    {
+      "name": "GetStats",
+      "kind": "method",
+      "exported": true,
+      "line_start": 49,
+      "line_end": 55
+    },
+    {
+      "name": "Cleanup",
+      "kind": "method",
+      "exported": true,
+      "line_start": 57,
+      "line_end": 63
+    },
+    {
+      "name": "Close",
+      "kind": "method",
+      "exported": true,
+      "line_start": 65,
+      "line_end": 70
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

@@ -1,0 +1,131 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/tui/tab_logs.go",
+  "hash": "c74193a3e0a450d39cd3b52089e3a15ba7bd14da673c8e8b110236256377c6f5",
+  "symbols": [
+    {
+      "name": "maxLogEntries",
+      "kind": "constant",
+      "exported": false,
+      "line_start": 15,
+      "line_end": 15
+    },
+    {
+      "name": "logsPollingInterval",
+      "kind": "constant",
+      "exported": false,
+      "line_start": 16,
+      "line_end": 16
+    },
+    {
+      "name": "logsTickMsg",
+      "kind": "class",
+      "exported": false,
+      "line_start": 30,
+      "line_end": 30
+    },
+    {
+      "name": "LogsTab",
+      "kind": "class",
+      "exported": true,
+      "line_start": 35,
+      "line_end": 49
+    },
+    {
+      "name": "newLogsTab",
+      "kind": "function",
+      "exported": false,
+      "line_start": 51,
+      "line_end": 60
+    },
+    {
+      "name": "logsTickCmd",
+      "kind": "function",
+      "exported": false,
+      "line_start": 63,
+      "line_end": 67
+    },
+    {
+      "name": "Init",
+      "kind": "method",
+      "exported": true,
+      "line_start": 73,
+      "line_end": 78
+    },
+    {
+      "name": "Update",
+      "kind": "method",
+      "exported": true,
+      "line_start": 83,
+      "line_end": 136
+    },
+    {
+      "name": "View",
+      "kind": "method",
+      "exported": true,
+      "line_start": 141,
+      "line_end": 169
+    },
+    {
+      "name": "renderEntries",
+      "kind": "method",
+      "exported": false,
+      "line_start": 172,
+      "line_end": 179
+    },
+    {
+      "name": "formatLogEntry",
+      "kind": "function",
+      "exported": false,
+      "line_start": 182,
+      "line_end": 205
+    },
+    {
+      "name": "styledEvent",
+      "kind": "function",
+      "exported": false,
+      "line_start": 208,
+      "line_end": 217
+    },
+    {
+      "name": "resizeViewport",
+      "kind": "method",
+      "exported": false,
+      "line_start": 221,
+      "line_end": 242
+    }
+  ],
+  "imports": [
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    },
+    {
+      "source": "charm.land/bubbles/v2/key",
+      "type": "import"
+    },
+    {
+      "source": "charm.land/bubbles/v2/viewport",
+      "type": "import"
+    },
+    {
+      "source": "charm.land/bubbletea/v2",
+      "type": "import"
+    },
+    {
+      "source": "charm.land/lipgloss/v2",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/repository/template_repository.go",
+  "hash": "74b7d68da16d7357f1902c8b7fb666bc380c0bee31f0c83c763306d6fff78235",
+  "symbols": [
+    {
+      "name": "YAMLTemplateRepository",
+      "kind": "class",
+      "exported": true,
+      "line_start": 18,
+      "line_end": 22
+    },
+    {
+      "name": "NewYAMLTemplateRepository",
+      "kind": "function",
+      "exported": true,
+      "line_start": 25,
+      "line_end": 30
+    },
+    {
+      "name": "GetTemplate",
+      "kind": "method",
+      "exported": true,
+      "line_start": 33,
+      "line_end": 59
+    },
+    {
+      "name": "ListTemplates",
+      "kind": "method",
+      "exported": true,
+      "line_start": 62,
+      "line_end": 83
+    },
+    {
+      "name": "Exists",
+      "kind": "method",
+      "exported": true,
+      "line_start": 86,
+      "line_end": 94
+    },
+    {
+      "name": "loadTemplate",
+      "kind": "method",
+      "exported": false,
+      "line_start": 96,
+      "line_end": 113
+    },
+    {
+      "name": "parseStates",
+      "kind": "method",
+      "exported": false,
+      "line_start": 123,
+      "line_end": 170
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "errors",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "path/filepath",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "sync",
+      "type": "import"
+    },
+    {
+      "source": "gopkg.in/yaml.v3",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

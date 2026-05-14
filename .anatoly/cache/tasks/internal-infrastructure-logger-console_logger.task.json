@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/logger/console_logger.go",
+  "hash": "d57c097ff0066f17b5e4c9e58fe1112e24c09b587e0a5e05bc8f27e694fc02bb",
+  "symbols": [
+    {
+      "name": "ConsoleLogger",
+      "kind": "class",
+      "exported": true,
+      "line_start": 14,
+      "line_end": 20
+    },
+    {
+      "name": "NewConsoleLogger",
+      "kind": "function",
+      "exported": true,
+      "line_start": 23,
+      "line_end": 30
+    },
+    {
+      "name": "Debug",
+      "kind": "method",
+      "exported": true,
+      "line_start": 32,
+      "line_end": 37
+    },
+    {
+      "name": "Info",
+      "kind": "method",
+      "exported": true,
+      "line_start": 39,
+      "line_end": 44
+    },
+    {
+      "name": "Warn",
+      "kind": "method",
+      "exported": true,
+      "line_start": 46,
+      "line_end": 51
+    },
+    {
+      "name": "Error",
+      "kind": "method",
+      "exported": true,
+      "line_start": 53,
+      "line_end": 58
+    },
+    {
+      "name": "WithContext",
+      "kind": "method",
+      "exported": true,
+      "line_start": 60,
+      "line_end": 72
+    },
+    {
+      "name": "log",
+      "kind": "method",
+      "exported": false,
+      "line_start": 74,
+      "line_end": 98
+    },
+    {
+      "name": "formatFields",
+      "kind": "method",
+      "exported": false,
+      "line_start": 100,
+      "line_end": 116
+    },
+    {
+      "name": "formatKV",
+      "kind": "method",
+      "exported": false,
+      "line_start": 118,
+      "line_end": 128
+    }
+  ],
+  "imports": [
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "io",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    },
+    {
+      "source": "github.com/fatih/color",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "file": "pkg/plugin/sdk/step_type.go",
+  "hash": "ce1ffce1989a3efd4e1fe6190000ac1426b3f9c09907dd995c877c42476f8f21",
+  "symbols": [
+    {
+      "name": "StepTypeInfo",
+      "kind": "class",
+      "exported": true,
+      "line_start": 12,
+      "line_end": 15
+    },
+    {
+      "name": "StepExecuteRequest",
+      "kind": "class",
+      "exported": true,
+      "line_start": 18,
+      "line_end": 23
+    },
+    {
+      "name": "StepExecuteResult",
+      "kind": "class",
+      "exported": true,
+      "line_start": 26,
+      "line_end": 30
+    },
+    {
+      "name": "StepTypeHandler",
+      "kind": "type",
+      "exported": true,
+      "line_start": 37,
+      "line_end": 40
+    },
+    {
+      "name": "stepTypeServiceServer",
+      "kind": "class",
+      "exported": false,
+      "line_start": 44,
+      "line_end": 47
+    },
+    {
+      "name": "ListStepTypes",
+      "kind": "method",
+      "exported": true,
+      "line_start": 49,
+      "line_end": 64
+    },
+    {
+      "name": "ExecuteStep",
+      "kind": "method",
+      "exported": true,
+      "line_start": 66,
+      "line_end": 110
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "encoding/json",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/proto/plugin/v1",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

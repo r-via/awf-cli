@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "file": "internal/domain/workflow/validation.go",
+  "hash": "609302e855f37f6c0d2a89ce264a991e86dccdac8aaf6641a5179754c1321db4",
+  "symbols": [
+    {
+      "name": "InputValidation",
+      "kind": "class",
+      "exported": true,
+      "line_start": 4,
+      "line_end": 11
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

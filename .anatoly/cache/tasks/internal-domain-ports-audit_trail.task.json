@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "file": "internal/domain/ports/audit_trail.go",
+  "hash": "e2b19cdb6e8a1d97bf3b0293518085f1be0ce9f3a31e3e6139c336d48cfab359",
+  "symbols": [
+    {
+      "name": "AuditTrailWriter",
+      "kind": "type",
+      "exported": true,
+      "line_start": 10,
+      "line_end": 13
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

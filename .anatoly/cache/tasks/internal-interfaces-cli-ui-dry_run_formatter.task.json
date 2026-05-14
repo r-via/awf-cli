@@ -1,0 +1,172 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/cli/ui/dry_run_formatter.go",
+  "hash": "b0c6ab2c035ef01125193678b98c79f82142a960de2dec8ca7d639c14750654a",
+  "symbols": [
+    {
+      "name": "DryRunFormatter",
+      "kind": "class",
+      "exported": true,
+      "line_start": 13,
+      "line_end": 16
+    },
+    {
+      "name": "NewDryRunFormatter",
+      "kind": "function",
+      "exported": true,
+      "line_start": 19,
+      "line_end": 24
+    },
+    {
+      "name": "Format",
+      "kind": "method",
+      "exported": true,
+      "line_start": 27,
+      "line_end": 40
+    },
+    {
+      "name": "formatHeader",
+      "kind": "method",
+      "exported": false,
+      "line_start": 43,
+      "line_end": 100
+    },
+    {
+      "name": "formatStep",
+      "kind": "method",
+      "exported": false,
+      "line_start": 103,
+      "line_end": 159
+    },
+    {
+      "name": "formatStepHeader",
+      "kind": "method",
+      "exported": false,
+      "line_start": 162,
+      "line_end": 184
+    },
+    {
+      "name": "formatStepTypeDetails",
+      "kind": "method",
+      "exported": false,
+      "line_start": 187,
+      "line_end": 214
+    },
+    {
+      "name": "formatHooks",
+      "kind": "method",
+      "exported": false,
+      "line_start": 217,
+      "line_end": 251
+    },
+    {
+      "name": "formatTransitions",
+      "kind": "method",
+      "exported": false,
+      "line_start": 254,
+      "line_end": 278
+    },
+    {
+      "name": "formatLoopStep",
+      "kind": "method",
+      "exported": false,
+      "line_start": 281,
+      "line_end": 339
+    },
+    {
+      "name": "formatParallelStep",
+      "kind": "method",
+      "exported": false,
+      "line_start": 342,
+      "line_end": 368
+    },
+    {
+      "name": "formatAgentStep",
+      "kind": "method",
+      "exported": false,
+      "line_start": 371,
+      "line_end": 394
+    },
+    {
+      "name": "formatFooter",
+      "kind": "method",
+      "exported": false,
+      "line_start": 397,
+      "line_end": 404
+    },
+    {
+      "name": "stepTypeLabel",
+      "kind": "function",
+      "exported": false,
+      "line_start": 407,
+      "line_end": 424
+    },
+    {
+      "name": "NewDryRunFormatterWithWriter",
+      "kind": "function",
+      "exported": true,
+      "line_start": 427,
+      "line_end": 432
+    },
+    {
+      "name": "FormatFieldIfPresent",
+      "kind": "method",
+      "exported": true,
+      "line_start": 435,
+      "line_end": 447
+    },
+    {
+      "name": "FormatIntFieldIfPositive",
+      "kind": "method",
+      "exported": true,
+      "line_start": 450,
+      "line_end": 459
+    },
+    {
+      "name": "FormatRetry",
+      "kind": "method",
+      "exported": true,
+      "line_start": 462,
+      "line_end": 475
+    },
+    {
+      "name": "FormatCapture",
+      "kind": "method",
+      "exported": true,
+      "line_start": 478,
+      "line_end": 504
+    },
+    {
+      "name": "formatAgentOptions",
+      "kind": "method",
+      "exported": false,
+      "line_start": 507,
+      "line_end": 528
+    }
+  ],
+  "imports": [
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "io",
+      "type": "import"
+    },
+    {
+      "source": "sort",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

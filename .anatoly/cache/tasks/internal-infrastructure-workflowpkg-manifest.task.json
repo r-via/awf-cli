@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/workflowpkg/manifest.go",
+  "hash": "39954a03c3b95bdab07b349d9b73cea08f742f04828c198ddf1f6028247cf40d",
+  "symbols": [
+    {
+      "name": "Manifest",
+      "kind": "class",
+      "exported": true,
+      "line_start": 16,
+      "line_end": 25
+    },
+    {
+      "name": "ParseManifest",
+      "kind": "function",
+      "exported": true,
+      "line_start": 28,
+      "line_end": 39
+    },
+    {
+      "name": "Validate",
+      "kind": "method",
+      "exported": true,
+      "line_start": 46,
+      "line_end": 76
+    }
+  ],
+  "imports": [
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "path/filepath",
+      "type": "import"
+    },
+    {
+      "source": "regexp",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/pkg/registry",
+      "type": "import"
+    },
+    {
+      "source": "gopkg.in/yaml.v3",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

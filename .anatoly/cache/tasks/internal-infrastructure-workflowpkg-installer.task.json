@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/workflowpkg/installer.go",
+  "hash": "b1389831a05cf82958d1160c57f1c2e01506bd011f468ae18df939d6460f3a7c",
+  "symbols": [
+    {
+      "name": "ManifestFileName",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 17,
+      "line_end": 17
+    },
+    {
+      "name": "MaxManifestSize",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 20,
+      "line_end": 20
+    },
+    {
+      "name": "readFileLimited",
+      "kind": "function",
+      "exported": false,
+      "line_start": 23,
+      "line_end": 43
+    },
+    {
+      "name": "PackInstaller",
+      "kind": "class",
+      "exported": true,
+      "line_start": 47,
+      "line_end": 50
+    },
+    {
+      "name": "NewPackInstaller",
+      "kind": "function",
+      "exported": true,
+      "line_start": 53,
+      "line_end": 64
+    },
+    {
+      "name": "Install",
+      "kind": "method",
+      "exported": true,
+      "line_start": 73,
+      "line_end": 178
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "encoding/json",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "io",
+      "type": "import"
+    },
+    {
+      "source": "net/http",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "path/filepath",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/pkg/httpx",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/pkg/registry",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

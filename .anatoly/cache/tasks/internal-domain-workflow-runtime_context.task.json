@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "file": "internal/domain/workflow/runtime_context.go",
+  "hash": "c8e7b72469617a7165b56d9dc551965d2bbc5b9cb4ea6f9f473899b3e37163f7",
+  "symbols": [
+    {
+      "name": "RuntimeContext",
+      "kind": "class",
+      "exported": true,
+      "line_start": 7,
+      "line_end": 15
+    },
+    {
+      "name": "RuntimeStepState",
+      "kind": "class",
+      "exported": true,
+      "line_start": 18,
+      "line_end": 23
+    },
+    {
+      "name": "RuntimeWorkflowData",
+      "kind": "class",
+      "exported": true,
+      "line_start": 26,
+      "line_end": 31
+    },
+    {
+      "name": "Duration",
+      "kind": "method",
+      "exported": true,
+      "line_start": 34,
+      "line_end": 36
+    },
+    {
+      "name": "RuntimeContextData",
+      "kind": "class",
+      "exported": true,
+      "line_start": 39,
+      "line_end": 43
+    },
+    {
+      "name": "RuntimeErrorData",
+      "kind": "class",
+      "exported": true,
+      "line_start": 46,
+      "line_end": 51
+    },
+    {
+      "name": "RuntimeLoopData",
+      "kind": "class",
+      "exported": true,
+      "line_start": 54,
+      "line_end": 61
+    },
+    {
+      "name": "Index1",
+      "kind": "method",
+      "exported": true,
+      "line_start": 64,
+      "line_end": 66
+    }
+  ],
+  "imports": [
+    {
+      "source": "time",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

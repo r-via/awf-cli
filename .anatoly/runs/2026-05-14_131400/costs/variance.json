@@ -1,0 +1,36 @@
+{
+  "byComposer": {
+    "unknown": {
+      "estimatedUsd": 0,
+      "actualUsd": 0,
+      "deviationPct": 0
+    },
+    "axes.correction": {
+      "estimatedUsd": 0,
+      "actualUsd": 0,
+      "deviationPct": 0
+    },
+    "axes.duplication": {
+      "estimatedUsd": 0,
+      "actualUsd": 0,
+      "deviationPct": 0
+    }
+  },
+  "byPhase": {
+    "rag-index": {
+      "estimatedUsd": 0,
+      "actualUsd": 0,
+      "deviationPct": 0
+    },
+    "review": {
+      "estimatedUsd": 0,
+      "actualUsd": 0,
+      "deviationPct": 0
+    },
+    "refinement": {
+      "estimatedUsd": 0,
+      "actualUsd": 0,
+      "deviationPct": 0
+    }
+  }
+}

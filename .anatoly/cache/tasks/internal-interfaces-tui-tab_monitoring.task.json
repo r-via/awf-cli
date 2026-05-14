@@ -1,0 +1,290 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/tui/tab_monitoring.go",
+  "hash": "80cf38b10bf787138718ed7fa4b1e974acb8db2fddfea68d6aa789abead48317",
+  "symbols": [
+    {
+      "name": "stepInputText",
+      "kind": "function",
+      "exported": false,
+      "line_start": 20,
+      "line_end": 54
+    },
+    {
+      "name": "renderTruncated",
+      "kind": "function",
+      "exported": false,
+      "line_start": 58,
+      "line_end": 68
+    },
+    {
+      "name": "monitoringTickInterval",
+      "kind": "constant",
+      "exported": false,
+      "line_start": 71,
+      "line_end": 71
+    },
+    {
+      "name": "tickMsg",
+      "kind": "class",
+      "exported": false,
+      "line_start": 74,
+      "line_end": 74
+    },
+    {
+      "name": "executionPollMsg",
+      "kind": "class",
+      "exported": false,
+      "line_start": 77,
+      "line_end": 79
+    },
+    {
+      "name": "MonitoringTab",
+      "kind": "class",
+      "exported": true,
+      "line_start": 91,
+      "line_end": 132
+    },
+    {
+      "name": "newMonitoringTab",
+      "kind": "function",
+      "exported": false,
+      "line_start": 134,
+      "line_end": 153
+    },
+    {
+      "name": "Init",
+      "kind": "method",
+      "exported": true,
+      "line_start": 158,
+      "line_end": 160
+    },
+    {
+      "name": "Update",
+      "kind": "method",
+      "exported": true,
+      "line_start": 165,
+      "line_end": 317
+    },
+    {
+      "name": "SetExecCtx",
+      "kind": "method",
+      "exported": true,
+      "line_start": 321,
+      "line_end": 327
+    },
+    {
+      "name": "SetStream",
+      "kind": "method",
+      "exported": true,
+      "line_start": 330,
+      "line_end": 333
+    },
+    {
+      "name": "SetInputReader",
+      "kind": "method",
+      "exported": true,
+      "line_start": 337,
+      "line_end": 339
+    },
+    {
+      "name": "InputActive",
+      "kind": "method",
+      "exported": true,
+      "line_start": 342,
+      "line_end": 344
+    },
+    {
+      "name": "View",
+      "kind": "method",
+      "exported": true,
+      "line_start": 349,
+      "line_end": 401
+    },
+    {
+      "name": "scheduleTick",
+      "kind": "function",
+      "exported": false,
+      "line_start": 404,
+      "line_end": 408
+    },
+    {
+      "name": "rebuildTree",
+      "kind": "method",
+      "exported": false,
+      "line_start": 411,
+      "line_end": 440
+    },
+    {
+      "name": "findStep",
+      "kind": "method",
+      "exported": false,
+      "line_start": 443,
+      "line_end": 450
+    },
+    {
+      "name": "updateViewportContent",
+      "kind": "method",
+      "exported": false,
+      "line_start": 453,
+      "line_end": 482
+    },
+    {
+      "name": "renderSelectedStepChat",
+      "kind": "method",
+      "exported": false,
+      "line_start": 485,
+      "line_end": 502
+    },
+    {
+      "name": "convReset",
+      "kind": "method",
+      "exported": false,
+      "line_start": 507,
+      "line_end": 511
+    },
+    {
+      "name": "convStart",
+      "kind": "method",
+      "exported": false,
+      "line_start": 514,
+      "line_end": 518
+    },
+    {
+      "name": "convAppendNewTurns",
+      "kind": "method",
+      "exported": false,
+      "line_start": 521,
+      "line_end": 556
+    },
+    {
+      "name": "convApplyToViewport",
+      "kind": "method",
+      "exported": false,
+      "line_start": 560,
+      "line_end": 581
+    },
+    {
+      "name": "renderStepBlock",
+      "kind": "method",
+      "exported": false,
+      "line_start": 586,
+      "line_end": 672
+    },
+    {
+      "name": "autoSelectRunning",
+      "kind": "method",
+      "exported": false,
+      "line_start": 675,
+      "line_end": 682
+    },
+    {
+      "name": "autoSelectFailed",
+      "kind": "method",
+      "exported": false,
+      "line_start": 685,
+      "line_end": 694
+    },
+    {
+      "name": "selectedStepOutput",
+      "kind": "method",
+      "exported": false,
+      "line_start": 697,
+      "line_end": 724
+    },
+    {
+      "name": "renderTreeWithSelection",
+      "kind": "method",
+      "exported": false,
+      "line_start": 727,
+      "line_end": 746
+    },
+    {
+      "name": "resizeInputField",
+      "kind": "method",
+      "exported": false,
+      "line_start": 749,
+      "line_end": 757
+    },
+    {
+      "name": "resizeViewport",
+      "kind": "method",
+      "exported": false,
+      "line_start": 760,
+      "line_end": 780
+    },
+    {
+      "name": "panelWidths",
+      "kind": "method",
+      "exported": false,
+      "line_start": 783,
+      "line_end": 793
+    },
+    {
+      "name": "panelHeight",
+      "kind": "method",
+      "exported": false,
+      "line_start": 796,
+      "line_end": 803
+    },
+    {
+      "name": "flattenTree",
+      "kind": "function",
+      "exported": false,
+      "line_start": 806,
+      "line_end": 813
+    },
+    {
+      "name": "treesFromFlat",
+      "kind": "function",
+      "exported": false,
+      "line_start": 817,
+      "line_end": 825
+    }
+  ],
+  "imports": [
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    },
+    {
+      "source": "charm.land/bubbles/v2/key",
+      "type": "import"
+    },
+    {
+      "source": "charm.land/bubbles/v2/spinner",
+      "type": "import"
+    },
+    {
+      "source": "charm.land/bubbles/v2/textinput",
+      "type": "import"
+    },
+    {
+      "source": "charm.land/bubbles/v2/viewport",
+      "type": "import"
+    },
+    {
+      "source": "charm.land/bubbletea/v2",
+      "type": "import"
+    },
+    {
+      "source": "charm.land/lipgloss/v2",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

@@ -1,0 +1,171 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/agents/copilot_provider.go",
+  "hash": "49ed4364e0e6e4fcee2f0b4dabf90935425834f333418e8fffda3916b36ac5e3",
+  "symbols": [
+    {
+      "name": "CopilotProvider",
+      "kind": "class",
+      "exported": true,
+      "line_start": 19,
+      "line_end": 24
+    },
+    {
+      "name": "NewCopilotProvider",
+      "kind": "function",
+      "exported": true,
+      "line_start": 26,
+      "line_end": 33
+    },
+    {
+      "name": "NewCopilotProviderWithOptions",
+      "kind": "function",
+      "exported": true,
+      "line_start": 35,
+      "line_end": 45
+    },
+    {
+      "name": "newBase",
+      "kind": "method",
+      "exported": false,
+      "line_start": 47,
+      "line_end": 61
+    },
+    {
+      "name": "Execute",
+      "kind": "method",
+      "exported": true,
+      "line_start": 63,
+      "line_end": 76
+    },
+    {
+      "name": "ExecuteConversation",
+      "kind": "method",
+      "exported": true,
+      "line_start": 78,
+      "line_end": 84
+    },
+    {
+      "name": "Name",
+      "kind": "method",
+      "exported": true,
+      "line_start": 86,
+      "line_end": 88
+    },
+    {
+      "name": "Validate",
+      "kind": "method",
+      "exported": true,
+      "line_start": 90,
+      "line_end": 96
+    },
+    {
+      "name": "buildCopilotExecuteArgs",
+      "kind": "method",
+      "exported": false,
+      "line_start": 98,
+      "line_end": 102
+    },
+    {
+      "name": "buildCopilotConversationArgs",
+      "kind": "method",
+      "exported": false,
+      "line_start": 104,
+      "line_end": 114
+    },
+    {
+      "name": "appendCopilotOptions",
+      "kind": "function",
+      "exported": false,
+      "line_start": 117,
+      "line_end": 144
+    },
+    {
+      "name": "toStringSlice",
+      "kind": "function",
+      "exported": false,
+      "line_start": 146,
+      "line_end": 160
+    },
+    {
+      "name": "validateCopilotOptions",
+      "kind": "function",
+      "exported": false,
+      "line_start": 162,
+      "line_end": 185
+    },
+    {
+      "name": "extractCopilotSessionID",
+      "kind": "method",
+      "exported": false,
+      "line_start": 187,
+      "line_end": 204
+    },
+    {
+      "name": "extractCopilotTokenUsage",
+      "kind": "method",
+      "exported": false,
+      "line_start": 206,
+      "line_end": 223
+    },
+    {
+      "name": "parseCopilotDisplayEvents",
+      "kind": "method",
+      "exported": false,
+      "line_start": 225,
+      "line_end": 246
+    },
+    {
+      "name": "extractCopilotTextContent",
+      "kind": "method",
+      "exported": false,
+      "line_start": 250,
+      "line_end": 273
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "encoding/json",
+      "type": "import"
+    },
+    {
+      "source": "errors",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "io",
+      "type": "import"
+    },
+    {
+      "source": "os/exec",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/logger",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

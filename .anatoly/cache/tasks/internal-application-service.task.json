@@ -1,0 +1,129 @@
+{
+  "version": 1,
+  "file": "internal/application/service.go",
+  "hash": "7a72cb70fd5209d36e90fc4abaf68cc39f4774ae365267a2b7745b2502a5ec16",
+  "symbols": [
+    {
+      "name": "WorkflowService",
+      "kind": "class",
+      "exported": true,
+      "line_start": 17,
+      "line_end": 25
+    },
+    {
+      "name": "NewWorkflowService",
+      "kind": "function",
+      "exported": true,
+      "line_start": 27,
+      "line_end": 41
+    },
+    {
+      "name": "SetValidatorProvider",
+      "kind": "method",
+      "exported": true,
+      "line_start": 43,
+      "line_end": 45
+    },
+    {
+      "name": "SetPackDiscoverer",
+      "kind": "method",
+      "exported": true,
+      "line_start": 47,
+      "line_end": 49
+    },
+    {
+      "name": "ListAllWorkflows",
+      "kind": "method",
+      "exported": true,
+      "line_start": 51,
+      "line_end": 75
+    },
+    {
+      "name": "ListWorkflows",
+      "kind": "method",
+      "exported": true,
+      "line_start": 77,
+      "line_end": 83
+    },
+    {
+      "name": "GetWorkflow",
+      "kind": "method",
+      "exported": true,
+      "line_start": 85,
+      "line_end": 99
+    },
+    {
+      "name": "ValidateWorkflow",
+      "kind": "method",
+      "exported": true,
+      "line_start": 101,
+      "line_end": 133
+    },
+    {
+      "name": "validatePromptFiles",
+      "kind": "method",
+      "exported": false,
+      "line_start": 135,
+      "line_end": 207
+    },
+    {
+      "name": "validateWithPluginProvider",
+      "kind": "method",
+      "exported": false,
+      "line_start": 209,
+      "line_end": 231
+    },
+    {
+      "name": "WorkflowExists",
+      "kind": "method",
+      "exported": true,
+      "line_start": 233,
+      "line_end": 239
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "encoding/json",
+      "type": "import"
+    },
+    {
+      "source": "errors",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "path/filepath",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/errors",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

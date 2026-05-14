@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/pluginmgr/loader.go",
+  "hash": "841829f7bf646245c180cd38f4f5cb428bcf78b716ab589cabfedc130dd2d414",
+  "symbols": [
+    {
+      "name": "LoaderError",
+      "kind": "class",
+      "exported": true,
+      "line_start": 15,
+      "line_end": 20
+    },
+    {
+      "name": "Error",
+      "kind": "method",
+      "exported": true,
+      "line_start": 23,
+      "line_end": 28
+    },
+    {
+      "name": "Unwrap",
+      "kind": "method",
+      "exported": true,
+      "line_start": 31,
+      "line_end": 33
+    },
+    {
+      "name": "NewLoaderError",
+      "kind": "function",
+      "exported": true,
+      "line_start": 36,
+      "line_end": 42
+    },
+    {
+      "name": "WrapLoaderError",
+      "kind": "function",
+      "exported": true,
+      "line_start": 45,
+      "line_end": 52
+    },
+    {
+      "name": "ManifestFileName",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 55,
+      "line_end": 55
+    },
+    {
+      "name": "FileSystemLoader",
+      "kind": "class",
+      "exported": true,
+      "line_start": 67,
+      "line_end": 69
+    },
+    {
+      "name": "NewFileSystemLoader",
+      "kind": "function",
+      "exported": true,
+      "line_start": 72,
+      "line_end": 76
+    },
+    {
+      "name": "DiscoverPlugins",
+      "kind": "method",
+      "exported": true,
+      "line_start": 80,
+      "line_end": 134
+    },
+    {
+      "name": "LoadPlugin",
+      "kind": "method",
+      "exported": true,
+      "line_start": 138,
+      "line_end": 178
+    },
+    {
+      "name": "ValidatePlugin",
+      "kind": "method",
+      "exported": true,
+      "line_start": 182,
+      "line_end": 228
+    },
+    {
+      "name": "isValidCapability",
+      "kind": "function",
+      "exported": false,
+      "line_start": 231,
+      "line_end": 238
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "path/filepath",
+      "type": "import"
+    },
+    {
+      "source": "regexp",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/pluginmodel",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

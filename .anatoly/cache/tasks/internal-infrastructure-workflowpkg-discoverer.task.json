@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/workflowpkg/discoverer.go",
+  "hash": "3d720b27979a9fbe107bee0a965ed823955924f36d7fdacc18b8ab530bde8389",
+  "symbols": [
+    {
+      "name": "PackDiscovererAdapter",
+      "kind": "class",
+      "exported": true,
+      "line_start": 17,
+      "line_end": 20
+    },
+    {
+      "name": "NewPackDiscovererAdapter",
+      "kind": "function",
+      "exported": true,
+      "line_start": 24,
+      "line_end": 29
+    },
+    {
+      "name": "DiscoverWorkflows",
+      "kind": "method",
+      "exported": true,
+      "line_start": 35,
+      "line_end": 80
+    },
+    {
+      "name": "LoadWorkflow",
+      "kind": "method",
+      "exported": true,
+      "line_start": 84,
+      "line_end": 97
+    },
+    {
+      "name": "loadWorkflowDescription",
+      "kind": "function",
+      "exported": false,
+      "line_start": 101,
+      "line_end": 113
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "path/filepath",
+      "type": "import"
+    },
+    {
+      "source": "gopkg.in/yaml.v3",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/repository",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "file": "internal/application/dry_run_executor.go",
+  "hash": "5d11253f3fb73b3ce5ad88bd850f9d9f90752530faa7a54fdf396e455c07ac4d",
+  "symbols": [
+    {
+      "name": "DryRunExecutor",
+      "kind": "class",
+      "exported": true,
+      "line_start": 14,
+      "line_end": 21
+    },
+    {
+      "name": "NewDryRunExecutor",
+      "kind": "function",
+      "exported": true,
+      "line_start": 23,
+      "line_end": 35
+    },
+    {
+      "name": "SetTemplateService",
+      "kind": "method",
+      "exported": true,
+      "line_start": 37,
+      "line_end": 39
+    },
+    {
+      "name": "SetAWFPaths",
+      "kind": "method",
+      "exported": true,
+      "line_start": 42,
+      "line_end": 44
+    },
+    {
+      "name": "Execute",
+      "kind": "method",
+      "exported": true,
+      "line_start": 46,
+      "line_end": 65
+    },
+    {
+      "name": "buildPlan",
+      "kind": "method",
+      "exported": false,
+      "line_start": 67,
+      "line_end": 128
+    },
+    {
+      "name": "collectNextSteps",
+      "kind": "method",
+      "exported": false,
+      "line_start": 130,
+      "line_end": 160
+    },
+    {
+      "name": "buildStepPlan",
+      "kind": "method",
+      "exported": false,
+      "line_start": 162,
+      "line_end": 234
+    },
+    {
+      "name": "resolveInputs",
+      "kind": "method",
+      "exported": false,
+      "line_start": 236,
+      "line_end": 273
+    },
+    {
+      "name": "buildTransitions",
+      "kind": "method",
+      "exported": false,
+      "line_start": 275,
+      "line_end": 322
+    },
+    {
+      "name": "buildHooks",
+      "kind": "method",
+      "exported": false,
+      "line_start": 324,
+      "line_end": 352
+    },
+    {
+      "name": "resolveCommand",
+      "kind": "method",
+      "exported": false,
+      "line_start": 357,
+      "line_end": 373
+    },
+    {
+      "name": "buildAgentConfig",
+      "kind": "method",
+      "exported": false,
+      "line_start": 375,
+      "line_end": 400
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/pkg/interpolation",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "file": "pkg/httpx/response.go",
+  "hash": "633a189d1b15403ce0e366b660c918646bfba085c299d8065cb723049618b03e",
+  "symbols": [
+    {
+      "name": "Response",
+      "kind": "class",
+      "exported": true,
+      "line_start": 14,
+      "line_end": 19
+    },
+    {
+      "name": "ReadBody",
+      "kind": "function",
+      "exported": true,
+      "line_start": 27,
+      "line_end": 50
+    },
+    {
+      "name": "isTolerableEOF",
+      "kind": "function",
+      "exported": false,
+      "line_start": 54,
+      "line_end": 56
+    }
+  ],
+  "imports": [
+    {
+      "source": "errors",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "io",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

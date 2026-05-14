@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/logger/masker.go",
+  "hash": "74b6c8b61a14bc806e8bab8ccb3607bd13b057e50d34be6b8390f1b927c211d3",
+  "symbols": [
+    {
+      "name": "SecretMasker",
+      "kind": "class",
+      "exported": true,
+      "line_start": 6,
+      "line_end": 8
+    },
+    {
+      "name": "NewSecretMasker",
+      "kind": "function",
+      "exported": true,
+      "line_start": 19,
+      "line_end": 24
+    },
+    {
+      "name": "IsSecretKey",
+      "kind": "method",
+      "exported": true,
+      "line_start": 27,
+      "line_end": 35
+    },
+    {
+      "name": "MaskFields",
+      "kind": "method",
+      "exported": true,
+      "line_start": 39,
+      "line_end": 58
+    },
+    {
+      "name": "MaskText",
+      "kind": "method",
+      "exported": true,
+      "line_start": 61,
+      "line_end": 105
+    }
+  ],
+  "imports": [
+    {
+      "source": "strings",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

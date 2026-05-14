@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/cli/plugins.go",
+  "hash": "056ef61a5b39d88be4ab056614794d72c44bd030d68190a4a940620cb6861396",
+  "symbols": [
+    {
+      "name": "PluginSystemResult",
+      "kind": "class",
+      "exported": true,
+      "line_start": 14,
+      "line_end": 21
+    },
+    {
+      "name": "initPluginSystem",
+      "kind": "function",
+      "exported": false,
+      "line_start": 29,
+      "line_end": 51
+    },
+    {
+      "name": "getPluginSearchPaths",
+      "kind": "function",
+      "exported": false,
+      "line_start": 55,
+      "line_end": 66
+    },
+    {
+      "name": "findExistingDirs",
+      "kind": "function",
+      "exported": false,
+      "line_start": 69,
+      "line_end": 78
+    },
+    {
+      "name": "findFirstExistingDir",
+      "kind": "function",
+      "exported": false,
+      "line_start": 81,
+      "line_end": 87
+    },
+    {
+      "name": "findPluginDir",
+      "kind": "function",
+      "exported": false,
+      "line_start": 93,
+      "line_end": 108
+    },
+    {
+      "name": "resolvePluginStateName",
+      "kind": "function",
+      "exported": false,
+      "line_start": 112,
+      "line_end": 122
+    },
+    {
+      "name": "registerBuiltins",
+      "kind": "function",
+      "exported": false,
+      "line_start": 126,
+      "line_end": 143
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "path/filepath",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/application",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/pluginmgr",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

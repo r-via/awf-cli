@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/github/batch.go",
+  "hash": "ab754611093be080029a14e16db62b4eb70d792aaf1433b3b9bf798e941fee04",
+  "symbols": [
+    {
+      "name": "BatchExecutor",
+      "kind": "class",
+      "exported": true,
+      "line_start": 19,
+      "line_end": 22
+    },
+    {
+      "name": "NewBatchExecutor",
+      "kind": "function",
+      "exported": true,
+      "line_start": 32,
+      "line_end": 37
+    },
+    {
+      "name": "BatchConfig",
+      "kind": "class",
+      "exported": true,
+      "line_start": 40,
+      "line_end": 45
+    },
+    {
+      "name": "BatchResult",
+      "kind": "class",
+      "exported": true,
+      "line_start": 48,
+      "line_end": 53
+    },
+    {
+      "name": "Execute",
+      "kind": "method",
+      "exported": true,
+      "line_start": 70,
+      "line_end": 126
+    },
+    {
+      "name": "validateOperation",
+      "kind": "method",
+      "exported": false,
+      "line_start": 129,
+      "line_end": 153
+    },
+    {
+      "name": "executeAllSucceed",
+      "kind": "method",
+      "exported": false,
+      "line_start": 156,
+      "line_end": 201
+    },
+    {
+      "name": "executeAnySucceed",
+      "kind": "method",
+      "exported": false,
+      "line_start": 204,
+      "line_end": 293
+    },
+    {
+      "name": "executeBestEffort",
+      "kind": "method",
+      "exported": false,
+      "line_start": 296,
+      "line_end": 348
+    },
+    {
+      "name": "executeOperation",
+      "kind": "method",
+      "exported": false,
+      "line_start": 351,
+      "line_end": 369
+    },
+    {
+      "name": "makeSemaphore",
+      "kind": "method",
+      "exported": false,
+      "line_start": 373,
+      "line_end": 378
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "sync",
+      "type": "import"
+    },
+    {
+      "source": "golang.org/x/sync/errgroup",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/pluginmodel",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

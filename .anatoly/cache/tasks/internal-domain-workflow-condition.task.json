@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "file": "internal/domain/workflow/condition.go",
+  "hash": "51cde2dfff873d941d2d0f3c519b4e40764975c48b318e8683d54b4c950ce59d",
+  "symbols": [
+    {
+      "name": "Transition",
+      "kind": "class",
+      "exported": true,
+      "line_start": 8,
+      "line_end": 11
+    },
+    {
+      "name": "Transitions",
+      "kind": "type",
+      "exported": true,
+      "line_start": 15,
+      "line_end": 15
+    },
+    {
+      "name": "HasDefault",
+      "kind": "method",
+      "exported": true,
+      "line_start": 17,
+      "line_end": 24
+    },
+    {
+      "name": "Validate",
+      "kind": "method",
+      "exported": true,
+      "line_start": 26,
+      "line_end": 31
+    },
+    {
+      "name": "String",
+      "kind": "method",
+      "exported": true,
+      "line_start": 33,
+      "line_end": 38
+    },
+    {
+      "name": "Validate",
+      "kind": "method",
+      "exported": true,
+      "line_start": 40,
+      "line_end": 47
+    },
+    {
+      "name": "GetTargetStates",
+      "kind": "method",
+      "exported": true,
+      "line_start": 49,
+      "line_end": 55
+    },
+    {
+      "name": "DefaultIndex",
+      "kind": "method",
+      "exported": true,
+      "line_start": 57,
+      "line_end": 64
+    },
+    {
+      "name": "EvaluatorFunc",
+      "kind": "type",
+      "exported": true,
+      "line_start": 66,
+      "line_end": 66
+    },
+    {
+      "name": "EvaluateFirstMatch",
+      "kind": "method",
+      "exported": true,
+      "line_start": 68,
+      "line_end": 85
+    }
+  ],
+  "imports": [
+    {
+      "source": "errors",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

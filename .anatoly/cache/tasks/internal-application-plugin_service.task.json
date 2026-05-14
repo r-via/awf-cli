@@ -1,0 +1,190 @@
+{
+  "version": 1,
+  "file": "internal/application/plugin_service.go",
+  "hash": "a6f48587b923db96a88affbd66196475bf84cd47bc7c5a47ed52fcfa7da74fa2",
+  "symbols": [
+    {
+      "name": "PluginService",
+      "kind": "class",
+      "exported": true,
+      "line_start": 25,
+      "line_end": 30
+    },
+    {
+      "name": "NewPluginService",
+      "kind": "function",
+      "exported": true,
+      "line_start": 33,
+      "line_end": 44
+    },
+    {
+      "name": "RegisterBuiltin",
+      "kind": "method",
+      "exported": true,
+      "line_start": 48,
+      "line_end": 60
+    },
+    {
+      "name": "isKnownPlugin",
+      "kind": "method",
+      "exported": false,
+      "line_start": 63,
+      "line_end": 72
+    },
+    {
+      "name": "DiscoverPlugins",
+      "kind": "method",
+      "exported": true,
+      "line_start": 76,
+      "line_end": 103
+    },
+    {
+      "name": "LoadPlugin",
+      "kind": "method",
+      "exported": true,
+      "line_start": 107,
+      "line_end": 129
+    },
+    {
+      "name": "InitPlugin",
+      "kind": "method",
+      "exported": true,
+      "line_start": 133,
+      "line_end": 156
+    },
+    {
+      "name": "LoadAndInitPlugin",
+      "kind": "method",
+      "exported": true,
+      "line_start": 160,
+      "line_end": 165
+    },
+    {
+      "name": "ShutdownPlugin",
+      "kind": "method",
+      "exported": true,
+      "line_start": 168,
+      "line_end": 181
+    },
+    {
+      "name": "ShutdownAll",
+      "kind": "method",
+      "exported": true,
+      "line_start": 184,
+      "line_end": 197
+    },
+    {
+      "name": "EnablePlugin",
+      "kind": "method",
+      "exported": true,
+      "line_start": 201,
+      "line_end": 218
+    },
+    {
+      "name": "DisablePlugin",
+      "kind": "method",
+      "exported": true,
+      "line_start": 221,
+      "line_end": 250
+    },
+    {
+      "name": "SetPluginConfig",
+      "kind": "method",
+      "exported": true,
+      "line_start": 253,
+      "line_end": 266
+    },
+    {
+      "name": "GetPluginConfig",
+      "kind": "method",
+      "exported": true,
+      "line_start": 269,
+      "line_end": 274
+    },
+    {
+      "name": "GetPlugin",
+      "kind": "method",
+      "exported": true,
+      "line_start": 278,
+      "line_end": 286
+    },
+    {
+      "name": "ListPlugins",
+      "kind": "method",
+      "exported": true,
+      "line_start": 289,
+      "line_end": 308
+    },
+    {
+      "name": "ListEnabledPlugins",
+      "kind": "method",
+      "exported": true,
+      "line_start": 311,
+      "line_end": 345
+    },
+    {
+      "name": "ListDisabledPlugins",
+      "kind": "method",
+      "exported": true,
+      "line_start": 348,
+      "line_end": 353
+    },
+    {
+      "name": "IsPluginEnabled",
+      "kind": "method",
+      "exported": true,
+      "line_start": 356,
+      "line_end": 361
+    },
+    {
+      "name": "SaveState",
+      "kind": "method",
+      "exported": true,
+      "line_start": 364,
+      "line_end": 377
+    },
+    {
+      "name": "LoadState",
+      "kind": "method",
+      "exported": true,
+      "line_start": 380,
+      "line_end": 393
+    },
+    {
+      "name": "StartupEnabledPlugins",
+      "kind": "method",
+      "exported": true,
+      "line_start": 397,
+      "line_end": 426
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "errors",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "slices",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/pluginmodel",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

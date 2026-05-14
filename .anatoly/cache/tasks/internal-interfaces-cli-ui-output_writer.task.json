@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/cli/ui/output_writer.go",
+  "hash": "0cfaab4ae1e463fe8384074362b276099ca0d382f15353360aaa3325ca4e3b48",
+  "symbols": [
+    {
+      "name": "PrefixType",
+      "kind": "type",
+      "exported": true,
+      "line_start": 10,
+      "line_end": 10
+    },
+    {
+      "name": "PrefixStdout",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 13,
+      "line_end": 13
+    },
+    {
+      "name": "PrefixStderr",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 14,
+      "line_end": 14
+    },
+    {
+      "name": "PrefixedWriter",
+      "kind": "class",
+      "exported": true,
+      "line_start": 18,
+      "line_end": 25
+    },
+    {
+      "name": "NewPrefixedWriter",
+      "kind": "function",
+      "exported": true,
+      "line_start": 28,
+      "line_end": 35
+    },
+    {
+      "name": "Write",
+      "kind": "method",
+      "exported": true,
+      "line_start": 38,
+      "line_end": 60
+    },
+    {
+      "name": "Flush",
+      "kind": "method",
+      "exported": true,
+      "line_start": 63,
+      "line_end": 72
+    },
+    {
+      "name": "writePrefixedLine",
+      "kind": "method",
+      "exported": false,
+      "line_start": 74,
+      "line_end": 78
+    },
+    {
+      "name": "buildPrefix",
+      "kind": "method",
+      "exported": false,
+      "line_start": 80,
+      "line_end": 103
+    }
+  ],
+  "imports": [
+    {
+      "source": "bytes",
+      "type": "import"
+    },
+    {
+      "source": "io",
+      "type": "import"
+    },
+    {
+      "source": "sync",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "file": "internal/domain/errors/catalog.go",
+  "hash": "62b4638da92873ba18d3e8290f9b0932dd2558a7210d9dcf6ff9f22cbd650017",
+  "symbols": [
+    {
+      "name": "CatalogEntry",
+      "kind": "class",
+      "exported": true,
+      "line_start": 6,
+      "line_end": 18
+    },
+    {
+      "name": "GetCatalogEntry",
+      "kind": "function",
+      "exported": true,
+      "line_start": 120,
+      "line_end": 123
+    },
+    {
+      "name": "AllErrorCodes",
+      "kind": "function",
+      "exported": true,
+      "line_start": 127,
+      "line_end": 133
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

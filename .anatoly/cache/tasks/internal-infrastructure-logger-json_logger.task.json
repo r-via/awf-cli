@@ -1,0 +1,166 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/logger/json_logger.go",
+  "hash": "0f00e71117d17dbc1af1bf4439f43e189f0ac6520b13cdff2ea4524054aa015a",
+  "symbols": [
+    {
+      "name": "Level",
+      "kind": "type",
+      "exported": true,
+      "line_start": 15,
+      "line_end": 15
+    },
+    {
+      "name": "LevelDebug",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 18,
+      "line_end": 18
+    },
+    {
+      "name": "LevelInfo",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 19,
+      "line_end": 19
+    },
+    {
+      "name": "LevelWarn",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 20,
+      "line_end": 20
+    },
+    {
+      "name": "LevelError",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 21,
+      "line_end": 21
+    },
+    {
+      "name": "String",
+      "kind": "method",
+      "exported": true,
+      "line_start": 24,
+      "line_end": 37
+    },
+    {
+      "name": "toZapLevel",
+      "kind": "method",
+      "exported": false,
+      "line_start": 39,
+      "line_end": 52
+    },
+    {
+      "name": "ParseLevel",
+      "kind": "function",
+      "exported": true,
+      "line_start": 55,
+      "line_end": 68
+    },
+    {
+      "name": "JSONLogger",
+      "kind": "class",
+      "exported": true,
+      "line_start": 71,
+      "line_end": 75
+    },
+    {
+      "name": "NewJSONLogger",
+      "kind": "function",
+      "exported": true,
+      "line_start": 78,
+      "line_end": 108
+    },
+    {
+      "name": "Debug",
+      "kind": "method",
+      "exported": true,
+      "line_start": 110,
+      "line_end": 112
+    },
+    {
+      "name": "Info",
+      "kind": "method",
+      "exported": true,
+      "line_start": 114,
+      "line_end": 116
+    },
+    {
+      "name": "Warn",
+      "kind": "method",
+      "exported": true,
+      "line_start": 118,
+      "line_end": 120
+    },
+    {
+      "name": "Error",
+      "kind": "method",
+      "exported": true,
+      "line_start": 122,
+      "line_end": 124
+    },
+    {
+      "name": "WithContext",
+      "kind": "method",
+      "exported": true,
+      "line_start": 126,
+      "line_end": 136
+    },
+    {
+      "name": "Sync",
+      "kind": "method",
+      "exported": true,
+      "line_start": 139,
+      "line_end": 144
+    },
+    {
+      "name": "Close",
+      "kind": "method",
+      "exported": true,
+      "line_start": 147,
+      "line_end": 156
+    },
+    {
+      "name": "toZapFields",
+      "kind": "method",
+      "exported": false,
+      "line_start": 158,
+      "line_end": 171
+    }
+  ],
+  "imports": [
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "path/filepath",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    },
+    {
+      "source": "go.uber.org/zap",
+      "type": "import"
+    },
+    {
+      "source": "go.uber.org/zap/zapcore",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

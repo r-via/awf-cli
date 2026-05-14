@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/github/doc.go",
+  "hash": "ea03f593720b32cdd8b52aea555fde3253f240b31610da6610ae0c18134ecb59",
+  "symbols": [],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

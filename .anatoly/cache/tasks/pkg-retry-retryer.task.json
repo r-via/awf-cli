@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "file": "pkg/retry/retryer.go",
+  "hash": "f77446fdd02dc7d133fe5b0ef62353b9cdabdf37a613d3808c5e6b02e75886d2",
+  "symbols": [
+    {
+      "name": "Config",
+      "kind": "class",
+      "exported": true,
+      "line_start": 11,
+      "line_end": 19
+    },
+    {
+      "name": "Logger",
+      "kind": "type",
+      "exported": true,
+      "line_start": 22,
+      "line_end": 25
+    },
+    {
+      "name": "Retryer",
+      "kind": "class",
+      "exported": true,
+      "line_start": 28,
+      "line_end": 32
+    },
+    {
+      "name": "NewRetryer",
+      "kind": "function",
+      "exported": true,
+      "line_start": 35,
+      "line_end": 41
+    },
+    {
+      "name": "ShouldRetry",
+      "kind": "method",
+      "exported": true,
+      "line_start": 44,
+      "line_end": 54
+    },
+    {
+      "name": "NextDelay",
+      "kind": "method",
+      "exported": true,
+      "line_start": 57,
+      "line_end": 67
+    },
+    {
+      "name": "Wait",
+      "kind": "method",
+      "exported": true,
+      "line_start": 70,
+      "line_end": 90
+    },
+    {
+      "name": "IsRetryableExitCode",
+      "kind": "method",
+      "exported": true,
+      "line_start": 93,
+      "line_end": 109
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "math/rand",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/pluginmgr/grpc_host.go",
+  "hash": "88749753f45a4fda07fe3f691303d9010bd4808cc7e7f7393745610df6c650ef",
+  "symbols": [
+    {
+      "name": "convertExecuteResponse",
+      "kind": "function",
+      "exported": false,
+      "line_start": 12,
+      "line_end": 33
+    },
+    {
+      "name": "convertOperationSchema",
+      "kind": "function",
+      "exported": false,
+      "line_start": 37,
+      "line_end": 58
+    },
+    {
+      "name": "convertInputSchema",
+      "kind": "function",
+      "exported": false,
+      "line_start": 62,
+      "line_end": 79
+    }
+  ],
+  "imports": [
+    {
+      "source": "encoding/json",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/pluginmodel",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/proto/plugin/v1",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

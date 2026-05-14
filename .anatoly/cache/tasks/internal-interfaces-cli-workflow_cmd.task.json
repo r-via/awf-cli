@@ -1,0 +1,276 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/cli/workflow_cmd.go",
+  "hash": "446019334ed64a22e73774ff711613b0784cdda87c8c1816fd509baacb7db1f8",
+  "symbols": [
+    {
+      "name": "newWorkflowCommand",
+      "kind": "function",
+      "exported": false,
+      "line_start": 24,
+      "line_end": 39
+    },
+    {
+      "name": "newWorkflowListCommand",
+      "kind": "function",
+      "exported": false,
+      "line_start": 41,
+      "line_end": 56
+    },
+    {
+      "name": "runWorkflowList",
+      "kind": "function",
+      "exported": false,
+      "line_start": 58,
+      "line_end": 123
+    },
+    {
+      "name": "newWorkflowInfoCommand",
+      "kind": "function",
+      "exported": false,
+      "line_start": 125,
+      "line_end": 141
+    },
+    {
+      "name": "readManifestData",
+      "kind": "function",
+      "exported": false,
+      "line_start": 144,
+      "line_end": 152
+    },
+    {
+      "name": "loadWorkflowDescription",
+      "kind": "function",
+      "exported": false,
+      "line_start": 156,
+      "line_end": 173
+    },
+    {
+      "name": "workflowPackSearchDirs",
+      "kind": "function",
+      "exported": false,
+      "line_start": 176,
+      "line_end": 188
+    },
+    {
+      "name": "findPackDir",
+      "kind": "function",
+      "exported": false,
+      "line_start": 192,
+      "line_end": 203
+    },
+    {
+      "name": "runWorkflowInfo",
+      "kind": "function",
+      "exported": false,
+      "line_start": 205,
+      "line_end": 272
+    },
+    {
+      "name": "workflowInstallFlags",
+      "kind": "class",
+      "exported": false,
+      "line_start": 274,
+      "line_end": 278
+    },
+    {
+      "name": "newWorkflowInstallCommand",
+      "kind": "function",
+      "exported": false,
+      "line_start": 280,
+      "line_end": 307
+    },
+    {
+      "name": "parseOwnerRepoAndVersion",
+      "kind": "function",
+      "exported": false,
+      "line_start": 310,
+      "line_end": 320
+    },
+    {
+      "name": "extractPackName",
+      "kind": "function",
+      "exported": false,
+      "line_start": 323,
+      "line_end": 329
+    },
+    {
+      "name": "effectiveCLIVersion",
+      "kind": "function",
+      "exported": false,
+      "line_start": 334,
+      "line_end": 342
+    },
+    {
+      "name": "findPackAsset",
+      "kind": "function",
+      "exported": false,
+      "line_start": 346,
+      "line_end": 353
+    },
+    {
+      "name": "findChecksumInRelease",
+      "kind": "function",
+      "exported": false,
+      "line_start": 356,
+      "line_end": 380
+    },
+    {
+      "name": "runWorkflowInstall",
+      "kind": "function",
+      "exported": false,
+      "line_start": 382,
+      "line_end": 468
+    },
+    {
+      "name": "emitPluginWarnings",
+      "kind": "function",
+      "exported": false,
+      "line_start": 473,
+      "line_end": 494
+    },
+    {
+      "name": "workflowUpdateFlags",
+      "kind": "class",
+      "exported": false,
+      "line_start": 496,
+      "line_end": 498
+    },
+    {
+      "name": "newWorkflowUpdateCommand",
+      "kind": "function",
+      "exported": false,
+      "line_start": 500,
+      "line_end": 532
+    },
+    {
+      "name": "newWorkflowGitHubClient",
+      "kind": "function",
+      "exported": false,
+      "line_start": 535,
+      "line_end": 538
+    },
+    {
+      "name": "discoverAllPacks",
+      "kind": "function",
+      "exported": false,
+      "line_start": 542,
+      "line_end": 553
+    },
+    {
+      "name": "runWorkflowUpdate",
+      "kind": "function",
+      "exported": false,
+      "line_start": 555,
+      "line_end": 591
+    },
+    {
+      "name": "updateSinglePack",
+      "kind": "function",
+      "exported": false,
+      "line_start": 595,
+      "line_end": 674
+    },
+    {
+      "name": "newWorkflowRemoveCommand",
+      "kind": "function",
+      "exported": false,
+      "line_start": 676,
+      "line_end": 691
+    },
+    {
+      "name": "newWorkflowSearchCommand",
+      "kind": "function",
+      "exported": false,
+      "line_start": 693,
+      "line_end": 727
+    },
+    {
+      "name": "runWorkflowSearch",
+      "kind": "function",
+      "exported": false,
+      "line_start": 729,
+      "line_end": 798
+    },
+    {
+      "name": "runWorkflowRemove",
+      "kind": "function",
+      "exported": false,
+      "line_start": 800,
+      "line_end": 812
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "encoding/json",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "io",
+      "type": "import"
+    },
+    {
+      "source": "net/http",
+      "type": "import"
+    },
+    {
+      "source": "net/url",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "path/filepath",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/application",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/workflowpkg",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/xdg",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/interfaces/cli/ui",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/pkg/registry",
+      "type": "import"
+    },
+    {
+      "source": "github.com/spf13/cobra",
+      "type": "import"
+    },
+    {
+      "source": "gopkg.in/yaml.v3",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

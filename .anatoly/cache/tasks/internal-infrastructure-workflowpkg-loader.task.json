@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/workflowpkg/loader.go",
+  "hash": "43c1991f6abbae37b91a54b0ecbb833f61d48ac68283f07fdd1d934cab7abb9d",
+  "symbols": [
+    {
+      "name": "PackLoader",
+      "kind": "class",
+      "exported": true,
+      "line_start": 12,
+      "line_end": 12
+    },
+    {
+      "name": "NewPackLoader",
+      "kind": "function",
+      "exported": true,
+      "line_start": 15,
+      "line_end": 17
+    },
+    {
+      "name": "DiscoverPacks",
+      "kind": "method",
+      "exported": true,
+      "line_start": 23,
+      "line_end": 90
+    },
+    {
+      "name": "LoadPackState",
+      "kind": "method",
+      "exported": true,
+      "line_start": 94,
+      "line_end": 108
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "encoding/json",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "path/filepath",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

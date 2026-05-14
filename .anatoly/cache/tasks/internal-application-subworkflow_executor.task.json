@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "file": "internal/application/subworkflow_executor.go",
+  "hash": "cee98d9b0806f0e5325aacb628e516955d42db38ecd89ad627e13e806349b3d0",
+  "symbols": [
+    {
+      "name": "SplitCallWorkflowName",
+      "kind": "function",
+      "exported": true,
+      "line_start": 29,
+      "line_end": 35
+    },
+    {
+      "name": "executeCallWorkflowStep",
+      "kind": "method",
+      "exported": false,
+      "line_start": 52,
+      "line_end": 239
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "errors",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

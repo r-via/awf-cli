@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/tui/doc.go",
+  "hash": "103585891924fdf82e7d01726390c1746a16aaaecf509181dd6962103b99481b",
+  "symbols": [],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

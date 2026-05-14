@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/cli/signal_handler.go",
+  "hash": "017b23c6faf1c39c4cdf4d753710bb8c48afd56de8b2c0e5aad2aee6faf47b7a",
+  "symbols": [
+    {
+      "name": "setupSignalHandler",
+      "kind": "function",
+      "exported": false,
+      "line_start": 13,
+      "line_end": 28
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "os/signal",
+      "type": "import"
+    },
+    {
+      "source": "syscall",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

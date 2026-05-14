@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/store/json_store.go",
+  "hash": "4e88a2c8d91a1378eb02e1ed1f0ea5858d63ea1ef1f99dc9c6528b6de77e8b10",
+  "symbols": [
+    {
+      "name": "JSONStore",
+      "kind": "class",
+      "exported": true,
+      "line_start": 17,
+      "line_end": 19
+    },
+    {
+      "name": "NewJSONStore",
+      "kind": "function",
+      "exported": true,
+      "line_start": 22,
+      "line_end": 24
+    },
+    {
+      "name": "Save",
+      "kind": "method",
+      "exported": true,
+      "line_start": 28,
+      "line_end": 71
+    },
+    {
+      "name": "Load",
+      "kind": "method",
+      "exported": true,
+      "line_start": 74,
+      "line_end": 91
+    },
+    {
+      "name": "Delete",
+      "kind": "method",
+      "exported": true,
+      "line_start": 94,
+      "line_end": 102
+    },
+    {
+      "name": "List",
+      "kind": "method",
+      "exported": true,
+      "line_start": 105,
+      "line_end": 119
+    },
+    {
+      "name": "filePath",
+      "kind": "method",
+      "exported": false,
+      "line_start": 121,
+      "line_end": 123
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "encoding/json",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "path/filepath",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "syscall",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

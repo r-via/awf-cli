@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "file": "pkg/registry/doc.go",
+  "hash": "bf4d1295ff52f00c67faa80e82e3f4a868e9de59fab3ef588e4b8dfba6c22d08",
+  "symbols": [],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/pluginmgr/stream_manager.go",
+  "hash": "d4b268cb75f6f8f5d265ed07c96d91fbb1d4fe397684b236f169f83888079ad4",
+  "symbols": [
+    {
+      "name": "defaultStreamTimeout",
+      "kind": "constant",
+      "exported": false,
+      "line_start": 15,
+      "line_end": 15
+    },
+    {
+      "name": "EventStreamSender",
+      "kind": "type",
+      "exported": true,
+      "line_start": 18,
+      "line_end": 20
+    },
+    {
+      "name": "streamEntry",
+      "kind": "class",
+      "exported": false,
+      "line_start": 22,
+      "line_end": 25
+    },
+    {
+      "name": "StreamManager",
+      "kind": "class",
+      "exported": true,
+      "line_start": 28,
+      "line_end": 33
+    },
+    {
+      "name": "NewStreamManager",
+      "kind": "function",
+      "exported": true,
+      "line_start": 38,
+      "line_end": 44
+    },
+    {
+      "name": "RegisterStream",
+      "kind": "method",
+      "exported": true,
+      "line_start": 47,
+      "line_end": 51
+    },
+    {
+      "name": "UnregisterStream",
+      "kind": "method",
+      "exported": true,
+      "line_start": 54,
+      "line_end": 58
+    },
+    {
+      "name": "HasStream",
+      "kind": "method",
+      "exported": true,
+      "line_start": 61,
+      "line_end": 66
+    },
+    {
+      "name": "GetDeliverer",
+      "kind": "method",
+      "exported": true,
+      "line_start": 69,
+      "line_end": 82
+    },
+    {
+      "name": "Close",
+      "kind": "method",
+      "exported": true,
+      "line_start": 85,
+      "line_end": 89
+    },
+    {
+      "name": "streamDeliverer",
+      "kind": "class",
+      "exported": false,
+      "line_start": 91,
+      "line_end": 96
+    },
+    {
+      "name": "DeliverEvent",
+      "kind": "method",
+      "exported": true,
+      "line_start": 98,
+      "line_end": 111
+    },
+    {
+      "name": "sendWithTimeout",
+      "kind": "function",
+      "exported": false,
+      "line_start": 113,
+      "line_end": 130
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "sync",
+      "type": "import"
+    },
+    {
+      "source": "sync/atomic",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/pluginmodel",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/proto/plugin/v1",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

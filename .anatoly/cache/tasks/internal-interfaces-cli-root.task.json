@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/cli/root.go",
+  "hash": "607db48cabb68362345e59031c64021af18ef6e0e6644b8acbbf1be96577917f",
+  "symbols": [
+    {
+      "name": "App",
+      "kind": "class",
+      "exported": true,
+      "line_start": 19,
+      "line_end": 22
+    },
+    {
+      "name": "NewApp",
+      "kind": "function",
+      "exported": true,
+      "line_start": 24,
+      "line_end": 33
+    },
+    {
+      "name": "NewRootCommand",
+      "kind": "function",
+      "exported": true,
+      "line_start": 35,
+      "line_end": 104
+    },
+    {
+      "name": "newVersionCommand",
+      "kind": "function",
+      "exported": false,
+      "line_start": 106,
+      "line_end": 117
+    }
+  ],
+  "imports": [
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/interfaces/cli/ui",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/interfaces/tui",
+      "type": "import"
+    },
+    {
+      "source": "github.com/spf13/cobra",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

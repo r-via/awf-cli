@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "file": "internal/domain/ports/executor.go",
+  "hash": "0b7c83aa4be6911b89a9e46a3abf7b7cab021520a83f3f866086793af7e2df2f",
+  "symbols": [
+    {
+      "name": "Command",
+      "kind": "class",
+      "exported": true,
+      "line_start": 20,
+      "line_end": 27
+    },
+    {
+      "name": "CommandResult",
+      "kind": "class",
+      "exported": true,
+      "line_start": 29,
+      "line_end": 33
+    },
+    {
+      "name": "CommandExecutor",
+      "kind": "type",
+      "exported": true,
+      "line_start": 35,
+      "line_end": 37
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "io",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/notify/webhook.go",
+  "hash": "1c3c7c89307eb809e27a32b9b103a14e09791b87f89afc7015bf85e227267554",
+  "symbols": [
+    {
+      "name": "webhookBackend",
+      "kind": "class",
+      "exported": false,
+      "line_start": 21,
+      "line_end": 28
+    },
+    {
+      "name": "newWebhookBackend",
+      "kind": "function",
+      "exported": false,
+      "line_start": 32,
+      "line_end": 37
+    },
+    {
+      "name": "NewWebhookBackend",
+      "kind": "function",
+      "exported": true,
+      "line_start": 42,
+      "line_end": 44
+    },
+    {
+      "name": "Send",
+      "kind": "method",
+      "exported": true,
+      "line_start": 52,
+      "line_end": 110
+    },
+    {
+      "name": "buildWebhookPayload",
+      "kind": "function",
+      "exported": false,
+      "line_start": 114,
+      "line_end": 140
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "encoding/json",
+      "type": "import"
+    },
+    {
+      "source": "errors",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "sync/atomic",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/pkg/httpx",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

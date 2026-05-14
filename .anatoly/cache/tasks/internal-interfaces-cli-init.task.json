@@ -1,0 +1,162 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/cli/init.go",
+  "hash": "3543e6f1957e0b21efc5ca47a39572dd4299d0dea63efb0cea5b9f6b531c28a2",
+  "symbols": [
+    {
+      "name": "awfDir",
+      "kind": "constant",
+      "exported": false,
+      "line_start": 14,
+      "line_end": 14
+    },
+    {
+      "name": "workflowsDir",
+      "kind": "constant",
+      "exported": false,
+      "line_start": 15,
+      "line_end": 15
+    },
+    {
+      "name": "promptsDir",
+      "kind": "constant",
+      "exported": false,
+      "line_start": 16,
+      "line_end": 16
+    },
+    {
+      "name": "scriptsDir",
+      "kind": "constant",
+      "exported": false,
+      "line_start": 17,
+      "line_end": 17
+    },
+    {
+      "name": "configFileName",
+      "kind": "constant",
+      "exported": false,
+      "line_start": 18,
+      "line_end": 18
+    },
+    {
+      "name": "projectConfigFile",
+      "kind": "constant",
+      "exported": false,
+      "line_start": 19,
+      "line_end": 19
+    },
+    {
+      "name": "exampleFile",
+      "kind": "constant",
+      "exported": false,
+      "line_start": 20,
+      "line_end": 20
+    },
+    {
+      "name": "examplePromptFile",
+      "kind": "constant",
+      "exported": false,
+      "line_start": 21,
+      "line_end": 21
+    },
+    {
+      "name": "exampleScriptFile",
+      "kind": "constant",
+      "exported": false,
+      "line_start": 22,
+      "line_end": 22
+    },
+    {
+      "name": "newInitCommand",
+      "kind": "function",
+      "exported": false,
+      "line_start": 25,
+      "line_end": 65
+    },
+    {
+      "name": "runInit",
+      "kind": "function",
+      "exported": false,
+      "line_start": 67,
+      "line_end": 142
+    },
+    {
+      "name": "runInitGlobal",
+      "kind": "function",
+      "exported": false,
+      "line_start": 144,
+      "line_end": 187
+    },
+    {
+      "name": "writeFileUnlessExists",
+      "kind": "function",
+      "exported": false,
+      "line_start": 191,
+      "line_end": 201
+    },
+    {
+      "name": "createConfigFile",
+      "kind": "function",
+      "exported": false,
+      "line_start": 203,
+      "line_end": 215
+    },
+    {
+      "name": "createExampleWorkflow",
+      "kind": "function",
+      "exported": false,
+      "line_start": 217,
+      "line_end": 233
+    },
+    {
+      "name": "createProjectConfigFile",
+      "kind": "function",
+      "exported": false,
+      "line_start": 235,
+      "line_end": 251
+    },
+    {
+      "name": "createExampleScript",
+      "kind": "function",
+      "exported": false,
+      "line_start": 253,
+      "line_end": 267
+    },
+    {
+      "name": "createExamplePrompt",
+      "kind": "function",
+      "exported": false,
+      "line_start": 269,
+      "line_end": 294
+    }
+  ],
+  "imports": [
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "path/filepath",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/xdg",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/interfaces/cli/ui",
+      "type": "import"
+    },
+    {
+      "source": "github.com/spf13/cobra",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

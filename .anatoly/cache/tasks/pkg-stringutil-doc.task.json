@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "file": "pkg/stringutil/doc.go",
+  "hash": "7147075b33b757b12d51b346a4c733ce8aea981d92a065e8796346291c694a54",
+  "symbols": [],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

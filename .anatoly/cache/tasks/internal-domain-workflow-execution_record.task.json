@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "file": "internal/domain/workflow/execution_record.go",
+  "hash": "083817be27d0d339eb5b9b3fb1413c49112d797d47145c240189e48a6ac664e7",
+  "symbols": [
+    {
+      "name": "ExecutionRecord",
+      "kind": "class",
+      "exported": true,
+      "line_start": 7,
+      "line_end": 17
+    },
+    {
+      "name": "HistoryFilter",
+      "kind": "class",
+      "exported": true,
+      "line_start": 20,
+      "line_end": 26
+    },
+    {
+      "name": "HistoryStats",
+      "kind": "class",
+      "exported": true,
+      "line_start": 29,
+      "line_end": 35
+    }
+  ],
+  "imports": [
+    {
+      "source": "time",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

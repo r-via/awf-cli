@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/audit/doc.go",
+  "hash": "6c2b86142c731d0cb8ead7cb84a1540f3e938e68df08469d4f8a972f33160489",
+  "symbols": [],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

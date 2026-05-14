@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/audit/file_writer.go",
+  "hash": "b960d7506d4b5a384454d03039ddd42ba910f23e91fbd0a4c1f605670514572e",
+  "symbols": [
+    {
+      "name": "posixPipeBuf",
+      "kind": "constant",
+      "exported": false,
+      "line_start": 18,
+      "line_end": 18
+    },
+    {
+      "name": "FileAuditTrailWriter",
+      "kind": "class",
+      "exported": true,
+      "line_start": 22,
+      "line_end": 25
+    },
+    {
+      "name": "NewFileAuditTrailWriter",
+      "kind": "function",
+      "exported": true,
+      "line_start": 29,
+      "line_end": 41
+    },
+    {
+      "name": "Write",
+      "kind": "method",
+      "exported": true,
+      "line_start": 46,
+      "line_end": 67
+    },
+    {
+      "name": "Close",
+      "kind": "method",
+      "exported": true,
+      "line_start": 70,
+      "line_end": 82
+    },
+    {
+      "name": "marshalJSONL",
+      "kind": "function",
+      "exported": false,
+      "line_start": 85,
+      "line_end": 91
+    },
+    {
+      "name": "truncateInputs",
+      "kind": "function",
+      "exported": false,
+      "line_start": 95,
+      "line_end": 116
+    },
+    {
+      "name": "longestInputKey",
+      "kind": "function",
+      "exported": false,
+      "line_start": 119,
+      "line_end": 135
+    },
+    {
+      "name": "valueLength",
+      "kind": "function",
+      "exported": false,
+      "line_start": 138,
+      "line_end": 145
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "path/filepath",
+      "type": "import"
+    },
+    {
+      "source": "sort",
+      "type": "import"
+    },
+    {
+      "source": "sync",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

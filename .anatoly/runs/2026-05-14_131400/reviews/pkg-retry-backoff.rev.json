@@ -1,0 +1,166 @@
+{
+  "version": 2,
+  "file": "pkg/retry/backoff.go",
+  "is_generated": false,
+  "language": "go",
+  "parse_method": "ast",
+  "verdict": "NEEDS_REFACTOR",
+  "symbols": [
+    {
+      "name": "Strategy",
+      "kind": "type",
+      "exported": true,
+      "line_start": 10,
+      "line_end": 10,
+      "correction": "OK",
+      "overengineering": "-",
+      "utility": "DEAD",
+      "duplication": "UNIQUE",
+      "tests": "-",
+      "documentation": "-",
+      "confidence": 90,
+      "detail": "[DEAD] Exported but imported by 0 files | [UNIQUE] No similar functions found in codebase | [OK] Plain string typedef; no logic to evaluate.",
+      "findings": []
+    },
+    {
+      "name": "StrategyConstant",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 14,
+      "line_end": 14,
+      "correction": "OK",
+      "overengineering": "-",
+      "utility": "DEAD",
+      "duplication": "UNIQUE",
+      "tests": "-",
+      "documentation": "-",
+      "confidence": 90,
+      "detail": "[DEAD] Exported but imported by 0 files | [UNIQUE] No similar functions found in codebase | [OK] Constant declaration is correct.",
+      "findings": []
+    },
+    {
+      "name": "StrategyLinear",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 16,
+      "line_end": 16,
+      "correction": "OK",
+      "overengineering": "-",
+      "utility": "DEAD",
+      "duplication": "UNIQUE",
+      "tests": "-",
+      "documentation": "-",
+      "confidence": 90,
+      "detail": "[DEAD] Exported but imported by 0 files | [UNIQUE] No similar functions found in codebase | [OK] Constant declaration is correct.",
+      "findings": []
+    },
+    {
+      "name": "StrategyExponential",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 18,
+      "line_end": 18,
+      "correction": "OK",
+      "overengineering": "-",
+      "utility": "DEAD",
+      "duplication": "UNIQUE",
+      "tests": "-",
+      "documentation": "-",
+      "confidence": 90,
+      "detail": "[DEAD] Exported but imported by 0 files | [UNIQUE] No similar functions found in codebase | [OK] Constant declaration is correct.",
+      "findings": []
+    },
+    {
+      "name": "Valid",
+      "kind": "method",
+      "exported": true,
+      "line_start": 22,
+      "line_end": 29,
+      "correction": "OK",
+      "overengineering": "-",
+      "utility": "DEAD",
+      "duplication": "UNIQUE",
+      "tests": "-",
+      "documentation": "-",
+      "confidence": 90,
+      "detail": "[DEAD] Exported but imported by 0 files | [UNIQUE] No similar functions found in codebase | [OK] Empty string accepted as valid matches CalculateDelay's default-to-constant behaviour; no logic errors.",
+      "findings": []
+    },
+    {
+      "name": "CalculateDelay",
+      "kind": "function",
+      "exported": true,
+      "line_start": 33,
+      "line_end": 56,
+      "correction": "OK",
+      "overengineering": "-",
+      "utility": "DEAD",
+      "duplication": "UNIQUE",
+      "tests": "-",
+      "documentation": "-",
+      "confidence": 90,
+      "detail": "[DEAD] Exported but imported by 0 files | [UNIQUE] No similar functions found in codebase | [OK] All three formulas match their doc-comment specs. Exponential loop produces multiplier^(attempt-1) correctly. maxDelay cap applied after delay computed.",
+      "findings": []
+    },
+    {
+      "name": "ApplyJitter",
+      "kind": "function",
+      "exported": true,
+      "line_start": 60,
+      "line_end": 74,
+      "correction": "OK",
+      "overengineering": "-",
+      "utility": "DEAD",
+      "duplication": "UNIQUE",
+      "tests": "-",
+      "documentation": "-",
+      "confidence": 90,
+      "detail": "[DEAD] Exported but imported by 0 files | [UNIQUE] No similar functions found in codebase | [OK] randomFactor in [-1,1) yields jitterAmount in [-delay*jitter, delay*jitter), consistent with documented ±(delay*jitter) range. Negative-result guard is correct safety net for jitter>1.0 callers.",
+      "findings": []
+    }
+  ],
+  "actions": [
+    {
+      "id": 1,
+      "description": "Remove dead code: `Strategy` is exported but unused `Strategy`, `StrategyConstant`, `StrategyLinear`, `StrategyExponential`, `Valid`, `CalculateDelay`, `ApplyJitter`",
+      "severity": "high",
+      "effort": "trivial",
+      "category": "quickwin",
+      "source": "utility",
+      "target_symbol": "Strategy, StrategyConstant, StrategyLinear, StrategyExponential, Valid, CalculateDelay, ApplyJitter",
+      "target_lines": "L10-L10, L14-L14, L16-L16, L18-L18, L22-L29, L33-L56, L60-L74"
+    },
+    {
+      "id": 2,
+      "description": "Add Go doc comment documentation for exported symbol:  `Strategy`, `StrategyConstant`, `StrategyLinear`, `StrategyExponential`, `Valid`, `CalculateDelay`, `ApplyJitter`",
+      "severity": "medium",
+      "effort": "trivial",
+      "category": "hygiene",
+      "source": "documentation",
+      "target_symbol": "Strategy, StrategyConstant, StrategyLinear, StrategyExponential, Valid, CalculateDelay, ApplyJitter",
+      "target_lines": "L10-L10, L14-L14, L16-L16, L18-L18, L22-L29, L33-L56, L60-L74"
+    }
+  ],
+  "file_level": {
+    "unused_imports": [],
+    "circular_dependencies": [],
+    "general_notes": ""
+  },
+  "axis_meta": {
+    "utility": {
+      "model": "unknown",
+      "cost_usd": 0,
+      "duration_ms": 0
+    },
+    "duplication": {
+      "model": "unknown",
+      "cost_usd": 0,
+      "duration_ms": 0
+    },
+    "correction": {
+      "model": "claude-sonnet-4-6",
+      "cost_usd": 0.27767125000000004,
+      "duration_ms": 77090
+    }
+  }
+}

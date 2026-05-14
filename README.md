@@ -290,3 +290,7 @@ Companies seeking exemption from copyleft obligations can obtain a commercial li
 - Clients of [Vanoix](https://vanoix.com), [akawaka](https://akawaka.fr), [d11n Studio](https://d11n.studio) (author's company)
 
 **Contact:** awf@alexandre.vanoix.com
+
+<!-- checked-by-anatoly -->
+[![Checked by Anatoly](https://img.shields.io/badge/checked%20by-Anatoly-blue)](https://github.com/r-via/anatoly)
+<!-- /checked-by-anatoly -->

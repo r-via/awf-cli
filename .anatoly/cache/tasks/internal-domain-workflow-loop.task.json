@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "file": "internal/domain/workflow/loop.go",
+  "hash": "fb50f45ee52cf9c70a260461b1e242eb784673569363c07467ae18294dfd63f8",
+  "symbols": [
+    {
+      "name": "LoopType",
+      "kind": "type",
+      "exported": true,
+      "line_start": 9,
+      "line_end": 9
+    },
+    {
+      "name": "LoopTypeForEach",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 12,
+      "line_end": 12
+    },
+    {
+      "name": "LoopTypeWhile",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 13,
+      "line_end": 13
+    },
+    {
+      "name": "String",
+      "kind": "method",
+      "exported": true,
+      "line_start": 16,
+      "line_end": 18
+    },
+    {
+      "name": "DefaultMaxIterations",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 21,
+      "line_end": 21
+    },
+    {
+      "name": "MaxAllowedIterations",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 24,
+      "line_end": 24
+    },
+    {
+      "name": "LoopConfig",
+      "kind": "class",
+      "exported": true,
+      "line_start": 27,
+      "line_end": 38
+    },
+    {
+      "name": "Validate",
+      "kind": "method",
+      "exported": true,
+      "line_start": 41,
+      "line_end": 72
+    },
+    {
+      "name": "IsMaxIterationsDynamic",
+      "kind": "method",
+      "exported": true,
+      "line_start": 75,
+      "line_end": 77
+    },
+    {
+      "name": "IterationResult",
+      "kind": "class",
+      "exported": true,
+      "line_start": 80,
+      "line_end": 87
+    },
+    {
+      "name": "Duration",
+      "kind": "method",
+      "exported": true,
+      "line_start": 90,
+      "line_end": 92
+    },
+    {
+      "name": "Success",
+      "kind": "method",
+      "exported": true,
+      "line_start": 95,
+      "line_end": 97
+    },
+    {
+      "name": "LoopResult",
+      "kind": "class",
+      "exported": true,
+      "line_start": 100,
+      "line_end": 110
+    },
+    {
+      "name": "NewLoopResult",
+      "kind": "function",
+      "exported": true,
+      "line_start": 113,
+      "line_end": 119
+    },
+    {
+      "name": "Duration",
+      "kind": "method",
+      "exported": true,
+      "line_start": 122,
+      "line_end": 124
+    },
+    {
+      "name": "WasBroken",
+      "kind": "method",
+      "exported": true,
+      "line_start": 127,
+      "line_end": 129
+    },
+    {
+      "name": "AllSucceeded",
+      "kind": "method",
+      "exported": true,
+      "line_start": 132,
+      "line_end": 139
+    }
+  ],
+  "imports": [
+    {
+      "source": "errors",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

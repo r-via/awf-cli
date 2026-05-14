@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "file": "internal/domain/ports/expression_validator.go",
+  "hash": "e3469f05d2aceb1463833f79b1517a54c26beca633d514e28db104bf690e9007",
+  "symbols": [
+    {
+      "name": "ExpressionValidator",
+      "kind": "type",
+      "exported": true,
+      "line_start": 6,
+      "line_end": 11
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

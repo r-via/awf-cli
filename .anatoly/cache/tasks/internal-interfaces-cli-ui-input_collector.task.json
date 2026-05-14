@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/cli/ui/input_collector.go",
+  "hash": "584011f90d2fe6a56d78961323a4f2084723fbd624378e2f0ce23a08baac9743",
+  "symbols": [
+    {
+      "name": "CLIInputCollector",
+      "kind": "class",
+      "exported": true,
+      "line_start": 30,
+      "line_end": 34
+    },
+    {
+      "name": "NewCLIInputCollector",
+      "kind": "function",
+      "exported": true,
+      "line_start": 38,
+      "line_end": 44
+    },
+    {
+      "name": "PromptForInput",
+      "kind": "method",
+      "exported": true,
+      "line_start": 59,
+      "line_end": 121
+    },
+    {
+      "name": "displayPrompt",
+      "kind": "method",
+      "exported": false,
+      "line_start": 124,
+      "line_end": 155
+    },
+    {
+      "name": "coerceType",
+      "kind": "method",
+      "exported": false,
+      "line_start": 158,
+      "line_end": 178
+    },
+    {
+      "name": "validate",
+      "kind": "method",
+      "exported": false,
+      "line_start": 183,
+      "line_end": 298
+    },
+    {
+      "name": "displayError",
+      "kind": "method",
+      "exported": false,
+      "line_start": 301,
+      "line_end": 303
+    },
+    {
+      "name": "containsString",
+      "kind": "function",
+      "exported": false,
+      "line_start": 306,
+      "line_end": 313
+    }
+  ],
+  "imports": [
+    {
+      "source": "bufio",
+      "type": "import"
+    },
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "errors",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "io",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "path/filepath",
+      "type": "import"
+    },
+    {
+      "source": "regexp",
+      "type": "import"
+    },
+    {
+      "source": "strconv",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

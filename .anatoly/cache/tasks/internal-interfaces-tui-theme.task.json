@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/tui/theme.go",
+  "hash": "f3851476d5faefdbc61d4b26bf2610bf2be7ac1cd9afa5dfce091e30f70ebca3",
+  "symbols": [],
+  "imports": [
+    {
+      "source": "image/color",
+      "type": "import"
+    },
+    {
+      "source": "charm.land/lipgloss/v2",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

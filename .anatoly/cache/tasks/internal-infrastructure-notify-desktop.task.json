@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/notify/desktop.go",
+  "hash": "a81229bbf08d13638b3ae9f3e107cf03a23d040e16c977747f8105fe2a4336e4",
+  "symbols": [
+    {
+      "name": "desktopBackend",
+      "kind": "class",
+      "exported": false,
+      "line_start": 22,
+      "line_end": 26
+    },
+    {
+      "name": "newDesktopBackend",
+      "kind": "function",
+      "exported": false,
+      "line_start": 32,
+      "line_end": 36
+    },
+    {
+      "name": "NewDesktopBackend",
+      "kind": "function",
+      "exported": true,
+      "line_start": 41,
+      "line_end": 43
+    },
+    {
+      "name": "Send",
+      "kind": "method",
+      "exported": true,
+      "line_start": 53,
+      "line_end": 129
+    },
+    {
+      "name": "buildLinuxCommand",
+      "kind": "method",
+      "exported": false,
+      "line_start": 134,
+      "line_end": 158
+    },
+    {
+      "name": "buildDarwinCommand",
+      "kind": "method",
+      "exported": false,
+      "line_start": 163,
+      "line_end": 180
+    },
+    {
+      "name": "escapeAppleScript",
+      "kind": "function",
+      "exported": false,
+      "line_start": 185,
+      "line_end": 191
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "os/exec",
+      "type": "import"
+    },
+    {
+      "source": "runtime",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "sync/atomic",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

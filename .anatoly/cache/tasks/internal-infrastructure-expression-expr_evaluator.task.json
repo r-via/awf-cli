@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/expression/expr_evaluator.go",
+  "hash": "d13cb1815cd216b008d5fa74a47c0bd0fe092502fc1c7e5e0c6f5cb88e6179f6",
+  "symbols": [
+    {
+      "name": "ExprEvaluator",
+      "kind": "class",
+      "exported": true,
+      "line_start": 16,
+      "line_end": 18
+    },
+    {
+      "name": "NewExprEvaluator",
+      "kind": "function",
+      "exported": true,
+      "line_start": 21,
+      "line_end": 25
+    },
+    {
+      "name": "EvaluateBool",
+      "kind": "method",
+      "exported": true,
+      "line_start": 29,
+      "line_end": 41
+    },
+    {
+      "name": "EvaluateInt",
+      "kind": "method",
+      "exported": true,
+      "line_start": 46,
+      "line_end": 95
+    },
+    {
+      "name": "validateIntExpressionSyntax",
+      "kind": "function",
+      "exported": false,
+      "line_start": 99,
+      "line_end": 119
+    }
+  ],
+  "imports": [
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "math",
+      "type": "import"
+    },
+    {
+      "source": "regexp",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/pkg/expression",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/pkg/interpolation",
+      "type": "import"
+    },
+    {
+      "source": "github.com/expr-lang/expr",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

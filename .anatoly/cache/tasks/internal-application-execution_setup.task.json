@@ -1,0 +1,268 @@
+{
+  "version": 1,
+  "file": "internal/application/execution_setup.go",
+  "hash": "0358f9f8456389a5fe2d23784034ccb1f5e621d0061fc1c20045abe9c1a76077",
+  "symbols": [
+    {
+      "name": "compositeOperationProvider",
+      "kind": "class",
+      "exported": false,
+      "line_start": 25,
+      "line_end": 27
+    },
+    {
+      "name": "GetOperation",
+      "kind": "method",
+      "exported": true,
+      "line_start": 29,
+      "line_end": 39
+    },
+    {
+      "name": "ListOperations",
+      "kind": "method",
+      "exported": true,
+      "line_start": 41,
+      "line_end": 50
+    },
+    {
+      "name": "Execute",
+      "kind": "method",
+      "exported": true,
+      "line_start": 52,
+      "line_end": 62
+    },
+    {
+      "name": "PluginStateChecker",
+      "kind": "type",
+      "exported": true,
+      "line_start": 65,
+      "line_end": 67
+    },
+    {
+      "name": "PluginProviders",
+      "kind": "class",
+      "exported": true,
+      "line_start": 70,
+      "line_end": 74
+    },
+    {
+      "name": "NotifyConfig",
+      "kind": "class",
+      "exported": true,
+      "line_start": 77,
+      "line_end": 79
+    },
+    {
+      "name": "OutputWriterPair",
+      "kind": "class",
+      "exported": true,
+      "line_start": 82,
+      "line_end": 85
+    },
+    {
+      "name": "SetupOption",
+      "kind": "type",
+      "exported": true,
+      "line_start": 88,
+      "line_end": 88
+    },
+    {
+      "name": "setupConfig",
+      "kind": "class",
+      "exported": false,
+      "line_start": 90,
+      "line_end": 104
+    },
+    {
+      "name": "WithNotifyConfig",
+      "kind": "function",
+      "exported": true,
+      "line_start": 107,
+      "line_end": 109
+    },
+    {
+      "name": "WithPluginState",
+      "kind": "function",
+      "exported": true,
+      "line_start": 112,
+      "line_end": 114
+    },
+    {
+      "name": "WithPluginProviders",
+      "kind": "function",
+      "exported": true,
+      "line_start": 117,
+      "line_end": 119
+    },
+    {
+      "name": "WithTracer",
+      "kind": "function",
+      "exported": true,
+      "line_start": 122,
+      "line_end": 124
+    },
+    {
+      "name": "WithAuditWriter",
+      "kind": "function",
+      "exported": true,
+      "line_start": 127,
+      "line_end": 129
+    },
+    {
+      "name": "WithPackContext",
+      "kind": "function",
+      "exported": true,
+      "line_start": 133,
+      "line_end": 138
+    },
+    {
+      "name": "WithOutputWriters",
+      "kind": "function",
+      "exported": true,
+      "line_start": 141,
+      "line_end": 145
+    },
+    {
+      "name": "WithUserInputReader",
+      "kind": "function",
+      "exported": true,
+      "line_start": 148,
+      "line_end": 150
+    },
+    {
+      "name": "WithHistoryStore",
+      "kind": "function",
+      "exported": true,
+      "line_start": 154,
+      "line_end": 156
+    },
+    {
+      "name": "WithTemplatePaths",
+      "kind": "function",
+      "exported": true,
+      "line_start": 159,
+      "line_end": 161
+    },
+    {
+      "name": "WithPluginService",
+      "kind": "function",
+      "exported": true,
+      "line_start": 164,
+      "line_end": 166
+    },
+    {
+      "name": "WithEventPublisher",
+      "kind": "function",
+      "exported": true,
+      "line_start": 169,
+      "line_end": 171
+    },
+    {
+      "name": "ExecutionSetup",
+      "kind": "class",
+      "exported": true,
+      "line_start": 182,
+      "line_end": 188
+    },
+    {
+      "name": "NewExecutionSetup",
+      "kind": "function",
+      "exported": true,
+      "line_start": 192,
+      "line_end": 206
+    },
+    {
+      "name": "SetupResult",
+      "kind": "class",
+      "exported": true,
+      "line_start": 210,
+      "line_end": 217
+    },
+    {
+      "name": "Build",
+      "kind": "method",
+      "exported": true,
+      "line_start": 221,
+      "line_end": 318
+    },
+    {
+      "name": "buildProviders",
+      "kind": "method",
+      "exported": false,
+      "line_start": 326,
+      "line_end": 363
+    },
+    {
+      "name": "MergeInputs",
+      "kind": "function",
+      "exported": true,
+      "line_start": 367,
+      "line_end": 372
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "io",
+      "type": "import"
+    },
+    {
+      "source": "maps",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/pluginmodel",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/agents",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/expression",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/github",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/http",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/notify",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/repository",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/xdg",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/pkg/httpx",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/pkg/interpolation",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

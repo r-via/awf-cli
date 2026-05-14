@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/cli/validate.go",
+  "hash": "b320326372cdc7886d30bd294cf7b6e539ef9227abd6f7854f88593d01e38031",
+  "symbols": [
+    {
+      "name": "newValidateCommand",
+      "kind": "function",
+      "exported": false,
+      "line_start": 20,
+      "line_end": 66
+    },
+    {
+      "name": "runValidate",
+      "kind": "function",
+      "exported": false,
+      "line_start": 68,
+      "line_end": 272
+    },
+    {
+      "name": "runValidateDir",
+      "kind": "function",
+      "exported": false,
+      "line_start": 275,
+      "line_end": 326
+    },
+    {
+      "name": "runValidatePack",
+      "kind": "function",
+      "exported": false,
+      "line_start": 329,
+      "line_end": 337
+    },
+    {
+      "name": "collectDisabledPluginWarnings",
+      "kind": "function",
+      "exported": false,
+      "line_start": 342,
+      "line_end": 367
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "path/filepath",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/application",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/analyzer",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/expression",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/repository",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/interfaces/cli/ui",
+      "type": "import"
+    },
+    {
+      "source": "github.com/spf13/cobra",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

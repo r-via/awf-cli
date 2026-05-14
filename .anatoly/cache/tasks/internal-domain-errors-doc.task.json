@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "file": "internal/domain/errors/doc.go",
+  "hash": "9a6284a09468a4f6448c1fd0dc5c77df32f1db310098e361d5413b268e3c264d",
+  "symbols": [],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

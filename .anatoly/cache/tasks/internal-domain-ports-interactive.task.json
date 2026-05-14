@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "file": "internal/domain/ports/interactive.go",
+  "hash": "0f0e88688400dcf2c15de57a816545cd812da57d7c99beddf83202d68f6ccd76",
+  "symbols": [
+    {
+      "name": "StepPresenter",
+      "kind": "type",
+      "exported": true,
+      "line_start": 11,
+      "line_end": 23
+    },
+    {
+      "name": "StatusPresenter",
+      "kind": "type",
+      "exported": true,
+      "line_start": 27,
+      "line_end": 39
+    },
+    {
+      "name": "UserInteraction",
+      "kind": "type",
+      "exported": true,
+      "line_start": 43,
+      "line_end": 54
+    },
+    {
+      "name": "InteractivePrompt",
+      "kind": "type",
+      "exported": true,
+      "line_start": 59,
+      "line_end": 63
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

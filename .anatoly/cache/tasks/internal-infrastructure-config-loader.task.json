@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/config/loader.go",
+  "hash": "ee521cb03fbd287282036797ed8260fa22c2564c5c336136d3ff84d5a2b5ee58",
+  "symbols": [
+    {
+      "name": "WarningFunc",
+      "kind": "type",
+      "exported": true,
+      "line_start": 22,
+      "line_end": 22
+    },
+    {
+      "name": "YAMLConfigLoader",
+      "kind": "class",
+      "exported": true,
+      "line_start": 26,
+      "line_end": 29
+    },
+    {
+      "name": "NewYAMLConfigLoader",
+      "kind": "function",
+      "exported": true,
+      "line_start": 32,
+      "line_end": 34
+    },
+    {
+      "name": "WithWarningFunc",
+      "kind": "method",
+      "exported": true,
+      "line_start": 38,
+      "line_end": 41
+    },
+    {
+      "name": "Path",
+      "kind": "method",
+      "exported": true,
+      "line_start": 44,
+      "line_end": 46
+    },
+    {
+      "name": "Load",
+      "kind": "method",
+      "exported": true,
+      "line_start": 56,
+      "line_end": 84
+    },
+    {
+      "name": "checkUnknownKeys",
+      "kind": "method",
+      "exported": false,
+      "line_start": 88,
+      "line_end": 106
+    }
+  ],
+  "imports": [
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "gopkg.in/yaml.v3",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

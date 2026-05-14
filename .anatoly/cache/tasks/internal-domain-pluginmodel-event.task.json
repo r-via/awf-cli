@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "file": "internal/domain/pluginmodel/event.go",
+  "hash": "b947c1915e3aa789e80b2a50d64aecc1be18cb187a27ef907c2997ff6b04d839",
+  "symbols": [
+    {
+      "name": "DomainEvent",
+      "kind": "class",
+      "exported": true,
+      "line_start": 9,
+      "line_end": 17
+    },
+    {
+      "name": "generateUUID",
+      "kind": "function",
+      "exported": false,
+      "line_start": 19,
+      "line_end": 25
+    },
+    {
+      "name": "NewDomainEvent",
+      "kind": "function",
+      "exported": true,
+      "line_start": 27,
+      "line_end": 36
+    }
+  ],
+  "imports": [
+    {
+      "source": "crypto/rand",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

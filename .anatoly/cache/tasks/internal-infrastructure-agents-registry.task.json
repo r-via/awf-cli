@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/agents/registry.go",
+  "hash": "e8a36fcb48287f67b0416c8a4c65e630ca7a7a29b7f60ded2b279cd8508753f6",
+  "symbols": [
+    {
+      "name": "AgentRegistry",
+      "kind": "class",
+      "exported": true,
+      "line_start": 15,
+      "line_end": 18
+    },
+    {
+      "name": "NewAgentRegistry",
+      "kind": "function",
+      "exported": true,
+      "line_start": 20,
+      "line_end": 24
+    },
+    {
+      "name": "Register",
+      "kind": "method",
+      "exported": true,
+      "line_start": 26,
+      "line_end": 37
+    },
+    {
+      "name": "Get",
+      "kind": "method",
+      "exported": true,
+      "line_start": 39,
+      "line_end": 49
+    },
+    {
+      "name": "List",
+      "kind": "method",
+      "exported": true,
+      "line_start": 51,
+      "line_end": 61
+    },
+    {
+      "name": "Has",
+      "kind": "method",
+      "exported": true,
+      "line_start": 63,
+      "line_end": 68
+    },
+    {
+      "name": "RegisterDefaults",
+      "kind": "method",
+      "exported": true,
+      "line_start": 73,
+      "line_end": 96
+    }
+  ],
+  "imports": [
+    {
+      "source": "errors",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "sync",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

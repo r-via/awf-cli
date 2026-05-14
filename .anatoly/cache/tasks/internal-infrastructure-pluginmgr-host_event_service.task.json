@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/pluginmgr/host_event_service.go",
+  "hash": "6489bd0414a762dd75ae9c04ffe907fda6b02e17b6dd68656a1572530a16b9fd",
+  "symbols": [
+    {
+      "name": "manifestLookupFn",
+      "kind": "type",
+      "exported": false,
+      "line_start": 13,
+      "line_end": 13
+    },
+    {
+      "name": "hostEventService",
+      "kind": "class",
+      "exported": false,
+      "line_start": 15,
+      "line_end": 20
+    },
+    {
+      "name": "newHostEventService",
+      "kind": "function",
+      "exported": false,
+      "line_start": 22,
+      "line_end": 28
+    },
+    {
+      "name": "Emit",
+      "kind": "method",
+      "exported": true,
+      "line_start": 30,
+      "line_end": 49
+    },
+    {
+      "name": "validateEmitPermission",
+      "kind": "method",
+      "exported": false,
+      "line_start": 51,
+      "line_end": 65
+    },
+    {
+      "name": "emitRequestToDomainEvent",
+      "kind": "method",
+      "exported": false,
+      "line_start": 67,
+      "line_end": 79
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/pluginmodel",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/proto/plugin/v1",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

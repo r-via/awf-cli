@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/cli/ui/readline.go",
+  "hash": "3e01067d454a35b682f2f90b6431eee86f4361d820809b368f5413b25ca51c34",
+  "symbols": [
+    {
+      "name": "readLineWithContext",
+      "kind": "function",
+      "exported": false,
+      "line_start": 12,
+      "line_end": 37
+    }
+  ],
+  "imports": [
+    {
+      "source": "bufio",
+      "type": "import"
+    },
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

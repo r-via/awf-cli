@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "file": "pkg/interpolation/reference.go",
+  "hash": "1e143cc0833e43d5ce960b46e190e6468f7f62fcb63b59acaa240224b53e4ccf",
+  "symbols": [
+    {
+      "name": "ReferenceType",
+      "kind": "type",
+      "exported": true,
+      "line_start": 6,
+      "line_end": 6
+    },
+    {
+      "name": "TypeInputs",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 10,
+      "line_end": 10
+    },
+    {
+      "name": "TypeStates",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 12,
+      "line_end": 12
+    },
+    {
+      "name": "TypeWorkflow",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 14,
+      "line_end": 14
+    },
+    {
+      "name": "TypeEnv",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 16,
+      "line_end": 16
+    },
+    {
+      "name": "TypeError",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 18,
+      "line_end": 18
+    },
+    {
+      "name": "TypeContext",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 20,
+      "line_end": 20
+    },
+    {
+      "name": "TypeLoop",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 22,
+      "line_end": 22
+    },
+    {
+      "name": "TypeUnknown",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 24,
+      "line_end": 24
+    },
+    {
+      "name": "Reference",
+      "kind": "class",
+      "exported": true,
+      "line_start": 28,
+      "line_end": 34
+    },
+    {
+      "name": "ExtractReferences",
+      "kind": "function",
+      "exported": true,
+      "line_start": 77,
+      "line_end": 117
+    },
+    {
+      "name": "ExtractRefPaths",
+      "kind": "function",
+      "exported": true,
+      "line_start": 136,
+      "line_end": 138
+    },
+    {
+      "name": "extractRefPaths",
+      "kind": "function",
+      "exported": false,
+      "line_start": 140,
+      "line_end": 182
+    },
+    {
+      "name": "stripFuncName",
+      "kind": "function",
+      "exported": false,
+      "line_start": 187,
+      "line_end": 204
+    },
+    {
+      "name": "firstDotPath",
+      "kind": "function",
+      "exported": false,
+      "line_start": 208,
+      "line_end": 231
+    },
+    {
+      "name": "ParseReference",
+      "kind": "function",
+      "exported": true,
+      "line_start": 235,
+      "line_end": 281
+    },
+    {
+      "name": "CategorizeNamespace",
+      "kind": "function",
+      "exported": true,
+      "line_start": 284,
+      "line_end": 303
+    }
+  ],
+  "imports": [
+    {
+      "source": "strings",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

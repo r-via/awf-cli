@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/tui/components.go",
+  "hash": "049eef42383f673e347c321d9271b7b7706e953bf5ff110b27d8993b6f3290b6",
+  "symbols": [
+    {
+      "name": "StatusBadge",
+      "kind": "function",
+      "exported": true,
+      "line_start": 13,
+      "line_end": 28
+    },
+    {
+      "name": "StatusBadgeFromString",
+      "kind": "function",
+      "exported": true,
+      "line_start": 31,
+      "line_end": 42
+    },
+    {
+      "name": "Panel",
+      "kind": "function",
+      "exported": true,
+      "line_start": 45,
+      "line_end": 64
+    },
+    {
+      "name": "EmptyStateView",
+      "kind": "function",
+      "exported": true,
+      "line_start": 67,
+      "line_end": 77
+    },
+    {
+      "name": "HeaderBar",
+      "kind": "function",
+      "exported": true,
+      "line_start": 80,
+      "line_end": 95
+    },
+    {
+      "name": "Separator",
+      "kind": "function",
+      "exported": true,
+      "line_start": 98,
+      "line_end": 103
+    }
+  ],
+  "imports": [
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "charm.land/lipgloss/v2",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

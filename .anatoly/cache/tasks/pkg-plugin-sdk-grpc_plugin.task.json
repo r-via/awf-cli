@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "file": "pkg/plugin/sdk/grpc_plugin.go",
+  "hash": "2e5d46ffbdb8355ab1848e1a34832a3acb51d36d1fe5ddd0cd76f1ca16e654cc",
+  "symbols": [
+    {
+      "name": "pluginServiceServer",
+      "kind": "class",
+      "exported": false,
+      "line_start": 15,
+      "line_end": 18
+    },
+    {
+      "name": "GetInfo",
+      "kind": "method",
+      "exported": true,
+      "line_start": 21,
+      "line_end": 28
+    },
+    {
+      "name": "Init",
+      "kind": "method",
+      "exported": true,
+      "line_start": 31,
+      "line_end": 48
+    },
+    {
+      "name": "Shutdown",
+      "kind": "method",
+      "exported": true,
+      "line_start": 51,
+      "line_end": 57
+    },
+    {
+      "name": "operationServiceServer",
+      "kind": "class",
+      "exported": false,
+      "line_start": 61,
+      "line_end": 64
+    },
+    {
+      "name": "ListOperations",
+      "kind": "method",
+      "exported": true,
+      "line_start": 67,
+      "line_end": 85
+    },
+    {
+      "name": "GetOperation",
+      "kind": "method",
+      "exported": true,
+      "line_start": 88,
+      "line_end": 110
+    },
+    {
+      "name": "Execute",
+      "kind": "method",
+      "exported": true,
+      "line_start": 113,
+      "line_end": 172
+    },
+    {
+      "name": "GRPCServer",
+      "kind": "method",
+      "exported": true,
+      "line_start": 176,
+      "line_end": 201
+    },
+    {
+      "name": "GRPCClient",
+      "kind": "method",
+      "exported": true,
+      "line_start": 205,
+      "line_end": 207
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "encoding/json",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "github.com/hashicorp/go-plugin",
+      "type": "import"
+    },
+    {
+      "source": "google.golang.org/grpc",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/proto/plugin/v1",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

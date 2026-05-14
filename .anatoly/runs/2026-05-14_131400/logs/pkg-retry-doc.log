@@ -1,0 +1,86 @@
+# Axis: utility
+
+
+
+---
+
+# Axis: duplication
+
+
+
+---
+
+# Axis: correction
+
+## User
+
+## File: `pkg/retry/doc.go`
+## Language: go
+
+```go
+// Package retry provides configurable retry utilities with exponential backoff
+// for operations that may fail transiently.
+//
+// Key features:
+//   - Exponential and linear backoff strategies
+//   - Configurable max attempts, delays, and jitter
+//   - Context-aware cancellation
+//   - Exit code filtering for selective retries
+//
+// Example usage:
+//
+//	cfg := retry.Config{
+//	    MaxAttempts:  3,
+//	    InitialDelay: time.Second,
+//	    Strategy:     retry.StrategyExponential,
+//	    Multiplier:   2.0,
+//	}
+//	retryer := retry.New(cfg, logger)
+//	result, err := retryer.Execute(ctx, func() (int, error) {
+//	    return runCommand()
+//	})
+package retry
+
+```
+
+## Symbols to evaluate
+
+
+## REFERENCE DOCUMENTATION (AUTHORITATIVE — human-authored or human-validated)
+
+Use the following as ground truth. If the code you are reviewing contradicts an invariant, convention, or non-goal stated here, flag it as a `doc_divergence` finding (not as a regular bug).
+
+### Internal Reference Digest (source: reference-digest)
+
+---
+status: evaluated
+source: reference-digest
+---
+## Reference index
+
+_No reference documents found._
+
+## Inline doc-comments
+
+_No inline doc-comments found._
+
+_(truncated to 28 tokens; dropped 1985 entries)_
+
+
+Identify any bugs, logic errors, or correctness issues and output the JSON.
+
+## System (init)
+
+**Model:** claude-sonnet-4-6
+**Mode:** axis evaluator (single-turn, no tools)
+
+## Assistant
+
+{"symbols":[],"actions":[],"doc_divergences":[]}
+
+## rate_limit_event
+
+## Result (success)
+
+**Cost:** $0.0178 | **Duration:** 2.9s
+

@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "file": "internal/domain/ports/tracer.go",
+  "hash": "c37c749eca5bd3b5df25781e0f7dac49d6515a5c7f4719b1ded01ebc39c0717f",
+  "symbols": [
+    {
+      "name": "Span",
+      "kind": "type",
+      "exported": true,
+      "line_start": 5,
+      "line_end": 10
+    },
+    {
+      "name": "Tracer",
+      "kind": "type",
+      "exported": true,
+      "line_start": 12,
+      "line_end": 14
+    },
+    {
+      "name": "NopSpan",
+      "kind": "class",
+      "exported": true,
+      "line_start": 16,
+      "line_end": 16
+    },
+    {
+      "name": "End",
+      "kind": "method",
+      "exported": true,
+      "line_start": 18,
+      "line_end": 18
+    },
+    {
+      "name": "SetAttribute",
+      "kind": "method",
+      "exported": true,
+      "line_start": 19,
+      "line_end": 19
+    },
+    {
+      "name": "RecordError",
+      "kind": "method",
+      "exported": true,
+      "line_start": 20,
+      "line_end": 20
+    },
+    {
+      "name": "AddEvent",
+      "kind": "method",
+      "exported": true,
+      "line_start": 21,
+      "line_end": 21
+    },
+    {
+      "name": "NopTracer",
+      "kind": "class",
+      "exported": true,
+      "line_start": 23,
+      "line_end": 23
+    },
+    {
+      "name": "Start",
+      "kind": "method",
+      "exported": true,
+      "line_start": 25,
+      "line_end": 27
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

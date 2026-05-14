@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "file": "internal/domain/workflow/config.go",
+  "hash": "360aa14b22718f9d1fa10a092bc633693104141d786185956238925eb54347da",
+  "symbols": [
+    {
+      "name": "OutputLimits",
+      "kind": "class",
+      "exported": true,
+      "line_start": 5,
+      "line_end": 9
+    },
+    {
+      "name": "LoopMemoryConfig",
+      "kind": "class",
+      "exported": true,
+      "line_start": 13,
+      "line_end": 15
+    },
+    {
+      "name": "DefaultOutputLimits",
+      "kind": "function",
+      "exported": true,
+      "line_start": 19,
+      "line_end": 25
+    },
+    {
+      "name": "DefaultLoopMemoryConfig",
+      "kind": "function",
+      "exported": true,
+      "line_start": 29,
+      "line_end": 33
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

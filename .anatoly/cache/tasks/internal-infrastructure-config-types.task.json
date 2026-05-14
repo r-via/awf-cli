@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/config/types.go",
+  "hash": "ada2710729a725906752797870669aa93432a66b6003844ea95909713ee69b28",
+  "symbols": [
+    {
+      "name": "ProjectConfig",
+      "kind": "class",
+      "exported": true,
+      "line_start": 7,
+      "line_end": 25
+    },
+    {
+      "name": "ConfigError",
+      "kind": "class",
+      "exported": true,
+      "line_start": 28,
+      "line_end": 33
+    },
+    {
+      "name": "Error",
+      "kind": "method",
+      "exported": true,
+      "line_start": 36,
+      "line_end": 41
+    },
+    {
+      "name": "Unwrap",
+      "kind": "method",
+      "exported": true,
+      "line_start": 44,
+      "line_end": 46
+    }
+  ],
+  "imports": [
+    {
+      "source": "fmt",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

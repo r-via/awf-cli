@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "file": "pkg/expression/evaluator.go",
+  "hash": "1c51e4504f619906236bf6c5cc3a4c82c883b20236e5e62f0053df9bbe9353f7",
+  "symbols": [
+    {
+      "name": "Evaluator",
+      "kind": "type",
+      "exported": true,
+      "line_start": 15,
+      "line_end": 20
+    },
+    {
+      "name": "ExprEvaluator",
+      "kind": "class",
+      "exported": true,
+      "line_start": 23,
+      "line_end": 23
+    },
+    {
+      "name": "NewExprEvaluator",
+      "kind": "function",
+      "exported": true,
+      "line_start": 25,
+      "line_end": 27
+    },
+    {
+      "name": "Evaluate",
+      "kind": "method",
+      "exported": true,
+      "line_start": 29,
+      "line_end": 67
+    },
+    {
+      "name": "preprocessExpression",
+      "kind": "function",
+      "exported": false,
+      "line_start": 75,
+      "line_end": 79
+    },
+    {
+      "name": "BuildExprContext",
+      "kind": "function",
+      "exported": true,
+      "line_start": 83,
+      "line_end": 148
+    },
+    {
+      "name": "buildLoopContext",
+      "kind": "function",
+      "exported": false,
+      "line_start": 152,
+      "line_end": 168
+    },
+    {
+      "name": "buildErrorContext",
+      "kind": "function",
+      "exported": false,
+      "line_start": 172,
+      "line_end": 187
+    },
+    {
+      "name": "buildSystemContext",
+      "kind": "function",
+      "exported": false,
+      "line_start": 191,
+      "line_end": 204
+    },
+    {
+      "name": "coerceValue",
+      "kind": "function",
+      "exported": false,
+      "line_start": 208,
+      "line_end": 232
+    }
+  ],
+  "imports": [
+    {
+      "source": "errors",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "regexp",
+      "type": "import"
+    },
+    {
+      "source": "strconv",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/pkg/interpolation",
+      "type": "import"
+    },
+    {
+      "source": "github.com/expr-lang/expr",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

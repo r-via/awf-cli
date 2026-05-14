@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/tui/tree.go",
+  "hash": "1afea3e2456e695cfe780caaf81aaeb99d9f573b7987d2d7369c28669859034e",
+  "symbols": [
+    {
+      "name": "TreeNode",
+      "kind": "class",
+      "exported": true,
+      "line_start": 14,
+      "line_end": 21
+    },
+    {
+      "name": "StatusIcon",
+      "kind": "function",
+      "exported": true,
+      "line_start": 24,
+      "line_end": 39
+    },
+    {
+      "name": "StatusBadgeIcon",
+      "kind": "function",
+      "exported": true,
+      "line_start": 42,
+      "line_end": 57
+    },
+    {
+      "name": "BuildTree",
+      "kind": "function",
+      "exported": true,
+      "line_start": 63,
+      "line_end": 75
+    },
+    {
+      "name": "buildNode",
+      "kind": "function",
+      "exported": false,
+      "line_start": 78,
+      "line_end": 103
+    },
+    {
+      "name": "resolveStatus",
+      "kind": "function",
+      "exported": false,
+      "line_start": 107,
+      "line_end": 112
+    },
+    {
+      "name": "resolveDuration",
+      "kind": "function",
+      "exported": false,
+      "line_start": 116,
+      "line_end": 125
+    },
+    {
+      "name": "RenderTree",
+      "kind": "function",
+      "exported": true,
+      "line_start": 131,
+      "line_end": 138
+    },
+    {
+      "name": "renderNode",
+      "kind": "function",
+      "exported": false,
+      "line_start": 143,
+      "line_end": 194
+    },
+    {
+      "name": "formatDuration",
+      "kind": "function",
+      "exported": false,
+      "line_start": 197,
+      "line_end": 207
+    }
+  ],
+  "imports": [
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    },
+    {
+      "source": "charm.land/lipgloss/v2",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

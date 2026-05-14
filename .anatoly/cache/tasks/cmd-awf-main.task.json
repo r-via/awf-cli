@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "file": "cmd/awf/main.go",
+  "hash": "fa9eeb561b25c95ec63d3185cfd6da0b25b5dd4ae86480ea756cb5efa11b0725",
+  "symbols": [
+    {
+      "name": "main",
+      "kind": "function",
+      "exported": false,
+      "line_start": 10,
+      "line_end": 25
+    }
+  ],
+  "imports": [
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/interfaces/cli",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

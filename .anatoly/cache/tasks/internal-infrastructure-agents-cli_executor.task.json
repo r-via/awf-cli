@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/agents/cli_executor.go",
+  "hash": "fa5a20c1fa6b9f1c864720f67b6de87360becfd0a2fcf57ea8971d3f42fd07bb",
+  "symbols": [
+    {
+      "name": "ExecCLIExecutor",
+      "kind": "class",
+      "exported": true,
+      "line_start": 22,
+      "line_end": 22
+    },
+    {
+      "name": "NewExecCLIExecutor",
+      "kind": "function",
+      "exported": true,
+      "line_start": 24,
+      "line_end": 26
+    },
+    {
+      "name": "Run",
+      "kind": "method",
+      "exported": true,
+      "line_start": 28,
+      "line_end": 87
+    },
+    {
+      "name": "killDescendants",
+      "kind": "function",
+      "exported": false,
+      "line_start": 91,
+      "line_end": 99
+    },
+    {
+      "name": "findChildPIDs",
+      "kind": "function",
+      "exported": false,
+      "line_start": 101,
+      "line_end": 151
+    }
+  ],
+  "imports": [
+    {
+      "source": "bytes",
+      "type": "import"
+    },
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "io",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "os/exec",
+      "type": "import"
+    },
+    {
+      "source": "path/filepath",
+      "type": "import"
+    },
+    {
+      "source": "strconv",
+      "type": "import"
+    },
+    {
+      "source": "syscall",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

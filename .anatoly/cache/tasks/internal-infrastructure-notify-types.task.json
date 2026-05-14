@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/notify/types.go",
+  "hash": "3f8489a474efee315b97aeffab971a12fe67f3daf8200d7d69e8fbce89c69fb1",
+  "symbols": [
+    {
+      "name": "NotificationPayload",
+      "kind": "class",
+      "exported": true,
+      "line_start": 8,
+      "line_end": 21
+    },
+    {
+      "name": "BackendResult",
+      "kind": "class",
+      "exported": true,
+      "line_start": 25,
+      "line_end": 34
+    },
+    {
+      "name": "Backend",
+      "kind": "type",
+      "exported": true,
+      "line_start": 39,
+      "line_end": 44
+    },
+    {
+      "name": "NotifyConfig",
+      "kind": "class",
+      "exported": true,
+      "line_start": 49,
+      "line_end": 53
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

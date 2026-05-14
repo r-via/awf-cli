@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "file": "internal/domain/ports/parallel_executor.go",
+  "hash": "fbdb2d5afa2f424cd2e822bc90fd43cc3c1cf008f8ad1e162f63bd135ff00cbe",
+  "symbols": [
+    {
+      "name": "ParallelExecutor",
+      "kind": "type",
+      "exported": true,
+      "line_start": 10,
+      "line_end": 22
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

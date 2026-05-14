@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "file": "internal/domain/operation/validate.go",
+  "hash": "f64ee356db24c4733547e7e527abe5f40ca013c157fceb90d475b1ba7f768a94",
+  "symbols": [
+    {
+      "name": "ValidateInputs",
+      "kind": "function",
+      "exported": true,
+      "line_start": 24,
+      "line_end": 50
+    },
+    {
+      "name": "getSortedInputNames",
+      "kind": "function",
+      "exported": false,
+      "line_start": 53,
+      "line_end": 60
+    },
+    {
+      "name": "validateInput",
+      "kind": "function",
+      "exported": false,
+      "line_start": 63,
+      "line_end": 96
+    },
+    {
+      "name": "formatValidationErrors",
+      "kind": "function",
+      "exported": false,
+      "line_start": 99,
+      "line_end": 118
+    },
+    {
+      "name": "validateType",
+      "kind": "function",
+      "exported": false,
+      "line_start": 121,
+      "line_end": 170
+    },
+    {
+      "name": "validateRule",
+      "kind": "function",
+      "exported": false,
+      "line_start": 173,
+      "line_end": 206
+    }
+  ],
+  "imports": [
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "net/mail",
+      "type": "import"
+    },
+    {
+      "source": "net/url",
+      "type": "import"
+    },
+    {
+      "source": "sort",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/pluginmodel",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/tokenizer/approximation_tokenizer.go",
+  "hash": "d897ae065977545767de4ef83d53b4ed42eaacd80151d69540ffeb736ef7992d",
+  "symbols": [
+    {
+      "name": "ApproximationTokenizer",
+      "kind": "class",
+      "exported": true,
+      "line_start": 12,
+      "line_end": 16
+    },
+    {
+      "name": "NewApproximationTokenizer",
+      "kind": "function",
+      "exported": true,
+      "line_start": 20,
+      "line_end": 24
+    },
+    {
+      "name": "NewApproximationTokenizerWithRatio",
+      "kind": "function",
+      "exported": true,
+      "line_start": 28,
+      "line_end": 32
+    },
+    {
+      "name": "CountTokens",
+      "kind": "method",
+      "exported": true,
+      "line_start": 36,
+      "line_end": 49
+    },
+    {
+      "name": "CountTurnsTokens",
+      "kind": "method",
+      "exported": true,
+      "line_start": 53,
+      "line_end": 72
+    },
+    {
+      "name": "IsEstimate",
+      "kind": "method",
+      "exported": true,
+      "line_start": 75,
+      "line_end": 77
+    },
+    {
+      "name": "ModelName",
+      "kind": "method",
+      "exported": true,
+      "line_start": 80,
+      "line_end": 82
+    }
+  ],
+  "imports": [
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

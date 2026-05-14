@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "file": "internal/application/input_collection_service.go",
+  "hash": "77616de2a67d35abeac50d5d318e8df9114d15ad5c4577aa8a10bdb9df075c7d",
+  "symbols": [
+    {
+      "name": "InputCollectionService",
+      "kind": "class",
+      "exported": true,
+      "line_start": 27,
+      "line_end": 30
+    },
+    {
+      "name": "NewInputCollectionService",
+      "kind": "function",
+      "exported": true,
+      "line_start": 33,
+      "line_end": 41
+    },
+    {
+      "name": "CollectMissingInputs",
+      "kind": "method",
+      "exported": true,
+      "line_start": 59,
+      "line_end": 94
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

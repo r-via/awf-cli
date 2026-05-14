@@ -1,0 +1,167 @@
+{
+  "version": 1,
+  "file": "internal/domain/workflow/context.go",
+  "hash": "76372457e240687b9c0f9714a9d7a6a0c238270c0fee32b766196f1ec7553620",
+  "symbols": [
+    {
+      "name": "ExecutionStatus",
+      "kind": "type",
+      "exported": true,
+      "line_start": 9,
+      "line_end": 9
+    },
+    {
+      "name": "StatusPending",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 12,
+      "line_end": 12
+    },
+    {
+      "name": "StatusRunning",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 13,
+      "line_end": 13
+    },
+    {
+      "name": "StatusCompleted",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 14,
+      "line_end": 14
+    },
+    {
+      "name": "StatusFailed",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 15,
+      "line_end": 15
+    },
+    {
+      "name": "StatusCancelled",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 16,
+      "line_end": 16
+    },
+    {
+      "name": "String",
+      "kind": "method",
+      "exported": true,
+      "line_start": 19,
+      "line_end": 21
+    },
+    {
+      "name": "StepState",
+      "kind": "class",
+      "exported": true,
+      "line_start": 24,
+      "line_end": 53
+    },
+    {
+      "name": "LoopContext",
+      "kind": "class",
+      "exported": true,
+      "line_start": 56,
+      "line_end": 63
+    },
+    {
+      "name": "ExecutionContext",
+      "kind": "class",
+      "exported": true,
+      "line_start": 67,
+      "line_end": 82
+    },
+    {
+      "name": "NewExecutionContext",
+      "kind": "function",
+      "exported": true,
+      "line_start": 85,
+      "line_end": 97
+    },
+    {
+      "name": "SetInput",
+      "kind": "method",
+      "exported": true,
+      "line_start": 100,
+      "line_end": 105
+    },
+    {
+      "name": "GetInput",
+      "kind": "method",
+      "exported": true,
+      "line_start": 108,
+      "line_end": 113
+    },
+    {
+      "name": "SetStepState",
+      "kind": "method",
+      "exported": true,
+      "line_start": 116,
+      "line_end": 121
+    },
+    {
+      "name": "DeleteStepState",
+      "kind": "method",
+      "exported": true,
+      "line_start": 124,
+      "line_end": 131
+    },
+    {
+      "name": "GetStepState",
+      "kind": "method",
+      "exported": true,
+      "line_start": 134,
+      "line_end": 139
+    },
+    {
+      "name": "GetAllStepStates",
+      "kind": "method",
+      "exported": true,
+      "line_start": 142,
+      "line_end": 151
+    },
+    {
+      "name": "PushCallStack",
+      "kind": "method",
+      "exported": true,
+      "line_start": 155,
+      "line_end": 160
+    },
+    {
+      "name": "PopCallStack",
+      "kind": "method",
+      "exported": true,
+      "line_start": 164,
+      "line_end": 171
+    },
+    {
+      "name": "IsInCallStack",
+      "kind": "method",
+      "exported": true,
+      "line_start": 175,
+      "line_end": 184
+    },
+    {
+      "name": "CallStackDepth",
+      "kind": "method",
+      "exported": true,
+      "line_start": 188,
+      "line_end": 192
+    }
+  ],
+  "imports": [
+    {
+      "source": "sync",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

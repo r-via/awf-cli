@@ -1,0 +1,149 @@
+# Axis: utility
+
+
+
+---
+
+# Axis: duplication
+
+
+
+---
+
+# Axis: correction
+
+## User
+
+## File: `pkg/retry/backoff.go`
+## Language: go
+
+```go
+// Package retry provides configurable retry logic with backoff strategies.
+package retry
+
+import (
+	"math/rand"
+	"time"
+)
+
+// Strategy defines the backoff algorithm to use between retry attempts.
+type Strategy string
+
+const (
+	// StrategyConstant always waits the initial delay between attempts.
+	StrategyConstant Strategy = "constant"
+	// StrategyLinear increases delay linearly: initialDelay * attempt.
+	StrategyLinear Strategy = "linear"
+	// StrategyExponential increases delay exponentially: initialDelay * multiplier^(attempt-1).
+	StrategyExponential Strategy = "exponential"
+)
+
+// Valid returns true if the strategy is recognized.
+func (s Strategy) Valid() bool {
+	switch s {
+	case StrategyConstant, StrategyLinear, StrategyExponential, "":
+		return true
+	default:
+		return false
+	}
+}
+
+// CalculateDelay computes the delay for a given attempt using the specified strategy.
+// attempt is 1-indexed (first retry is attempt 2). The result is capped at maxDelay.
+func CalculateDelay(strategy Strategy, attempt int, initialDelay, maxDelay time.Duration, multiplier float64) time.Duration {
+	var delay time.Duration
+
+	switch strategy {
+	case StrategyLinear:
+		delay = time.Duration(int64(initialDelay) * int64(attempt))
+	case StrategyExponential:
+		factor := 1.0
+		for i := 1; i < attempt; i++ {
+			factor *= multiplier
+		}
+		delay = time.Duration(float64(initialDelay) * factor)
+	case StrategyConstant, "":
+		delay = initialDelay
+	default:
+		delay = initialDelay
+	}
+
+	if maxDelay > 0 && delay > maxDelay {
+		delay = maxDelay
+	}
+
+	return delay
+}
+
+// ApplyJitter adds randomness to a delay within ±(delay * jitter).
+// jitter should be in range [0.0, 1.0]. Uses the provided random source for deterministic testing.
+func ApplyJitter(delay time.Duration, jitter float64, rng *rand.Rand) time.Duration {
+	if jitter == 0 || delay == 0 {
+		return delay
+	}
+
+	randomFactor := (rng.Float64() * 2) - 1
+	jitterAmount := float64(delay) * jitter * randomFactor
+	result := float64(delay) + jitterAmount
+
+	if result < 0 {
+		result = 0
+	}
+
+	return time.Duration(result)
+}
+
+```
+
+## Symbols to evaluate
+
+- export type Strategy (L10–L10)
+- export constant StrategyConstant (L14–L14)
+- export constant StrategyLinear (L16–L16)
+- export constant StrategyExponential (L18–L18)
+- export method Valid (L22–L29)
+- export function CalculateDelay (L33–L56)
+- export function ApplyJitter (L60–L74)
+
+## REFERENCE DOCUMENTATION (AUTHORITATIVE — human-authored or human-validated)
+
+Use the following as ground truth. If the code you are reviewing contradicts an invariant, convention, or non-goal stated here, flag it as a `doc_divergence` finding (not as a regular bug).
+
+### Internal Reference Digest (source: reference-digest)
+
+---
+status: evaluated
+source: reference-digest
+---
+## Reference index
+
+_No reference documents found._
+
+## Inline doc-comments
+
+_No inline doc-comments found._
+
+_(truncated to 28 tokens; dropped 1985 entries)_
+
+
+Identify any bugs, logic errors, or correctness issues and output the JSON.
+
+## System (init)
+
+**Model:** claude-sonnet-4-6
+**Mode:** axis evaluator (single-turn, no tools)
+
+## Assistant
+
+
+
+## Assistant
+
+{"symbols":[{"name":"Strategy","line_start":10,"line_end":10,"correction":"OK","confidence":95,"detail":"Plain string typedef; no logic to evaluate."},{"name":"StrategyConstant","line_start":14,"line_end":14,"correction":"OK","confidence":95,"detail":"Constant declaration is correct."},{"name":"StrategyLinear","line_start":16,"line_end":16,"correction":"OK","confidence":95,"detail":"Constant declaration is correct."},{"name":"StrategyExponential","line_start":18,"line_end":18,"correction":"OK","confidence":95,"detail":"Constant declaration is correct."},{"name":"Valid","line_start":22,"line_end":29,"correction":"OK","confidence":95,"detail":"Empty string accepted as valid matches CalculateDelay's default-to-constant behaviour; no logic errors."},{"name":"CalculateDelay","line_start":33,"line_end":56,"correction":"OK","confidence":95,"detail":"All three formulas match their doc-comment specs. Exponential loop produces multiplier^(attempt-1) correctly. maxDelay cap applied after delay computed."},{"name":"ApplyJitter","line_start":60,"line_end":74,"correction":"OK","confidence":92,"detail":"randomFactor in [-1,1) yields jitterAmount in [-delay*jitter, delay*jitter), consistent with documented ±(delay*jitter) range. Negative-result guard is correct safety net for jitter>1.0 callers."}],"actions":[],"doc_divergences":[]}
+
+## rate_limit_event
+
+## Result (success)
+
+**Cost:** $0.2777 | **Duration:** 77.1s
+

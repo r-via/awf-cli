@@ -1,0 +1,109 @@
+{
+  "version": 1,
+  "file": "internal/application/template_service.go",
+  "hash": "33196a840f823dc5f37516cddc859f190aeb5ef87b5c3db73fe4a1209399b2d5",
+  "symbols": [
+    {
+      "name": "TemplateService",
+      "kind": "class",
+      "exported": true,
+      "line_start": 13,
+      "line_end": 16
+    },
+    {
+      "name": "NewTemplateService",
+      "kind": "function",
+      "exported": true,
+      "line_start": 19,
+      "line_end": 27
+    },
+    {
+      "name": "ExpandWorkflow",
+      "kind": "method",
+      "exported": true,
+      "line_start": 30,
+      "line_end": 48
+    },
+    {
+      "name": "expandStep",
+      "kind": "method",
+      "exported": false,
+      "line_start": 50,
+      "line_end": 134
+    },
+    {
+      "name": "ValidateAndLoadTemplate",
+      "kind": "method",
+      "exported": true,
+      "line_start": 140,
+      "line_end": 162
+    },
+    {
+      "name": "SelectPrimaryStep",
+      "kind": "method",
+      "exported": true,
+      "line_start": 167,
+      "line_end": 190
+    },
+    {
+      "name": "ExpandNestedTemplate",
+      "kind": "method",
+      "exported": true,
+      "line_start": 194,
+      "line_end": 207
+    },
+    {
+      "name": "ApplyTemplateFields",
+      "kind": "method",
+      "exported": true,
+      "line_start": 212,
+      "line_end": 297
+    },
+    {
+      "name": "mergeParameters",
+      "kind": "method",
+      "exported": false,
+      "line_start": 299,
+      "line_end": 322
+    },
+    {
+      "name": "substituteParams",
+      "kind": "method",
+      "exported": false,
+      "line_start": 324,
+      "line_end": 333
+    },
+    {
+      "name": "ValidateTemplateRef",
+      "kind": "method",
+      "exported": true,
+      "line_start": 336,
+      "line_end": 344
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

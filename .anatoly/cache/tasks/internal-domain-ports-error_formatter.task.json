@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "file": "internal/domain/ports/error_formatter.go",
+  "hash": "c567d81bcc843c446c1d1076fffa1d139ea9733432298cf0004c03dbe8af279d",
+  "symbols": [
+    {
+      "name": "ErrorFormatter",
+      "kind": "type",
+      "exported": true,
+      "line_start": 18,
+      "line_end": 36
+    }
+  ],
+  "imports": [
+    {
+      "source": "github.com/awf-project/cli/internal/domain/errors",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

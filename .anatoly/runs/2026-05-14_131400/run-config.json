@@ -1,0 +1,116 @@
+{
+  "runId": "2026-05-14_131400",
+  "timestamp": "2026-05-14T11:14:06.530Z",
+  "anatolyVersion": "0.9.6",
+  "anatolyCommit": "c480c5a-dirty",
+  "projectRoot": "/home/rviau/project/awf-cli",
+  "concurrency": 8,
+  "ragMode": "auto",
+  "enableRag": true,
+  "noCache": false,
+  "deliberation": true,
+  "dryRun": false,
+  "axesFilter": [
+    "utility",
+    "duplication",
+    "correction"
+  ],
+  "fileFilter": "pkg/retry/**/*.go",
+  "badge": {
+    "enabled": true,
+    "verdict": false,
+    "link": "https://github.com/r-via/anatoly"
+  },
+  "config": {
+    "providers": {
+      "anthropic": {
+        "mode": "subscription",
+        "concurrency": 24
+      },
+      "local-advanced": {
+        "mode": "api",
+        "concurrency": 8
+      }
+    },
+    "models": {
+      "quality": "anthropic/claude-sonnet-4-6",
+      "fast": "anthropic/claude-haiku-4-5-20251001",
+      "deliberation": "anthropic/claude-opus-4-6",
+      "code_summary": "anthropic/claude-haiku-4-5-20251001"
+    },
+    "agents": {
+      "enabled": true,
+      "max_turns": 30
+    },
+    "runtime": {
+      "timeout_per_file": 600,
+      "max_retries": 3,
+      "concurrency": 8,
+      "min_confidence": 70,
+      "max_stop_iterations": 3
+    },
+    "axes": {
+      "utility": {
+        "enabled": true
+      },
+      "duplication": {
+        "enabled": true
+      },
+      "correction": {
+        "enabled": true
+      },
+      "overengineering": {
+        "enabled": true
+      },
+      "tests": {
+        "enabled": true
+      },
+      "best_practices": {
+        "enabled": true
+      },
+      "documentation": {
+        "enabled": true
+      }
+    },
+    "rag": {
+      "enabled": true,
+      "code_model": "auto",
+      "nlp_model": "auto",
+      "code_weight": 0.6,
+      "embedding": {
+        "code": {
+          "provider": "local-advanced",
+          "model": "nomic-embed-code-gguf"
+        },
+        "nlp": {
+          "provider": "local-advanced",
+          "model": "qwen3-embedding-8b-gguf"
+        }
+      }
+    },
+    "scan": {
+      "include": [
+        "cmd/**/*.go",
+        "internal/**/*.go",
+        "pkg/**/*.go"
+      ],
+      "exclude": [
+        "**/*.pb.go",
+        "**/*.pb.gw.go",
+        "**/*_generated.go",
+        "**/*_mock.go",
+        "**/*_string.go",
+        "**/*_test.go",
+        "**/mock_*.go",
+        "**/test_helpers.go",
+        "**/testdata/**",
+        "**/testutil/**",
+        ".anatoly/**",
+        ".git/**",
+        "bin/**",
+        "vendor/**"
+      ],
+      "respect_gitignore": true
+    }
+  }
+}

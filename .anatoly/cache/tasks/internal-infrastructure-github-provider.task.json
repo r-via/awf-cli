@@ -1,0 +1,187 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/github/provider.go",
+  "hash": "947e27a034d6c174426ee308fef75d0133852f2b40db83dd929f1f433f44e57e",
+  "symbols": [
+    {
+      "name": "GHRunner",
+      "kind": "type",
+      "exported": true,
+      "line_start": 16,
+      "line_end": 18
+    },
+    {
+      "name": "GitHubOperationProvider",
+      "kind": "class",
+      "exported": true,
+      "line_start": 26,
+      "line_end": 32
+    },
+    {
+      "name": "NewGitHubOperationProvider",
+      "kind": "function",
+      "exported": true,
+      "line_start": 34,
+      "line_end": 47
+    },
+    {
+      "name": "GetOperation",
+      "kind": "method",
+      "exported": true,
+      "line_start": 49,
+      "line_end": 52
+    },
+    {
+      "name": "ListOperations",
+      "kind": "method",
+      "exported": true,
+      "line_start": 54,
+      "line_end": 60
+    },
+    {
+      "name": "Execute",
+      "kind": "method",
+      "exported": true,
+      "line_start": 66,
+      "line_end": 95
+    },
+    {
+      "name": "handleGetIssue",
+      "kind": "method",
+      "exported": false,
+      "line_start": 104,
+      "line_end": 127
+    },
+    {
+      "name": "handleGetPR",
+      "kind": "method",
+      "exported": false,
+      "line_start": 136,
+      "line_end": 159
+    },
+    {
+      "name": "handleCreatePR",
+      "kind": "method",
+      "exported": false,
+      "line_start": 175,
+      "line_end": 258
+    },
+    {
+      "name": "handleCreateIssue",
+      "kind": "method",
+      "exported": false,
+      "line_start": 272,
+      "line_end": 318
+    },
+    {
+      "name": "handleAddLabels",
+      "kind": "method",
+      "exported": false,
+      "line_start": 329,
+      "line_end": 361
+    },
+    {
+      "name": "handleListComments",
+      "kind": "method",
+      "exported": false,
+      "line_start": 370,
+      "line_end": 393
+    },
+    {
+      "name": "handleAddComment",
+      "kind": "method",
+      "exported": false,
+      "line_start": 405,
+      "line_end": 436
+    },
+    {
+      "name": "handleBatch",
+      "kind": "method",
+      "exported": false,
+      "line_start": 450,
+      "line_end": 492
+    },
+    {
+      "name": "fetchExistingPR",
+      "kind": "method",
+      "exported": false,
+      "line_start": 495,
+      "line_end": 528
+    },
+    {
+      "name": "extractPRNumber",
+      "kind": "function",
+      "exported": false,
+      "line_start": 532,
+      "line_end": 538
+    },
+    {
+      "name": "parseNumberAndURL",
+      "kind": "function",
+      "exported": false,
+      "line_start": 541,
+      "line_end": 563
+    },
+    {
+      "name": "parseDraftFlag",
+      "kind": "function",
+      "exported": false,
+      "line_start": 566,
+      "line_end": 575
+    },
+    {
+      "name": "formatNumber",
+      "kind": "function",
+      "exported": false,
+      "line_start": 578,
+      "line_end": 589
+    },
+    {
+      "name": "toStringSlice",
+      "kind": "function",
+      "exported": false,
+      "line_start": 592,
+      "line_end": 607
+    },
+    {
+      "name": "parseJSONOutputs",
+      "kind": "function",
+      "exported": false,
+      "line_start": 610,
+      "line_end": 616
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "encoding/json",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "strconv",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/pluginmodel",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

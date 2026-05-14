@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "file": "internal/domain/ports/logger.go",
+  "hash": "b6e0b81dac376447aa2a0897ca612a260d7bb79720d7c20a7dbdb77cbc6d2294",
+  "symbols": [
+    {
+      "name": "Logger",
+      "kind": "type",
+      "exported": true,
+      "line_start": 3,
+      "line_end": 9
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/diagram/config.go",
+  "hash": "42855ee734c915ab95ebc2ab2b6541373c18a6032aad5fccfd14681e4031d722",
+  "symbols": [
+    {
+      "name": "Direction",
+      "kind": "type",
+      "exported": true,
+      "line_start": 7,
+      "line_end": 7
+    },
+    {
+      "name": "DirectionTB",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 10,
+      "line_end": 10
+    },
+    {
+      "name": "DirectionLR",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 11,
+      "line_end": 11
+    },
+    {
+      "name": "DirectionBT",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 12,
+      "line_end": 12
+    },
+    {
+      "name": "DirectionRL",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 13,
+      "line_end": 13
+    },
+    {
+      "name": "IsValid",
+      "kind": "method",
+      "exported": true,
+      "line_start": 25,
+      "line_end": 27
+    },
+    {
+      "name": "String",
+      "kind": "method",
+      "exported": true,
+      "line_start": 30,
+      "line_end": 32
+    },
+    {
+      "name": "NodeStyle",
+      "kind": "class",
+      "exported": true,
+      "line_start": 35,
+      "line_end": 40
+    },
+    {
+      "name": "DiagramConfig",
+      "kind": "class",
+      "exported": true,
+      "line_start": 43,
+      "line_end": 48
+    },
+    {
+      "name": "Validate",
+      "kind": "method",
+      "exported": true,
+      "line_start": 51,
+      "line_end": 56
+    },
+    {
+      "name": "NewDefaultConfig",
+      "kind": "function",
+      "exported": true,
+      "line_start": 59,
+      "line_end": 64
+    }
+  ],
+  "imports": [
+    {
+      "source": "fmt",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

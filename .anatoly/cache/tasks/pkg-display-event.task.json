@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "file": "pkg/display/event.go",
+  "hash": "8f3e07f03226b1b7a9253d84bb78df875f1cc66a595105448fd45fbfef26e597",
+  "symbols": [
+    {
+      "name": "EventKind",
+      "kind": "type",
+      "exported": true,
+      "line_start": 6,
+      "line_end": 6
+    },
+    {
+      "name": "EventText",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 9,
+      "line_end": 9
+    },
+    {
+      "name": "EventToolUse",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 10,
+      "line_end": 10
+    },
+    {
+      "name": "DisplayEvent",
+      "kind": "class",
+      "exported": true,
+      "line_start": 17,
+      "line_end": 25
+    },
+    {
+      "name": "DisplayMode",
+      "kind": "type",
+      "exported": true,
+      "line_start": 28,
+      "line_end": 28
+    },
+    {
+      "name": "DisplayModeDefault",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 31,
+      "line_end": 31
+    },
+    {
+      "name": "DisplayModeVerbose",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 32,
+      "line_end": 32
+    },
+    {
+      "name": "DisplayEventParser",
+      "kind": "type",
+      "exported": true,
+      "line_start": 38,
+      "line_end": 38
+    },
+    {
+      "name": "RenderFunc",
+      "kind": "type",
+      "exported": true,
+      "line_start": 42,
+      "line_end": 42
+    }
+  ],
+  "imports": [
+    {
+      "source": "io",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

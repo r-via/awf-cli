@@ -1,0 +1,312 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/cli/plugin_cmd.go",
+  "hash": "14c8818135a4054ff3e308666a0060002683a2c77a729e4d962344bf884b35d3",
+  "symbols": [
+    {
+      "name": "newPluginCommand",
+      "kind": "function",
+      "exported": false,
+      "line_start": 26,
+      "line_end": 52
+    },
+    {
+      "name": "pluginListFlags",
+      "kind": "class",
+      "exported": false,
+      "line_start": 54,
+      "line_end": 59
+    },
+    {
+      "name": "newPluginListCommand",
+      "kind": "function",
+      "exported": false,
+      "line_start": 61,
+      "line_end": 80
+    },
+    {
+      "name": "newPluginEnableCommand",
+      "kind": "function",
+      "exported": false,
+      "line_start": 82,
+      "line_end": 96
+    },
+    {
+      "name": "newPluginDisableCommand",
+      "kind": "function",
+      "exported": false,
+      "line_start": 98,
+      "line_end": 112
+    },
+    {
+      "name": "runPluginList",
+      "kind": "function",
+      "exported": false,
+      "line_start": 114,
+      "line_end": 212
+    },
+    {
+      "name": "buildNamedEntries",
+      "kind": "function",
+      "exported": false,
+      "line_start": 214,
+      "line_end": 222
+    },
+    {
+      "name": "buildValidatorEntries",
+      "kind": "function",
+      "exported": false,
+      "line_start": 224,
+      "line_end": 238
+    },
+    {
+      "name": "buildCapabilityEntries",
+      "kind": "function",
+      "exported": false,
+      "line_start": 240,
+      "line_end": 257
+    },
+    {
+      "name": "runPluginEnable",
+      "kind": "function",
+      "exported": false,
+      "line_start": 259,
+      "line_end": 302
+    },
+    {
+      "name": "runPluginDisable",
+      "kind": "function",
+      "exported": false,
+      "line_start": 304,
+      "line_end": 347
+    },
+    {
+      "name": "initPluginSystemReadOnly",
+      "kind": "function",
+      "exported": false,
+      "line_start": 351,
+      "line_end": 396
+    },
+    {
+      "name": "installOptions",
+      "kind": "class",
+      "exported": false,
+      "line_start": 398,
+      "line_end": 402
+    },
+    {
+      "name": "newPluginInstallCommand",
+      "kind": "function",
+      "exported": false,
+      "line_start": 404,
+      "line_end": 431
+    },
+    {
+      "name": "runPluginInstall",
+      "kind": "function",
+      "exported": false,
+      "line_start": 433,
+      "line_end": 540
+    },
+    {
+      "name": "selectRelease",
+      "kind": "function",
+      "exported": false,
+      "line_start": 548,
+      "line_end": 578
+    },
+    {
+      "name": "findChecksumURL",
+      "kind": "function",
+      "exported": false,
+      "line_start": 582,
+      "line_end": 590
+    },
+    {
+      "name": "extractPluginName",
+      "kind": "function",
+      "exported": false,
+      "line_start": 592,
+      "line_end": 597
+    },
+    {
+      "name": "updateOptions",
+      "kind": "class",
+      "exported": false,
+      "line_start": 599,
+      "line_end": 601
+    },
+    {
+      "name": "newPluginUpdateCommand",
+      "kind": "function",
+      "exported": false,
+      "line_start": 603,
+      "line_end": 633
+    },
+    {
+      "name": "runPluginUpdate",
+      "kind": "function",
+      "exported": false,
+      "line_start": 635,
+      "line_end": 659
+    },
+    {
+      "name": "updatePlugin",
+      "kind": "function",
+      "exported": false,
+      "line_start": 661,
+      "line_end": 767
+    },
+    {
+      "name": "removeOptions",
+      "kind": "class",
+      "exported": false,
+      "line_start": 769,
+      "line_end": 771
+    },
+    {
+      "name": "newPluginRemoveCommand",
+      "kind": "function",
+      "exported": false,
+      "line_start": 773,
+      "line_end": 796
+    },
+    {
+      "name": "runPluginRemove",
+      "kind": "function",
+      "exported": false,
+      "line_start": 798,
+      "line_end": 854
+    },
+    {
+      "name": "verifyOptions",
+      "kind": "class",
+      "exported": false,
+      "line_start": 856,
+      "line_end": 858
+    },
+    {
+      "name": "newPluginVerifyCommand",
+      "kind": "function",
+      "exported": false,
+      "line_start": 860,
+      "line_end": 886
+    },
+    {
+      "name": "collectInstalledPluginNames",
+      "kind": "function",
+      "exported": false,
+      "line_start": 888,
+      "line_end": 906
+    },
+    {
+      "name": "verifyOnePlugin",
+      "kind": "function",
+      "exported": false,
+      "line_start": 908,
+      "line_end": 945
+    },
+    {
+      "name": "runPluginVerify",
+      "kind": "function",
+      "exported": false,
+      "line_start": 947,
+      "line_end": 986
+    },
+    {
+      "name": "newPluginSearchCommand",
+      "kind": "function",
+      "exported": false,
+      "line_start": 988,
+      "line_end": 1010
+    },
+    {
+      "name": "runPluginSearch",
+      "kind": "function",
+      "exported": false,
+      "line_start": 1012,
+      "line_end": 1082
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "crypto/sha256",
+      "type": "import"
+    },
+    {
+      "source": "encoding/hex",
+      "type": "import"
+    },
+    {
+      "source": "encoding/json",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "io",
+      "type": "import"
+    },
+    {
+      "source": "net/http",
+      "type": "import"
+    },
+    {
+      "source": "net/url",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "path/filepath",
+      "type": "import"
+    },
+    {
+      "source": "runtime",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/application",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/pluginmodel",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/pluginmgr",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/interfaces/cli/ui",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/pkg/registry",
+      "type": "import"
+    },
+    {
+      "source": "github.com/spf13/cobra",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

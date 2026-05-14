@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "file": "internal/domain/ports/user_input.go",
+  "hash": "1a18ae23c7fc99b5bc2945a0f403cef047a624521df7b8bd03c3f772484655f6",
+  "symbols": [
+    {
+      "name": "UserInputReader",
+      "kind": "type",
+      "exported": true,
+      "line_start": 7,
+      "line_end": 12
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "file": "pkg/registry/github_client.go",
+  "hash": "9ad13e9e2eb8ebc0307fe44f21a51bf1892c4274a834d172d2f0ffbf220865db",
+  "symbols": [
+    {
+      "name": "Release",
+      "kind": "class",
+      "exported": true,
+      "line_start": 18,
+      "line_end": 23
+    },
+    {
+      "name": "Asset",
+      "kind": "class",
+      "exported": true,
+      "line_start": 26,
+      "line_end": 30
+    },
+    {
+      "name": "GitHubReleaseClient",
+      "kind": "class",
+      "exported": true,
+      "line_start": 33,
+      "line_end": 35
+    },
+    {
+      "name": "ValidateOwnerRepo",
+      "kind": "function",
+      "exported": true,
+      "line_start": 38,
+      "line_end": 63
+    },
+    {
+      "name": "NewGitHubReleaseClient",
+      "kind": "function",
+      "exported": true,
+      "line_start": 67,
+      "line_end": 72
+    },
+    {
+      "name": "ListReleases",
+      "kind": "method",
+      "exported": true,
+      "line_start": 75,
+      "line_end": 108
+    },
+    {
+      "name": "ResolveVersion",
+      "kind": "method",
+      "exported": true,
+      "line_start": 111,
+      "line_end": 160
+    },
+    {
+      "name": "FindPlatformAsset",
+      "kind": "function",
+      "exported": true,
+      "line_start": 163,
+      "line_end": 189
+    },
+    {
+      "name": "GitHubAPIDoer",
+      "kind": "class",
+      "exported": true,
+      "line_start": 193,
+      "line_end": 196
+    },
+    {
+      "name": "NewGitHubAPIDoer",
+      "kind": "function",
+      "exported": true,
+      "line_start": 200,
+      "line_end": 202
+    },
+    {
+      "name": "Do",
+      "kind": "method",
+      "exported": true,
+      "line_start": 204,
+      "line_end": 217
+    },
+    {
+      "name": "buildGitHubHeaders",
+      "kind": "method",
+      "exported": false,
+      "line_start": 221,
+      "line_end": 236
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "encoding/json",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "net/http",
+      "type": "import"
+    },
+    {
+      "source": "net/url",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "os/exec",
+      "type": "import"
+    },
+    {
+      "source": "sort",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/pkg/httpx",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

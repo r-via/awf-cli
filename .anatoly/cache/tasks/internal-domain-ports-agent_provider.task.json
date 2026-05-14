@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "file": "internal/domain/ports/agent_provider.go",
+  "hash": "b4a991ff2015ddb2cb961560eccd069f67b69e12357968ed6caf1d79dc83644e",
+  "symbols": [
+    {
+      "name": "AgentProvider",
+      "kind": "type",
+      "exported": true,
+      "line_start": 13,
+      "line_end": 31
+    },
+    {
+      "name": "AgentRegistry",
+      "kind": "type",
+      "exported": true,
+      "line_start": 34,
+      "line_end": 48
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "io",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

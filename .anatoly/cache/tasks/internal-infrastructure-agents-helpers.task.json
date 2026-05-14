@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/agents/helpers.go",
+  "hash": "d53019c7103801e40ab65ab643695ae40eba831977d7f2e9c54c79244e5b88f6",
+  "symbols": [
+    {
+      "name": "cloneState",
+      "kind": "function",
+      "exported": false,
+      "line_start": 10,
+      "line_end": 25
+    },
+    {
+      "name": "getStringOption",
+      "kind": "function",
+      "exported": false,
+      "line_start": 27,
+      "line_end": 33
+    },
+    {
+      "name": "buildFirstTurnPrompt",
+      "kind": "function",
+      "exported": false,
+      "line_start": 35,
+      "line_end": 40
+    },
+    {
+      "name": "getBoolOption",
+      "kind": "function",
+      "exported": false,
+      "line_start": 42,
+      "line_end": 48
+    },
+    {
+      "name": "tryParseJSONResponse",
+      "kind": "function",
+      "exported": false,
+      "line_start": 50,
+      "line_end": 60
+    },
+    {
+      "name": "findFirstNDJSONEvent",
+      "kind": "function",
+      "exported": false,
+      "line_start": 64,
+      "line_end": 79
+    },
+    {
+      "name": "findLastNDJSONEvent",
+      "kind": "function",
+      "exported": false,
+      "line_start": 81,
+      "line_end": 97
+    },
+    {
+      "name": "intFromMap",
+      "kind": "function",
+      "exported": false,
+      "line_start": 99,
+      "line_end": 104
+    },
+    {
+      "name": "truncateArg",
+      "kind": "function",
+      "exported": false,
+      "line_start": 113,
+      "line_end": 121
+    },
+    {
+      "name": "extractArgPreviewFromMap",
+      "kind": "function",
+      "exported": false,
+      "line_start": 127,
+      "line_end": 136
+    },
+    {
+      "name": "extractArgPreview",
+      "kind": "function",
+      "exported": false,
+      "line_start": 141,
+      "line_end": 150
+    }
+  ],
+  "imports": [
+    {
+      "source": "encoding/json",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

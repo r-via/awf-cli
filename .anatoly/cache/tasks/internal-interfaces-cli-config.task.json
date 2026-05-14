@@ -1,0 +1,116 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/cli/config.go",
+  "hash": "86361dba797830bbc2ac931125cc5ce282605701ee70de3b0af9ececb4423279",
+  "symbols": [
+    {
+      "name": "OutputMode",
+      "kind": "type",
+      "exported": true,
+      "line_start": 13,
+      "line_end": 13
+    },
+    {
+      "name": "OutputSilent",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 16,
+      "line_end": 16
+    },
+    {
+      "name": "OutputStreaming",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 17,
+      "line_end": 17
+    },
+    {
+      "name": "OutputBuffered",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 18,
+      "line_end": 18
+    },
+    {
+      "name": "String",
+      "kind": "method",
+      "exported": true,
+      "line_start": 21,
+      "line_end": 32
+    },
+    {
+      "name": "ParseOutputMode",
+      "kind": "function",
+      "exported": true,
+      "line_start": 35,
+      "line_end": 46
+    },
+    {
+      "name": "Config",
+      "kind": "class",
+      "exported": true,
+      "line_start": 49,
+      "line_end": 62
+    },
+    {
+      "name": "DefaultConfig",
+      "kind": "function",
+      "exported": true,
+      "line_start": 65,
+      "line_end": 78
+    },
+    {
+      "name": "BuildWorkflowPaths",
+      "kind": "function",
+      "exported": true,
+      "line_start": 84,
+      "line_end": 109
+    },
+    {
+      "name": "NewWorkflowRepository",
+      "kind": "function",
+      "exported": true,
+      "line_start": 112,
+      "line_end": 114
+    },
+    {
+      "name": "BuildPromptPaths",
+      "kind": "function",
+      "exported": true,
+      "line_start": 119,
+      "line_end": 144
+    },
+    {
+      "name": "BuildPluginPaths",
+      "kind": "function",
+      "exported": true,
+      "line_start": 150,
+      "line_end": 163
+    }
+  ],
+  "imports": [
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/repository",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/xdg",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/interfaces/cli/ui",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

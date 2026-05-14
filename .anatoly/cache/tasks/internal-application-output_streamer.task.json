@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "file": "internal/application/output_streamer.go",
+  "hash": "9c59a748b5235ed5caa857a7212d9a90600592b41f29197f94c1724c317d8aef",
+  "symbols": [
+    {
+      "name": "OutputStreamer",
+      "kind": "class",
+      "exported": true,
+      "line_start": 15,
+      "line_end": 18
+    },
+    {
+      "name": "NewOutputStreamer",
+      "kind": "function",
+      "exported": true,
+      "line_start": 21,
+      "line_end": 25
+    },
+    {
+      "name": "StreamOutput",
+      "kind": "method",
+      "exported": true,
+      "line_start": 30,
+      "line_end": 61
+    },
+    {
+      "name": "StreamBoth",
+      "kind": "method",
+      "exported": true,
+      "line_start": 65,
+      "line_end": 83
+    }
+  ],
+  "imports": [
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "path/filepath",
+      "type": "import"
+    },
+    {
+      "source": "sync/atomic",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

@@ -1,0 +1,146 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/agents/base_cli_provider.go",
+  "hash": "0a434de8c04f3c18bb7e3f4d039cac963ded737a38e653f132e2ae6cf1b77aaa",
+  "symbols": [
+    {
+      "name": "fallbackTokenizer",
+      "kind": "class",
+      "exported": false,
+      "line_start": 16,
+      "line_end": 16
+    },
+    {
+      "name": "CountTokens",
+      "kind": "method",
+      "exported": true,
+      "line_start": 18,
+      "line_end": 18
+    },
+    {
+      "name": "CountTurnsTokens",
+      "kind": "method",
+      "exported": true,
+      "line_start": 19,
+      "line_end": 25
+    },
+    {
+      "name": "IsEstimate",
+      "kind": "method",
+      "exported": true,
+      "line_start": 26,
+      "line_end": 26
+    },
+    {
+      "name": "ModelName",
+      "kind": "method",
+      "exported": true,
+      "line_start": 27,
+      "line_end": 27
+    },
+    {
+      "name": "tokenUsage",
+      "kind": "class",
+      "exported": false,
+      "line_start": 29,
+      "line_end": 34
+    },
+    {
+      "name": "cliProviderHooks",
+      "kind": "class",
+      "exported": false,
+      "line_start": 38,
+      "line_end": 46
+    },
+    {
+      "name": "baseCLIProvider",
+      "kind": "class",
+      "exported": false,
+      "line_start": 50,
+      "line_end": 57
+    },
+    {
+      "name": "newBaseCLIProvider",
+      "kind": "function",
+      "exported": false,
+      "line_start": 59,
+      "line_end": 71
+    },
+    {
+      "name": "combineOutput",
+      "kind": "function",
+      "exported": false,
+      "line_start": 74,
+      "line_end": 79
+    },
+    {
+      "name": "wantsRawDisplay",
+      "kind": "function",
+      "exported": false,
+      "line_start": 81,
+      "line_end": 84
+    },
+    {
+      "name": "applyStreamFilter",
+      "kind": "method",
+      "exported": false,
+      "line_start": 86,
+      "line_end": 92
+    },
+    {
+      "name": "execute",
+      "kind": "method",
+      "exported": false,
+      "line_start": 96,
+      "line_end": 165
+    },
+    {
+      "name": "executeConversation",
+      "kind": "method",
+      "exported": false,
+      "line_start": 171,
+      "line_end": 284
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "errors",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "io",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/logger",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

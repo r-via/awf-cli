@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "file": "internal/domain/ports/step_executor.go",
+  "hash": "30ad5f47a075a9bfcb637ccab878309eabc1070717e984f837310df0731997a2",
+  "symbols": [
+    {
+      "name": "StepExecutor",
+      "kind": "type",
+      "exported": true,
+      "line_start": 11,
+      "line_end": 20
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

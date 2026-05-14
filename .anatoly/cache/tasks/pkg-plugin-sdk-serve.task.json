@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "file": "pkg/plugin/sdk/serve.go",
+  "hash": "34a79fa9fbe86574950af289b009a80328715d8de3ee689c4655851ea1351b0a",
+  "symbols": [
+    {
+      "name": "pluginSetKey",
+      "kind": "constant",
+      "exported": false,
+      "line_start": 19,
+      "line_end": 19
+    },
+    {
+      "name": "Serve",
+      "kind": "function",
+      "exported": true,
+      "line_start": 23,
+      "line_end": 32
+    },
+    {
+      "name": "GRPCPluginBridge",
+      "kind": "class",
+      "exported": true,
+      "line_start": 36,
+      "line_end": 39
+    }
+  ],
+  "imports": [
+    {
+      "source": "github.com/hashicorp/go-hclog",
+      "type": "import"
+    },
+    {
+      "source": "github.com/hashicorp/go-plugin",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

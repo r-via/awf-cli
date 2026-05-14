@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "file": "internal/application/script_file.go",
+  "hash": "5a5a570ce98eacb878001e9327e5f90989b78378a6f2fa74386069db2d409d28",
+  "symbols": [
+    {
+      "name": "loadScriptFile",
+      "kind": "function",
+      "exported": false,
+      "line_start": 10,
+      "line_end": 17
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/pkg/interpolation",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/cli/ui/agent_renderer.go",
+  "hash": "992cbe583f4f6eeae9947a96b68a548c03808c276522aaf1a96a9115f6325aeb",
+  "symbols": [
+    {
+      "name": "toolArgMaxLen",
+      "kind": "constant",
+      "exported": false,
+      "line_start": 10,
+      "line_end": 10
+    },
+    {
+      "name": "RenderEvents",
+      "kind": "function",
+      "exported": true,
+      "line_start": 15,
+      "line_end": 26
+    },
+    {
+      "name": "formatToolMarker",
+      "kind": "function",
+      "exported": false,
+      "line_start": 28,
+      "line_end": 37
+    }
+  ],
+  "imports": [
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "io",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/pkg/display",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

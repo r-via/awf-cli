@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "file": "pkg/retry/doc.go",
+  "is_generated": false,
+  "language": "go",
+  "parse_method": "ast",
+  "verdict": "CLEAN",
+  "symbols": [],
+  "actions": [],
+  "file_level": {
+    "unused_imports": [],
+    "circular_dependencies": [],
+    "general_notes": ""
+  },
+  "axis_meta": {
+    "utility": {
+      "model": "unknown",
+      "cost_usd": 0,
+      "duration_ms": 0
+    },
+    "duplication": {
+      "model": "unknown",
+      "cost_usd": 0,
+      "duration_ms": 0
+    },
+    "correction": {
+      "model": "claude-sonnet-4-6",
+      "cost_usd": 0.017785250000000002,
+      "duration_ms": 2862
+    }
+  }
+}

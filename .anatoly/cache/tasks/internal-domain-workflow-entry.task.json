@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "file": "internal/domain/workflow/entry.go",
+  "hash": "f4cea7a5abdb4a9423703592671268b6d2b28221e381354d945e6cc091695476",
+  "symbols": [
+    {
+      "name": "WorkflowEntry",
+      "kind": "class",
+      "exported": true,
+      "line_start": 6,
+      "line_end": 11
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

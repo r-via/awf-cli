@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "file": "pkg/interpolation/doc.go",
+  "hash": "c19a10b8671f055bf759aceaef0d292a13a06c7249fa4e65d2f5ff2b35a57444",
+  "symbols": [],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

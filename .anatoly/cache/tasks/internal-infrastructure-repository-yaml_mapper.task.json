@@ -1,0 +1,194 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/repository/yaml_mapper.go",
+  "hash": "3d404a603ea758995ed99d50e9684a497201ece0912c31992ca138e011b83c00",
+  "symbols": [
+    {
+      "name": "mapToDomain",
+      "kind": "function",
+      "exported": false,
+      "line_start": 15,
+      "line_end": 69
+    },
+    {
+      "name": "mapInputs",
+      "kind": "function",
+      "exported": false,
+      "line_start": 72,
+      "line_end": 85
+    },
+    {
+      "name": "mapInputValidation",
+      "kind": "function",
+      "exported": false,
+      "line_start": 88,
+      "line_end": 100
+    },
+    {
+      "name": "mapStep",
+      "kind": "function",
+      "exported": false,
+      "line_start": 103,
+      "line_end": 171
+    },
+    {
+      "name": "parseStepType",
+      "kind": "function",
+      "exported": false,
+      "line_start": 174,
+      "line_end": 195
+    },
+    {
+      "name": "mapRetry",
+      "kind": "function",
+      "exported": false,
+      "line_start": 198,
+      "line_end": 236
+    },
+    {
+      "name": "mapCapture",
+      "kind": "function",
+      "exported": false,
+      "line_start": 239,
+      "line_end": 249
+    },
+    {
+      "name": "mapLoopConfig",
+      "kind": "function",
+      "exported": false,
+      "line_start": 252,
+      "line_end": 315
+    },
+    {
+      "name": "mapWorkflowHooks",
+      "kind": "function",
+      "exported": false,
+      "line_start": 318,
+      "line_end": 328
+    },
+    {
+      "name": "mapStepHooks",
+      "kind": "function",
+      "exported": false,
+      "line_start": 331,
+      "line_end": 339
+    },
+    {
+      "name": "mapHook",
+      "kind": "function",
+      "exported": false,
+      "line_start": 342,
+      "line_end": 354
+    },
+    {
+      "name": "mapTransitions",
+      "kind": "function",
+      "exported": false,
+      "line_start": 357,
+      "line_end": 369
+    },
+    {
+      "name": "parseDuration",
+      "kind": "function",
+      "exported": false,
+      "line_start": 373,
+      "line_end": 387
+    },
+    {
+      "name": "mapTemplate",
+      "kind": "function",
+      "exported": false,
+      "line_start": 390,
+      "line_end": 413
+    },
+    {
+      "name": "mapTemplateParams",
+      "kind": "function",
+      "exported": false,
+      "line_start": 416,
+      "line_end": 426
+    },
+    {
+      "name": "mapTemplateRef",
+      "kind": "function",
+      "exported": false,
+      "line_start": 429,
+      "line_end": 437
+    },
+    {
+      "name": "mapCallWorkflowFlat",
+      "kind": "function",
+      "exported": false,
+      "line_start": 440,
+      "line_end": 463
+    },
+    {
+      "name": "mapAgentConfigFlat",
+      "kind": "function",
+      "exported": false,
+      "line_start": 467,
+      "line_end": 482
+    },
+    {
+      "name": "mapConversationConfig",
+      "kind": "function",
+      "exported": false,
+      "line_start": 485,
+      "line_end": 492
+    },
+    {
+      "name": "normalizeOnFailure",
+      "kind": "function",
+      "exported": false,
+      "line_start": 496,
+      "line_end": 515
+    },
+    {
+      "name": "synthesizeInlineErrorTerminal",
+      "kind": "function",
+      "exported": false,
+      "line_start": 519,
+      "line_end": 545
+    },
+    {
+      "name": "validateInlineErrorObject",
+      "kind": "function",
+      "exported": false,
+      "line_start": 549,
+      "line_end": 561
+    }
+  ],
+  "imports": [
+    {
+      "source": "encoding/json",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "path/filepath",
+      "type": "import"
+    },
+    {
+      "source": "strconv",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

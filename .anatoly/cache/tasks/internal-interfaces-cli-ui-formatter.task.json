@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/cli/ui/formatter.go",
+  "hash": "5b7fd9c03918d9329394ac2f9ebeaa462e78312c53070d3aac65167df77ef254",
+  "symbols": [
+    {
+      "name": "FormatOptions",
+      "kind": "class",
+      "exported": true,
+      "line_start": 11,
+      "line_end": 15
+    },
+    {
+      "name": "Formatter",
+      "kind": "class",
+      "exported": true,
+      "line_start": 18,
+      "line_end": 22
+    },
+    {
+      "name": "NewFormatter",
+      "kind": "function",
+      "exported": true,
+      "line_start": 25,
+      "line_end": 31
+    },
+    {
+      "name": "Printf",
+      "kind": "method",
+      "exported": true,
+      "line_start": 34,
+      "line_end": 36
+    },
+    {
+      "name": "Println",
+      "kind": "method",
+      "exported": true,
+      "line_start": 39,
+      "line_end": 41
+    },
+    {
+      "name": "Info",
+      "kind": "method",
+      "exported": true,
+      "line_start": 44,
+      "line_end": 49
+    },
+    {
+      "name": "Debug",
+      "kind": "method",
+      "exported": true,
+      "line_start": 52,
+      "line_end": 57
+    },
+    {
+      "name": "Success",
+      "kind": "method",
+      "exported": true,
+      "line_start": 60,
+      "line_end": 62
+    },
+    {
+      "name": "Error",
+      "kind": "method",
+      "exported": true,
+      "line_start": 65,
+      "line_end": 67
+    },
+    {
+      "name": "Warning",
+      "kind": "method",
+      "exported": true,
+      "line_start": 70,
+      "line_end": 75
+    },
+    {
+      "name": "StepSuccess",
+      "kind": "method",
+      "exported": true,
+      "line_start": 79,
+      "line_end": 85
+    },
+    {
+      "name": "Table",
+      "kind": "method",
+      "exported": true,
+      "line_start": 88,
+      "line_end": 108
+    },
+    {
+      "name": "StatusLine",
+      "kind": "method",
+      "exported": true,
+      "line_start": 111,
+      "line_end": 114
+    },
+    {
+      "name": "Colorizer",
+      "kind": "method",
+      "exported": true,
+      "line_start": 117,
+      "line_end": 119
+    }
+  ],
+  "imports": [
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "io",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    },
+    {
+      "source": "text/tabwriter",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

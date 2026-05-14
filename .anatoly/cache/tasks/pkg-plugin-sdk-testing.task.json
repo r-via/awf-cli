@@ -1,0 +1,181 @@
+{
+  "version": 1,
+  "file": "pkg/plugin/sdk/testing.go",
+  "hash": "25a110f087038540b438d600c912331644c46282d59d18d3a336a845563996ce",
+  "symbols": [
+    {
+      "name": "MockPlugin",
+      "kind": "class",
+      "exported": true,
+      "line_start": 10,
+      "line_end": 20
+    },
+    {
+      "name": "NewMockPlugin",
+      "kind": "function",
+      "exported": true,
+      "line_start": 22,
+      "line_end": 27
+    },
+    {
+      "name": "Name",
+      "kind": "method",
+      "exported": true,
+      "line_start": 29,
+      "line_end": 31
+    },
+    {
+      "name": "Version",
+      "kind": "method",
+      "exported": true,
+      "line_start": 33,
+      "line_end": 35
+    },
+    {
+      "name": "Init",
+      "kind": "method",
+      "exported": true,
+      "line_start": 38,
+      "line_end": 44
+    },
+    {
+      "name": "Shutdown",
+      "kind": "method",
+      "exported": true,
+      "line_start": 47,
+      "line_end": 52
+    },
+    {
+      "name": "WasInitCalled",
+      "kind": "method",
+      "exported": true,
+      "line_start": 55,
+      "line_end": 59
+    },
+    {
+      "name": "WasShutdownCalled",
+      "kind": "method",
+      "exported": true,
+      "line_start": 61,
+      "line_end": 65
+    },
+    {
+      "name": "Reset",
+      "kind": "method",
+      "exported": true,
+      "line_start": 67,
+      "line_end": 73
+    },
+    {
+      "name": "MockOperationHandler",
+      "kind": "class",
+      "exported": true,
+      "line_start": 76,
+      "line_end": 83
+    },
+    {
+      "name": "NewMockOperationHandler",
+      "kind": "function",
+      "exported": true,
+      "line_start": 85,
+      "line_end": 89
+    },
+    {
+      "name": "Handle",
+      "kind": "method",
+      "exported": true,
+      "line_start": 92,
+      "line_end": 105
+    },
+    {
+      "name": "GetCallCount",
+      "kind": "method",
+      "exported": true,
+      "line_start": 107,
+      "line_end": 111
+    },
+    {
+      "name": "Reset",
+      "kind": "method",
+      "exported": true,
+      "line_start": 113,
+      "line_end": 118
+    },
+    {
+      "name": "MockOperationProvider",
+      "kind": "class",
+      "exported": true,
+      "line_start": 121,
+      "line_end": 129
+    },
+    {
+      "name": "NewMockOperationProvider",
+      "kind": "function",
+      "exported": true,
+      "line_start": 131,
+      "line_end": 137
+    },
+    {
+      "name": "Operations",
+      "kind": "method",
+      "exported": true,
+      "line_start": 140,
+      "line_end": 144
+    },
+    {
+      "name": "HandleOperation",
+      "kind": "method",
+      "exported": true,
+      "line_start": 146,
+      "line_end": 166
+    },
+    {
+      "name": "SetResult",
+      "kind": "method",
+      "exported": true,
+      "line_start": 168,
+      "line_end": 170
+    },
+    {
+      "name": "SetCommandResult",
+      "kind": "method",
+      "exported": true,
+      "line_start": 172,
+      "line_end": 176
+    },
+    {
+      "name": "SetError",
+      "kind": "method",
+      "exported": true,
+      "line_start": 178,
+      "line_end": 182
+    },
+    {
+      "name": "TestInputs",
+      "kind": "function",
+      "exported": true,
+      "line_start": 184,
+      "line_end": 192
+    },
+    {
+      "name": "TestConfig",
+      "kind": "function",
+      "exported": true,
+      "line_start": 194,
+      "line_end": 196
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "sync",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "file": "pkg/plugin/sdk/event.go",
+  "hash": "be1946508fbec3a2dadf683135d1a305d7b85015c07f814aaa5cb376f6760f15",
+  "symbols": [
+    {
+      "name": "Event",
+      "kind": "class",
+      "exported": true,
+      "line_start": 15,
+      "line_end": 23
+    },
+    {
+      "name": "EventSubscriber",
+      "kind": "type",
+      "exported": true,
+      "line_start": 26,
+      "line_end": 29
+    },
+    {
+      "name": "eventServiceServer",
+      "kind": "class",
+      "exported": false,
+      "line_start": 33,
+      "line_end": 36
+    },
+    {
+      "name": "HandleEvent",
+      "kind": "method",
+      "exported": true,
+      "line_start": 38,
+      "line_end": 73
+    },
+    {
+      "name": "StreamEvents",
+      "kind": "method",
+      "exported": true,
+      "line_start": 75,
+      "line_end": 102
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "errors",
+      "type": "import"
+    },
+    {
+      "source": "io",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/proto/plugin/v1",
+      "type": "import"
+    },
+    {
+      "source": "google.golang.org/grpc/codes",
+      "type": "import"
+    },
+    {
+      "source": "google.golang.org/grpc/status",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

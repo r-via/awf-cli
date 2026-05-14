@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/workflowpkg/doc.go",
+  "hash": "a34baad81375a4c5ff796ea6ca270c20a3aeafe07bcf9dbbc413dd20fc0643b1",
+  "symbols": [],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

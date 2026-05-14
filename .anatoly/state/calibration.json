@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "updatedAt": "2026-05-14T11:30:54.444Z",
+  "axes": {
+    "duplication": {
+      "medianMs": 9408,
+      "samples": 1
+    },
+    "utility": {
+      "medianMs": 0,
+      "samples": 1
+    },
+    "overengineering": {
+      "medianMs": 19000,
+      "samples": 0
+    },
+    "tests": {
+      "medianMs": 21700,
+      "samples": 0
+    },
+    "documentation": {
+      "medianMs": 60000,
+      "samples": 0
+    },
+    "correction": {
+      "medianMs": 50446,
+      "samples": 1
+    },
+    "best_practices": {
+      "medianMs": 117100,
+      "samples": 0
+    }
+  }
+}

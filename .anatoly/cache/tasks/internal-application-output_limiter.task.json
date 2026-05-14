@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "file": "internal/application/output_limiter.go",
+  "hash": "f4d65c51d7f1e7cf08c840f583959933c061ff2563097c9bb4d6e3b6894c0f96",
+  "symbols": [
+    {
+      "name": "OutputLimiter",
+      "kind": "class",
+      "exported": true,
+      "line_start": 12,
+      "line_end": 15
+    },
+    {
+      "name": "NewOutputLimiter",
+      "kind": "function",
+      "exported": true,
+      "line_start": 18,
+      "line_end": 23
+    },
+    {
+      "name": "LimitResult",
+      "kind": "class",
+      "exported": true,
+      "line_start": 26,
+      "line_end": 32
+    },
+    {
+      "name": "Apply",
+      "kind": "method",
+      "exported": true,
+      "line_start": 36,
+      "line_end": 87
+    },
+    {
+      "name": "ShouldLimit",
+      "kind": "method",
+      "exported": true,
+      "line_start": 90,
+      "line_end": 98
+    },
+    {
+      "name": "Truncate",
+      "kind": "method",
+      "exported": true,
+      "line_start": 101,
+      "line_end": 121
+    },
+    {
+      "name": "truncateAtCharBoundary",
+      "kind": "function",
+      "exported": false,
+      "line_start": 125,
+      "line_end": 137
+    }
+  ],
+  "imports": [
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "unicode/utf8",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/workflow",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

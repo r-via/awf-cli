@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/audit/factory.go",
+  "hash": "5902abbbe6d77f65a8903d494233ea2db4a36cabf6b189be8c028bf5d89cb195",
+  "symbols": [
+    {
+      "name": "NewWriterFromEnv",
+      "kind": "function",
+      "exported": true,
+      "line_start": 15,
+      "line_end": 37
+    }
+  ],
+  "imports": [
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "path/filepath",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/xdg",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

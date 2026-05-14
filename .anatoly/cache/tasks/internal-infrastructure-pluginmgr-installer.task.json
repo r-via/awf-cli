@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/pluginmgr/installer.go",
+  "hash": "39fc4c508cea3898779b8ddfc01246debd203a9f49f97d4cb7b5d248608aafbd",
+  "symbols": [
+    {
+      "name": "PluginSource",
+      "kind": "class",
+      "exported": true,
+      "line_start": 18,
+      "line_end": 23
+    },
+    {
+      "name": "PluginInstaller",
+      "kind": "class",
+      "exported": true,
+      "line_start": 27,
+      "line_end": 29
+    },
+    {
+      "name": "NewPluginInstaller",
+      "kind": "function",
+      "exported": true,
+      "line_start": 33,
+      "line_end": 40
+    },
+    {
+      "name": "AtomicInstall",
+      "kind": "method",
+      "exported": true,
+      "line_start": 46,
+      "line_end": 61
+    },
+    {
+      "name": "ValidateManifest",
+      "kind": "method",
+      "exported": true,
+      "line_start": 66,
+      "line_end": 75
+    },
+    {
+      "name": "Install",
+      "kind": "method",
+      "exported": true,
+      "line_start": 95,
+      "line_end": 134
+    },
+    {
+      "name": "roundTripJSON",
+      "kind": "function",
+      "exported": false,
+      "line_start": 137,
+      "line_end": 147
+    },
+    {
+      "name": "SourceDataFromPluginSource",
+      "kind": "function",
+      "exported": true,
+      "line_start": 152,
+      "line_end": 158
+    },
+    {
+      "name": "PluginSourceFromSourceData",
+      "kind": "function",
+      "exported": true,
+      "line_start": 161,
+      "line_end": 170
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "encoding/json",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "net/http",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "path/filepath",
+      "type": "import"
+    },
+    {
+      "source": "time",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/pkg/httpx",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/pkg/registry",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

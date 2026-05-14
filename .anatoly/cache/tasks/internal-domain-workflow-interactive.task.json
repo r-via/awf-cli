@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "file": "internal/domain/workflow/interactive.go",
+  "hash": "a22dd8699fe10f86e19cef72df189550ef7b6b9ea63485a3e07353e1c5b0b793",
+  "symbols": [
+    {
+      "name": "InteractiveAction",
+      "kind": "type",
+      "exported": true,
+      "line_start": 4,
+      "line_end": 4
+    },
+    {
+      "name": "ActionContinue",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 7,
+      "line_end": 7
+    },
+    {
+      "name": "ActionSkip",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 8,
+      "line_end": 8
+    },
+    {
+      "name": "ActionAbort",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 9,
+      "line_end": 9
+    },
+    {
+      "name": "ActionInspect",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 10,
+      "line_end": 10
+    },
+    {
+      "name": "ActionEdit",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 11,
+      "line_end": 11
+    },
+    {
+      "name": "ActionRetry",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 12,
+      "line_end": 12
+    },
+    {
+      "name": "InteractiveStepInfo",
+      "kind": "class",
+      "exported": true,
+      "line_start": 16,
+      "line_end": 23
+    },
+    {
+      "name": "InteractiveResult",
+      "kind": "class",
+      "exported": true,
+      "line_start": 26,
+      "line_end": 37
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

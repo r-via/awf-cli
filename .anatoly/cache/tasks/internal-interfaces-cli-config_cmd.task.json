@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "file": "internal/interfaces/cli/config_cmd.go",
+  "hash": "ef807b01b9e14311c340dc910292017dc9f6dbd9771b8bcd4323a58bc13a7825",
+  "symbols": [
+    {
+      "name": "newConfigCommand",
+      "kind": "function",
+      "exported": false,
+      "line_start": 15,
+      "line_end": 27
+    },
+    {
+      "name": "newConfigShowCommand",
+      "kind": "function",
+      "exported": false,
+      "line_start": 30,
+      "line_end": 47
+    },
+    {
+      "name": "runConfigShow",
+      "kind": "function",
+      "exported": false,
+      "line_start": 50,
+      "line_end": 80
+    },
+    {
+      "name": "ConfigShowOutput",
+      "kind": "class",
+      "exported": true,
+      "line_start": 84,
+      "line_end": 88
+    },
+    {
+      "name": "writeConfigJSON",
+      "kind": "function",
+      "exported": false,
+      "line_start": 91,
+      "line_end": 100
+    },
+    {
+      "name": "writeConfigQuiet",
+      "kind": "function",
+      "exported": false,
+      "line_start": 103,
+      "line_end": 119
+    },
+    {
+      "name": "writeConfigTable",
+      "kind": "function",
+      "exported": false,
+      "line_start": 122,
+      "line_end": 164
+    },
+    {
+      "name": "writeConfigText",
+      "kind": "function",
+      "exported": false,
+      "line_start": 167,
+      "line_end": 178
+    },
+    {
+      "name": "displayConfigShowText",
+      "kind": "function",
+      "exported": false,
+      "line_start": 181,
+      "line_end": 205
+    },
+    {
+      "name": "displayNoConfigFound",
+      "kind": "function",
+      "exported": false,
+      "line_start": 208,
+      "line_end": 212
+    }
+  ],
+  "imports": [
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "sort",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/config",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/infrastructure/xdg",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/interfaces/cli/ui",
+      "type": "import"
+    },
+    {
+      "source": "github.com/spf13/cobra",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

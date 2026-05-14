@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "file": "internal/infrastructure/pluginmgr/system.go",
+  "hash": "c704a22ca2d75c596bf833dc6fcb72f4fdbbebe0b6f98b6e044d211286bae5c0",
+  "symbols": [
+    {
+      "name": "SystemResult",
+      "kind": "class",
+      "exported": true,
+      "line_start": 12,
+      "line_end": 19
+    },
+    {
+      "name": "InitSystem",
+      "kind": "function",
+      "exported": true,
+      "line_start": 26,
+      "line_end": 86
+    },
+    {
+      "name": "findExistingPluginDirs",
+      "kind": "function",
+      "exported": false,
+      "line_start": 89,
+      "line_end": 98
+    }
+  ],
+  "imports": [
+    {
+      "source": "context",
+      "type": "import"
+    },
+    {
+      "source": "os",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/application",
+      "type": "import"
+    },
+    {
+      "source": "github.com/awf-project/cli/internal/domain/ports",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}

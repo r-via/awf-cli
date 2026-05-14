@@ -1,0 +1,186 @@
+{
+  "version": 1,
+  "file": "pkg/registry/version.go",
+  "hash": "14ae585ec811ae5df515af73c06b982a9673a9cbe5dbe494dc7b87d50df8e0d9",
+  "symbols": [
+    {
+      "name": "OpEqual",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 12,
+      "line_end": 12
+    },
+    {
+      "name": "OpNotEqual",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 13,
+      "line_end": 13
+    },
+    {
+      "name": "OpGreater",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 14,
+      "line_end": 14
+    },
+    {
+      "name": "OpGreaterOrEqual",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 15,
+      "line_end": 15
+    },
+    {
+      "name": "OpLess",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 16,
+      "line_end": 16
+    },
+    {
+      "name": "OpLessOrEqual",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 17,
+      "line_end": 17
+    },
+    {
+      "name": "OpTilde",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 18,
+      "line_end": 18
+    },
+    {
+      "name": "OpCaret",
+      "kind": "constant",
+      "exported": true,
+      "line_start": 19,
+      "line_end": 19
+    },
+    {
+      "name": "Version",
+      "kind": "class",
+      "exported": true,
+      "line_start": 23,
+      "line_end": 28
+    },
+    {
+      "name": "String",
+      "kind": "method",
+      "exported": true,
+      "line_start": 34,
+      "line_end": 40
+    },
+    {
+      "name": "Compare",
+      "kind": "method",
+      "exported": true,
+      "line_start": 44,
+      "line_end": 83
+    },
+    {
+      "name": "IsPrerelease",
+      "kind": "method",
+      "exported": true,
+      "line_start": 85,
+      "line_end": 87
+    },
+    {
+      "name": "Constraint",
+      "kind": "class",
+      "exported": true,
+      "line_start": 90,
+      "line_end": 93
+    },
+    {
+      "name": "Check",
+      "kind": "method",
+      "exported": true,
+      "line_start": 95,
+      "line_end": 143
+    },
+    {
+      "name": "Constraints",
+      "kind": "type",
+      "exported": true,
+      "line_start": 146,
+      "line_end": 146
+    },
+    {
+      "name": "Check",
+      "kind": "method",
+      "exported": true,
+      "line_start": 149,
+      "line_end": 159
+    },
+    {
+      "name": "String",
+      "kind": "method",
+      "exported": true,
+      "line_start": 162,
+      "line_end": 171
+    },
+    {
+      "name": "ParseVersion",
+      "kind": "function",
+      "exported": true,
+      "line_start": 175,
+      "line_end": 211
+    },
+    {
+      "name": "ParseConstraint",
+      "kind": "function",
+      "exported": true,
+      "line_start": 218,
+      "line_end": 245
+    },
+    {
+      "name": "ParseConstraints",
+      "kind": "function",
+      "exported": true,
+      "line_start": 250,
+      "line_end": 285
+    },
+    {
+      "name": "CheckVersionConstraint",
+      "kind": "function",
+      "exported": true,
+      "line_start": 289,
+      "line_end": 308
+    },
+    {
+      "name": "NormalizeTag",
+      "kind": "function",
+      "exported": true,
+      "line_start": 311,
+      "line_end": 313
+    }
+  ],
+  "imports": [
+    {
+      "source": "errors",
+      "type": "import"
+    },
+    {
+      "source": "fmt",
+      "type": "import"
+    },
+    {
+      "source": "regexp",
+      "type": "import"
+    },
+    {
+      "source": "strconv",
+      "type": "import"
+    },
+    {
+      "source": "strings",
+      "type": "import"
+    }
+  ],
+  "language": "go",
+  "parse_method": "ast",
+  "scanned_at": "2026-05-14T10:41:40.996Z"
+}
